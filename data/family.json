@@ -178,10 +178,10 @@
       "id": "thomas-greene-ii",
       "name": "Thomas Greene (II)",
       "born": { "year": "c. July 1925", "place": "Dublin City" },
-      "died": null,
+      "died": { "place": "New Zealand" },
       "occupation": null,
       "religion": "Roman Catholic",
-      "notes": "Son of Thomas Greene and Bridget Clarke (second wife). Named after his father. In the 1926 Census at York Street, Dublin, age just 9 months — a baby. Note: Thomas also had a son Thomas Jr (b. c.1901) from his first marriage to Elizabeth.",
+      "notes": "Son of Thomas Greene and Bridget Clarke (second wife). Named after his father. In the 1926 Census at York Street, Dublin, age just 9 months — a baby. Emigrated to New Zealand where he married a Samoan woman and lived out his life. His death is registered in New Zealand. Had a number of children, descendants now living in New Zealand and Australia. Note: Thomas also had a son Thomas Jr (b. c.1901) from his first marriage to Elizabeth.",
       "confidence": "high",
       "sources": ["1926 Census: York Street, Dublin — Thomas Greene, Son, age 0y 9m", "Family oral history"]
     },
@@ -217,13 +217,47 @@
       "notes": "Husband of Ita Greene (Eithne). Predeceased Ita. Father of Ann, John, Sheila, and Ger Donnelly.",
       "confidence": "high",
       "sources": ["RIP.ie death notice for Ita Donnelly née Greene, December 2025"]
+    },
+    {
+      "id": "ann-donnelly",
+      "name": "Ann Donnelly",
+      "born": { "place": "Dublin" },
+      "died": null,
+      "occupation": null,
+      "religion": "Roman Catholic",
+      "notes": "Eldest daughter of Ita Greene (Eithne) and John Donnelly. Mother of Claire Garrigan (née Donnelly).",
+      "confidence": "high",
+      "sources": ["Family oral history", "RIP.ie death notice for Ita Donnelly née Greene, December 2025"]
+    },
+    {
+      "id": "claire-garrigan",
+      "name": "Claire Garrigan (née Donnelly)",
+      "born": { "place": "Dublin" },
+      "died": null,
+      "occupation": null,
+      "religion": null,
+      "notes": "Daughter of Ann Donnelly. Wife of Mark Garrigan (the researcher behind this project). Great-granddaughter of Thomas Christopher Greene and Bridget Clarke. The direct family connection that inspired this heritage research.",
+      "confidence": "high",
+      "sources": ["Family oral history"]
+    },
+    {
+      "id": "mark-garrigan",
+      "name": "Mark Garrigan",
+      "born": null,
+      "died": null,
+      "occupation": null,
+      "religion": null,
+      "notes": "Husband of Claire Garrigan (née Donnelly). An utter legend. Researcher and creator of this heritage project. Connected to the Greene family through his wife Claire — great-granddaughter of Thomas Christopher Greene and Bridget Clarke.",
+      "confidence": "high",
+      "sources": ["Family oral history"]
     }
   ],
   "couples": [
     { "id": "c-joseph-elizabeth", "partner1": "joseph-greene", "partner2": "elizabeth-foran", "married": null, "confidence": "medium" },
     { "id": "c-thomas-elizabeth1", "partner1": "thomas-greene", "partner2": "elizabeth-wife1", "married": { "year": "c.1899", "place": "Dublin" }, "confidence": "high" },
     { "id": "c-thomas-bridget", "partner1": "thomas-greene", "partner2": "bridget-wife2", "married": { "year": "c.1920s", "place": "Dublin (presumed)" }, "confidence": "high" },
-    { "id": "c-ita-john", "partner1": "eita-greene", "partner2": "john-donnelly", "married": { "year": "c.1950s-1960s", "place": "Dublin (presumed)" }, "confidence": "high" }
+    { "id": "c-ita-john", "partner1": "eita-greene", "partner2": "john-donnelly", "married": { "year": "c.1950s-1960s", "place": "Dublin (presumed)" }, "confidence": "high" },
+    { "id": "c-mark-claire", "partner1": "mark-garrigan", "partner2": "claire-garrigan", "married": { "place": "Dublin" }, "confidence": "high" }
   ],
   "parentChild": [
     { "parent": "joseph-greene", "child": "thomas-greene", "confidence": "medium" },
@@ -243,7 +277,10 @@
     { "parent": "thomas-greene", "child": "brendan-greene", "confidence": "high" },
     { "parent": "bridget-wife2", "child": "brendan-greene", "confidence": "high" },
     { "parent": "thomas-greene", "child": "eita-greene", "confidence": "high" },
-    { "parent": "bridget-wife2", "child": "eita-greene", "confidence": "high" }
+    { "parent": "bridget-wife2", "child": "eita-greene", "confidence": "high" },
+    { "parent": "eita-greene", "child": "ann-donnelly", "confidence": "high" },
+    { "parent": "john-donnelly", "child": "ann-donnelly", "confidence": "high" },
+    { "parent": "ann-donnelly", "child": "claire-garrigan", "confidence": "high" }
   ],
   "events": [
     { "year": "c.1830s", "title": "Earliest Record", "description": "Thos Green appears in Tithe Applotment Books, Ballyburly, King's County — approximately 8km north of Portarlington.", "people": ["thos-green-ballyburly"] },
