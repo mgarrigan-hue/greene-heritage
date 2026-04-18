@@ -1,0 +1,50 @@
+{
+  "nai_census": [
+    {
+      "year": "1901",
+      "status": "searched"
+    },
+    {
+      "year": "1911",
+      "status": "searched"
+    }
+  ],
+  "irish_genealogy": [
+    {
+      "search": "Thomas 1st Marriage 1899",
+      "status": "searched"
+    },
+    {
+      "search": "Thomas & Bridget Marriage",
+      "status": "searched"
+    }
+  ],
+  "nz_bdm": [
+    {
+      "search": "NZ_marriages_Greene",
+      "status": "searched"
+    },
+    {
+      "search": "NZ_marriages_Green",
+      "status": "searched"
+    },
+    {
+      "search": "NZ_deaths_Greene",
+      "status": "searched"
+    },
+    {
+      "search": "NZ_deaths_Green",
+      "status": "searched"
+    }
+  ],
+  "arolsen": [
+    {
+      "search": "Elizabeth Harris",
+      "status": "error: Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://collections.arolsen-archives.org/en/search/?s=Elizabeth+Harris\", waiting until \"load\"\n"
+    },
+    {
+      "search": "Harris Biberach",
+      "status": "error: Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://collections.arolsen-archives.org/en/search/?s=Harris+Biberach\", waiting until \"load\"\n"
+    }
+  ]
+}
