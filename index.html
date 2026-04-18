@@ -4,13 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Greene Family Heritage</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☘️</text></svg>">
+  <meta property="og:title" content="Greene Family Heritage">
+  <meta property="og:description" content="Tracing the Greene lineage from Portarlington to Dublin, the Channel Islands, and beyond. An interactive family history.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://greene.garrigan.me/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1590089415225-401ed6f9db8e?w=1200">
+  <meta name="description" content="Greene Family Heritage — tracing the Greene lineage from 1830s Portarlington, Ireland through Dublin, the Channel Islands, and WWII Biberach internment camp.">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
 <body>
   <nav>
     <div class="nav-inner">
       <span class="site-title">☘ Greene Heritage</span>
+      <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
       <div class="nav-links">
         <a href="index.html" class="active">Home</a>
         <a href="people.html">People</a>
@@ -23,9 +33,16 @@
     </div>
   </nav>
 
-  <div class="hero">
-    <h1>The Greene Family</h1>
-    <p class="subtitle">Tracing the Greene lineage from Portarlington to Dublin, the Channel Islands, and beyond</p>
+  <div class="hero-cinematic" style="background-image:url('https://images.unsplash.com/photo-1590089415225-401ed6f9db8e?w=1920');">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>The Greene Family</h1>
+      <p class="subtitle">Tracing the Greene lineage from Portarlington to Dublin, the Channel Islands, and beyond</p>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="chevron"></div>
+    </div>
   </div>
 
   <div class="container">
@@ -33,6 +50,9 @@
     <p>The Greene family's roots run deep in the midlands of Ireland, in the market town of <strong>Portarlington</strong> — a place that straddles two counties, King's County (now Offaly) and Queen's County (now Laois), divided by the River Barrow.</p>
     <p style="margin-top:1rem;">From there, <strong>Thomas Greene</strong> (born c.1871) made his way to Dublin, where he built a life as a Shop Porter and later a Gentleman's Club Steward. He married twice, raised seven children, and served in the British Army. His daughter <strong>Elizabeth</strong> would go on to live one of the most remarkable stories in the family — interned by the Nazis in a German camp during World War II, where she served as a nurse caring for fellow prisoners.</p>
     <p style="margin-top:1rem;">This site is a living research project, documenting what we've discovered so far and preserving it for future generations.</p>
+
+    <h2>The Greene Journey</h2>
+    <div id="map-container" style="height:450px;border-radius:8px;border:1px solid rgba(201,169,89,0.2);margin:1.5rem 0;"></div>
 
     <h2>Key Figures</h2>
     <div class="card-grid" id="key-people"></div>
@@ -83,6 +103,41 @@
         return p ? renderPersonCard(p) : '';
       }).join('');
     });
+
+    // Interactive map
+    (function() {
+      const map = L.map('map-container').setView([50, -2], 5);
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://carto.com/">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>',
+        maxZoom: 19
+      }).addTo(map);
+
+      const gold = '#c9a959';
+      const markerOpts = { radius: 7, fillColor: gold, color: gold, weight: 2, opacity: 1, fillOpacity: 0.7 };
+      const popupStyle = '<style>.leaflet-popup-content-wrapper{background:#1a1a2e;color:#e0d8c8;border:1px solid rgba(201,169,89,0.3);border-radius:8px;}.leaflet-popup-tip{background:#1a1a2e;}.leaflet-popup-content{font-family:"Source Sans Pro",sans-serif;font-size:0.9rem;line-height:1.4;}</style>';
+
+      const locations = [
+        { lat: 53.163, lng: -7.191, text: '<strong>Portarlington, King\'s County</strong> — Where the Greene family originated. Thomas born c.1871.' },
+        { lat: 53.349, lng: -6.260, text: '<strong>Dublin</strong> — Thomas & Elizabeth\'s home from 1899. Ranelagh Avenue, then Clonliffe Avenue.' },
+        { lat: 49.454, lng: -2.536, text: '<strong>Channel Islands</strong> — Elizabeth Harris (née Greene) lived and worked as a nurse before deportation in 1942.' },
+        { lat: 48.098, lng: 9.787,  text: '<strong>Biberach an der Riß, Germany</strong> — Internment Camp Ilag V-B. Elizabeth worked at the Men\'s Hospital 1943–1945.' },
+        { lat: 40.728, lng: -73.794, text: '<strong>Queens, New York</strong> — Mary Bridget Greene (b.1874) emigrated here. Died 1966.' }
+      ];
+
+      locations.forEach(loc => {
+        L.circleMarker([loc.lat, loc.lng], markerOpts)
+          .addTo(map)
+          .bindPopup(popupStyle + loc.text);
+      });
+
+      // Polyline: Portarlington → Dublin → Channel Islands → Biberach
+      L.polyline([
+        [53.163, -7.191],
+        [53.349, -6.260],
+        [49.454, -2.536],
+        [48.098, 9.787]
+      ], { color: gold, weight: 2, opacity: 0.6, dashArray: '10,10' }).addTo(map);
+    })();
   </script>
 </body>
 </html>
