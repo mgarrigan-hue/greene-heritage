@@ -10,14 +10,17 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://greene.garrigan.me/tree.html">
   <meta name="description" content="Greene Family Heritage — interactive family history exploring people, timelines, and connections.">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 </head>
 <body>
   <nav>
     <div class="nav-inner">
       <span class="site-title">☘ Greene Heritage</span>
+      <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
       <div class="nav-links">
         <a href="index.html">Home</a>
         <a href="people.html">People</a>
@@ -30,8 +33,11 @@
     </div>
   </nav>
 
+  <div class="hero-cinematic" style="min-height:40vh;background-image:url('https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=1920');">
+    <h1>Family Tree</h1>
+    <p class="subtitle">Interactive visualization of the Greene lineage</p>
+  </div>
   <div class="container">
-    <h2>Interactive Family Tree</h2>
     <p>Click nodes to expand/collapse branches. Click a name to see full details.</p>
     <p style="font-size:0.85rem;color:var(--color-text-muted);margin-bottom:1rem;">
       <span class="confidence-badge confidence-high">high</span>
@@ -183,6 +189,15 @@
         ]
       };
     }
+  </script>
+  <script>
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.utils.toArray('.card, .timeline-event, h3, blockquote').forEach(el => {
+      gsap.from(el, {
+        scrollTrigger: { trigger: el, start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 0, y: 30, duration: 0.6, ease: 'power2.out'
+      });
+    });
   </script>
 </body>
 </html>
