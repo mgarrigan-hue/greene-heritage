@@ -79,14 +79,14 @@
     },
     {
       "id": "bridget-wife2",
-      "name": "Bridget Greene (née unknown)",
-      "born": null,
+      "name": "Bridget Greene (née Clarke)",
+      "born": { "year": "c.1892", "place": "Dublin" },
       "died": null,
-      "occupation": null,
-      "religion": null,
-      "notes": "Second wife of Thomas Greene. Married after the death of Elizabeth (first wife). Mother of John, Thomas, Brendan, and Eita.",
+      "occupation": "Domestic Servant (1911)",
+      "religion": "Roman Catholic",
+      "notes": "Second wife of Thomas Greene. Maiden name Clarke. In the 1911 Census she appears as 'Bridget Clarke', age 19, single, Roman Catholic, from Dublin, working as a servant in the household of Dr. Christopher Waters (Physician & Surgeon) in Dublin. She could read and write. Married Thomas Greene after the death of his first wife Elizabeth (c.1912-1925). Mother of John, Thomas, Brendan, and Eita (Mark's grandmother-in-law).",
       "confidence": "high",
-      "sources": ["Family oral history"]
+      "sources": ["1911 Census: Servant in household of Christopher Waters, Dublin", "Family oral history"]
     },
     {
       "id": "thomas-jr",
@@ -148,6 +148,17 @@
         "1901 Census: Shanderry, Portarlington North, King's Co. (wife Johanna as head)",
         "1911 Census: Shanderry, Portarlington North, King's Co. — 23 yrs married, 6 born, 6 living"
       ]
+    },
+    {
+      "id": "christopher-waters",
+      "name": "Dr. Christopher Waters",
+      "born": { "year": "c.1878", "place": "Cappawhite, County Limerick" },
+      "died": null,
+      "occupation": "Physician & Surgeon",
+      "religion": "Roman Catholic",
+      "notes": "In the 1911 Census, Christopher Waters (33) is head of a Dublin household. Physician and Surgeon, married 6 years to Mary A. (28, born Bolton, Lancashire, England). Two daughters: Margaret (3½) and a second daughter (2½), both born in England. The household included lodger Bridget McDonnell (22, from Limerick) and servant Bridget Clarke (19, from Dublin) — who later became Thomas Greene's second wife. This places Bridget Clarke in a professional Dublin household before her marriage to Thomas.",
+      "confidence": "high",
+      "sources": ["1911 Census: Dublin — Christopher Waters household, Form A, page 50"]
     }
   ],
   "couples": [
@@ -175,7 +186,8 @@
     { "year": "c.1899", "title": "Thomas Marries Elizabeth", "description": "Thomas Greene marries Elizabeth (surname unknown) in Dublin. She is from County Dublin and approximately 7 years his senior.", "people": ["thomas-greene", "elizabeth-wife1"] },
     { "year": "1899-1902", "title": "Second Boer War", "description": "The Leinster Regiment served in South Africa. Thomas may have served before or during this conflict. Both the 1st and 2nd Battalions saw action at Hammonia, Harrismith, Vrede, and Bethlehem.", "people": ["thomas-greene"] },
     { "year": "1901", "title": "1901 Census", "description": "Thomas (30) and Elizabeth (30) recorded at Ranelagh Avenue, Rathmines & Rathgar East, Dublin. Thomas is a Shop Porter. No children yet.", "people": ["thomas-greene", "elizabeth-wife1"] },
-    { "year": "1911", "title": "1911 Census", "description": "Thomas (40) and Elizabeth (47) at Clonliffe Avenue, Mountjoy, Dublin. Thomas is now a Gentleman's Club Steward. Three children: Thomas Jr (10), Patrick (8), Elizabeth (4). Married 12 years. All children living.", "people": ["thomas-greene", "elizabeth-wife1", "thomas-jr", "patrick-greene", "elizabeth-harris"] },
+    { "year": "1911", "title": "1911 Census — Greene Family", "description": "Thomas (40) and Elizabeth (47) at Clonliffe Avenue, Mountjoy, Dublin. Thomas is now a Gentleman's Club Steward. Three children: Thomas Jr (10), Patrick (8), Elizabeth (4). Married 12 years. All children living.", "people": ["thomas-greene", "elizabeth-wife1", "thomas-jr", "patrick-greene", "elizabeth-harris"] },
+    { "year": "1911", "title": "1911 Census — Bridget Clarke Found", "description": "In the same census, Bridget Clarke (19) appears as a servant in the Dublin household of Dr. Christopher Waters, a Physician & Surgeon from Cappawhite, Co. Limerick. Bridget is single, Roman Catholic, from Dublin, and can read and write. She will later become Thomas Greene's second wife and mother of John, Thomas, Brendan, and Eita.", "people": ["bridget-wife2", "christopher-waters"] },
     { "year": "c.1930s", "title": "Elizabeth Moves to Channel Islands", "description": "Elizabeth Greene marries Mr. Harris and moves to the Channel Islands (likely Guernsey), where she works as a nurse.", "people": ["elizabeth-harris"] },
     { "year": "1940", "title": "German Occupation", "description": "German forces occupy the Channel Islands on 30 June 1940. Elizabeth Harris is among approximately 66,000 civilians who remain.", "people": ["elizabeth-harris"] },
     { "year": "1942", "title": "Deportation", "description": "On Hitler's direct orders, approximately 2,300 Channel Islands civilians are deported to internment camps in Germany. Those born outside the islands — including Elizabeth, born in Dublin — are targeted. Elizabeth is sent to Biberach Internment Camp (Ilag V-B) in southern Germany.", "people": ["elizabeth-harris"] },
