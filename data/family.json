@@ -188,29 +188,41 @@
       "id": "brendan-greene",
       "name": "Brendan Greene",
       "born": { "year": "c.1928-1932", "place": "Dublin" },
-      "died": null,
+      "died": { "year": "2023", "place": "Limekiln Road, Terenure, Dublin", "date": "3 March 2023" },
       "occupation": null,
       "religion": "Roman Catholic",
-      "notes": "Son of Thomas Greene and Bridget Clarke (second wife). Born after the 1926 Census. Living at 62 Limekiln Drive, Terenure, Dublin by 1970. Registered his mother Bridget's death on 11 August 1970.",
+      "notes": "Son of Thomas Greene and Bridget Clarke (second wife). Born after the 1926 Census. Living at 62 Limekiln Drive, Terenure, Dublin by 1970. Registered his mother Bridget's death on 11 August 1970. Married Roisin (predeceased). Three children: Terry, Geraldine, and Dermot (predeceased). Died 3 March 2023 at Limekiln Road, Terenure. Survived by his sister Ita.",
       "confidence": "high",
-      "sources": ["Family oral history", "Death Certificate of Bridget Greene, Entry 22, 9 August 1970 — informant: Brendan Greene, Son, 62 Limekiln Drive, Terenure"]
+      "sources": ["Family oral history", "Death Certificate of Bridget Greene, Entry 22, 9 August 1970 — informant: Brendan Greene, Son, 62 Limekiln Drive, Terenure", "RIP.ie death notice, March 2023"]
     },
     {
       "id": "eita-greene",
-      "name": "Eita Greene",
+      "name": "Ita Greene (Eithne)",
       "born": { "year": "1934", "place": "Dublin" },
-      "died": null,
+      "died": { "year": "2025", "place": "Goldenbridge Avenue, Inchicore, Dublin", "date": "6 December 2025" },
       "occupation": null,
       "religion": "Roman Catholic",
-      "notes": "Youngest daughter of Thomas Greene and Bridget Clarke (second wife). Mark Garrigan's grandmother-in-law. Name 'Eita' is likely an anglicised form of the Irish name Eithne. Born 1934 in Dublin.",
+      "notes": "Youngest daughter of Thomas Greene and Bridget Clarke (second wife). Mark Garrigan's grandmother-in-law. Name 'Eita' / 'Ita' from the Irish name Eithne. Born 1934 in Dublin. Married John Donnelly (predeceased). Four children: Ann, John, Sheila, Ger. Remained at Goldenbridge Avenue, Inchicore — the family home — her entire life. Funeral at St. Michael's Church, Inchicore; buried Deansgrange Cemetery. Died 6 December 2025.",
       "confidence": "high",
-      "sources": ["Family oral history"]
+      "sources": ["Family oral history", "RIP.ie death notice, December 2025"]
+    },
+    {
+      "id": "john-donnelly",
+      "name": "John Donnelly",
+      "born": null,
+      "died": { "place": "Dublin (presumed)" },
+      "occupation": null,
+      "religion": "Roman Catholic",
+      "notes": "Husband of Ita Greene (Eithne). Predeceased Ita. Father of Ann, John, Sheila, and Ger Donnelly.",
+      "confidence": "high",
+      "sources": ["RIP.ie death notice for Ita Donnelly née Greene, December 2025"]
     }
   ],
   "couples": [
     { "id": "c-joseph-elizabeth", "partner1": "joseph-greene", "partner2": "elizabeth-foran", "married": null, "confidence": "medium" },
     { "id": "c-thomas-elizabeth1", "partner1": "thomas-greene", "partner2": "elizabeth-wife1", "married": { "year": "c.1899", "place": "Dublin" }, "confidence": "high" },
-    { "id": "c-thomas-bridget", "partner1": "thomas-greene", "partner2": "bridget-wife2", "married": { "year": "c.1920s", "place": "Dublin (presumed)" }, "confidence": "high" }
+    { "id": "c-thomas-bridget", "partner1": "thomas-greene", "partner2": "bridget-wife2", "married": { "year": "c.1920s", "place": "Dublin (presumed)" }, "confidence": "high" },
+    { "id": "c-ita-john", "partner1": "eita-greene", "partner2": "john-donnelly", "married": { "year": "c.1950s-1960s", "place": "Dublin (presumed)" }, "confidence": "high" }
   ],
   "parentChild": [
     { "parent": "joseph-greene", "child": "thomas-greene", "confidence": "medium" },
