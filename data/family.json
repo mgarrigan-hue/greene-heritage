@@ -86,7 +86,7 @@
       "died": { "year": "1970", "place": "Adelaide Hospital, Dublin", "date": "9 August 1970" },
       "occupation": "Domestic Servant (1901, 1911), Housewife",
       "religion": "Roman Catholic",
-      "notes": "Second wife of Thomas Greene. Maiden name Clarke. In the 1901 Census, found as a young servant at Dundrum House (likely the Palladian mansion in Co. Tipperary, owned by the Viscounts Hawarden). By the 1911 Census she appears as 'Bridget Clarke', age 19, single, Roman Catholic, from Dublin, working as a servant in the household of Dr. Christopher Waters (Physician & Surgeon) in Dublin. She could read and write. Married Thomas Greene after the death of his first wife Elizabeth (c.1912-1925). Mother of John, Thomas, Brendan, and Eita (Mark's grandmother-in-law). In the 1926 Census, living at York Street, Dublin. By 1951, at 38 Goldenbridge Avenue, Inchicore. Died 9 August 1970, age 78, widowed, at Adelaide Hospital, Dublin (admitted from 38 Goldenbridge Avenue). Cause of death: acute massive gangrene of small intestine and cardiac failure. Death registered 11 August 1970 by her son Brendan Greene of 62 Lenamore Drive.",
+      "notes": "Second wife of Thomas Greene. Maiden name Clarke. In the 1901 Census, found as a young servant at Dundrum House (likely the Palladian mansion in Co. Tipperary, owned by the Viscounts Hawarden). By the 1911 Census she appears as 'Bridget Clarke', age 19, single, Roman Catholic, from Dublin, working as a servant in the household of Dr. Christopher Waters (Physician & Surgeon) in Dublin. She could read and write. Married Thomas Greene after the death of his first wife Elizabeth (c.1912-1925). Mother of John, Thomas, Brendan, and Eita (Mark's grandmother-in-law). In the 1926 Census, living at York Street, Dublin. By 1951, at 38 Goldenbridge Avenue, Inchicore. Died 9 August 1970, age 78, widowed, at Adelaide Hospital, Dublin (admitted from 38 Goldenbridge Avenue). Cause of death: acute massive gangrene of small intestine and cardiac failure. Death registered 11 August 1970 by her son Brendan Greene of 62 Limekiln Drive, Terenure.",
       "confidence": "high",
       "sources": ["1901 Census: Dundrum House, servant", "1911 Census: Servant in household of Christopher Waters, Dublin", "Death Certificate: Entry 22, 9 August 1970, Adelaide Hospital, Dublin", "Family oral history"]
     },
@@ -191,9 +191,9 @@
       "died": null,
       "occupation": null,
       "religion": "Roman Catholic",
-      "notes": "Son of Thomas Greene and Bridget Clarke (second wife). Born after the 1926 Census. Living at 62 Lenamore Drive, Dublin by 1970. Registered his mother Bridget's death on 11 August 1970.",
+      "notes": "Son of Thomas Greene and Bridget Clarke (second wife). Born after the 1926 Census. Living at 62 Limekiln Drive, Terenure, Dublin by 1970. Registered his mother Bridget's death on 11 August 1970.",
       "confidence": "high",
-      "sources": ["Family oral history", "Death Certificate of Bridget Greene, Entry 22, 9 August 1970 — informant: Brendan Greene, Son, 62 Lenamore Drive"]
+      "sources": ["Family oral history", "Death Certificate of Bridget Greene, Entry 22, 9 August 1970 — informant: Brendan Greene, Son, 62 Limekiln Drive, Terenure"]
     },
     {
       "id": "eita-greene",
@@ -248,6 +248,6 @@
     { "year": "1943-1945", "title": "Biberach Internment", "description": "Elizabeth works as a nurse at the Men's Hospital of Biberach Internment Camp under Dr. A.W.H. Donaldson, M.B., D.P.H. Despite harsh conditions and rationed food, she is described as 'keen, energetic and efficient, and always cheerful.'", "people": ["elizabeth-harris"] },
     { "year": "1945", "title": "Liberation", "description": "Biberach is liberated by the French First Army on 23 April 1945. On 21 May, Dr. Donaldson writes a glowing letter of recommendation for Nurse Harris, praising her nursing abilities, kindness, and even her cooking — 'her cakes and other dainties have been a god-send where the rationed food has been served up with so little of variety.'", "people": ["elizabeth-harris"] },
     { "year": "1951", "title": "Thomas Greene Dies", "description": "Thomas Christopher Greene dies on 6 December 1951, age 81, at 38 Goldenbridge Avenue, Inchicore, Dublin. Cause of death: carcinoma of the stomach, cachexia, cardiac failure. Still listed as a Warehouse Porter — a working man to the very end. His death was registered the following day by his son John Greene, who was living at the same address. Registrar: M. Ryan.", "people": ["thomas-greene", "john-greene"] },
-    { "year": "1970", "title": "Bridget Greene Dies", "description": "Bridget Greene (née Clarke) dies on 9 August 1970, age 78, at Adelaide Hospital, Dublin, admitted from 38 Goldenbridge Avenue, Inchicore — still living in the family home nearly 19 years after Thomas's death. Cause of death: acute massive gangrene of small intestine and cardiac failure. Widowed. Death registered 11 August 1970 by her son Brendan Greene of 62 Lenamore Drive, Dublin.", "people": ["bridget-wife2", "brendan-greene"] }
+    { "year": "1970", "title": "Bridget Greene Dies", "description": "Bridget Greene (née Clarke) dies on 9 August 1970, age 78, at Adelaide Hospital, Dublin, admitted from 38 Goldenbridge Avenue, Inchicore — still living in the family home nearly 19 years after Thomas's death. Cause of death: acute massive gangrene of small intestine and cardiac failure. Widowed. Death registered 11 August 1970 by her son Brendan Greene of 62 Limekiln Drive, Terenure.", "people": ["bridget-wife2", "brendan-greene"] }
   ]
 }
