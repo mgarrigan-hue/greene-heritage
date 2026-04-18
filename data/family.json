@@ -53,15 +53,16 @@
     {
       "id": "thomas-greene",
       "name": "Thomas Christopher Greene",
-      "born": { "year": "c.1870", "place": "Portarlington, King's County (Offaly)" },
+      "born": { "year": "c. July 1870", "place": "Portarlington, Queen's County (Laois)" },
       "died": { "year": "1951", "place": "38 Goldenbridge Ave, Inchicore, Dublin", "date": "6 December 1951" },
-      "occupation": "Shop Porter (1901), Gentleman's Club Steward (1911), Warehouse Porter (1951)",
+      "occupation": "Shop Porter (1901), Gentleman's Club Steward (1911), Shop Porter — Switzers & Co. Drapers (1926), Warehouse Porter (1951)",
       "religion": "Roman Catholic",
-      "notes": "Central figure of this research. Full name Thomas Christopher Greene (discovered from Ancestry marriage index). Born c.1870 on the Offaly side of Portarlington (age 81 at death in 1951). Moved to Dublin by 1899. Lied about his age to enlist in the British Army at around age 14 (~1884) — likely the Prince of Wales's Leinster Regiment (Royal Canadians), headquartered at Birr Barracks, ~25 miles from Portarlington. Underage enlistment was common in the late Victorian army. May have served during the Boer War (1899-1902). Married twice: first to Elizabeth (d. c.1912-1925), then to Bridget Clarke. Marriage registered Dublin South, 1899, Vol 2, Page 593. Died 6 December 1951 at 38 Goldenbridge Avenue, Inchicore, Dublin, age 81. Cause of death: carcinoma of stomach, cachexia, cardiac failure. Death registered by his son John Greene, who was living at the same address. Still listed as 'Warehouse Porter' at death — a working man to the end.",
+      "notes": "Central figure of this research. Full name Thomas Christopher Greene (discovered from Ancestry marriage index). Born c. July 1870 in Portarlington (age 55y 9m in the April 1926 Census; age 81 at death in December 1951). Moved to Dublin by 1899. Lied about his age to enlist in the British Army at around age 14 (~1884) — likely the Prince of Wales's Leinster Regiment (Royal Canadians), headquartered at Birr Barracks, ~25 miles from Portarlington. Underage enlistment was common in the late Victorian army. May have served during the Boer War (1899-1902). Married twice: first to Elizabeth (d. c.1912-1925), then to Bridget Clarke. Marriage registered Dublin South, 1899, Vol 2, Page 593. In 1926, living at York Street, Dublin, working as Shop Porter at Switzers & Co. Drapers, the famous Grafton Street department store. His stepson Patrick (age 23, from first marriage) was also living in the household. Family later moved to 38 Goldenbridge Avenue, Inchicore. Died 6 December 1951 at 38 Goldenbridge Avenue, age 81. Cause of death: carcinoma of stomach, cachexia, cardiac failure. Death registered by his son John Greene. Still listed as 'Warehouse Porter' at death — a working man to the end.",
       "confidence": "high",
       "sources": [
         "1901 Census: Ranelagh Avenue, Rathmines & Rathgar East, Dublin (ID 1293881)",
         "1911 Census: Clonliffe Avenue, Mountjoy, Dublin (ID 15408)",
+        "1926 Census: York Street, Dublin — Thomas Greene, Head, age 55y 9m, Shop Porter, Switzers & Co. Drapers",
         "Death Certificate: Entry 486, 6 December 1951, registered Dublin South, Registrar M. Ryan"
       ]
     },
@@ -82,13 +83,13 @@
     {
       "id": "bridget-wife2",
       "name": "Bridget Greene (née Clarke)",
-      "born": { "year": "c.1892", "place": "Dublin" },
+      "born": { "year": "c. December 1891", "place": "Duleek, County Meath" },
       "died": { "year": "1970", "place": "Adelaide Hospital, Dublin", "date": "9 August 1970" },
       "occupation": "Domestic Servant (1901, 1911), Housewife",
       "religion": "Roman Catholic",
-      "notes": "Second wife of Thomas Greene. Maiden name Clarke. In the 1901 Census, found as a young servant at Dundrum House (likely the Palladian mansion in Co. Tipperary, owned by the Viscounts Hawarden). By the 1911 Census she appears as 'Bridget Clarke', age 19, single, Roman Catholic, from Dublin, working as a servant in the household of Dr. Christopher Waters (Physician & Surgeon) in Dublin. She could read and write. Married Thomas Greene after the death of his first wife Elizabeth (c.1912-1925). Mother of John, Thomas, Brendan, and Eita (Mark's grandmother-in-law). In the 1926 Census, living at York Street, Dublin. By 1951, at 38 Goldenbridge Avenue, Inchicore. Died 9 August 1970, age 78, widowed, at Adelaide Hospital, Dublin (admitted from 38 Goldenbridge Avenue). Cause of death: acute massive gangrene of small intestine and cardiac failure. Death registered 11 August 1970 by her son Brendan Greene of 62 Limekiln Drive, Terenure.",
+      "notes": "Second wife of Thomas Greene. Maiden name Clarke. Born c. December 1891 in Duleek, County Meath (age 34y 4m in the April 1926 Census). BIRTHPLACE DISCREPANCY: The 1911 Census (Dr. Waters household) lists her birthplace as 'Dublin', but the 1926 Census — filled in by her own family — records 'Meath Co./Duleek'. The 1926 record is considered more reliable as it was self-reported by the household. Duleek is a village in County Meath, ~30 miles north of Dublin. In the 1901 Census, found as a young servant at Dundrum House (Co. Tipperary). By the 1911 Census she appears as 'Bridget Clarke', age 19, single, Roman Catholic, working as a servant in the household of Dr. Christopher Waters (Physician & Surgeon) in Dublin. She could read and write. Married Thomas Greene after the death of his first wife Elizabeth (c.1912-1925). Mother of John, Thomas, Brendan, and Ita (Mark's grandmother-in-law). In the 1926 Census, living at York Street, Dublin, age 34y 4m, married, occupation Home Duties. By 1951, at 38 Goldenbridge Avenue, Inchicore. Died 9 August 1970, age 78, widowed, at Adelaide Hospital, Dublin (admitted from 38 Goldenbridge Avenue). Cause of death: acute massive gangrene of small intestine and cardiac failure. Death registered 11 August 1970 by her son Brendan Greene of 62 Limekiln Drive, Terenure.",
       "confidence": "high",
-      "sources": ["1901 Census: Dundrum House, servant", "1911 Census: Servant in household of Christopher Waters, Dublin", "Death Certificate: Entry 22, 9 August 1970, Adelaide Hospital, Dublin", "Family oral history"]
+      "sources": ["1901 Census: Dundrum House, servant", "1911 Census: Servant in household of Christopher Waters, Dublin", "1926 Census: York Street, Dublin — Bridget Greene, Wife, age 34y 4m, Meath Co./Duleek", "Death Certificate: Entry 22, 9 August 1970, Adelaide Hospital, Dublin", "Family oral history"]
     },
     {
       "id": "thomas-jr",
@@ -106,11 +107,11 @@
       "name": "Patrick Greene",
       "born": { "year": "c.1903", "place": "Dublin City" },
       "died": null,
-      "occupation": "Scholar (1911)",
+      "occupation": "Scholar (1911), Battery Repairer / Motor Engineer — S.F. Robinson (1926)",
       "religion": "Roman Catholic",
-      "notes": "Second child of Thomas and Elizabeth (first wife).",
+      "notes": "Second child of Thomas and Elizabeth (first wife). In the 1926 Census, Patrick (age 23, single) is still living with his father's second family at York Street, Dublin. He works as a Battery Repairer / Motor Engineer for S.F. Robinson — a skilled trade in the early motor age. This is significant: it shows the first-marriage children maintained a relationship with Thomas after his remarriage.",
       "confidence": "high",
-      "sources": ["1911 Census: Clonliffe Avenue, Mountjoy, Dublin — age 8"]
+      "sources": ["1911 Census: Clonliffe Avenue, Mountjoy, Dublin — age 8", "1926 Census: York Street, Dublin — Patrick Greene, Son, age 23, Single, Battery Repairer/Motor Engineer, S.F. Robinson"]
     },
     {
       "id": "elizabeth-harris",
@@ -165,24 +166,24 @@
     {
       "id": "john-greene",
       "name": "John Greene",
-      "born": { "year": "c.1920s", "place": "Dublin" },
+      "born": { "year": "c. July 1923", "place": "Dublin City" },
       "died": null,
       "occupation": null,
       "religion": "Roman Catholic",
-      "notes": "Son of Thomas Greene and Bridget Clarke (second wife). Present in the 1926 Census at York Street, Dublin. Living at 38 Goldenbridge Avenue, Inchicore, Dublin in 1951. Registered his father Thomas's death on 7 December 1951.",
+      "notes": "Son of Thomas Greene and Bridget Clarke (second wife). In the 1926 Census at York Street, Dublin, age 2 years 9 months. Living at 38 Goldenbridge Avenue, Inchicore, Dublin by 1951. Registered his father Thomas's death on 7 December 1951.",
       "confidence": "high",
-      "sources": ["1926 Census: York Street, Dublin", "Death Certificate of Thomas Greene, Entry 486, 6 December 1951 — informant: John Greene, Son"]
+      "sources": ["1926 Census: York Street, Dublin — John Greene, Son, age 2y 9m", "Death Certificate of Thomas Greene, Entry 486, 6 December 1951 — informant: John Greene, Son"]
     },
     {
       "id": "thomas-greene-ii",
       "name": "Thomas Greene (II)",
-      "born": { "year": "c.1920s", "place": "Dublin" },
+      "born": { "year": "c. July 1925", "place": "Dublin City" },
       "died": null,
       "occupation": null,
       "religion": "Roman Catholic",
-      "notes": "Son of Thomas Greene and Bridget Clarke (second wife). Named after his father. Present in the 1926 Census at York Street, Dublin. Note: Thomas also had a son Thomas Jr (b. c.1901) from his first marriage to Elizabeth.",
+      "notes": "Son of Thomas Greene and Bridget Clarke (second wife). Named after his father. In the 1926 Census at York Street, Dublin, age just 9 months — a baby. Note: Thomas also had a son Thomas Jr (b. c.1901) from his first marriage to Elizabeth.",
       "confidence": "high",
-      "sources": ["1926 Census: York Street, Dublin", "Family oral history"]
+      "sources": ["1926 Census: York Street, Dublin — Thomas Greene, Son, age 0y 9m", "Family oral history"]
     },
     {
       "id": "brendan-greene",
@@ -246,14 +247,15 @@
   ],
   "events": [
     { "year": "c.1830s", "title": "Earliest Record", "description": "Thos Green appears in Tithe Applotment Books, Ballyburly, King's County — approximately 8km north of Portarlington.", "people": ["thos-green-ballyburly"] },
-    { "year": "c.1870", "title": "Thomas Greene Born", "description": "Born in Portarlington on the King's County (Offaly) side. Roman Catholic. Age 81 at death in December 1951, placing his birth at c.1870.", "people": ["thomas-greene"] },
+    { "year": "c.1870", "title": "Thomas Greene Born", "description": "Born c. July 1870 in Portarlington (age 55 years 9 months in the April 1926 Census). Roman Catholic. His birthplace recorded as 'Queens Co./Portarlington' in the 1926 Census.", "people": ["thomas-greene"] },
     { "year": "1874", "title": "Mary Bridget Greene Born", "description": "Born in Portarlington, Laois. Daughter of Joseph Greene and Elizabeth Foran.", "people": ["mary-bridget-greene"] },
     { "year": "c.1884", "title": "Thomas Enlists Underage", "description": "Thomas lied about his age and enlisted in the British Army at around age 14 — a practice that was remarkably common in the late Victorian army, especially among boys from poor rural backgrounds with few prospects. He likely joined the Prince of Wales's Leinster Regiment (Royal Canadians) at Birr Barracks, just 25 miles from Portarlington.", "people": ["thomas-greene"] },
     { "year": "c.1899", "title": "Thomas Marries Elizabeth", "description": "Thomas Greene marries Elizabeth (surname unknown) in Dublin. She is from County Dublin and approximately 7 years his senior.", "people": ["thomas-greene", "elizabeth-wife1"] },
     { "year": "1899-1902", "title": "Second Boer War", "description": "The Leinster Regiment served in South Africa. Thomas may have served before or during this conflict. Both the 1st and 2nd Battalions saw action at Hammonia, Harrismith, Vrede, and Bethlehem.", "people": ["thomas-greene"] },
     { "year": "1901", "title": "1901 Census", "description": "Thomas (30) and Elizabeth (30) recorded at Ranelagh Avenue, Rathmines & Rathgar East, Dublin. Thomas is a Shop Porter. No children yet.", "people": ["thomas-greene", "elizabeth-wife1"] },
     { "year": "1911", "title": "1911 Census — Greene Family", "description": "Thomas (40) and Elizabeth (47) at Clonliffe Avenue, Mountjoy, Dublin. Thomas is now a Gentleman's Club Steward. Three children: Thomas Jr (10), Patrick (8), Elizabeth (4). Married 12 years. All children living.", "people": ["thomas-greene", "elizabeth-wife1", "thomas-jr", "patrick-greene", "elizabeth-harris"] },
-    { "year": "1911", "title": "1911 Census — Bridget Clarke Found", "description": "In the same census, Bridget Clarke (19) appears as a servant in the Dublin household of Dr. Christopher Waters, a Physician & Surgeon from Cappawhite, Co. Limerick. Bridget is single, Roman Catholic, from Dublin, and can read and write. She will later become Thomas Greene's second wife and mother of John, Thomas, Brendan, and Eita.", "people": ["bridget-wife2", "christopher-waters"] },
+    { "year": "1911", "title": "1911 Census — Bridget Clarke Found", "description": "In the same census, Bridget Clarke (19) appears as a servant in the Dublin household of Dr. Christopher Waters, a Physician & Surgeon from Cappawhite, Co. Limerick. Bridget is single, Roman Catholic, and can read and write. Her birthplace is recorded as Dublin in this census, but the later 1926 Census corrects this to Duleek, County Meath. She will later become Thomas Greene's second wife.", "people": ["bridget-wife2", "christopher-waters"] },
+    { "year": "1926", "title": "1926 Census — York Street, Dublin", "description": "The first census of the Irish Free State, enumerated 18 April 1926. Thomas Greene (Head, age 55y 9m, from Queens Co./Portarlington) is living at York Street, Dublin, with his second wife Bridget (age 34y 4m, from Duleek, Co. Meath). Thomas works as Shop Porter at Switzers & Co. Drapers on Grafton Street. Also in the household: Patrick Greene (son from first marriage, age 23, single, Battery Repairer/Motor Engineer for S.F. Robinson), John Greene (age 2y 9m), and baby Thomas Greene (age 0y 9m). The family occupies 2 rooms. All are Roman Catholic. Notable: Thomas Jr (~25) and Elizabeth (~19) from the first marriage are not in the household. Signed by Thomas Greene; Enumerator: Myles Cullen.", "people": ["thomas-greene", "bridget-wife2", "patrick-greene", "john-greene", "thomas-greene-ii"] },
     { "year": "c.1930s", "title": "Elizabeth Moves to Channel Islands", "description": "Elizabeth Greene marries Mr. Harris and moves to the Channel Islands (likely Guernsey), where she works as a nurse.", "people": ["elizabeth-harris"] },
     { "year": "1940", "title": "German Occupation", "description": "German forces occupy the Channel Islands on 30 June 1940. Elizabeth Harris is among approximately 66,000 civilians who remain.", "people": ["elizabeth-harris"] },
     { "year": "1942", "title": "Deportation", "description": "On Hitler's direct orders, approximately 2,300 Channel Islands civilians are deported to internment camps in Germany. Those born outside the islands — including Elizabeth, born in Dublin — are targeted. Elizabeth is sent to Biberach Internment Camp (Ilag V-B) in southern Germany.", "people": ["elizabeth-harris"] },
