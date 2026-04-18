@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Family Tree — Greene Family Heritage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <nav>
+    <div class="nav-inner">
+      <span class="site-title">☘ Greene Heritage</span>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="people.html">People</a>
+        <a href="timeline.html">Timeline</a>
+        <a href="tree.html" class="active">Family Tree</a>
+        <a href="elizabeth.html">Elizabeth's Story</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h2>Interactive Family Tree</h2>
+    <p>Click nodes to expand/collapse branches. Click a name to see full details.</p>
+    <p style="font-size:0.85rem;color:var(--color-text-muted);margin-bottom:1rem;">
+      <span class="confidence-badge confidence-high">high</span>
+      <span class="confidence-badge confidence-medium">medium</span>
+      <span class="confidence-badge confidence-low">low</span>
+      — indicates confidence level of the relationship
+    </p>
+    <div id="tree-container"></div>
+  </div>
+
+  <div class="modal-overlay" id="person-modal">
+    <div class="modal" id="modal-content"></div>
+  </div>
+
+  <footer>
+    <p>Greene Family Heritage Research &copy; 2026 | A project by Mark Garrigan</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script>
+    loadFamilyData().then(data => {
+      buildTree(data);
+    });
+
+    function buildTree(data) {
+      // Build hierarchical structure from flat data
+      const treeData = buildHierarchy(data);
+
+      const container = document.getElementById('tree-container');
+      const width = container.clientWidth || 900;
+      const height = Math.max(500, data.people.length * 55);
+
+      const svg = d3.select('#tree-container')
+        .append('svg')
+        .attr('width', width)
+        .attr('height', height)
+        .append('g')
+        .attr('transform', 'translate(80, 20)');
+
+      const treeLayout = d3.tree().size([height - 40, width - 250]);
+      const root = d3.hierarchy(treeData);
+      treeLayout(root);
+
+      // Links
+      svg.selectAll('.link')
+        .data(root.links())
+        .enter()
+        .append('path')
+        .attr('class', 'link')
+        .attr('d', d3.linkHorizontal()
+          .x(d => d.y)
+          .y(d => d.x));
+
+      // Nodes
+      const nodes = svg.selectAll('.node')
+        .data(root.descendants())
+        .enter()
+        .append('g')
+        .attr('class', 'node')
+        .attr('transform', d => `translate(${d.y},${d.x})`);
+
+      nodes.append('circle')
+        .attr('r', 6)
+        .attr('fill', d => {
+          const conf = d.data.confidence || 'medium';
+          if (conf === 'high') return '#4caf50';
+          if (conf === 'medium') return '#ff9800';
+          return '#f44336';
+        })
+        .on('click', (event, d) => {
+          if (d.data.id) showPersonModal(d.data.id);
+        });
+
+      nodes.append('text')
+        .attr('dy', '0.35em')
+        .attr('x', d => d.children ? -12 : 12)
+        .attr('text-anchor', d => d.children ? 'end' : 'start')
+        .text(d => d.data.name)
+        .style('cursor', d => d.data.id ? 'pointer' : 'default')
+        .on('click', (event, d) => {
+          if (d.data.id) showPersonModal(d.data.id);
+        });
+
+      // Add birth years
+      nodes.append('text')
+        .attr('dy', '1.6em')
+        .attr('x', d => d.children ? -12 : 12)
+        .attr('text-anchor', d => d.children ? 'end' : 'start')
+        .text(d => d.data.born || '')
+        .style('font-size', '10px')
+        .style('fill', 'var(--color-text-muted)');
+    }
+
+    function buildHierarchy(data) {
+      // Find root ancestors (people who have no parents in our data)
+      const childIds = new Set(data.parentChild.map(pc => pc.child));
+      const parentIds = new Set(data.parentChild.map(pc => pc.parent));
+
+      // Joseph Greene is the earliest confirmed ancestor with descendants
+      const rootPerson = data.people.find(p => p.id === 'joseph-greene');
+
+      function buildNode(personId) {
+        const person = data.people.find(p => p.id === personId);
+        if (!person) return null;
+
+        const childRels = data.parentChild.filter(pc => pc.parent === personId);
+        // Deduplicate children (a child appears for both parents)
+        const uniqueChildIds = [...new Set(childRels.map(c => c.child))];
+        const children = uniqueChildIds
+          .map(cid => buildNode(cid))
+          .filter(c => c);
+
+        // Add spouses as part of the label
+        const spouses = data.couples
+          .filter(c => c.partner1 === personId || c.partner2 === personId)
+          .map(c => {
+            const sid = c.partner1 === personId ? c.partner2 : c.partner1;
+            return data.people.find(p => p.id === sid);
+          })
+          .filter(s => s);
+
+        const spouseLabel = spouses.length ? ` & ${spouses[0].name}` : '';
+
+        return {
+          name: person.name + spouseLabel,
+          id: person.id,
+          born: person.born?.year || '',
+          confidence: person.confidence,
+          children: children.length ? children : undefined
+        };
+      }
+
+      // Build from Thos Green (earliest) → Joseph → Thomas → children
+      const thosGreen = data.people.find(p => p.id === 'thos-green-ballyburly');
+
+      return {
+        name: thosGreen.name,
+        id: thosGreen.id,
+        born: thosGreen.born?.year || '',
+        confidence: thosGreen.confidence,
+        children: [
+          {
+            ...buildNode('joseph-greene'),
+            children: [
+              buildNode('thomas-greene'),
+              buildNode('mary-bridget-greene')
+            ].filter(c => c)
+          }
+        ]
+      };
+    }
+  </script>
+</body>
+</html>

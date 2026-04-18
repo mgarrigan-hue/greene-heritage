@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>People — Greene Family Heritage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-inner">
+      <span class="site-title">☘ Greene Heritage</span>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="people.html" class="active">People</a>
+        <a href="timeline.html">Timeline</a>
+        <a href="tree.html">Family Tree</a>
+        <a href="elizabeth.html">Elizabeth's Story</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h2>People</h2>
+    <p>Click any card to see full details, family connections, and sources.</p>
+
+    <div style="margin:1rem 0;">
+      <input type="text" id="search-box" placeholder="Search by name..." style="width:100%;max-width:400px;padding:0.6rem 1rem;border-radius:6px;border:1px solid rgba(201,169,89,0.3);background:var(--color-surface);color:var(--color-text);font-size:1rem;">
+    </div>
+
+    <div class="card-grid" id="people-grid"></div>
+  </div>
+
+  <div class="modal-overlay" id="person-modal">
+    <div class="modal" id="modal-content"></div>
+  </div>
+
+  <footer>
+    <p>Greene Family Heritage Research &copy; 2026 | A project by Mark Garrigan</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script>
+    loadFamilyData().then(data => {
+      renderAll();
+      document.getElementById('search-box').addEventListener('input', e => {
+        renderAll(e.target.value.toLowerCase());
+      });
+    });
+
+    function renderAll(filter = '') {
+      const grid = document.getElementById('people-grid');
+      const people = familyData.people.filter(p =>
+        !filter || p.name.toLowerCase().includes(filter)
+      );
+      grid.innerHTML = people.map(p => renderPersonCard(p)).join('');
+    }
+  </script>
+</body>
+</html>

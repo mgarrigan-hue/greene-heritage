@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Greene Family Heritage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-inner">
+      <span class="site-title">☘ Greene Heritage</span>
+      <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="people.html">People</a>
+        <a href="timeline.html">Timeline</a>
+        <a href="tree.html">Family Tree</a>
+        <a href="elizabeth.html">Elizabeth's Story</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <h1>The Greene Family</h1>
+    <p class="subtitle">Tracing the Greene lineage from Portarlington to Dublin, the Channel Islands, and beyond</p>
+  </div>
+
+  <div class="container">
+    <h2>Our Story</h2>
+    <p>The Greene family's roots run deep in the midlands of Ireland, in the market town of <strong>Portarlington</strong> — a place that straddles two counties, King's County (now Offaly) and Queen's County (now Laois), divided by the River Barrow.</p>
+    <p style="margin-top:1rem;">From there, <strong>Thomas Greene</strong> (born c.1871) made his way to Dublin, where he built a life as a Shop Porter and later a Gentleman's Club Steward. He married twice, raised seven children, and served in the British Army. His daughter <strong>Elizabeth</strong> would go on to live one of the most remarkable stories in the family — interned by the Nazis in a German camp during World War II, where she served as a nurse caring for fellow prisoners.</p>
+    <p style="margin-top:1rem;">This site is a living research project, documenting what we've discovered so far and preserving it for future generations.</p>
+
+    <h2>Key Figures</h2>
+    <div class="card-grid" id="key-people"></div>
+
+    <h2>Research Status</h2>
+    <div style="background:var(--color-surface);border-radius:8px;padding:1.5rem;margin:1rem 0;">
+      <h3 style="margin-top:0;">What We've Found</h3>
+      <ul style="padding-left:1.5rem;">
+        <li>✅ Thomas Greene located in <strong>1901 and 1911 Irish Census</strong></li>
+        <li>✅ Birthplace confirmed: <strong>Portarlington, King's County (Offaly)</strong></li>
+        <li>✅ Elizabeth Harris confirmed interned at <strong>Biberach Camp</strong> — primary source letter from 1945</li>
+        <li>✅ Probable father identified: <strong>Joseph Greene</strong> married <strong>Elizabeth Foran</strong></li>
+        <li>✅ Five Greene/Green households mapped in Portarlington (1901 & 1911)</li>
+        <li>✅ Earliest ancestor traced: <strong>Thos Green, Ballyburly, 1830s</strong></li>
+      </ul>
+      <h3>Still Searching</h3>
+      <ul style="padding-left:1.5rem;">
+        <li>🔍 Thomas's civil birth record (would confirm his father's name)</li>
+        <li>🔍 Thomas & Elizabeth's marriage record (~1899)</li>
+        <li>🔍 Thomas's military service records (Leinster Regiment / Boer War)</li>
+        <li>🔍 Elizabeth Harris's Channel Islands occupation registration card</li>
+        <li>🔍 Griffith's Valuation entries for Portarlington</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="person-modal">
+    <div class="modal" id="modal-content"></div>
+  </div>
+
+  <footer>
+    <p>Greene Family Heritage Research &copy; 2026 | A project by Mark Garrigan</p>
+    <p style="margin-top:0.5rem;">Built with care. Data sourced from the National Archives of Ireland, family records, and ongoing research.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script>
+    const KEY_PEOPLE = ['thomas-greene', 'elizabeth-harris', 'joseph-greene', 'elizabeth-wife1'];
+    loadFamilyData().then(data => {
+      const grid = document.getElementById('key-people');
+      grid.innerHTML = KEY_PEOPLE.map(id => {
+        const p = getPerson(id);
+        return p ? renderPersonCard(p) : '';
+      }).join('');
+    });
+  </script>
+</body>
+</html>

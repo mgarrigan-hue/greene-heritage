@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "title": "Greene Family Heritage",
+    "subtitle": "Tracing the Greene lineage from Portarlington to Dublin and beyond",
+    "lastUpdated": "2026-04-18",
+    "researcher": "Mark Garrigan"
+  },
+  "people": [
+    {
+      "id": "thos-green-ballyburly",
+      "name": "Thos Green",
+      "born": { "year": "c.1800", "place": "Ballyburly, King's County (Offaly)" },
+      "died": null,
+      "occupation": "Landholder",
+      "religion": null,
+      "notes": "Earliest known ancestor. Appears in Tithe Applotment Books for Ballyburly parish, King's County, 1830s. Approximately 8km north of Portarlington.",
+      "confidence": "low",
+      "sources": ["Tithe Applotment Books, Ballyburly parish, King's County, 1830-36"]
+    },
+    {
+      "id": "joseph-greene",
+      "name": "Joseph Greene",
+      "born": { "year": "c.1840", "place": "Portarlington, King's County (Offaly)" },
+      "died": null,
+      "occupation": null,
+      "religion": "Roman Catholic",
+      "notes": "Confirmed father of Mary Bridget Greene (b.1874). Probable father of Thomas Greene (b.~1871). Married Elizabeth Foran. May be connected to Lucy Greene (widow in Kilmalogue, 1901 census).",
+      "confidence": "medium",
+      "sources": ["Ancestry record for Mary Bridget Greene (b.1874, d.1966, Queens NY)", "Civil birth records pending verification on IrishGenealogy.ie"]
+    },
+    {
+      "id": "elizabeth-foran",
+      "name": "Elizabeth Foran",
+      "born": { "year": "c.1845", "place": "Unknown, Ireland" },
+      "died": null,
+      "occupation": null,
+      "religion": "Roman Catholic",
+      "notes": "Wife of Joseph Greene. Mother of Mary Bridget Greene (b.1874, Portarlington). Maiden name Foran.",
+      "confidence": "medium",
+      "sources": ["Ancestry record for Mary Bridget Greene"]
+    },
+    {
+      "id": "lucy-greene",
+      "name": "Lucy Greene",
+      "born": { "year": "c.1841", "place": "King's County (Offaly)" },
+      "died": { "year": "c.1901-1910", "place": "Portarlington" },
+      "occupation": "Farmer",
+      "religion": "Roman Catholic",
+      "notes": "Widow by 1901, living in Kilmalogue, Portarlington North, King's Co. Possibly Joseph Greene's widow or a relative. Had daughter Lizzie who married Christopher Gannon. Absent from 1911 census (likely deceased).",
+      "confidence": "medium",
+      "sources": ["1901 Census: Kilmalogue, Portarlington North, King's Co., House 16"]
+    },
+    {
+      "id": "thomas-greene",
+      "name": "Thomas Greene",
+      "born": { "year": "c.1871", "place": "Portarlington, King's County (Offaly)" },
+      "died": null,
+      "occupation": "Shop Porter (1901), Gentleman's Club Steward (1911)",
+      "religion": "Roman Catholic",
+      "notes": "Central figure of this research. Born on the Offaly side of Portarlington. Moved to Dublin by 1899. Served in the British Army — likely the Leinster Regiment during the Boer War (1899-1902). Married twice: first to Elizabeth (d. c.1912-1925), then to Bridget.",
+      "confidence": "high",
+      "sources": [
+        "1901 Census: Ranelagh Avenue, Rathmines & Rathgar East, Dublin (ID 1293881)",
+        "1911 Census: Clonliffe Avenue, Mountjoy, Dublin (ID 15408)"
+      ]
+    },
+    {
+      "id": "elizabeth-wife1",
+      "name": "Elizabeth Greene (née unknown)",
+      "born": { "year": "c.1864", "place": "County Dublin" },
+      "died": { "year": "c.1912-1925", "place": "Dublin (presumed)" },
+      "occupation": null,
+      "religion": "Roman Catholic",
+      "notes": "First wife of Thomas Greene. Seven years older than Thomas. Married c.1899 (12 years married in 1911 census). Three children born, three living in 1911. Maiden name unknown — her marriage record on IrishGenealogy.ie would reveal it.",
+      "confidence": "high",
+      "sources": [
+        "1901 Census: Ranelagh Avenue, Rathmines, Dublin",
+        "1911 Census: Clonliffe Avenue, Mountjoy, Dublin — 12 years married, 3 born, 3 living"
+      ]
+    },
+    {
+      "id": "bridget-wife2",
+      "name": "Bridget Greene (née unknown)",
+      "born": null,
+      "died": null,
+      "occupation": null,
+      "religion": null,
+      "notes": "Second wife of Thomas Greene. Married after the death of Elizabeth (first wife). Mother of John, Thomas, Brendan, and Eita.",
+      "confidence": "high",
+      "sources": ["Family oral history"]
+    },
+    {
+      "id": "thomas-jr",
+      "name": "Thomas Greene Jr",
+      "born": { "year": "c.1901", "place": "Dublin City" },
+      "died": null,
+      "occupation": "Scholar (1911)",
+      "religion": "Roman Catholic",
+      "notes": "Eldest child of Thomas and Elizabeth (first wife).",
+      "confidence": "high",
+      "sources": ["1911 Census: Clonliffe Avenue, Mountjoy, Dublin — age 10"]
+    },
+    {
+      "id": "patrick-greene",
+      "name": "Patrick Greene",
+      "born": { "year": "c.1903", "place": "Dublin City" },
+      "died": null,
+      "occupation": "Scholar (1911)",
+      "religion": "Roman Catholic",
+      "notes": "Second child of Thomas and Elizabeth (first wife).",
+      "confidence": "high",
+      "sources": ["1911 Census: Clonliffe Avenue, Mountjoy, Dublin — age 8"]
+    },
+    {
+      "id": "elizabeth-harris",
+      "name": "Elizabeth Harris (née Greene)",
+      "born": { "year": "c.1907", "place": "Dublin City" },
+      "died": null,
+      "occupation": "Nurse",
+      "religion": "Roman Catholic",
+      "notes": "Daughter of Thomas and Elizabeth (first wife). Married Mr. Harris and moved to the Channel Islands. Working as a nurse during the German Occupation (1940-1945). Deported c.1942 and interned at Biberach Internment Camp (Ilag V-B), Germany. Worked for two years at the Men's Hospital under Dr. A.W.H. Donaldson. Letter of recommendation written 21 May 1945, four weeks after liberation by French forces.",
+      "confidence": "high",
+      "sources": [
+        "1911 Census: Clonliffe Avenue, Mountjoy, Dublin — age 4",
+        "Letter of recommendation from Dr. A.W.H. Donaldson, M.B., D.P.H., Biberach Internment Camp, 21 May 1945"
+      ]
+    },
+    {
+      "id": "mary-bridget-greene",
+      "name": "Mary Bridget Greene",
+      "born": { "year": "1874", "place": "Portarlington, Laois" },
+      "died": { "year": "1966", "place": "Queens, New York, USA" },
+      "occupation": null,
+      "religion": "Roman Catholic",
+      "notes": "Daughter of Joseph Greene and Elizabeth Foran. Emigrated to the United States. If Thomas Greene is also a child of Joseph and Elizabeth Foran, Mary Bridget is Thomas's sister.",
+      "confidence": "high",
+      "sources": ["Ancestry.com record: Mary Bridget Greene, b.1874, d.1966, Queens NY"]
+    },
+    {
+      "id": "william-greene-shanderry",
+      "name": "William Greene",
+      "born": { "year": "c.1867", "place": "King's County (Offaly)" },
+      "died": null,
+      "occupation": "General Labourer",
+      "religion": "Roman Catholic",
+      "notes": "Living in Shanderry, Portarlington North. In 1901, his wife Johanna noted 'Husband Working in Dublin' — paralleling Thomas's presence in Dublin. Married Johanna c.1888. Six children. Possible brother of Thomas Greene.",
+      "confidence": "medium",
+      "sources": [
+        "1901 Census: Shanderry, Portarlington North, King's Co. (wife Johanna as head)",
+        "1911 Census: Shanderry, Portarlington North, King's Co. — 23 yrs married, 6 born, 6 living"
+      ]
+    }
+  ],
+  "couples": [
+    { "id": "c-joseph-elizabeth", "partner1": "joseph-greene", "partner2": "elizabeth-foran", "married": null, "confidence": "medium" },
+    { "id": "c-thomas-elizabeth1", "partner1": "thomas-greene", "partner2": "elizabeth-wife1", "married": { "year": "c.1899", "place": "Dublin" }, "confidence": "high" },
+    { "id": "c-thomas-bridget", "partner1": "thomas-greene", "partner2": "bridget-wife2", "married": { "year": "c.1920s", "place": "Dublin (presumed)" }, "confidence": "high" }
+  ],
+  "parentChild": [
+    { "parent": "joseph-greene", "child": "thomas-greene", "confidence": "medium" },
+    { "parent": "elizabeth-foran", "child": "thomas-greene", "confidence": "medium" },
+    { "parent": "joseph-greene", "child": "mary-bridget-greene", "confidence": "high" },
+    { "parent": "elizabeth-foran", "child": "mary-bridget-greene", "confidence": "high" },
+    { "parent": "thomas-greene", "child": "thomas-jr", "confidence": "high" },
+    { "parent": "elizabeth-wife1", "child": "thomas-jr", "confidence": "high" },
+    { "parent": "thomas-greene", "child": "patrick-greene", "confidence": "high" },
+    { "parent": "elizabeth-wife1", "child": "patrick-greene", "confidence": "high" },
+    { "parent": "thomas-greene", "child": "elizabeth-harris", "confidence": "high" },
+    { "parent": "elizabeth-wife1", "child": "elizabeth-harris", "confidence": "high" }
+  ],
+  "events": [
+    { "year": "c.1830s", "title": "Earliest Record", "description": "Thos Green appears in Tithe Applotment Books, Ballyburly, King's County — approximately 8km north of Portarlington.", "people": ["thos-green-ballyburly"] },
+    { "year": "c.1871", "title": "Thomas Greene Born", "description": "Born in Portarlington on the King's County (Offaly) side. Roman Catholic.", "people": ["thomas-greene"] },
+    { "year": "1874", "title": "Mary Bridget Greene Born", "description": "Born in Portarlington, Laois. Daughter of Joseph Greene and Elizabeth Foran.", "people": ["mary-bridget-greene"] },
+    { "year": "c.1889", "title": "Thomas Possibly Enlists", "description": "Thomas may have joined the British Army around age 18, likely the Prince of Wales's Leinster Regiment (Royal Canadians), which recruited heavily from King's and Queen's Counties.", "people": ["thomas-greene"] },
+    { "year": "c.1899", "title": "Thomas Marries Elizabeth", "description": "Thomas Greene marries Elizabeth (surname unknown) in Dublin. She is from County Dublin and approximately 7 years his senior.", "people": ["thomas-greene", "elizabeth-wife1"] },
+    { "year": "1899-1902", "title": "Second Boer War", "description": "The Leinster Regiment served in South Africa. Thomas may have served before or during this conflict. Both the 1st and 2nd Battalions saw action at Hammonia, Harrismith, Vrede, and Bethlehem.", "people": ["thomas-greene"] },
+    { "year": "1901", "title": "1901 Census", "description": "Thomas (30) and Elizabeth (30) recorded at Ranelagh Avenue, Rathmines & Rathgar East, Dublin. Thomas is a Shop Porter. No children yet.", "people": ["thomas-greene", "elizabeth-wife1"] },
+    { "year": "1911", "title": "1911 Census", "description": "Thomas (40) and Elizabeth (47) at Clonliffe Avenue, Mountjoy, Dublin. Thomas is now a Gentleman's Club Steward. Three children: Thomas Jr (10), Patrick (8), Elizabeth (4). Married 12 years. All children living.", "people": ["thomas-greene", "elizabeth-wife1", "thomas-jr", "patrick-greene", "elizabeth-harris"] },
+    { "year": "c.1930s", "title": "Elizabeth Moves to Channel Islands", "description": "Elizabeth Greene marries Mr. Harris and moves to the Channel Islands (likely Guernsey), where she works as a nurse.", "people": ["elizabeth-harris"] },
+    { "year": "1940", "title": "German Occupation", "description": "German forces occupy the Channel Islands on 30 June 1940. Elizabeth Harris is among approximately 66,000 civilians who remain.", "people": ["elizabeth-harris"] },
+    { "year": "1942", "title": "Deportation", "description": "On Hitler's direct orders, approximately 2,300 Channel Islands civilians are deported to internment camps in Germany. Those born outside the islands — including Elizabeth, born in Dublin — are targeted. Elizabeth is sent to Biberach Internment Camp (Ilag V-B) in southern Germany.", "people": ["elizabeth-harris"] },
+    { "year": "1943-1945", "title": "Biberach Internment", "description": "Elizabeth works as a nurse at the Men's Hospital of Biberach Internment Camp under Dr. A.W.H. Donaldson, M.B., D.P.H. Despite harsh conditions and rationed food, she is described as 'keen, energetic and efficient, and always cheerful.'", "people": ["elizabeth-harris"] },
+    { "year": "1945", "title": "Liberation", "description": "Biberach is liberated by the French First Army on 23 April 1945. On 21 May, Dr. Donaldson writes a glowing letter of recommendation for Nurse Harris, praising her nursing abilities, kindness, and even her cooking — 'her cakes and other dainties have been a god-send where the rationed food has been served up with so little of variety.'", "people": ["elizabeth-harris"] }
+  ]
+}
