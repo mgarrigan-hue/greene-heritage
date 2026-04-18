@@ -181,7 +181,7 @@
       "died": { "year": "2000", "place": "New Zealand" },
       "occupation": null,
       "religion": "Roman Catholic",
-      "notes": "Son of Thomas Greene and Bridget Clarke (second wife). Named after his father; middle name Patrick — likely after his half-brother Patrick who was living in the household when he was born. In the 1926 Census at York Street, Dublin, age just 9 months — a baby. CONFIRMED by NZ BDM: Death registration 2000/1764 — Thomas Patrick Greene, Date of Birth 21 July 1925. Emigrated to New Zealand where he married a Samoan woman and lived out his life. Died in 2000 in New Zealand. Had a number of children, descendants now living in New Zealand and Australia.",
+      "notes": "Son of Thomas Greene and Bridget Clarke (second wife). Full name Thomas Patrick Greene — middle name Patrick likely after his half-brother who shared the household. In the 1926 Census at York Street, Dublin, age just 9 months. CONFIRMED by NZ BDM: Death registration 2000/1764 — Thomas Patrick Greene, Date of Birth 21 July 1925. Emigrated to New Zealand where he married Margaret, a Samoan woman. Their marriage is post-1951 (outside NZ BDM 75-year historical records window). Died in 2000 in New Zealand. Had a number of children, descendants now living in New Zealand and Australia.",
       "confidence": "high",
       "sources": ["1926 Census: York Street, Dublin — Thomas Greene, Son, age 0y 9m", "NZ BDM Death Registration: 2000/1764 — Thomas Patrick Greene, DOB 21 July 1925", "Family oral history"]
     },
@@ -261,6 +261,17 @@
       "notes": "Mother of Bridget Greene (née Clarke). Found in the 1901 Census at Mullaghfin, Duleek DED, County Meath. Age 40, widowed, working as a General Labourer — an incredibly hard life for a woman with 6 children in rural Ireland. Could not read or write. Her children in the household: Rose (23), Patrick (18), Mary (12), Jane (10), Bridget (9), Agnes (5). Her husband (Bridget's father) had died before 1901 — his name is still unknown but would appear on their marriage record or on the children's birth certificates. Catherine's struggle as a labourer-widow explains why her daughter Bridget was placed in domestic service at Dundrum House, Tipperary at age 9.",
       "confidence": "high",
       "sources": ["1901 Census: Mullaghfin, Duleek DED, County Meath — Catherine Clarke, Head, age 40, Widow, General Labourer, Roman Catholic"]
+    },
+    {
+      "id": "margaret-greene-nz",
+      "name": "Margaret Greene",
+      "born": { "place": "Samoa" },
+      "died": null,
+      "occupation": null,
+      "religion": null,
+      "notes": "Wife of Thomas Patrick Greene (II). Samoan woman who married Thomas in New Zealand (post-1951, outside NZ BDM historical records window). Mother of Thomas and Margaret's children, descendants now in New Zealand and Australia.",
+      "confidence": "high",
+      "sources": ["Family oral history"]
     }
   ],
   "couples": [
@@ -268,7 +279,8 @@
     { "id": "c-thomas-elizabeth1", "partner1": "thomas-greene", "partner2": "elizabeth-wife1", "married": { "year": "c.1899", "place": "Dublin" }, "confidence": "high" },
     { "id": "c-thomas-bridget", "partner1": "thomas-greene", "partner2": "bridget-wife2", "married": { "year": "c.1920s", "place": "Dublin (presumed)" }, "confidence": "high" },
     { "id": "c-ita-john", "partner1": "eita-greene", "partner2": "john-donnelly", "married": { "year": "c.1950s-1960s", "place": "Dublin (presumed)" }, "confidence": "high" },
-    { "id": "c-mark-claire", "partner1": "mark-garrigan", "partner2": "claire-garrigan", "married": { "place": "Dublin" }, "confidence": "high" }
+    { "id": "c-mark-claire", "partner1": "mark-garrigan", "partner2": "claire-garrigan", "married": { "place": "Dublin" }, "confidence": "high" },
+    { "id": "c-thomas-ii-margaret", "partner1": "thomas-greene-ii", "partner2": "margaret-greene-nz", "married": { "place": "New Zealand" }, "confidence": "high" }
   ],
   "parentChild": [
     { "parent": "joseph-greene", "child": "thomas-greene", "confidence": "medium" },
