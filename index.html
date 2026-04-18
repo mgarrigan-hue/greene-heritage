@@ -11,10 +11,12 @@
   <meta property="og:url" content="https://greene.garrigan.me/">
   <meta property="og:image" content="https://images.unsplash.com/photo-1590089415225-401ed6f9db8e?w=1200">
   <meta name="description" content="Greene Family Heritage — tracing the Greene lineage from 1830s Portarlington, Ireland through Dublin, the Channel Islands, and WWII Biberach internment camp.">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 </head>
 <body>
   <nav>
@@ -138,6 +140,19 @@
         [48.098, 9.787]
       ], { color: gold, weight: 2, opacity: 0.6, dashArray: '10,10' }).addTo(map);
     })();
+
+    // GSAP scroll-triggered card animations
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.utils.toArray('.card').forEach((card, i) => {
+      gsap.from(card, {
+        scrollTrigger: { trigger: card, start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 0,
+        y: 40,
+        duration: 0.6,
+        delay: i * 0.1,
+        ease: 'power2.out'
+      });
+    });
   </script>
 </body>
 </html>
