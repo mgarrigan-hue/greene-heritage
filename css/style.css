@@ -411,9 +411,16 @@ footer {
   .hero .subtitle { font-size: 1rem; }
   .hero-cinematic h1 { font-size: 2.4rem; }
   .hero-cinematic .subtitle { font-size: 1rem; }
-  .hero-cinematic { background-attachment: scroll; }
-  .card-grid { grid-template-columns: 1fr; }
+  .hero-cinematic { min-height: 60vh; background-attachment: scroll; }
+  .card-grid { grid-template-columns: 1fr; gap: 1rem; }
+  .card { overflow-wrap: break-word; word-break: break-word; }
   .container { padding: 1rem; }
+
+  .timeline { padding-left: 1.5rem; }
+  .timeline-event { padding-left: 1rem; }
+  .timeline-event::before { left: -1.85rem; width: 10px; height: 10px; }
+
+  #map-container { height: 300px !important; }
 
   .nav-toggle { display: block; }
   nav .nav-inner { flex-wrap: nowrap; }
@@ -427,7 +434,67 @@ footer {
   }
   nav .nav-links.open {
     display: flex;
+    border-top: 1px solid rgba(201,169,89,0.2);
+    padding-top: 0.75rem;
+    margin-top: 0.5rem;
   }
+
+  #tree-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    min-height: 400px;
+    position: relative;
+  }
+  #tree-container::after {
+    content: '\2190 Scroll to explore \2192';
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    background: rgba(26,26,46,0.9);
+    padding: 4px 12px;
+    border-radius: 12px;
+    pointer-events: none;
+    z-index: 5;
+  }
+
+  .leaflet-marker-icon, .leaflet-interactive { min-width: 44px; min-height: 44px; }
+}
+
+/* Touch-friendly: remove hover effects on touch devices */
+@media (hover: none) {
+  .card:hover {
+    transform: none;
+    box-shadow: none;
+    border-color: rgba(201,169,89,0.2);
+  }
+  .card:active {
+    border-color: var(--color-gold);
+    background: rgba(201,169,89,0.05);
+  }
+  a:hover {
+    background-size: 0% 1px;
+  }
+}
+
+/* Safe area for notched phones */
+@supports (padding: env(safe-area-inset-bottom)) {
+  nav { padding-left: max(2rem, env(safe-area-inset-left)); padding-right: max(2rem, env(safe-area-inset-right)); }
+  .container { padding-left: max(1rem, env(safe-area-inset-left)); padding-right: max(1rem, env(safe-area-inset-right)); }
+  footer { padding-bottom: max(2rem, env(safe-area-inset-bottom)); }
+}
+
+/* Small phones */
+@media (max-width: 380px) {
+  .hero-cinematic h1 { font-size: 1.8rem; }
+  .hero-cinematic .subtitle { font-size: 0.9rem; }
+  h2 { font-size: 1.5rem; }
+  .card { padding: 1rem; }
+  .card .card-name { font-size: 1.05rem; }
+  nav .site-title { font-size: 1.1rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
