@@ -26,10 +26,12 @@
         <a href="people.html">People</a>
         <a href="timeline.html">Timeline</a>
         <a href="tree.html" class="active">Family Tree</a>
+        <span class="nav-divider"></span>
         <a href="portarlington.html">Portarlington</a>
+        <a href="dublin.html">Dublin</a>
+        <span class="nav-divider"></span>
         <a href="military.html">Military</a>
         <a href="elizabeth.html">Elizabeth's Story</a>
-        <a href="dublin.html">Dublin</a>
         <a href="catherine.html">Catherine's Story</a>
       </div>
     </div>
@@ -47,6 +49,7 @@
       <span class="confidence-badge confidence-low">low</span>
       — indicates confidence level of the relationship
     </p>
+    <div id="tree-mobile" class="tree-mobile-view"></div>
     <div id="tree-container"></div>
   </div>
 
@@ -56,12 +59,96 @@
 
   <footer>
     <p>Greene Family Heritage Research &copy; 2026 | A project by Mark Garrigan</p>
+    <p style="margin-top:0.5rem;"><a href="about.html" style="color:var(--color-gold);">About This Research</a></p>
   </footer>
 
   <script src="js/app.js"></script>
   <script>
     loadFamilyData().then(data => {
       buildTree(data);
+
+      // Mobile tree alternative
+      function buildMobileTree(data) {
+        const container = document.getElementById('tree-mobile');
+        if (!container) return;
+
+        const generations = [
+          {
+            title: "🌱 Ancestors (1800s)",
+            people: [
+              { id: "thos-green-ballyburly" },
+              { id: "catherine-clarke" },
+              { id: "joseph-greene", indent: 1 },
+              { id: "elizabeth-foran", indent: 1, relation: "wife of Joseph" }
+            ]
+          },
+          {
+            title: "⚔️ Thomas's Generation",
+            people: [
+              { id: "thomas-greene" },
+              { id: "elizabeth-wife1", indent: 1, relation: "1st wife" },
+              { id: "bridget-wife2", indent: 1, relation: "2nd wife, daughter of Catherine Clarke" }
+            ]
+          },
+          {
+            title: "👨‍👩‍👧‍👦 The Children",
+            people: [
+              { id: "thomas-jr", indent: 1, relation: "son (1st marriage)" },
+              { id: "patrick-greene", indent: 1, relation: "son (1st marriage)" },
+              { id: "elizabeth-harris", indent: 1, relation: "daughter (1st marriage) → Biberach" },
+              { id: "john-greene", indent: 1, relation: "son (2nd marriage)" },
+              { id: "thomas-greene-ii", indent: 1, relation: "son (2nd marriage) → New Zealand" },
+              { id: "margaret-greene-nz", indent: 2, relation: "wife of Thomas II (Samoan)" },
+              { id: "brendan-greene", indent: 1, relation: "son (2nd marriage)" },
+              { id: "eita-greene", indent: 1, relation: "daughter (2nd marriage) ★" }
+            ]
+          },
+          {
+            title: "💍 Ita & John Donnelly's Family",
+            people: [
+              { id: "john-donnelly", relation: "Ita's husband" },
+              { id: "ann-donnelly", indent: 1 },
+              { id: "paul-donnelly-inlaw", indent: 2, relation: "Ann's husband" },
+              { id: "john-donnelly-jr", indent: 1 },
+              { id: "josette-donnelly", indent: 2, relation: "John Jr's wife" },
+              { id: "sheila-donnelly", indent: 1 },
+              { id: "robbie-donnelly-inlaw", indent: 2, relation: "Sheila's husband" },
+              { id: "ger-donnelly", indent: 1 },
+              { id: "emily-donnelly", indent: 2, relation: "Ger's wife" }
+            ]
+          },
+          {
+            title: "🏠 Present Day",
+            people: [
+              { id: "claire-garrigan", indent: 1, relation: "daughter of Ann" },
+              { id: "mark-garrigan", indent: 1, relation: "Claire's husband — researcher" }
+            ]
+          }
+        ];
+
+        let html = '';
+        generations.forEach(gen => {
+          html += '<div class="tree-gen">';
+          html += '<div class="tree-gen-title" onclick="this.classList.toggle(\'collapsed\'); this.nextElementSibling.style.display = this.classList.contains(\'collapsed\') ? \'none\' : \'block\'">' + gen.title + '</div>';
+          html += '<div class="tree-gen-people">';
+          gen.people.forEach(entry => {
+            const p = data.people.find(x => x.id === entry.id);
+            if (!p) return;
+            const indent = entry.indent ? ' indent-' + entry.indent : '';
+            const dates = p.born ? (p.born.year || '') + (p.died ? ' — ' + (p.died.year || '?') : '') : '';
+            html += '<div class="tree-person' + indent + '" onclick="showPersonModal(\'' + p.id + '\')">';
+            html += '<div class="tree-person-name">' + p.name + '</div>';
+            if (dates) html += '<div class="tree-person-dates">' + dates + '</div>';
+            if (entry.relation) html += '<div class="tree-person-relation">' + entry.relation + '</div>';
+            html += '</div>';
+          });
+          html += '</div></div>';
+        });
+
+        container.innerHTML = html;
+      }
+
+      buildMobileTree(data);
     });
 
     function buildTree(data) {

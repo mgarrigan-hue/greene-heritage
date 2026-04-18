@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About This Research — Greene Family Heritage</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☘️</text></svg>">
+  <meta property="og:title" content="About This Research — Greene Family Heritage">
+  <meta property="og:description" content="How we traced seven generations from 1830s Offaly to the present day.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://greene.garrigan.me/about.html">
+  <meta name="description" content="About the Greene Family Heritage research project — sources, methods, discoveries, and technology.">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+  <nav>
+    <div class="nav-inner">
+      <span class="site-title">☘ Greene Heritage</span>
+      <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="people.html">People</a>
+        <a href="timeline.html">Timeline</a>
+        <a href="tree.html">Family Tree</a>
+        <a href="portarlington.html">Portarlington</a>
+        <a href="military.html">Military</a>
+        <a href="elizabeth.html">Elizabeth's Story</a>
+        <a href="dublin.html">Dublin</a>
+        <a href="catherine.html">Catherine's Story</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero-cinematic" style="min-height:40vh;background-image:url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1920');">
+    <h1>About This Research</h1>
+    <p class="subtitle">How we traced seven generations from 1830s Offaly to the present day</p>
+  </div>
+
+  <div class="container">
+    <h2>The Project</h2>
+    <p>This website documents an ongoing genealogical research project tracing the Greene and Clarke families from rural Ireland through Dublin and across the world. The project was started by Mark Garrigan, who married into the family through his wife Claire (née Donnelly), great-granddaughter of Thomas Christopher Greene and Bridget Clarke.</p>
+
+    <h2 style="margin-top:2.5rem;">Sources &amp; Methods</h2>
+    <ul style="margin:1rem 0 1rem 1.5rem; line-height:2;">
+      <li>Irish Census records (1901, 1911, 1926) from the National Archives of Ireland</li>
+      <li>Civil registration certificates (births, marriages, deaths) from the General Register Office</li>
+      <li>RIP.ie death notices and Massey Bros funeral notices for recent family members</li>
+      <li>New Zealand Births, Deaths &amp; Marriages historical records</li>
+      <li>Ancestry.com marriage indexes</li>
+      <li>Tithe Applotment Books and Griffith's Valuation for pre-1864 records</li>
+      <li>The 1926 Census was released on 18 April 2026 — the exact centenary of enumeration day — and several key discoveries were made on launch day</li>
+      <li>Browser automation (Playwright) was used to search JavaScript-rendered census databases programmatically</li>
+    </ul>
+
+    <h2 style="margin-top:2.5rem;">What We Found</h2>
+    <p>Summary stats: 30 people across 7 generations, from Thos Green of Ballyburly (1830s) to Mark &amp; Claire Garrigan. 24 timeline events spanning 1830s to 2025. Key discoveries include Thomas at Switzers, Catherine Clarke in Mullaghfin, Thomas Patrick Greene's NZ death record, Elizabeth Harris at Biberach, and Bridget's journey from a 9-year-old servant to a Dublin matriarch.</p>
+
+    <h2 style="margin-top:2.5rem;">What We're Still Looking For</h2>
+    <ul style="margin:1rem 0 1rem 1.5rem; line-height:2;">
+      <li>Thomas's 1899 marriage certificate on IrishGenealogy.ie — would name Elizabeth's maiden name and Thomas's father</li>
+      <li>Thomas &amp; Bridget marriage certificate (c.1920–1923) — would name Bridget's father</li>
+      <li>Elizabeth Harris's Arolsen Archives internment records</li>
+      <li>Military service records for Thomas's Leinster Regiment service</li>
+      <li>Catherine Clarke's husband's name</li>
+    </ul>
+
+    <h2 style="margin-top:2.5rem;">Technology</h2>
+    <p>Built with HTML, CSS, JavaScript. D3.js for the family tree. Leaflet.js for the interactive map. GSAP for scroll animations. Hosted on GitHub Pages. Data stored in a single family.json file. All source code available at <a href="https://github.com/mgarrigan-hue/greene-heritage">github.com/mgarrigan-hue/greene-heritage</a>.</p>
+  </div>
+
+  <footer>
+    <p>Greene Family Heritage Research &copy; 2026 | A project by Mark Garrigan</p>
+    <p style="margin-top:0.5rem;"><a href="about.html" style="color:var(--color-gold);">About This Research</a></p>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script>
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.utils.toArray('.card, .timeline-event, h3, blockquote').forEach(el => {
+      gsap.from(el, {
+        scrollTrigger: { trigger: el, start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 0, y: 30, duration: 0.6, ease: 'power2.out'
+      });
+    });
+  </script>
+</body>
+</html>

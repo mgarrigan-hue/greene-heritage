@@ -25,10 +25,12 @@
         <a href="people.html">People</a>
         <a href="timeline.html" class="active">Timeline</a>
         <a href="tree.html">Family Tree</a>
+        <span class="nav-divider"></span>
         <a href="portarlington.html">Portarlington</a>
+        <a href="dublin.html">Dublin</a>
+        <span class="nav-divider"></span>
         <a href="military.html">Military</a>
         <a href="elizabeth.html">Elizabeth's Story</a>
-        <a href="dublin.html">Dublin</a>
         <a href="catherine.html">Catherine's Story</a>
       </div>
     </div>
@@ -48,19 +50,51 @@
 
   <footer>
     <p>Greene Family Heritage Research &copy; 2026 | A project by Mark Garrigan</p>
+    <p style="margin-top:0.5rem;"><a href="about.html" style="color:var(--color-gold);">About This Research</a></p>
   </footer>
 
   <script src="js/app.js"></script>
   <script>
+    const ERAS = [
+      { title: "Origins", from: 0, to: 1883, icon: "🌱" },
+      { title: "Soldier & Settler", from: 1884, to: 1910, icon: "⚔️" },
+      { title: "Dublin Years", from: 1911, to: 1945, icon: "🏙️" },
+      { title: "Later Years", from: 1946, to: 1999, icon: "🏠" },
+      { title: "Living Memory", from: 2000, to: 2099, icon: "🕊️" }
+    ];
+
+    function parseYear(yearStr) {
+      const match = String(yearStr).match(/(\d{4})/);
+      return match ? parseInt(match[1]) : 0;
+    }
+
     loadFamilyData().then(data => {
       const tl = document.getElementById('timeline');
-      tl.innerHTML = data.events.map(e => `
-        <div class="timeline-event">
-          <div class="event-year">${e.year}</div>
-          <div class="event-title">${e.title}</div>
-          <div class="event-desc">${e.description}</div>
-        </div>
-      `).join('');
+      let html = '';
+
+      ERAS.forEach(era => {
+        const events = data.events.filter(e => {
+          const y = parseYear(e.year);
+          return y >= era.from && y <= era.to;
+        });
+
+        if (events.length > 0) {
+          html += `<div style="margin: 2.5rem 0 1.5rem; padding: 0.75rem 0; border-bottom: 2px solid rgba(201,169,89,0.3);">
+            <span style="font-size: 1.5rem; margin-right: 0.5rem;">${era.icon}</span>
+            <span style="font-family: var(--font-heading); font-size: 1.3rem; color: var(--color-gold);">${era.title}</span>
+          </div>`;
+
+          html += events.map(e => `
+            <div class="timeline-event">
+              <div class="event-year">${e.year}</div>
+              <div class="event-title">${e.title}</div>
+              <div class="event-desc">${e.description}</div>
+            </div>
+          `).join('');
+        }
+      });
+
+      tl.innerHTML = html;
     });
   </script>
   <script>

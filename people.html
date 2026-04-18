@@ -25,10 +25,12 @@
         <a href="people.html" class="active">People</a>
         <a href="timeline.html">Timeline</a>
         <a href="tree.html">Family Tree</a>
+        <span class="nav-divider"></span>
         <a href="portarlington.html">Portarlington</a>
+        <a href="dublin.html">Dublin</a>
+        <span class="nav-divider"></span>
         <a href="military.html">Military</a>
         <a href="elizabeth.html">Elizabeth's Story</a>
-        <a href="dublin.html">Dublin</a>
         <a href="catherine.html">Catherine's Story</a>
       </div>
     </div>
@@ -54,10 +56,34 @@
 
   <footer>
     <p>Greene Family Heritage Research &copy; 2026 | A project by Mark Garrigan</p>
+    <p style="margin-top:0.5rem;"><a href="about.html" style="color:var(--color-gold);">About This Research</a></p>
   </footer>
 
   <script src="js/app.js"></script>
   <script>
+    const GENERATIONS = [
+      {
+        title: "Ancestors (1800s–1870s)",
+        ids: ["thos-green-ballyburly", "joseph-greene", "elizabeth-foran", "lucy-greene", "catherine-clarke"]
+      },
+      {
+        title: "Thomas's Generation (1860s–1890s)",
+        ids: ["thomas-greene", "elizabeth-wife1", "bridget-wife2", "christopher-waters", "william-greene-shanderry", "mary-bridget-greene"]
+      },
+      {
+        title: "The Children (1900s–1930s)",
+        ids: ["thomas-jr", "patrick-greene", "elizabeth-harris", "john-greene", "thomas-greene-ii", "brendan-greene", "eita-greene", "margaret-greene-nz"]
+      },
+      {
+        title: "The Donnelly Family",
+        ids: ["john-donnelly", "ann-donnelly", "paul-donnelly-inlaw", "john-donnelly-jr", "josette-donnelly", "sheila-donnelly", "robbie-donnelly-inlaw", "ger-donnelly", "emily-donnelly"]
+      },
+      {
+        title: "Present Day",
+        ids: ["claire-garrigan", "mark-garrigan"]
+      }
+    ];
+
     loadFamilyData().then(data => {
       renderAll();
       document.getElementById('search-box').addEventListener('input', e => {
@@ -67,10 +93,34 @@
 
     function renderAll(filter = '') {
       const grid = document.getElementById('people-grid');
-      const people = familyData.people.filter(p =>
-        !filter || p.name.toLowerCase().includes(filter)
+      let html = '';
+
+      GENERATIONS.forEach(gen => {
+        const people = gen.ids
+          .map(id => familyData.people.find(p => p.id === id))
+          .filter(p => p && (!filter || p.name.toLowerCase().includes(filter)));
+
+        if (people.length > 0) {
+          html += `<div style="grid-column: 1 / -1; margin-top: 1.5rem;">
+            <h3 style="color: var(--color-gold); font-family: var(--font-heading); border-bottom: 1px solid rgba(201,169,89,0.2); padding-bottom: 0.5rem;">${gen.title}</h3>
+          </div>`;
+          html += people.map(p => renderPersonCard(p)).join('');
+        }
+      });
+
+      // Any people not in GENERATIONS (safety net)
+      const allGenIds = GENERATIONS.flatMap(g => g.ids);
+      const ungrouped = familyData.people.filter(p =>
+        !allGenIds.includes(p.id) && (!filter || p.name.toLowerCase().includes(filter))
       );
-      grid.innerHTML = people.map(p => renderPersonCard(p)).join('');
+      if (ungrouped.length > 0) {
+        html += `<div style="grid-column: 1 / -1; margin-top: 1.5rem;">
+          <h3 style="color: var(--color-gold); font-family: var(--font-heading);">Other</h3>
+        </div>`;
+        html += ungrouped.map(p => renderPersonCard(p)).join('');
+      }
+
+      grid.innerHTML = html;
     }
   </script>
   <script>

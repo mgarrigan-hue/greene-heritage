@@ -88,6 +88,46 @@ nav .nav-links a:hover, nav .nav-links a.active { color: var(--color-gold); text
 }
 .nav-toggle:hover { background: rgba(201,169,89,0.15); }
 
+.nav-divider {
+  display: none;
+}
+
+/* Story navigation */
+.story-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 3rem 0 1rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(201,169,89,0.2);
+}
+.story-nav a {
+  display: block;
+  padding: 1rem;
+  background: var(--color-surface);
+  border: 1px solid rgba(201,169,89,0.2);
+  border-radius: 8px;
+  max-width: 48%;
+  transition: border-color 0.3s;
+}
+.story-nav a:hover {
+  border-color: var(--color-gold);
+  background-size: 0% 1px;
+}
+.story-nav .nav-label {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.story-nav .nav-title {
+  font-family: var(--font-heading);
+  color: var(--color-gold);
+  font-size: 1rem;
+  margin-top: 0.25rem;
+}
+.story-nav .next { margin-left: auto; text-align: right; }
+
 /* Hero (legacy) */
 .hero {
   background: linear-gradient(135deg, var(--color-surface), var(--color-bg));
@@ -394,6 +434,59 @@ blockquote strong { color: var(--color-text); font-style: normal; }
 }
 .modal h3 { color: var(--color-gold); margin-top: 0; }
 
+/* Mobile tree alternative */
+.tree-mobile-view {
+  display: none;
+}
+
+.tree-gen {
+  margin-bottom: 1.5rem;
+}
+.tree-gen-title {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  color: var(--color-gold);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(201,169,89,0.2);
+  margin-bottom: 0.75rem;
+  cursor: pointer;
+}
+.tree-gen-title::after {
+  content: ' ▾';
+  font-size: 0.8rem;
+}
+.tree-gen-title.collapsed::after {
+  content: ' ▸';
+}
+.tree-person {
+  padding: 0.6rem 0.75rem;
+  margin: 0.3rem 0;
+  background: var(--color-surface);
+  border-left: 3px solid var(--color-gold);
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.tree-person:active {
+  background: rgba(201,169,89,0.1);
+}
+.tree-person-name {
+  font-weight: 600;
+  color: var(--color-text);
+}
+.tree-person-dates {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+.tree-person-relation {
+  font-size: 0.8rem;
+  color: var(--color-gold);
+  font-style: italic;
+}
+.tree-person.indent-1 { margin-left: 1.5rem; border-left-color: #4caf50; }
+.tree-person.indent-2 { margin-left: 3rem; border-left-color: #ff9800; }
+.tree-person.indent-3 { margin-left: 4.5rem; border-left-color: #7ec8e3; }
+
 /* Footer */
 footer {
   background: var(--color-surface);
@@ -461,7 +554,17 @@ footer {
     z-index: 5;
   }
 
+  .tree-mobile-view { display: block; }
+  #tree-container { display: none; }
+
   .leaflet-marker-icon, .leaflet-interactive { min-width: 44px; min-height: 44px; }
+
+  .nav-divider {
+    display: block;
+    height: 1px;
+    background: rgba(201,169,89,0.15);
+    margin: 0.25rem 0;
+  }
 }
 
 /* Touch-friendly: remove hover effects on touch devices */
