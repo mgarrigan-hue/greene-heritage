@@ -53,14 +53,16 @@
     {
       "id": "thomas-greene",
       "name": "Thomas Christopher Greene",
-      "born": { "year": "c.1871", "place": "Portarlington, King's County (Offaly)" },      "died": null,
-      "occupation": "Shop Porter (1901), Gentleman's Club Steward (1911)",
+      "born": { "year": "c.1870", "place": "Portarlington, King's County (Offaly)" },
+      "died": { "year": "1951", "place": "38 Goldenbridge Ave, Inchicore, Dublin", "date": "6 December 1951" },
+      "occupation": "Shop Porter (1901), Gentleman's Club Steward (1911), Warehouse Porter (1951)",
       "religion": "Roman Catholic",
-      "notes": "Central figure of this research. Full name Thomas Christopher Greene (discovered from Ancestry marriage index). Born on the Offaly side of Portarlington. Moved to Dublin by 1899. Lied about his age to enlist in the British Army at around age 14 (~1885) — likely the Prince of Wales's Leinster Regiment (Royal Canadians), headquartered at Birr Barracks, ~25 miles from Portarlington. Underage enlistment was common in the late Victorian army. May have served during the Boer War (1899-1902). Married twice: first to Elizabeth (d. c.1912-1925), then to Bridget. Marriage registered Dublin South, 1899, Vol 2, Page 593.",
+      "notes": "Central figure of this research. Full name Thomas Christopher Greene (discovered from Ancestry marriage index). Born c.1870 on the Offaly side of Portarlington (age 81 at death in 1951). Moved to Dublin by 1899. Lied about his age to enlist in the British Army at around age 14 (~1884) — likely the Prince of Wales's Leinster Regiment (Royal Canadians), headquartered at Birr Barracks, ~25 miles from Portarlington. Underage enlistment was common in the late Victorian army. May have served during the Boer War (1899-1902). Married twice: first to Elizabeth (d. c.1912-1925), then to Bridget Clarke. Marriage registered Dublin South, 1899, Vol 2, Page 593. Died 6 December 1951 at 38 Goldenbridge Avenue, Inchicore, Dublin, age 81. Cause of death: carcinoma of stomach, cachexia, cardiac failure. Death registered by his son John Greene, who was living at the same address. Still listed as 'Warehouse Porter' at death — a working man to the end.",
       "confidence": "high",
       "sources": [
         "1901 Census: Ranelagh Avenue, Rathmines & Rathgar East, Dublin (ID 1293881)",
-        "1911 Census: Clonliffe Avenue, Mountjoy, Dublin (ID 15408)"
+        "1911 Census: Clonliffe Avenue, Mountjoy, Dublin (ID 15408)",
+        "Death Certificate: Entry 486, 6 December 1951, registered Dublin South, Registrar M. Ryan"
       ]
     },
     {
@@ -159,6 +161,17 @@
       "notes": "In the 1911 Census, Christopher Waters (33) is head of a Dublin household. Physician and Surgeon, married 6 years to Mary A. (28, born Bolton, Lancashire, England). Two daughters: Margaret (3½) and a second daughter (2½), both born in England. The household included lodger Bridget McDonnell (22, from Limerick) and servant Bridget Clarke (19, from Dublin) — who later became Thomas Greene's second wife. This places Bridget Clarke in a professional Dublin household before her marriage to Thomas.",
       "confidence": "high",
       "sources": ["1911 Census: Dublin — Christopher Waters household, Form A, page 50"]
+    },
+    {
+      "id": "john-greene",
+      "name": "John Greene",
+      "born": { "year": "c.1920s", "place": "Dublin" },
+      "died": null,
+      "occupation": null,
+      "religion": "Roman Catholic",
+      "notes": "Son of Thomas Greene and Bridget Clarke (second wife). Living at 38 Goldenbridge Avenue, Inchicore, Dublin in 1951. Registered his father Thomas's death on 7 December 1951.",
+      "confidence": "high",
+      "sources": ["Death Certificate of Thomas Greene, Entry 486, 6 December 1951 — informant: John Greene, Son"]
     }
   ],
   "couples": [
@@ -176,13 +189,15 @@
     { "parent": "thomas-greene", "child": "patrick-greene", "confidence": "high" },
     { "parent": "elizabeth-wife1", "child": "patrick-greene", "confidence": "high" },
     { "parent": "thomas-greene", "child": "elizabeth-harris", "confidence": "high" },
-    { "parent": "elizabeth-wife1", "child": "elizabeth-harris", "confidence": "high" }
+    { "parent": "elizabeth-wife1", "child": "elizabeth-harris", "confidence": "high" },
+    { "parent": "thomas-greene", "child": "john-greene", "confidence": "high" },
+    { "parent": "bridget-wife2", "child": "john-greene", "confidence": "high" }
   ],
   "events": [
     { "year": "c.1830s", "title": "Earliest Record", "description": "Thos Green appears in Tithe Applotment Books, Ballyburly, King's County — approximately 8km north of Portarlington.", "people": ["thos-green-ballyburly"] },
-    { "year": "c.1871", "title": "Thomas Greene Born", "description": "Born in Portarlington on the King's County (Offaly) side. Roman Catholic.", "people": ["thomas-greene"] },
+    { "year": "c.1870", "title": "Thomas Greene Born", "description": "Born in Portarlington on the King's County (Offaly) side. Roman Catholic. Age 81 at death in December 1951, placing his birth at c.1870.", "people": ["thomas-greene"] },
     { "year": "1874", "title": "Mary Bridget Greene Born", "description": "Born in Portarlington, Laois. Daughter of Joseph Greene and Elizabeth Foran.", "people": ["mary-bridget-greene"] },
-    { "year": "c.1885", "title": "Thomas Enlists Underage", "description": "Thomas lied about his age and enlisted in the British Army at around age 14 — a practice that was remarkably common in the late Victorian army, especially among boys from poor rural backgrounds with few prospects. He likely joined the Prince of Wales's Leinster Regiment (Royal Canadians) at Birr Barracks, just 25 miles from Portarlington.", "people": ["thomas-greene"] },
+    { "year": "c.1884", "title": "Thomas Enlists Underage", "description": "Thomas lied about his age and enlisted in the British Army at around age 14 — a practice that was remarkably common in the late Victorian army, especially among boys from poor rural backgrounds with few prospects. He likely joined the Prince of Wales's Leinster Regiment (Royal Canadians) at Birr Barracks, just 25 miles from Portarlington.", "people": ["thomas-greene"] },
     { "year": "c.1899", "title": "Thomas Marries Elizabeth", "description": "Thomas Greene marries Elizabeth (surname unknown) in Dublin. She is from County Dublin and approximately 7 years his senior.", "people": ["thomas-greene", "elizabeth-wife1"] },
     { "year": "1899-1902", "title": "Second Boer War", "description": "The Leinster Regiment served in South Africa. Thomas may have served before or during this conflict. Both the 1st and 2nd Battalions saw action at Hammonia, Harrismith, Vrede, and Bethlehem.", "people": ["thomas-greene"] },
     { "year": "1901", "title": "1901 Census", "description": "Thomas (30) and Elizabeth (30) recorded at Ranelagh Avenue, Rathmines & Rathgar East, Dublin. Thomas is a Shop Porter. No children yet.", "people": ["thomas-greene", "elizabeth-wife1"] },
@@ -192,6 +207,7 @@
     { "year": "1940", "title": "German Occupation", "description": "German forces occupy the Channel Islands on 30 June 1940. Elizabeth Harris is among approximately 66,000 civilians who remain.", "people": ["elizabeth-harris"] },
     { "year": "1942", "title": "Deportation", "description": "On Hitler's direct orders, approximately 2,300 Channel Islands civilians are deported to internment camps in Germany. Those born outside the islands — including Elizabeth, born in Dublin — are targeted. Elizabeth is sent to Biberach Internment Camp (Ilag V-B) in southern Germany.", "people": ["elizabeth-harris"] },
     { "year": "1943-1945", "title": "Biberach Internment", "description": "Elizabeth works as a nurse at the Men's Hospital of Biberach Internment Camp under Dr. A.W.H. Donaldson, M.B., D.P.H. Despite harsh conditions and rationed food, she is described as 'keen, energetic and efficient, and always cheerful.'", "people": ["elizabeth-harris"] },
-    { "year": "1945", "title": "Liberation", "description": "Biberach is liberated by the French First Army on 23 April 1945. On 21 May, Dr. Donaldson writes a glowing letter of recommendation for Nurse Harris, praising her nursing abilities, kindness, and even her cooking — 'her cakes and other dainties have been a god-send where the rationed food has been served up with so little of variety.'", "people": ["elizabeth-harris"] }
+    { "year": "1945", "title": "Liberation", "description": "Biberach is liberated by the French First Army on 23 April 1945. On 21 May, Dr. Donaldson writes a glowing letter of recommendation for Nurse Harris, praising her nursing abilities, kindness, and even her cooking — 'her cakes and other dainties have been a god-send where the rationed food has been served up with so little of variety.'", "people": ["elizabeth-harris"] },
+    { "year": "1951", "title": "Thomas Greene Dies", "description": "Thomas Christopher Greene dies on 6 December 1951, age 81, at 38 Goldenbridge Avenue, Inchicore, Dublin. Cause of death: carcinoma of the stomach, cachexia, cardiac failure. Still listed as a Warehouse Porter — a working man to the very end. His death was registered the following day by his son John Greene, who was living at the same address. Registrar: M. Ryan.", "people": ["thomas-greene", "john-greene"] }
   ]
 }
