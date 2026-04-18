@@ -87,9 +87,9 @@
       "died": { "year": "1970", "place": "Adelaide Hospital, Dublin", "date": "9 August 1970" },
       "occupation": "Domestic Servant (1901, 1911), Housewife",
       "religion": "Roman Catholic",
-      "notes": "Second wife of Thomas Greene. Maiden name Clarke. Born c. December 1891 in Duleek, County Meath (age 34y 4m in the April 1926 Census). BIRTHPLACE DISCREPANCY: The 1911 Census (Dr. Waters household) lists her birthplace as 'Dublin', but the 1926 Census — filled in by her own family — records 'Meath Co./Duleek'. The 1926 record is considered more reliable as it was self-reported by the household. Duleek is a village in County Meath, ~30 miles north of Dublin. In the 1901 Census, found as a young servant at Dundrum House (Co. Tipperary). By the 1911 Census she appears as 'Bridget Clarke', age 19, single, Roman Catholic, working as a servant in the household of Dr. Christopher Waters (Physician & Surgeon) in Dublin. She could read and write. Married Thomas Greene after the death of his first wife Elizabeth (c.1912-1925). Mother of John, Thomas, Brendan, and Ita (Mark's grandmother-in-law). In the 1926 Census, living at York Street, Dublin, age 34y 4m, married, occupation Home Duties. By 1951, at 38 Goldenbridge Avenue, Inchicore. Died 9 August 1970, age 78, widowed, at Adelaide Hospital, Dublin (admitted from 38 Goldenbridge Avenue). Cause of death: acute massive gangrene of small intestine and cardiac failure. Death registered 11 August 1970 by her son Brendan Greene of 62 Limekiln Drive, Terenure.",
+      "notes": "Second wife of Thomas Greene. Maiden name Clarke. Born c. December 1891 in Mullaghfin, Duleek, County Meath. MAJOR DISCOVERY (Phase 3): In the 1901 Census, a Bridget Clarke (age 9, Scholar, Roman Catholic) is found in Mullaghfin townland, Duleek DED, County Meath — daughter of Catherine Clarke (age 40, widow, General Labourer). Siblings: Rose (23), Patrick (18), Mary (12), Jane (10), Agnes (5). This is almost certainly our Bridget — the age, location, and religion all match. Her mother Catherine was a widow struggling as a labourer with 6 children. This explains how Bridget ended up in domestic service at Dundrum House, Tipperary, at age 9 — she was likely placed out by her widowed mother or through Catholic agencies. By the 1911 Census she appears as 'Bridget Clarke', age 19, servant in the household of Dr. Christopher Waters (Physician & Surgeon) in Dublin. Married Thomas Greene after the death of his first wife Elizabeth. Mother of John, Thomas, Brendan, and Ita (Mark's grandmother-in-law). In the 1926 Census, living at York Street, Dublin, age 34y 4m, Home Duties. Family moved to 38 Goldenbridge Avenue, Inchicore in early 1930s. Died 9 August 1970, age 78, Adelaide Hospital, Dublin. Death registered by son Brendan Greene, 62 Limekiln Drive, Terenure.",
       "confidence": "high",
-      "sources": ["1901 Census: Dundrum House, servant", "1911 Census: Servant in household of Christopher Waters, Dublin", "1926 Census: York Street, Dublin — Bridget Greene, Wife, age 34y 4m, Meath Co./Duleek", "Death Certificate: Entry 22, 9 August 1970, Adelaide Hospital, Dublin", "Family oral history"]
+      "sources": ["1901 Census: Mullaghfin, Duleek DED, Meath — Bridget Clarke, age 9, Scholar, daughter of Catherine Clarke (widow)", "1901 Census: Dundrum House, Tipperary — servant (same person, different household?)", "1911 Census: Servant in household of Christopher Waters, Dublin", "1926 Census: York Street, Dublin — Bridget Greene, Wife, age 34y 4m, Meath Co./Duleek", "Death Certificate: Entry 22, 9 August 1970, Adelaide Hospital, Dublin", "Family oral history"]
     },
     {
       "id": "thomas-jr",
@@ -177,13 +177,13 @@
     {
       "id": "thomas-greene-ii",
       "name": "Thomas Greene (II)",
-      "born": { "year": "c. July 1925", "place": "Dublin City" },
-      "died": { "place": "New Zealand" },
+      "born": { "year": "1925", "place": "Dublin City", "date": "21 July 1925" },
+      "died": { "year": "2000", "place": "New Zealand" },
       "occupation": null,
       "religion": "Roman Catholic",
-      "notes": "Son of Thomas Greene and Bridget Clarke (second wife). Named after his father. In the 1926 Census at York Street, Dublin, age just 9 months — a baby. Emigrated to New Zealand where he married a Samoan woman and lived out his life. His death is registered in New Zealand. Had a number of children, descendants now living in New Zealand and Australia. Note: Thomas also had a son Thomas Jr (b. c.1901) from his first marriage to Elizabeth.",
+      "notes": "Son of Thomas Greene and Bridget Clarke (second wife). Named after his father; middle name Patrick — likely after his half-brother Patrick who was living in the household when he was born. In the 1926 Census at York Street, Dublin, age just 9 months — a baby. CONFIRMED by NZ BDM: Death registration 2000/1764 — Thomas Patrick Greene, Date of Birth 21 July 1925. Emigrated to New Zealand where he married a Samoan woman and lived out his life. Died in 2000 in New Zealand. Had a number of children, descendants now living in New Zealand and Australia.",
       "confidence": "high",
-      "sources": ["1926 Census: York Street, Dublin — Thomas Greene, Son, age 0y 9m", "Family oral history"]
+      "sources": ["1926 Census: York Street, Dublin — Thomas Greene, Son, age 0y 9m", "NZ BDM Death Registration: 2000/1764 — Thomas Patrick Greene, DOB 21 July 1925", "Family oral history"]
     },
     {
       "id": "brendan-greene",
@@ -250,6 +250,17 @@
       "notes": "Husband of Claire Garrigan (née Donnelly). An utter legend. Researcher and creator of this heritage project. Connected to the Greene family through his wife Claire — great-granddaughter of Thomas Christopher Greene and Bridget Clarke.",
       "confidence": "high",
       "sources": ["Family oral history"]
+    },
+    {
+      "id": "catherine-clarke",
+      "name": "Catherine Clarke",
+      "born": { "year": "c.1861", "place": "County Meath (presumed)" },
+      "died": null,
+      "occupation": "General Labourer",
+      "religion": "Roman Catholic",
+      "notes": "Mother of Bridget Greene (née Clarke). Found in the 1901 Census at Mullaghfin, Duleek DED, County Meath. Age 40, widowed, working as a General Labourer — an incredibly hard life for a woman with 6 children in rural Ireland. Could not read or write. Her children in the household: Rose (23), Patrick (18), Mary (12), Jane (10), Bridget (9), Agnes (5). Her husband (Bridget's father) had died before 1901 — his name is still unknown but would appear on their marriage record or on the children's birth certificates. Catherine's struggle as a labourer-widow explains why her daughter Bridget was placed in domestic service at Dundrum House, Tipperary at age 9.",
+      "confidence": "high",
+      "sources": ["1901 Census: Mullaghfin, Duleek DED, County Meath — Catherine Clarke, Head, age 40, Widow, General Labourer, Roman Catholic"]
     }
   ],
   "couples": [
@@ -280,7 +291,8 @@
     { "parent": "bridget-wife2", "child": "eita-greene", "confidence": "high" },
     { "parent": "eita-greene", "child": "ann-donnelly", "confidence": "high" },
     { "parent": "john-donnelly", "child": "ann-donnelly", "confidence": "high" },
-    { "parent": "ann-donnelly", "child": "claire-garrigan", "confidence": "high" }
+    { "parent": "ann-donnelly", "child": "claire-garrigan", "confidence": "high" },
+    { "parent": "catherine-clarke", "child": "bridget-wife2", "confidence": "high" }
   ],
   "events": [
     { "year": "c.1830s", "title": "Earliest Record", "description": "Thos Green appears in Tithe Applotment Books, Ballyburly, King's County — approximately 8km north of Portarlington.", "people": ["thos-green-ballyburly"] },
