@@ -203,7 +203,7 @@
       "died": { "year": "2025", "place": "Goldenbridge Avenue, Inchicore, Dublin", "date": "6 December 2025" },
       "occupation": null,
       "religion": "Roman Catholic",
-      "notes": "Youngest daughter of Thomas Greene and Bridget Clarke (second wife). Mark Garrigan's grandmother-in-law. Name 'Eita' / 'Ita' from the Irish name Eithne. Born 1934 in Dublin. Married John Donnelly (predeceased). Four children: Ann, John, Sheila, Ger. Remained at Goldenbridge Avenue, Inchicore — the family home — her entire life. Funeral at St. Michael's Church, Inchicore; buried Deansgrange Cemetery. Died 6 December 2025.",
+      "notes": "Youngest daughter of Thomas Greene and Bridget Clarke (second wife). Mark Garrigan's grandmother-in-law. Name 'Eita' / 'Ita' from the Irish name Eithne. Born 1934 in Dublin. Married John Donnelly (predeceased). Four children: Ann (m. Paul), John Jr (m. Josette), Sheila (m. Robbie), Ger (m. Emily). Nine grandchildren: Claire, Eoin, Laura, Emma, JJ, Christopher, Nicole, Lauren, Jack. Also had great-grandchildren. Remained at Goldenbridge Avenue, Inchicore — the family home — her entire life. Passed away peacefully on 6 December 2025 in Kiltipper Woods Care Centre, surrounded by her family. Repose at daughter Sheila's home. Funeral Mass at St. Michael's Church, Inchicore; buried Deansgrange Cemetery. Family requested donations to the Alzheimer Society of Ireland in her memory.",
       "confidence": "high",
       "sources": ["Family oral history", "RIP.ie death notice, December 2025"]
     },
@@ -225,9 +225,86 @@
       "died": null,
       "occupation": null,
       "religion": "Roman Catholic",
-      "notes": "Eldest daughter of Ita Greene (Eithne) and John Donnelly. Mother of Claire Garrigan (née Donnelly).",
+      "notes": "Eldest daughter of Ita Greene (Eithne) and John Donnelly. Married Paul. Mother of Claire Garrigan (née Donnelly).",
       "confidence": "high",
       "sources": ["Family oral history", "RIP.ie death notice for Ita Donnelly née Greene, December 2025"]
+    },
+    {
+      "id": "paul-donnelly-inlaw",
+      "name": "Paul",
+      "born": null,
+      "died": null,
+      "occupation": null,
+      "religion": null,
+      "notes": "Husband of Ann Donnelly. Son-in-law of Ita and John Donnelly. Father of Claire Garrigan (née Donnelly).",
+      "confidence": "high",
+      "sources": ["RIP.ie death notice for Ita Donnelly née Greene, December 2025 — listed as son-in-law"]
+    },
+    {
+      "id": "john-donnelly-jr",
+      "name": "John Donnelly Jr",
+      "born": { "place": "Dublin" },
+      "died": null,
+      "occupation": null,
+      "religion": "Roman Catholic",
+      "notes": "Son of Ita Greene (Eithne) and John Donnelly. Named after his father. Married Josette.",
+      "confidence": "high",
+      "sources": ["RIP.ie death notice for Ita Donnelly née Greene, December 2025"]
+    },
+    {
+      "id": "josette-donnelly",
+      "name": "Josette Donnelly",
+      "born": null,
+      "died": null,
+      "occupation": null,
+      "religion": null,
+      "notes": "Wife of John Donnelly Jr. Daughter-in-law of Ita and John Donnelly.",
+      "confidence": "high",
+      "sources": ["RIP.ie death notice for Ita Donnelly née Greene, December 2025 — listed as daughter-in-law"]
+    },
+    {
+      "id": "sheila-donnelly",
+      "name": "Sheila Donnelly",
+      "born": { "place": "Dublin" },
+      "died": null,
+      "occupation": null,
+      "religion": "Roman Catholic",
+      "notes": "Daughter of Ita Greene (Eithne) and John Donnelly. Married Robbie. Ita's repose was held at Sheila's home before the funeral — suggesting a close bond and a caring role.",
+      "confidence": "high",
+      "sources": ["RIP.ie death notice for Ita Donnelly née Greene, December 2025"]
+    },
+    {
+      "id": "robbie-donnelly-inlaw",
+      "name": "Robbie",
+      "born": null,
+      "died": null,
+      "occupation": null,
+      "religion": null,
+      "notes": "Husband of Sheila Donnelly. Son-in-law of Ita and John Donnelly.",
+      "confidence": "high",
+      "sources": ["RIP.ie death notice for Ita Donnelly née Greene, December 2025 — listed as son-in-law"]
+    },
+    {
+      "id": "ger-donnelly",
+      "name": "Ger Donnelly",
+      "born": { "place": "Dublin" },
+      "died": null,
+      "occupation": null,
+      "religion": "Roman Catholic",
+      "notes": "Son of Ita Greene (Eithne) and John Donnelly. Married Emily.",
+      "confidence": "high",
+      "sources": ["RIP.ie death notice for Ita Donnelly née Greene, December 2025"]
+    },
+    {
+      "id": "emily-donnelly",
+      "name": "Emily Donnelly",
+      "born": null,
+      "died": null,
+      "occupation": null,
+      "religion": null,
+      "notes": "Wife of Ger Donnelly. Daughter-in-law of Ita and John Donnelly.",
+      "confidence": "high",
+      "sources": ["RIP.ie death notice for Ita Donnelly née Greene, December 2025 — listed as daughter-in-law"]
     },
     {
       "id": "claire-garrigan",
@@ -280,7 +357,11 @@
     { "id": "c-thomas-bridget", "partner1": "thomas-greene", "partner2": "bridget-wife2", "married": { "year": "c.1920s", "place": "Dublin (presumed)" }, "confidence": "high" },
     { "id": "c-ita-john", "partner1": "eita-greene", "partner2": "john-donnelly", "married": { "year": "c.1950s-1960s", "place": "Dublin (presumed)" }, "confidence": "high" },
     { "id": "c-mark-claire", "partner1": "mark-garrigan", "partner2": "claire-garrigan", "married": { "place": "Dublin" }, "confidence": "high" },
-    { "id": "c-thomas-ii-margaret", "partner1": "thomas-greene-ii", "partner2": "margaret-greene-nz", "married": { "place": "New Zealand" }, "confidence": "high" }
+    { "id": "c-thomas-ii-margaret", "partner1": "thomas-greene-ii", "partner2": "margaret-greene-nz", "married": { "place": "New Zealand" }, "confidence": "high" },
+    { "id": "c-ann-paul", "partner1": "ann-donnelly", "partner2": "paul-donnelly-inlaw", "married": { "place": "Dublin (presumed)" }, "confidence": "high" },
+    { "id": "c-john-jr-josette", "partner1": "john-donnelly-jr", "partner2": "josette-donnelly", "married": { "place": "Dublin (presumed)" }, "confidence": "high" },
+    { "id": "c-sheila-robbie", "partner1": "sheila-donnelly", "partner2": "robbie-donnelly-inlaw", "married": { "place": "Dublin (presumed)" }, "confidence": "high" },
+    { "id": "c-ger-emily", "partner1": "ger-donnelly", "partner2": "emily-donnelly", "married": { "place": "Dublin (presumed)" }, "confidence": "high" }
   ],
   "parentChild": [
     { "parent": "joseph-greene", "child": "thomas-greene", "confidence": "medium" },
@@ -304,7 +385,14 @@
     { "parent": "eita-greene", "child": "ann-donnelly", "confidence": "high" },
     { "parent": "john-donnelly", "child": "ann-donnelly", "confidence": "high" },
     { "parent": "ann-donnelly", "child": "claire-garrigan", "confidence": "high" },
-    { "parent": "catherine-clarke", "child": "bridget-wife2", "confidence": "high" }
+    { "parent": "paul-donnelly-inlaw", "child": "claire-garrigan", "confidence": "high" },
+    { "parent": "catherine-clarke", "child": "bridget-wife2", "confidence": "high" },
+    { "parent": "eita-greene", "child": "john-donnelly-jr", "confidence": "high" },
+    { "parent": "john-donnelly", "child": "john-donnelly-jr", "confidence": "high" },
+    { "parent": "eita-greene", "child": "sheila-donnelly", "confidence": "high" },
+    { "parent": "john-donnelly", "child": "sheila-donnelly", "confidence": "high" },
+    { "parent": "eita-greene", "child": "ger-donnelly", "confidence": "high" },
+    { "parent": "john-donnelly", "child": "ger-donnelly", "confidence": "high" }
   ],
   "events": [
     { "year": "c.1830s", "title": "Earliest Record", "description": "Thos Green appears in Tithe Applotment Books, Ballyburly, King's County — approximately 8km north of Portarlington.", "people": ["thos-green-ballyburly"] },
