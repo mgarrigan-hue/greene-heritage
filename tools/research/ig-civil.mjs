@@ -101,8 +101,31 @@ async function fillSearchForm(page, args) {
     });
     await page.locator('#relation-first-0:not([disabled])').waitFor({ state: 'visible', timeout: 5000 }).catch(() => {});
   }
-  if (args['rel-first']) await page.locator('#relation-first-0').fill(args['rel-first']);
-  if (args['rel-last']) await page.locator('#relation-last-0').fill(args['rel-last']);
+  if (args['rel-first']) {
+    await page.evaluate((v) => {
+      const el = document.querySelector('#relation-first-0');
+      if (el) {
+        el.disabled = false;
+        el.removeAttribute('disabled');
+        el.value = v;
+        el.dispatchEvent(new Event('input', { bubbles: true }));
+        el.dispatchEvent(new Event('change', { bubbles: true }));
+      }
+    }, args['rel-first']);
+  }
+  if (args['rel-last']) {
+    await page.evaluate((v) => {
+      const el = document.querySelector('#relation-last-0');
+      if (el) {
+        el.disabled = false;
+        el.removeAttribute('disabled');
+        el.classList.remove('disabled');
+        el.value = v;
+        el.dispatchEvent(new Event('input', { bubbles: true }));
+        el.dispatchEvent(new Event('change', { bubbles: true }));
+      }
+    }, args['rel-last']);
+  }
 
   // Section 61 consent — required by the form's validateSearch() before it
   // will submit any civil birth/marriage/death query.
