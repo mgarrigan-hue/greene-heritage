@@ -9,52 +9,83 @@
     {
       "id": "thos-green-ballyburly",
       "name": "Thos Green",
-      "born": { "year": "c.1800", "place": "Ballyburly, King's County (Offaly)" },
+      "born": {
+        "year": "c.1800",
+        "place": "Ballyburly, King's County (Offaly)"
+      },
       "died": null,
       "occupation": "Landholder",
       "religion": null,
       "notes": "Earliest known ancestor. Appears in Tithe Applotment Books for Ballyburly parish, King's County, 1830s. Approximately 8km north of Portarlington.",
       "confidence": "low",
-      "sources": ["Tithe Applotment Books, Ballyburly parish, King's County, 1830-36"]
+      "sources": [
+        "Tithe Applotment Books, Ballyburly parish, King's County, 1830-36"
+      ]
     },
     {
       "id": "joseph-greene",
       "name": "Joseph Greene",
-      "born": { "year": "c.1840", "place": "Portarlington, King's County (Offaly)" },
+      "born": {
+        "year": "c.1840",
+        "place": "Portarlington, King's County (Offaly)"
+      },
       "died": null,
       "occupation": null,
       "religion": "Roman Catholic",
       "notes": "Confirmed father of Mary Bridget Greene (b.1874). Probable father of Thomas Greene (b.~1871). Married Elizabeth Foran. May be connected to Lucy Greene (widow in Kilmalogue, 1901 census).",
       "confidence": "medium",
-      "sources": ["Ancestry record for Mary Bridget Greene (b.1874, d.1966, Queens NY)", "Civil birth records pending verification on IrishGenealogy.ie"]
+      "sources": [
+        "Ancestry record for Mary Bridget Greene (b.1874, d.1966, Queens NY)",
+        "Civil birth records pending verification on IrishGenealogy.ie"
+      ]
     },
     {
       "id": "elizabeth-foran",
       "name": "Elizabeth Foran",
-      "born": { "year": "c.1845", "place": "Unknown, Ireland" },
+      "born": {
+        "year": "c.1845",
+        "place": "Unknown, Ireland"
+      },
       "died": null,
       "occupation": null,
       "religion": "Roman Catholic",
       "notes": "Wife of Joseph Greene. Mother of Mary Bridget Greene (b.1874, Portarlington). Maiden name Foran.",
       "confidence": "medium",
-      "sources": ["Ancestry record for Mary Bridget Greene"]
+      "sources": [
+        "Ancestry record for Mary Bridget Greene"
+      ]
     },
     {
       "id": "lucy-greene",
       "name": "Lucy Greene",
-      "born": { "year": "c.1841", "place": "King's County (Offaly)" },
-      "died": { "year": "c.1901-1910", "place": "Portarlington" },
+      "born": {
+        "year": "c.1841",
+        "place": "King's County (Offaly)"
+      },
+      "died": {
+        "year": "c.1901-1910",
+        "place": "Portarlington"
+      },
       "occupation": "Farmer",
       "religion": "Roman Catholic",
       "notes": "Widow by 1901, living in Kilmalogue, Portarlington North, King's Co. Possibly Joseph Greene's widow or a relative. Had daughter Lizzie who married Christopher Gannon. Absent from 1911 census (likely deceased).",
       "confidence": "medium",
-      "sources": ["1901 Census: Kilmalogue, Portarlington North, King's Co., House 16"]
+      "sources": [
+        "1901 Census: Kilmalogue, Portarlington North, King's Co., House 16"
+      ]
     },
     {
       "id": "thomas-greene",
       "name": "Thomas Christopher Greene",
-      "born": { "year": "c. July 1870", "place": "Portarlington, Queen's County (Laois)" },
-      "died": { "year": "1951", "place": "38 Goldenbridge Ave, Inchicore, Dublin", "date": "6 December 1951" },
+      "born": {
+        "year": "c. July 1870",
+        "place": "Portarlington, Queen's County (Laois)"
+      },
+      "died": {
+        "year": "1951",
+        "place": "38 Goldenbridge Ave, Inchicore, Dublin",
+        "date": "6 December 1951"
+      },
       "occupation": "Shop Porter (1901), Gentleman's Club Steward (1911), Shop Porter — Switzers & Co. Drapers (1926), Warehouse Porter (1951)",
       "religion": "Roman Catholic",
       "notes": "Central figure of this research. Full name Thomas Christopher Greene (discovered from Ancestry marriage index). Born c. July 1870 in Portarlington (age 55y 9m in the April 1926 Census; age 81 at death in December 1951). Moved to Dublin by 1899. Lied about his age to enlist in the British Army at around age 14 (~1884) — likely the Prince of Wales's Leinster Regiment (Royal Canadians), headquartered at Birr Barracks, ~25 miles from Portarlington. Underage enlistment was common in the late Victorian army. May have served during the Boer War (1899-1902). Married twice: first to Elizabeth (d. c.1912-1925), then to Bridget Clarke. Marriage registered Dublin South, 1899, Vol 2, Page 593. In 1926, living at York Street, Dublin, working as Shop Porter at Switzers & Co. Drapers — the famous Grafton Street department store founded in 1838, one of Dublin's most prestigious retail institutions (later became Brown Thomas in 1995). Thomas would have walked the 10 minutes from York Street to Grafton Street each morning. His stepson Patrick (age 23, from first marriage) was also living in the household. Family moved to 38 Goldenbridge Avenue, Inchicore in the early-to-mid 1930s — part of Dublin Corporation's ambitious social housing programme replacing inner-city tenements with purpose-built suburban homes. Died 6 December 1951 at 38 Goldenbridge Avenue, age 81. Cause of death: carcinoma of stomach, cachexia, cardiac failure. Death registered by his son John Greene. Still listed as 'Warehouse Porter' at death — a working man to the end.",
@@ -69,8 +100,14 @@
     {
       "id": "elizabeth-wife1",
       "name": "Elizabeth Greene (née unknown)",
-      "born": { "year": "c.1870", "place": "County Dublin" },
-      "died": { "year": "c.1912-1925", "place": "Dublin (presumed)" },
+      "born": {
+        "year": "c.1870",
+        "place": "County Dublin"
+      },
+      "died": {
+        "year": "c.1912-1925",
+        "place": "Dublin (presumed)"
+      },
       "occupation": null,
       "religion": "Roman Catholic",
       "notes": "First wife of Thomas Greene. Approximately the same age as Thomas (he 40, she 41 in the April 1911 Census — born c.1870 in Co. Dublin). Married c.1899 (12 years married in 1911 census). Three children born, three living in 1911: Thomas Jr (10), Patrick (8), Elizabeth (4). Maiden name unknown — her marriage record on IrishGenealogy.ie would reveal it. Her death (c.1912-1925) cleared the way for Thomas's second marriage to Bridget Clarke.",
@@ -83,40 +120,69 @@
     {
       "id": "bridget-wife2",
       "name": "Bridget Greene (née Clarke)",
-      "born": { "year": "c. December 1891", "place": "Duleek, County Meath" },
-      "died": { "year": "1970", "place": "Adelaide Hospital, Dublin", "date": "9 August 1970" },
+      "born": {
+        "year": "c. December 1891",
+        "place": "Duleek, County Meath"
+      },
+      "died": {
+        "year": "1970",
+        "place": "Adelaide Hospital, Dublin",
+        "date": "9 August 1970"
+      },
       "occupation": "Domestic Servant (1901, 1911), Housewife",
       "religion": "Roman Catholic",
       "notes": "Second wife of Thomas Greene. Maiden name Clarke. Born c. December 1891 in Mullaghfin, Duleek, County Meath. MAJOR DISCOVERY (Phase 3): In the 1901 Census, a Bridget Clarke (age 9, Scholar, Roman Catholic) is found in Mullaghfin townland, Duleek DED, County Meath — daughter of Catherine Clarke (age 40, widow, General Labourer). Siblings: Rose (23), Patrick (18), Mary (12), Jane (10), Agnes (5). This is almost certainly our Bridget — the age, location, and religion all match. Her mother Catherine was a widow struggling as a labourer with 6 children. This explains how Bridget ended up in domestic service at Dundrum House, Tipperary, at age 9 — she was likely placed out by her widowed mother or through Catholic agencies. By the 1911 Census she appears as 'Bridget Clarke', age 19, servant in the household of Dr. Christopher Waters (Physician & Surgeon) in Dublin. Married Thomas Greene after the death of his first wife Elizabeth. Mother of John, Thomas, Brendan, and Ita (Mark's grandmother-in-law). In the 1926 Census, living at York Street, Dublin, age 34y 4m, Home Duties. Family moved to 38 Goldenbridge Avenue, Inchicore in early 1930s. Died 9 August 1970, age 78, Adelaide Hospital, Dublin. Death registered by son Brendan Greene, 62 Limekiln Drive, Terenure.",
       "confidence": "high",
-      "sources": ["1901 Census: Mullaghfin, Duleek DED, Meath — Bridget Clarke, age 9, Scholar, daughter of Catherine Clarke (widow)", "1901 Census: Dundrum House, Tipperary — servant (same person, different household?)", "1911 Census: Servant in household of Christopher Waters, Dublin", "1926 Census: York Street, Dublin — Bridget Greene, Wife, age 34y 4m, Meath Co./Duleek", "Death Certificate: Entry 22, 9 August 1970, Adelaide Hospital, Dublin", "Family oral history"]
+      "sources": [
+        "1901 Census: Mullaghfin, Duleek DED, Meath — Bridget Clarke, age 9, Scholar, daughter of Catherine Clarke (widow)",
+        "1901 Census: Dundrum House, Tipperary — servant (same person, different household?)",
+        "1911 Census: Servant in household of Christopher Waters, Dublin",
+        "1926 Census: York Street, Dublin — Bridget Greene, Wife, age 34y 4m, Meath Co./Duleek",
+        "Death Certificate: Entry 22, 9 August 1970, Adelaide Hospital, Dublin",
+        "Family oral history",
+        "Research lead (April 2026, unverified): possible paternal grandparents Thomas & Bridget Clarke of Duleek (d.1877/1882) — gravestone in Duleek Old Churchyard, see https://meathhistoryhub.ie/duleek-old-churchyard/ (transcribed by Enda O'Boyle, Riocht na Midhe 2001/2002). Civil-records confirmation of Bridget's birth registration and her marriage to Thomas Greene remain blocked: IrishGenealogy.ie civil-records search is JavaScript-only and individual record URLs are not crawlable by web fetchers or indexed by search engines — needs interactive browser session to retrieve."
+      ]
     },
     {
       "id": "thomas-jr",
       "name": "Thomas Greene Jr",
-      "born": { "year": "c.1901", "place": "Dublin City" },
+      "born": {
+        "year": "c.1901",
+        "place": "Dublin City"
+      },
       "died": null,
       "occupation": "Scholar (1911)",
       "religion": "Roman Catholic",
       "notes": "Eldest child of Thomas and Elizabeth (first wife).",
       "confidence": "high",
-      "sources": ["1911 Census: Clonliffe Avenue, Mountjoy, Dublin — age 10"]
+      "sources": [
+        "1911 Census: Clonliffe Avenue, Mountjoy, Dublin — age 10"
+      ]
     },
     {
       "id": "patrick-greene",
       "name": "Patrick Greene",
-      "born": { "year": "c.1903", "place": "Dublin City" },
+      "born": {
+        "year": "c.1903",
+        "place": "Dublin City"
+      },
       "died": null,
       "occupation": "Scholar (1911), Battery Repairer / Motor Engineer — S.F. Robinson (1926)",
       "religion": "Roman Catholic",
       "notes": "Second child of Thomas and Elizabeth (first wife). In the 1926 Census, Patrick (age 23, single) is still living with his father's second family at York Street, Dublin. He works as a Battery Repairer / Motor Engineer for S.F. Robinson — a skilled trade in the early motor age. This is significant: it shows the first-marriage children maintained a relationship with Thomas after his remarriage.",
       "confidence": "high",
-      "sources": ["1911 Census: Clonliffe Avenue, Mountjoy, Dublin — age 8", "1926 Census: York Street, Dublin — Patrick Greene, Son, age 23, Single, Battery Repairer/Motor Engineer, S.F. Robinson"]
+      "sources": [
+        "1911 Census: Clonliffe Avenue, Mountjoy, Dublin — age 8",
+        "1926 Census: York Street, Dublin — Patrick Greene, Son, age 23, Single, Battery Repairer/Motor Engineer, S.F. Robinson"
+      ]
     },
     {
       "id": "elizabeth-harris",
       "name": "Elizabeth Bessie Harris (née Greene)",
-      "born": { "year": "c.1907", "place": "Dublin City" },
+      "born": {
+        "year": "c.1907",
+        "place": "Dublin City"
+      },
       "died": null,
       "occupation": "Nurse",
       "religion": "Roman Catholic",
@@ -125,13 +191,17 @@
       "sources": [
         "1911 Census: Clonliffe Avenue, Mountjoy, Dublin — age 4",
         "MARRIAGE CERTIFICATE (PRIMARY SOURCE): Extract from the Register of Marriages, Parish of St. Helier, Island of Jersey, Page 97, 1941. Marriage of Alfred Bower Harris and Elizabeth Bessie Greene, 13 September 1941. Held in family papers.",
-        "Letter of recommendation from Dr. A.W.H. Donaldson, M.B., D.P.H., Biberach Internment Camp, 21 May 1945"
+        "Letter of recommendation from Dr. A.W.H. Donaldson, M.B., D.P.H., Biberach Internment Camp, 21 May 1945",
+        "Arolsen Archives online search attempted (collections.arolsen-archives.org) on 2026 for variants 'Elizabeth Harris', 'Elizabeth Greene', 'Bessie Harris', 'Alfred Harris' (with/without Biberach filter, document-type 2 = persons). The site is a JS single-page app whose backing service (collections-server.arolsen-archives.org/ITS-WS.asmx) only responds to authenticated SPA calls; results could not be retrieved by direct URL or API probing. NO match confirmed and NO match disproved — search remains OPEN. Recommended next step: submit a free inquiry form to Arolsen Archives staff (https://arolsen-archives.org/en/search-explore/search-online-archive/) with full details (Elizabeth Bessie Harris née Greene, b. Dublin c.1907, m. Alfred Bower Harris 13 Sept 1941 Jersey, interned Biberach Ilag V-B), and cross-check 'Islanders Deported' by Roger E. Harris which contains the complete Biberach internee list."
       ]
     },
     {
       "id": "alfred-harris",
       "name": "Alfred Bower Harris",
-      "born": { "year": "c.1913", "place": "Bretforton, Evesham, Worcestershire, England" },
+      "born": {
+        "year": "c.1913",
+        "place": "Bretforton, Evesham, Worcestershire, England"
+      },
       "died": null,
       "occupation": "Printer",
       "religion": null,
@@ -145,28 +215,44 @@
       "id": "charles-edward-harris",
       "name": "Charles Edward Harris",
       "born": null,
-      "died": { "year": "before 1941", "place": "England (presumed)" },
+      "died": {
+        "year": "before 1941",
+        "place": "England (presumed)"
+      },
       "occupation": null,
       "religion": null,
       "notes": "Father of Alfred Bower Harris (Elizabeth Greene's husband). Recorded as 'Deceased' on his son's marriage certificate, 13 September 1941 — so died before that date. Family from Bretforton, Worcestershire, England.",
       "confidence": "high",
-      "sources": ["Marriage certificate of Alfred Bower Harris & Elizabeth Bessie Greene, Jersey, 13 September 1941 — father's name and 'deceased' status recorded"]
+      "sources": [
+        "Marriage certificate of Alfred Bower Harris & Elizabeth Bessie Greene, Jersey, 13 September 1941 — father's name and 'deceased' status recorded"
+      ]
     },
     {
       "id": "mary-bridget-greene",
       "name": "Mary Bridget Greene",
-      "born": { "year": "1874", "place": "Portarlington, Laois" },
-      "died": { "year": "1966", "place": "Queens, New York, USA" },
+      "born": {
+        "year": "1874",
+        "place": "Portarlington, Laois"
+      },
+      "died": {
+        "year": "1966",
+        "place": "Queens, New York, USA"
+      },
       "occupation": null,
       "religion": "Roman Catholic",
       "notes": "Daughter of Joseph Greene and Elizabeth Foran. Emigrated to the United States. If Thomas Greene is also a child of Joseph and Elizabeth Foran, Mary Bridget is Thomas's sister.",
       "confidence": "high",
-      "sources": ["Ancestry.com record: Mary Bridget Greene, b.1874, d.1966, Queens NY"]
+      "sources": [
+        "Ancestry.com record: Mary Bridget Greene, b.1874, d.1966, Queens NY"
+      ]
     },
     {
       "id": "william-greene-shanderry",
       "name": "William Greene",
-      "born": { "year": "c.1867", "place": "King's County (Offaly)" },
+      "born": {
+        "year": "c.1867",
+        "place": "King's County (Offaly)"
+      },
       "died": null,
       "occupation": "General Labourer",
       "religion": "Roman Catholic",
@@ -180,79 +266,131 @@
     {
       "id": "christopher-waters",
       "name": "Dr. Christopher Waters",
-      "born": { "year": "c.1878", "place": "Cappawhite, County Limerick" },
+      "born": {
+        "year": "c.1878",
+        "place": "Cappawhite, County Limerick"
+      },
       "died": null,
       "occupation": "Physician & Surgeon",
       "religion": "Roman Catholic",
       "notes": "In the 1911 Census, Christopher Waters (33) is head of a Dublin household. Physician and Surgeon, married 6 years to Mary A. (28, born Bolton, Lancashire, England). Two daughters: Margaret (3½) and a second daughter (2½), both born in England. The household included lodger Bridget McDonnell (22, from Limerick) and servant Bridget Clarke (19, from Dublin) — who later became Thomas Greene's second wife. This places Bridget Clarke in a professional Dublin household before her marriage to Thomas.",
       "confidence": "high",
-      "sources": ["1911 Census: Dublin — Christopher Waters household, Form A, page 50"]
+      "sources": [
+        "1911 Census: Dublin — Christopher Waters household, Form A, page 50"
+      ]
     },
     {
       "id": "john-greene",
       "name": "John Greene",
-      "born": { "year": "c. July 1923", "place": "Dublin City" },
+      "born": {
+        "year": "c. July 1923",
+        "place": "Dublin City"
+      },
       "died": null,
       "occupation": null,
       "religion": "Roman Catholic",
       "notes": "Son of Thomas Greene and Bridget Clarke (second wife). In the 1926 Census at York Street, Dublin, age 2 years 9 months. Living at 38 Goldenbridge Avenue, Inchicore, Dublin by 1951. Registered his father Thomas's death on 7 December 1951.",
       "confidence": "high",
-      "sources": ["1926 Census: York Street, Dublin — John Greene, Son, age 2y 9m", "Death Certificate of Thomas Greene, Entry 486, 6 December 1951 — informant: John Greene, Son"]
+      "sources": [
+        "1926 Census: York Street, Dublin — John Greene, Son, age 2y 9m",
+        "Death Certificate of Thomas Greene, Entry 486, 6 December 1951 — informant: John Greene, Son"
+      ]
     },
     {
       "id": "thomas-greene-ii",
       "name": "Thomas Greene (II)",
-      "born": { "year": "1925", "place": "Dublin City", "date": "21 July 1925" },
-      "died": { "year": "2000", "place": "New Zealand" },
+      "born": {
+        "year": "1925",
+        "place": "Dublin City",
+        "date": "21 July 1925"
+      },
+      "died": {
+        "year": "2000",
+        "place": "New Zealand"
+      },
       "occupation": null,
       "religion": "Roman Catholic",
       "notes": "Son of Thomas Greene and Bridget Clarke (second wife). Full name Thomas Patrick Greene — middle name Patrick likely after his half-brother who shared the household. In the 1926 Census at York Street, Dublin, age just 9 months. CONFIRMED by NZ BDM: Death registration 2000/1764 — Thomas Patrick Greene, Date of Birth 21 July 1925. Emigrated to New Zealand where he married Margaret, a Samoan woman. Their marriage is post-1951 (outside NZ BDM 75-year historical records window). Died in 2000 in New Zealand. Had a number of children, descendants now living in New Zealand and Australia.",
       "confidence": "high",
-      "sources": ["1926 Census: York Street, Dublin — Thomas Greene, Son, age 0y 9m", "NZ BDM Death Registration: 2000/1764 — Thomas Patrick Greene, DOB 21 July 1925", "Family oral history"]
+      "sources": [
+        "1926 Census: York Street, Dublin — Thomas Greene, Son, age 0y 9m",
+        "NZ BDM Death Registration: 2000/1764 — Thomas Patrick Greene, DOB 21 July 1925",
+        "Family oral history"
+      ]
     },
     {
       "id": "brendan-greene",
       "name": "Brendan Greene",
-      "born": { "year": "c.1928-1932", "place": "Dublin" },
-      "died": { "year": "2023", "place": "Limekiln Road, Terenure, Dublin", "date": "3 March 2023" },
+      "born": {
+        "year": "c.1928-1932",
+        "place": "Dublin"
+      },
+      "died": {
+        "year": "2023",
+        "place": "Limekiln Road, Terenure, Dublin",
+        "date": "3 March 2023"
+      },
       "occupation": null,
       "religion": "Roman Catholic",
       "notes": "Son of Thomas Greene and Bridget Clarke (second wife). Born after the 1926 Census. Living at 62 Limekiln Drive, Terenure, Dublin by 1970. Registered his mother Bridget's death on 11 August 1970. Married Roisin (predeceased — died before September 2022). Three children: Terence, Geraldine, and Dermot (predeceased — died 18 September 2022 at Our Lady's Hospice, Harold's Cross; late of Ratoath, Co. Meath and Terenure; had sons Kris and Daniel, partner Monica; funeral St Agnes' Church Crumlin, cremated Mount Jerome). Died 3 March 2023 at Limekiln Road, Terenure. Survived by his sister Ita.",
       "confidence": "high",
-      "sources": ["Family oral history", "Death Certificate of Bridget Greene, Entry 22, 9 August 1970 — informant: Brendan Greene, Son, 62 Limekiln Drive, Terenure", "RIP.ie death notice, March 2023"]
+      "sources": [
+        "Family oral history",
+        "Death Certificate of Bridget Greene, Entry 22, 9 August 1970 — informant: Brendan Greene, Son, 62 Limekiln Drive, Terenure",
+        "RIP.ie death notice, March 2023"
+      ]
     },
     {
       "id": "eita-greene",
       "name": "Ita Greene (Eithne)",
-      "born": { "year": "1934", "place": "Dublin" },
-      "died": { "year": "2025", "place": "Goldenbridge Avenue, Inchicore, Dublin", "date": "6 December 2025" },
+      "born": {
+        "year": "1934",
+        "place": "Dublin"
+      },
+      "died": {
+        "year": "2025",
+        "place": "Goldenbridge Avenue, Inchicore, Dublin",
+        "date": "6 December 2025"
+      },
       "occupation": null,
       "religion": "Roman Catholic",
       "notes": "Youngest daughter of Thomas Greene and Bridget Clarke (second wife). Mark Garrigan's grandmother-in-law. Name 'Eita' / 'Ita' from the Irish name Eithne. Born 1934 in Dublin. Married John Donnelly (predeceased). Four children: Ann (m. Paul), John Jr (m. Josette), Sheila (m. Robbie), Ger (m. Emily). Nine grandchildren: Claire, Eoin, Laura, Emma, JJ, Christopher, Nicole, Lauren, Jack. Also had great-grandchildren. Remained at Goldenbridge Avenue, Inchicore — the family home — her entire life. Passed away peacefully on 6 December 2025 in Kiltipper Woods Care Centre, surrounded by her family. Repose at daughter Sheila's home. Funeral Mass at St. Michael's Church, Inchicore; buried Deansgrange Cemetery. Family requested donations to the Alzheimer Society of Ireland in her memory.",
       "confidence": "high",
-      "sources": ["Family oral history", "RIP.ie death notice, December 2025"]
+      "sources": [
+        "Family oral history",
+        "RIP.ie death notice, December 2025"
+      ]
     },
     {
       "id": "john-donnelly",
       "name": "John Donnelly",
       "born": null,
-      "died": { "place": "Dublin (presumed)" },
+      "died": {
+        "place": "Dublin (presumed)"
+      },
       "occupation": null,
       "religion": "Roman Catholic",
       "notes": "Husband of Ita Greene (Eithne). Predeceased Ita. Father of Ann, John, Sheila, and Ger Donnelly.",
       "confidence": "high",
-      "sources": ["RIP.ie death notice for Ita Donnelly née Greene, December 2025"]
+      "sources": [
+        "RIP.ie death notice for Ita Donnelly née Greene, December 2025"
+      ]
     },
     {
       "id": "ann-donnelly",
       "name": "Ann Donnelly",
-      "born": { "place": "Dublin" },
+      "born": {
+        "place": "Dublin"
+      },
       "died": null,
       "occupation": null,
       "religion": "Roman Catholic",
       "notes": "Eldest daughter of Ita Greene (Eithne) and John Donnelly. Married Paul. Mother of Claire Garrigan (née Donnelly).",
       "confidence": "high",
-      "sources": ["Family oral history", "RIP.ie death notice for Ita Donnelly née Greene, December 2025"]
+      "sources": [
+        "Family oral history",
+        "RIP.ie death notice for Ita Donnelly née Greene, December 2025"
+      ]
     },
     {
       "id": "paul-donnelly-inlaw",
@@ -263,18 +401,24 @@
       "religion": null,
       "notes": "Husband of Ann Donnelly. Son-in-law of Ita and John Donnelly. Father of Claire Garrigan (née Donnelly).",
       "confidence": "high",
-      "sources": ["RIP.ie death notice for Ita Donnelly née Greene, December 2025 — listed as son-in-law"]
+      "sources": [
+        "RIP.ie death notice for Ita Donnelly née Greene, December 2025 — listed as son-in-law"
+      ]
     },
     {
       "id": "john-donnelly-jr",
       "name": "John Donnelly Jr",
-      "born": { "place": "Dublin" },
+      "born": {
+        "place": "Dublin"
+      },
       "died": null,
       "occupation": null,
       "religion": "Roman Catholic",
       "notes": "Son of Ita Greene (Eithne) and John Donnelly. Named after his father. Married Josette.",
       "confidence": "high",
-      "sources": ["RIP.ie death notice for Ita Donnelly née Greene, December 2025"]
+      "sources": [
+        "RIP.ie death notice for Ita Donnelly née Greene, December 2025"
+      ]
     },
     {
       "id": "josette-donnelly",
@@ -285,18 +429,24 @@
       "religion": null,
       "notes": "Wife of John Donnelly Jr. Daughter-in-law of Ita and John Donnelly.",
       "confidence": "high",
-      "sources": ["RIP.ie death notice for Ita Donnelly née Greene, December 2025 — listed as daughter-in-law"]
+      "sources": [
+        "RIP.ie death notice for Ita Donnelly née Greene, December 2025 — listed as daughter-in-law"
+      ]
     },
     {
       "id": "sheila-donnelly",
       "name": "Sheila Donnelly",
-      "born": { "place": "Dublin" },
+      "born": {
+        "place": "Dublin"
+      },
       "died": null,
       "occupation": null,
       "religion": "Roman Catholic",
       "notes": "Daughter of Ita Greene (Eithne) and John Donnelly. Married Robbie. Ita's repose was held at Sheila's home before the funeral — suggesting a close bond and a caring role.",
       "confidence": "high",
-      "sources": ["RIP.ie death notice for Ita Donnelly née Greene, December 2025"]
+      "sources": [
+        "RIP.ie death notice for Ita Donnelly née Greene, December 2025"
+      ]
     },
     {
       "id": "robbie-donnelly-inlaw",
@@ -307,18 +457,24 @@
       "religion": null,
       "notes": "Husband of Sheila Donnelly. Son-in-law of Ita and John Donnelly.",
       "confidence": "high",
-      "sources": ["RIP.ie death notice for Ita Donnelly née Greene, December 2025 — listed as son-in-law"]
+      "sources": [
+        "RIP.ie death notice for Ita Donnelly née Greene, December 2025 — listed as son-in-law"
+      ]
     },
     {
       "id": "ger-donnelly",
       "name": "Ger Donnelly",
-      "born": { "place": "Dublin" },
+      "born": {
+        "place": "Dublin"
+      },
       "died": null,
       "occupation": null,
       "religion": "Roman Catholic",
       "notes": "Son of Ita Greene (Eithne) and John Donnelly. Married Emily.",
       "confidence": "high",
-      "sources": ["RIP.ie death notice for Ita Donnelly née Greene, December 2025"]
+      "sources": [
+        "RIP.ie death notice for Ita Donnelly née Greene, December 2025"
+      ]
     },
     {
       "id": "emily-donnelly",
@@ -329,18 +485,24 @@
       "religion": null,
       "notes": "Wife of Ger Donnelly. Daughter-in-law of Ita and John Donnelly.",
       "confidence": "high",
-      "sources": ["RIP.ie death notice for Ita Donnelly née Greene, December 2025 — listed as daughter-in-law"]
+      "sources": [
+        "RIP.ie death notice for Ita Donnelly née Greene, December 2025 — listed as daughter-in-law"
+      ]
     },
     {
       "id": "claire-garrigan",
       "name": "Claire Garrigan (née Donnelly)",
-      "born": { "place": "Dublin" },
+      "born": {
+        "place": "Dublin"
+      },
       "died": null,
       "occupation": null,
       "religion": null,
       "notes": "Daughter of Ann Donnelly. Wife of Mark Garrigan (the researcher behind this project). Great-granddaughter of Thomas Christopher Greene and Bridget Clarke. The direct family connection that inspired this heritage research.",
       "confidence": "high",
-      "sources": ["Family oral history"]
+      "sources": [
+        "Family oral history"
+      ]
     },
     {
       "id": "mark-garrigan",
@@ -351,101 +513,650 @@
       "religion": null,
       "notes": "Husband of Claire Garrigan (née Donnelly). An utter legend. Researcher and creator of this heritage project. Connected to the Greene family through his wife Claire — great-granddaughter of Thomas Christopher Greene and Bridget Clarke.",
       "confidence": "high",
-      "sources": ["Family oral history"]
+      "sources": [
+        "Family oral history"
+      ]
     },
     {
       "id": "catherine-clarke",
       "name": "Catherine Clarke",
-      "born": { "year": "c.1861", "place": "County Meath (presumed)" },
+      "born": {
+        "year": "c.1861",
+        "place": "County Meath (presumed)"
+      },
       "died": null,
       "occupation": "General Labourer",
       "religion": "Roman Catholic",
-      "notes": "Mother of Bridget Greene (née Clarke). Found in BOTH the 1901 and 1911 Census at Mullaghfin, Duleek DED, County Meath. In 1901: age 40, widowed, General Labourer, could not read. Children: Rose (23), Patrick (18), Mary (12), Jane (10), Bridget (9), Agnes (5). In 1911: age 55, still widowed, still at Mullaghfin (same house no.3), now a Charwoman, still cannot read. By 1911 all her children had left — Bridget was working as a servant in Dr. Waters' Dublin household. Catherine's struggle as a labourer-widow explains why her daughter Bridget was placed in domestic service at Dundrum House, Tipperary at age 9. Her husband (Bridget's father) had died before 1901 — his name is still unknown.",
+      "notes": "Mother of Bridget Greene (née Clarke). Found in BOTH the 1901 and 1911 Census at Mullaghfin, Duleek DED, County Meath. In 1901: age 40, widowed, General Labourer, could not read. Children: Rose (23), Patrick (18), Mary (12), Jane (10), Bridget (9), Agnes (5). In 1911: age 55, still widowed, still at Mullaghfin (same house no.3), now a Charwoman, still cannot read. By 1911 all her children had left — Bridget was working as a servant in Dr. Waters' Dublin household. Catherine's struggle as a labourer-widow explains why her daughter Bridget was placed in domestic service at Dundrum House, Tipperary at age 9. Her husband (Bridget's father) had died before 1901 — his name is still unknown. RESEARCH LEAD (April 2026, unverified): A gravestone in Duleek Old Churchyard, transcribed by historian Enda O'Boyle and published in Riocht na Midhe 2001/2002, reads: 'Erected by the children of Thomas and Bridget Clarke of Duleek in loving memory of their father who died 23 January 1877 aged 45 years and their mother who died 25th January 1882 aged 44 years. Also their brothers, Patrick who died 4 July 1897 aged 28 years and Richard who died 25 July 1937 aged 72 years.' These Clarkes died too early to be Catherine's husband (Catherine had children through c.1896), but it is plausible that one of their sons was Bridget's father — and that Bridget (b.1891) and her brother Patrick (b.~1883) were named after this grandmother and uncle. Confirmation requires civil records (currently blocked: IrishGenealogy.ie civil-records search is JavaScript-only and not indexed by search engines). Searches attempted include direct civil-search.jsp URLs, Bing site:irishgenealogy.ie and inurl: queries — all returned only generic guidance, no record entries.",
       "confidence": "high",
-      "sources": ["1901 Census: Mullaghfin, Duleek DED, County Meath — Catherine Clarke, Head, age 40, Widow, General Labourer, Roman Catholic", "1911 Census: Mullaghfin, Duleek DED, County Meath — Catherine Clarke, Head, age 55, Widow, Charwoman, Roman Catholic, House 3"]
+      "sources": [
+        "1901 Census: Mullaghfin, Duleek DED, County Meath — Catherine Clarke, Head, age 40, Widow, General Labourer, Roman Catholic",
+        "1911 Census: Mullaghfin, Duleek DED, County Meath — Catherine Clarke, Head, age 55, Widow, Charwoman, Roman Catholic, House 3",
+        "Research lead (unverified): Duleek Old Churchyard gravestone — Thomas Clarke (d.23 Jan 1877, age 45) & wife Bridget (d.25 Jan 1882, age 44), with sons Patrick (d.1897 age 28) and Richard (d.1937 age 72) — possible grandparents of Bridget Greene née Clarke. Source: https://meathhistoryhub.ie/duleek-old-churchyard/",
+        "1901 Census of Ireland (PRIMARY SOURCE, retrieved 2026): Mullaghfin, Duleek DED, Co. Meath, House 3 — http://www.census.nationalarchives.ie/pages/1901/Meath/Duleek/Mullaghfin/1609301/ ; original Form A image: http://www.census.nationalarchives.ie/reels/nai001112178/"
+      ]
     },
     {
       "id": "margaret-greene-nz",
       "name": "Margaret Greene",
-      "born": { "place": "Samoa" },
+      "born": {
+        "place": "Samoa"
+      },
       "died": null,
       "occupation": null,
       "religion": null,
       "notes": "Wife of Thomas Patrick Greene (II). Samoan woman who married Thomas in New Zealand (post-1951, outside NZ BDM historical records window). Mother of Thomas and Margaret's children, descendants now in New Zealand and Australia.",
       "confidence": "high",
-      "sources": ["Family oral history"]
+      "sources": [
+        "Family oral history"
+      ]
+    },
+    {
+      "id": "rose-clarke",
+      "name": "Rose Clarke",
+      "born": {
+        "year": "c.1878",
+        "place": "Co. Meath"
+      },
+      "died": null,
+      "occupation": "General Labourer",
+      "religion": "Roman Catholic",
+      "notes": "Child of Catherine Clarke (widow) of Mullaghfin, Duleek DED, Co. Meath. Sibling of Bridget Clarke (later Bridget Greene, m. Thomas Christopher Greene). Recorded in 1901 Census of Ireland, House 3 Mullaghfin, age 23, General Labourer, literacy: Cannot read. Roman Catholic. Born Co. Meath. Further life unknown.",
+      "confidence": "high",
+      "sources": [
+        "1901 Census of Ireland (PRIMARY SOURCE, retrieved 2026): Mullaghfin, Duleek DED, Co. Meath, House 3 — http://www.census.nationalarchives.ie/pages/1901/Meath/Duleek/Mullaghfin/1609301/ ; original Form A image: http://www.census.nationalarchives.ie/reels/nai001112178/"
+      ]
+    },
+    {
+      "id": "patrick-clarke",
+      "name": "Patrick Clarke",
+      "born": {
+        "year": "c.1883",
+        "place": "Co. Meath"
+      },
+      "died": null,
+      "occupation": "General Labourer",
+      "religion": "Roman Catholic",
+      "notes": "Child of Catherine Clarke (widow) of Mullaghfin, Duleek DED, Co. Meath. Sibling of Bridget Clarke (later Bridget Greene, m. Thomas Christopher Greene). Recorded in 1901 Census of Ireland, House 3 Mullaghfin, age 18, General Labourer, literacy: Read and write. Roman Catholic. Born Co. Meath. Further life unknown.",
+      "confidence": "high",
+      "sources": [
+        "1901 Census of Ireland (PRIMARY SOURCE, retrieved 2026): Mullaghfin, Duleek DED, Co. Meath, House 3 — http://www.census.nationalarchives.ie/pages/1901/Meath/Duleek/Mullaghfin/1609301/ ; original Form A image: http://www.census.nationalarchives.ie/reels/nai001112178/"
+      ]
+    },
+    {
+      "id": "mary-clarke",
+      "name": "Mary Clarke",
+      "born": {
+        "year": "c.1889",
+        "place": "Co. Meath"
+      },
+      "died": null,
+      "occupation": "Scholar",
+      "religion": "Roman Catholic",
+      "notes": "Child of Catherine Clarke (widow) of Mullaghfin, Duleek DED, Co. Meath. Sibling of Bridget Clarke (later Bridget Greene, m. Thomas Christopher Greene). Recorded in 1901 Census of Ireland, House 3 Mullaghfin, age 12, Scholar, literacy: Read and write. Roman Catholic. Born Co. Meath. Further life unknown.",
+      "confidence": "high",
+      "sources": [
+        "1901 Census of Ireland (PRIMARY SOURCE, retrieved 2026): Mullaghfin, Duleek DED, Co. Meath, House 3 — http://www.census.nationalarchives.ie/pages/1901/Meath/Duleek/Mullaghfin/1609301/ ; original Form A image: http://www.census.nationalarchives.ie/reels/nai001112178/"
+      ]
+    },
+    {
+      "id": "jane-clarke",
+      "name": "Jane Clarke",
+      "born": {
+        "year": "c.1891",
+        "place": "Co. Meath"
+      },
+      "died": null,
+      "occupation": "Scholar",
+      "religion": "Roman Catholic",
+      "notes": "Child of Catherine Clarke (widow) of Mullaghfin, Duleek DED, Co. Meath. Sibling of Bridget Clarke (later Bridget Greene, m. Thomas Christopher Greene). Recorded in 1901 Census of Ireland, House 3 Mullaghfin, age 10, Scholar, literacy: Read and write. Roman Catholic. Born Co. Meath. Further life unknown.",
+      "confidence": "high",
+      "sources": [
+        "1901 Census of Ireland (PRIMARY SOURCE, retrieved 2026): Mullaghfin, Duleek DED, Co. Meath, House 3 — http://www.census.nationalarchives.ie/pages/1901/Meath/Duleek/Mullaghfin/1609301/ ; original Form A image: http://www.census.nationalarchives.ie/reels/nai001112178/"
+      ]
+    },
+    {
+      "id": "agnes-clarke",
+      "name": "Agnes Clarke",
+      "born": {
+        "year": "c.1896",
+        "place": "Co. Meath"
+      },
+      "died": null,
+      "occupation": "Scholar",
+      "religion": "Roman Catholic",
+      "notes": "Child of Catherine Clarke (widow) of Mullaghfin, Duleek DED, Co. Meath. Sibling of Bridget Clarke (later Bridget Greene, m. Thomas Christopher Greene). Recorded in 1901 Census of Ireland, House 3 Mullaghfin, age 5, Scholar, literacy: Cannot read. Roman Catholic. Born Co. Meath. Further life unknown.",
+      "confidence": "high",
+      "sources": [
+        "1901 Census of Ireland (PRIMARY SOURCE, retrieved 2026): Mullaghfin, Duleek DED, Co. Meath, House 3 — http://www.census.nationalarchives.ie/pages/1901/Meath/Duleek/Mullaghfin/1609301/ ; original Form A image: http://www.census.nationalarchives.ie/reels/nai001112178/"
+      ]
     }
   ],
   "couples": [
-    { "id": "c-joseph-elizabeth", "partner1": "joseph-greene", "partner2": "elizabeth-foran", "married": null, "confidence": "medium" },
-    { "id": "c-thomas-elizabeth1", "partner1": "thomas-greene", "partner2": "elizabeth-wife1", "married": { "year": "c.1899", "place": "Dublin" }, "confidence": "high" },
-    { "id": "c-thomas-bridget", "partner1": "thomas-greene", "partner2": "bridget-wife2", "married": { "year": "c.1920s", "place": "Dublin (presumed)" }, "confidence": "high" },
-    { "id": "c-ita-john", "partner1": "eita-greene", "partner2": "john-donnelly", "married": { "year": "c.1950s-1960s", "place": "Dublin (presumed)" }, "confidence": "high" },
-    { "id": "c-mark-claire", "partner1": "mark-garrigan", "partner2": "claire-garrigan", "married": { "place": "Dublin" }, "confidence": "high" },
-    { "id": "c-thomas-ii-margaret", "partner1": "thomas-greene-ii", "partner2": "margaret-greene-nz", "married": { "place": "New Zealand" }, "confidence": "high" },
-    { "id": "c-elizabeth-alfred", "partner1": "elizabeth-harris", "partner2": "alfred-harris", "married": { "year": "1941", "date": "13 September 1941", "place": "Church of St Mary and St Peter Vauxhall, St. Helier, Jersey" }, "confidence": "high" },
-    { "id": "c-ann-paul", "partner1": "ann-donnelly", "partner2": "paul-donnelly-inlaw", "married": { "place": "Dublin (presumed)" }, "confidence": "high" },
-    { "id": "c-john-jr-josette", "partner1": "john-donnelly-jr", "partner2": "josette-donnelly", "married": { "place": "Dublin (presumed)" }, "confidence": "high" },
-    { "id": "c-sheila-robbie", "partner1": "sheila-donnelly", "partner2": "robbie-donnelly-inlaw", "married": { "place": "Dublin (presumed)" }, "confidence": "high" },
-    { "id": "c-ger-emily", "partner1": "ger-donnelly", "partner2": "emily-donnelly", "married": { "place": "Dublin (presumed)" }, "confidence": "high" }
+    {
+      "id": "c-joseph-elizabeth",
+      "partner1": "joseph-greene",
+      "partner2": "elizabeth-foran",
+      "married": null,
+      "confidence": "medium"
+    },
+    {
+      "id": "c-thomas-elizabeth1",
+      "partner1": "thomas-greene",
+      "partner2": "elizabeth-wife1",
+      "married": {
+        "year": "c.1899",
+        "place": "Dublin"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "c-thomas-bridget",
+      "partner1": "thomas-greene",
+      "partner2": "bridget-wife2",
+      "married": {
+        "year": "c.1920s",
+        "place": "Dublin (presumed)"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "c-ita-john",
+      "partner1": "eita-greene",
+      "partner2": "john-donnelly",
+      "married": {
+        "year": "c.1950s-1960s",
+        "place": "Dublin (presumed)"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "c-mark-claire",
+      "partner1": "mark-garrigan",
+      "partner2": "claire-garrigan",
+      "married": {
+        "place": "Dublin"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "c-thomas-ii-margaret",
+      "partner1": "thomas-greene-ii",
+      "partner2": "margaret-greene-nz",
+      "married": {
+        "place": "New Zealand"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "c-elizabeth-alfred",
+      "partner1": "elizabeth-harris",
+      "partner2": "alfred-harris",
+      "married": {
+        "year": "1941",
+        "date": "13 September 1941",
+        "place": "Church of St Mary and St Peter Vauxhall, St. Helier, Jersey"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "c-ann-paul",
+      "partner1": "ann-donnelly",
+      "partner2": "paul-donnelly-inlaw",
+      "married": {
+        "place": "Dublin (presumed)"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "c-john-jr-josette",
+      "partner1": "john-donnelly-jr",
+      "partner2": "josette-donnelly",
+      "married": {
+        "place": "Dublin (presumed)"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "c-sheila-robbie",
+      "partner1": "sheila-donnelly",
+      "partner2": "robbie-donnelly-inlaw",
+      "married": {
+        "place": "Dublin (presumed)"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "c-ger-emily",
+      "partner1": "ger-donnelly",
+      "partner2": "emily-donnelly",
+      "married": {
+        "place": "Dublin (presumed)"
+      },
+      "confidence": "high"
+    }
   ],
   "parentChild": [
-    { "parent": "joseph-greene", "child": "thomas-greene", "confidence": "medium" },
-    { "parent": "elizabeth-foran", "child": "thomas-greene", "confidence": "medium" },
-    { "parent": "joseph-greene", "child": "mary-bridget-greene", "confidence": "high" },
-    { "parent": "elizabeth-foran", "child": "mary-bridget-greene", "confidence": "high" },
-    { "parent": "thomas-greene", "child": "thomas-jr", "confidence": "high" },
-    { "parent": "elizabeth-wife1", "child": "thomas-jr", "confidence": "high" },
-    { "parent": "thomas-greene", "child": "patrick-greene", "confidence": "high" },
-    { "parent": "elizabeth-wife1", "child": "patrick-greene", "confidence": "high" },
-    { "parent": "thomas-greene", "child": "elizabeth-harris", "confidence": "high" },
-    { "parent": "elizabeth-wife1", "child": "elizabeth-harris", "confidence": "high" },
-    { "parent": "thomas-greene", "child": "john-greene", "confidence": "high" },
-    { "parent": "bridget-wife2", "child": "john-greene", "confidence": "high" },
-    { "parent": "thomas-greene", "child": "thomas-greene-ii", "confidence": "high" },
-    { "parent": "bridget-wife2", "child": "thomas-greene-ii", "confidence": "high" },
-    { "parent": "thomas-greene", "child": "brendan-greene", "confidence": "high" },
-    { "parent": "bridget-wife2", "child": "brendan-greene", "confidence": "high" },
-    { "parent": "thomas-greene", "child": "eita-greene", "confidence": "high" },
-    { "parent": "bridget-wife2", "child": "eita-greene", "confidence": "high" },
-    { "parent": "eita-greene", "child": "ann-donnelly", "confidence": "high" },
-    { "parent": "john-donnelly", "child": "ann-donnelly", "confidence": "high" },
-    { "parent": "ann-donnelly", "child": "claire-garrigan", "confidence": "high" },
-    { "parent": "paul-donnelly-inlaw", "child": "claire-garrigan", "confidence": "high" },
-    { "parent": "catherine-clarke", "child": "bridget-wife2", "confidence": "high" },
-    { "parent": "eita-greene", "child": "john-donnelly-jr", "confidence": "high" },
-    { "parent": "john-donnelly", "child": "john-donnelly-jr", "confidence": "high" },
-    { "parent": "eita-greene", "child": "sheila-donnelly", "confidence": "high" },
-    { "parent": "john-donnelly", "child": "sheila-donnelly", "confidence": "high" },
-    { "parent": "eita-greene", "child": "ger-donnelly", "confidence": "high" },
-    { "parent": "john-donnelly", "child": "ger-donnelly", "confidence": "high" },
-    { "parent": "charles-edward-harris", "child": "alfred-harris", "confidence": "high" }
+    {
+      "parent": "joseph-greene",
+      "child": "thomas-greene",
+      "confidence": "medium"
+    },
+    {
+      "parent": "elizabeth-foran",
+      "child": "thomas-greene",
+      "confidence": "medium"
+    },
+    {
+      "parent": "joseph-greene",
+      "child": "mary-bridget-greene",
+      "confidence": "high"
+    },
+    {
+      "parent": "elizabeth-foran",
+      "child": "mary-bridget-greene",
+      "confidence": "high"
+    },
+    {
+      "parent": "thomas-greene",
+      "child": "thomas-jr",
+      "confidence": "high"
+    },
+    {
+      "parent": "elizabeth-wife1",
+      "child": "thomas-jr",
+      "confidence": "high"
+    },
+    {
+      "parent": "thomas-greene",
+      "child": "patrick-greene",
+      "confidence": "high"
+    },
+    {
+      "parent": "elizabeth-wife1",
+      "child": "patrick-greene",
+      "confidence": "high"
+    },
+    {
+      "parent": "thomas-greene",
+      "child": "elizabeth-harris",
+      "confidence": "high"
+    },
+    {
+      "parent": "elizabeth-wife1",
+      "child": "elizabeth-harris",
+      "confidence": "high"
+    },
+    {
+      "parent": "thomas-greene",
+      "child": "john-greene",
+      "confidence": "high"
+    },
+    {
+      "parent": "bridget-wife2",
+      "child": "john-greene",
+      "confidence": "high"
+    },
+    {
+      "parent": "thomas-greene",
+      "child": "thomas-greene-ii",
+      "confidence": "high"
+    },
+    {
+      "parent": "bridget-wife2",
+      "child": "thomas-greene-ii",
+      "confidence": "high"
+    },
+    {
+      "parent": "thomas-greene",
+      "child": "brendan-greene",
+      "confidence": "high"
+    },
+    {
+      "parent": "bridget-wife2",
+      "child": "brendan-greene",
+      "confidence": "high"
+    },
+    {
+      "parent": "thomas-greene",
+      "child": "eita-greene",
+      "confidence": "high"
+    },
+    {
+      "parent": "bridget-wife2",
+      "child": "eita-greene",
+      "confidence": "high"
+    },
+    {
+      "parent": "eita-greene",
+      "child": "ann-donnelly",
+      "confidence": "high"
+    },
+    {
+      "parent": "john-donnelly",
+      "child": "ann-donnelly",
+      "confidence": "high"
+    },
+    {
+      "parent": "ann-donnelly",
+      "child": "claire-garrigan",
+      "confidence": "high"
+    },
+    {
+      "parent": "paul-donnelly-inlaw",
+      "child": "claire-garrigan",
+      "confidence": "high"
+    },
+    {
+      "parent": "catherine-clarke",
+      "child": "bridget-wife2",
+      "confidence": "high"
+    },
+    {
+      "parent": "eita-greene",
+      "child": "john-donnelly-jr",
+      "confidence": "high"
+    },
+    {
+      "parent": "john-donnelly",
+      "child": "john-donnelly-jr",
+      "confidence": "high"
+    },
+    {
+      "parent": "eita-greene",
+      "child": "sheila-donnelly",
+      "confidence": "high"
+    },
+    {
+      "parent": "john-donnelly",
+      "child": "sheila-donnelly",
+      "confidence": "high"
+    },
+    {
+      "parent": "eita-greene",
+      "child": "ger-donnelly",
+      "confidence": "high"
+    },
+    {
+      "parent": "john-donnelly",
+      "child": "ger-donnelly",
+      "confidence": "high"
+    },
+    {
+      "parent": "charles-edward-harris",
+      "child": "alfred-harris",
+      "confidence": "high"
+    },
+    {
+      "parent": "catherine-clarke",
+      "child": "rose-clarke",
+      "confidence": "high"
+    },
+    {
+      "parent": "catherine-clarke",
+      "child": "patrick-clarke",
+      "confidence": "high"
+    },
+    {
+      "parent": "catherine-clarke",
+      "child": "mary-clarke",
+      "confidence": "high"
+    },
+    {
+      "parent": "catherine-clarke",
+      "child": "jane-clarke",
+      "confidence": "high"
+    },
+    {
+      "parent": "catherine-clarke",
+      "child": "agnes-clarke",
+      "confidence": "high"
+    }
   ],
   "events": [
-    { "year": "c.1830s", "title": "Earliest Record", "description": "Thos Green appears in Tithe Applotment Books, Ballyburly, King's County — approximately 8km north of Portarlington.", "people": ["thos-green-ballyburly"] },
-    { "year": "c.1870", "title": "Thomas Greene Born", "description": "Born c. July 1870 in Portarlington (age 55 years 9 months in the April 1926 Census). Roman Catholic. His birthplace recorded as 'Queens Co./Portarlington' in the 1926 Census.", "people": ["thomas-greene"] },
-    { "year": "1874", "title": "Mary Bridget Greene Born", "description": "Born in Portarlington, Laois. Daughter of Joseph Greene and Elizabeth Foran.", "people": ["mary-bridget-greene"] },
-    { "year": "c.1884", "title": "Thomas Enlists Underage", "description": "Thomas lied about his age and enlisted in the British Army at around age 14 — a practice that was remarkably common in the late Victorian army, especially among boys from poor rural backgrounds with few prospects. He likely joined the Prince of Wales's Leinster Regiment (Royal Canadians) at Birr Barracks, just 25 miles from Portarlington.", "people": ["thomas-greene"] },
-    { "year": "c.1899", "title": "Thomas Marries Elizabeth", "description": "Thomas Greene marries Elizabeth (surname unknown) in Dublin. She is from County Dublin and approximately 7 years his senior.", "people": ["thomas-greene", "elizabeth-wife1"] },
-    { "year": "1899-1902", "title": "Second Boer War", "description": "The Leinster Regiment served in South Africa. Thomas may have served before or during this conflict. Both the 1st and 2nd Battalions saw action at Hammonia, Harrismith, Vrede, and Bethlehem.", "people": ["thomas-greene"] },
-    { "year": "1901", "title": "1901 Census", "description": "Thomas (30) and Elizabeth (30) recorded at Ranelagh Avenue, Rathmines & Rathgar East, Dublin. Thomas is a Shop Porter. No children yet.", "people": ["thomas-greene", "elizabeth-wife1"] },
-    { "year": "1911", "title": "1911 Census — Greene Family", "description": "Sunday 2 April 1911. Thomas (40) and Elizabeth (41) at Clonliffe Avenue, Mountjoy, Dublin (Form A; Form B household No. 1842). Thomas is now a Gentleman's Club Steward. Three children: Thomas Jr (10), Patrick (8), Elizabeth (4). Married 12 years. All children living. All Roman Catholic; all read & write except 4-year-old Elizabeth. Thomas's birthplace recorded as Kings Co. / Portarlington (Offaly side of the town). The form is signed by Thomas Greene himself — confirming he was literate. Enumerator: John Broderick.", "people": ["thomas-greene", "elizabeth-wife1", "thomas-jr", "patrick-greene", "elizabeth-harris"] },
-    { "year": "1911", "title": "1911 Census — Bridget Clarke Found", "description": "In the same census, Bridget Clarke (19) appears as a servant in the Dublin household of Dr. Christopher Waters, a Physician & Surgeon from Cappawhite, Co. Limerick. Bridget is single, Roman Catholic, and can read and write. Her birthplace is recorded as Dublin in this census, but the later 1926 Census corrects this to Duleek, County Meath. She will later become Thomas Greene's second wife.", "people": ["bridget-wife2", "christopher-waters"] },
-    { "year": "1926", "title": "1926 Census — York Street, Dublin", "description": "The first census of the Irish Free State, enumerated 18 April 1926. Thomas Greene (Head, age 55y 9m, from Queens Co./Portarlington) is living at York Street, Dublin, with his second wife Bridget (age 34y 4m, from Duleek, Co. Meath). Thomas works as Shop Porter at Switzers & Co. Drapers on Grafton Street. Also in the household: Patrick Greene (son from first marriage, age 23, single, Battery Repairer/Motor Engineer for S.F. Robinson), John Greene (age 2y 9m), and baby Thomas Greene (age 0y 9m). The family occupies 2 rooms. All are Roman Catholic. Notable: Thomas Jr (~25) and Elizabeth (~19) from the first marriage are not in the household. Signed by Thomas Greene; Enumerator: Myles Cullen.", "people": ["thomas-greene", "bridget-wife2", "patrick-greene", "john-greene", "thomas-greene-ii"] },
-    { "year": "c.1930s", "title": "Elizabeth Moves to Channel Islands", "description": "Elizabeth Bessie Greene leaves Dublin and arrives on the island of Jersey (Channel Islands), where she works as a nurse. The exact year and route is not yet documented.", "people": ["elizabeth-harris"] },
-    { "year": "1940", "title": "German Occupation of Jersey", "description": "German forces occupy the Channel Islands on 30 June 1940. Elizabeth Greene is on Jersey at the time and remains there throughout the occupation. Approximately 66,000 civilians stay on the islands; the British government had withdrawn shortly before, leaving the islands undefended.", "people": ["elizabeth-harris"] },
-    { "year": "1941", "title": "Elizabeth Marries Alfred Harris — During the Occupation", "description": "On 13 September 1941, fourteen months into the German Occupation, Elizabeth Bessie Greene (34, Nurse, Spinster) marries Alfred Bower Harris (28, Printer, Bachelor, born Bretforton, Worcestershire) at the Church of St Mary and St Peter Vauxhall, in the Parish of St. Helier, Jersey. The ceremony is officiated by Richard T. Arnett with witnesses F.C. Colligny and C.M. Colligny. Both bride and groom give their address as St. Saviour's, Jersey. Her father Thomas Greene is recorded as 'Retired'. The marriage is registered as Page 97 of the Jersey 1941 register by Deputy Registrar W.A. de la Perrelle. Marrying under enemy occupation — with no telegrams home to Dublin, no ability for family to attend — is itself a remarkable act.", "people": ["elizabeth-harris", "alfred-harris", "thomas-greene"] },
-    { "year": "1942", "title": "Deportation", "description": "On Hitler's direct orders (issued 15 September 1942), approximately 2,300 Channel Islands civilians are deported to internment camps in Germany. Those born outside the islands — including Elizabeth (born Dublin) and her new husband Alfred (born Worcestershire, England) — are primary targets. Both are sent to Biberach Internment Camp (Ilag V-B) in southern Germany. Their marriage of barely 12 months is followed straight into internment.", "people": ["elizabeth-harris", "alfred-harris"] },
-    { "year": "1943-1945", "title": "Biberach Internment", "description": "Elizabeth works as a nurse at the Men's Hospital of Biberach Internment Camp under Dr. A.W.H. Donaldson, M.B., D.P.H. Despite harsh conditions and rationed food, she is described as 'keen, energetic and efficient, and always cheerful.'", "people": ["elizabeth-harris"] },
-    { "year": "1945", "title": "Liberation", "description": "Biberach is liberated by the French First Army on 23 April 1945. On 21 May, Dr. Donaldson writes a glowing letter of recommendation for Nurse Harris, praising her nursing abilities, kindness, and even her cooking — 'her cakes and other dainties have been a god-send where the rationed food has been served up with so little of variety.'", "people": ["elizabeth-harris"] },
-    { "year": "1951", "title": "Thomas Greene Dies", "description": "Thomas Christopher Greene dies on 6 December 1951, age 81, at 38 Goldenbridge Avenue, Inchicore, Dublin. Cause of death: carcinoma of the stomach, cachexia, cardiac failure. Still listed as a Warehouse Porter — a working man to the very end. His death was registered the following day by his son John Greene, who was living at the same address. Registrar: M. Ryan.", "people": ["thomas-greene", "john-greene"] },
-    { "year": "1970", "title": "Bridget Greene Dies", "description": "Bridget Greene (née Clarke) dies on 9 August 1970, age 78, at Adelaide Hospital, Dublin, admitted from 38 Goldenbridge Avenue, Inchicore — still living in the family home nearly 19 years after Thomas's death. Cause of death: acute massive gangrene of small intestine and cardiac failure. Widowed. Death registered 11 August 1970 by her son Brendan Greene of 62 Limekiln Drive, Terenure.", "people": ["bridget-wife2", "brendan-greene"] },
-    { "year": "c.1891", "title": "Bridget Clarke Born in Duleek", "description": "Bridget Clarke is born in Mullaghfin, Duleek, County Meath, to Catherine Clarke — a widowed general labourer struggling to support six children in rural Ireland. Bridget is the fifth of six children. By age 9, she will be sent into domestic service.", "people": ["bridget-wife2", "catherine-clarke"] },
-    { "year": "c.1895", "title": "Catherine Clarke Widowed", "description": "Catherine Clarke's husband dies (name unknown), leaving her a widow with six children in Mullaghfin, Duleek. She works as a general labourer — one of the hardest lives imaginable for a woman in 1890s rural Ireland. She cannot read or write.", "people": ["catherine-clarke"] },
-    { "year": "c.1920s", "title": "Thomas Marries Bridget Clarke", "description": "After the death of his first wife Elizabeth, Thomas Greene marries Bridget Clarke in Dublin. She is 21 years his junior — he is in his 50s, she in her 30s. They go on to have four children: John, Thomas, Brendan, and Ita.", "people": ["thomas-greene", "bridget-wife2"] },
-    { "year": "c.1930s", "title": "Move to Goldenbridge Avenue", "description": "The Greene family moves from York Street tenements to 38 Goldenbridge Avenue, Inchicore — part of Dublin Corporation's ambitious housing programme replacing inner-city slums with purpose-built suburban homes. This house will remain the family home for over 90 years.", "people": ["thomas-greene", "bridget-wife2"] },
-    { "year": "2000", "title": "Thomas Patrick Greene Dies in New Zealand", "description": "Thomas Patrick Greene (II), born 21 July 1925 in Dublin, dies in New Zealand at age 75. He had emigrated to New Zealand, married Margaret (a Samoan woman), and raised a family whose descendants now live across New Zealand and Australia. NZ BDM registration: 2000/1764.", "people": ["thomas-greene-ii"] },
-    { "year": "2023", "title": "Brendan Greene Dies", "description": "Brendan Greene dies on 3 March 2023 at Limekiln Road, Terenure, Dublin. Married Roisin (predeceased). Three children: Terry, Geraldine, and Dermot (predeceased). Brendan's move from Inchicore to the middle-class suburb of Terenure represented the upward social mobility of his generation.", "people": ["brendan-greene"] },
-    { "year": "2025", "title": "Ita Donnelly Dies — End of an Era", "description": "Ita Donnelly (née Greene, Eithne) dies peacefully on 6 December 2025 at Kiltipper Woods Care Centre, aged 91. She was the last of Thomas and Bridget's children. Remarkably, she had lived at 38 Goldenbridge Avenue, Inchicore — the family home — her entire life. Survived by children Ann, John, Sheila, and Ger, nine grandchildren including Claire (née Donnelly, wife of researcher Mark Garrigan), and great-grandchildren. Funeral at St. Michael's Church, Inchicore; buried Deansgrange Cemetery. Donations to the Alzheimer Society of Ireland.", "people": ["eita-greene"] }
+    {
+      "year": "c.1830s",
+      "title": "Earliest Record",
+      "description": "Thos Green appears in Tithe Applotment Books, Ballyburly, King's County — approximately 8km north of Portarlington.",
+      "people": [
+        "thos-green-ballyburly"
+      ]
+    },
+    {
+      "year": "c.1870",
+      "title": "Thomas Greene Born",
+      "description": "Born c. July 1870 in Portarlington (age 55 years 9 months in the April 1926 Census). Roman Catholic. His birthplace recorded as 'Queens Co./Portarlington' in the 1926 Census.",
+      "people": [
+        "thomas-greene"
+      ]
+    },
+    {
+      "year": "1874",
+      "title": "Mary Bridget Greene Born",
+      "description": "Born in Portarlington, Laois. Daughter of Joseph Greene and Elizabeth Foran.",
+      "people": [
+        "mary-bridget-greene"
+      ]
+    },
+    {
+      "year": "c.1884",
+      "title": "Thomas Enlists Underage",
+      "description": "Thomas lied about his age and enlisted in the British Army at around age 14 — a practice that was remarkably common in the late Victorian army, especially among boys from poor rural backgrounds with few prospects. He likely joined the Prince of Wales's Leinster Regiment (Royal Canadians) at Birr Barracks, just 25 miles from Portarlington.",
+      "people": [
+        "thomas-greene"
+      ]
+    },
+    {
+      "year": "c.1899",
+      "title": "Thomas Marries Elizabeth",
+      "description": "Thomas Greene marries Elizabeth (surname unknown) in Dublin. She is from County Dublin and approximately 7 years his senior.",
+      "people": [
+        "thomas-greene",
+        "elizabeth-wife1"
+      ]
+    },
+    {
+      "year": "1899-1902",
+      "title": "Second Boer War",
+      "description": "The Leinster Regiment served in South Africa. Thomas may have served before or during this conflict. Both the 1st and 2nd Battalions saw action at Hammonia, Harrismith, Vrede, and Bethlehem.",
+      "people": [
+        "thomas-greene"
+      ]
+    },
+    {
+      "year": "1901",
+      "date": "31 March 1901",
+      "title": "1901 Census",
+      "description": "Thomas (30) and Elizabeth (30) recorded at Ranelagh Avenue, Rathmines & Rathgar East, Dublin. Thomas is a Shop Porter. No children yet.",
+      "people": [
+        "thomas-greene",
+        "elizabeth-wife1"
+      ]
+    },
+    {
+      "year": "1911",
+      "date": "2 April 1911",
+      "title": "1911 Census — Greene Family",
+      "description": "Sunday 2 April 1911. Thomas (40) and Elizabeth (41) at Clonliffe Avenue, Mountjoy, Dublin (Form A; Form B household No. 1842). Thomas is now a Gentleman's Club Steward. Three children: Thomas Jr (10), Patrick (8), Elizabeth (4). Married 12 years. All children living. All Roman Catholic; all read & write except 4-year-old Elizabeth. Thomas's birthplace recorded as Kings Co. / Portarlington (Offaly side of the town). The form is signed by Thomas Greene himself — confirming he was literate. Enumerator: John Broderick.",
+      "people": [
+        "thomas-greene",
+        "elizabeth-wife1",
+        "thomas-jr",
+        "patrick-greene",
+        "elizabeth-harris"
+      ]
+    },
+    {
+      "year": "1911",
+      "date": "2 April 1911",
+      "title": "1911 Census — Bridget Clarke Found",
+      "description": "In the same census, Bridget Clarke (19) appears as a servant in the Dublin household of Dr. Christopher Waters, a Physician & Surgeon from Cappawhite, Co. Limerick. Bridget is single, Roman Catholic, and can read and write. Her birthplace is recorded as Dublin in this census, but the later 1926 Census corrects this to Duleek, County Meath. She will later become Thomas Greene's second wife.",
+      "people": [
+        "bridget-wife2",
+        "christopher-waters"
+      ]
+    },
+    {
+      "year": "1926",
+      "date": "18 April 1926",
+      "title": "1926 Census — York Street, Dublin",
+      "description": "The first census of the Irish Free State, enumerated 18 April 1926. Thomas Greene (Head, age 55y 9m, from Queens Co./Portarlington) is living at York Street, Dublin, with his second wife Bridget (age 34y 4m, from Duleek, Co. Meath). Thomas works as Shop Porter at Switzers & Co. Drapers on Grafton Street. Also in the household: Patrick Greene (son from first marriage, age 23, single, Battery Repairer/Motor Engineer for S.F. Robinson), John Greene (age 2y 9m), and baby Thomas Greene (age 0y 9m). The family occupies 2 rooms. All are Roman Catholic. Notable: Thomas Jr (~25) and Elizabeth (~19) from the first marriage are not in the household. Signed by Thomas Greene; Enumerator: Myles Cullen.",
+      "people": [
+        "thomas-greene",
+        "bridget-wife2",
+        "patrick-greene",
+        "john-greene",
+        "thomas-greene-ii"
+      ]
+    },
+    {
+      "year": "c.1930s",
+      "title": "Elizabeth Moves to Channel Islands",
+      "description": "Elizabeth Bessie Greene leaves Dublin and arrives on the island of Jersey (Channel Islands), where she works as a nurse. The exact year and route is not yet documented.",
+      "people": [
+        "elizabeth-harris"
+      ]
+    },
+    {
+      "year": "1940",
+      "date": "30 June 1940",
+      "title": "German Occupation of Jersey",
+      "description": "German forces occupy the Channel Islands on 30 June 1940. Elizabeth Greene is on Jersey at the time and remains there throughout the occupation. Approximately 66,000 civilians stay on the islands; the British government had withdrawn shortly before, leaving the islands undefended.",
+      "people": [
+        "elizabeth-harris"
+      ]
+    },
+    {
+      "year": "1941",
+      "date": "13 September 1941",
+      "title": "Elizabeth Marries Alfred Harris — During the Occupation",
+      "description": "On 13 September 1941, fourteen months into the German Occupation, Elizabeth Bessie Greene (34, Nurse, Spinster) marries Alfred Bower Harris (28, Printer, Bachelor, born Bretforton, Worcestershire) at the Church of St Mary and St Peter Vauxhall, in the Parish of St. Helier, Jersey. The ceremony is officiated by Richard T. Arnett with witnesses F.C. Colligny and C.M. Colligny. Both bride and groom give their address as St. Saviour's, Jersey. Her father Thomas Greene is recorded as 'Retired'. The marriage is registered as Page 97 of the Jersey 1941 register by Deputy Registrar W.A. de la Perrelle. Marrying under enemy occupation — with no telegrams home to Dublin, no ability for family to attend — is itself a remarkable act.",
+      "people": [
+        "elizabeth-harris",
+        "alfred-harris",
+        "thomas-greene"
+      ]
+    },
+    {
+      "year": "1942",
+      "title": "Deportation",
+      "description": "On Hitler's direct orders (issued 15 September 1942), approximately 2,300 Channel Islands civilians are deported to internment camps in Germany. Those born outside the islands — including Elizabeth (born Dublin) and her new husband Alfred (born Worcestershire, England) — are primary targets. Both are sent to Biberach Internment Camp (Ilag V-B) in southern Germany. Their marriage of barely 12 months is followed straight into internment.",
+      "people": [
+        "elizabeth-harris",
+        "alfred-harris"
+      ]
+    },
+    {
+      "year": "1943-1945",
+      "title": "Biberach Internment",
+      "description": "Elizabeth works as a nurse at the Men's Hospital of Biberach Internment Camp under Dr. A.W.H. Donaldson, M.B., D.P.H. Despite harsh conditions and rationed food, she is described as 'keen, energetic and efficient, and always cheerful.'",
+      "people": [
+        "elizabeth-harris"
+      ]
+    },
+    {
+      "year": "1945",
+      "date": "23 April 1945",
+      "title": "Liberation",
+      "description": "Biberach is liberated by the French First Army on 23 April 1945. On 21 May, Dr. Donaldson writes a glowing letter of recommendation for Nurse Harris, praising her nursing abilities, kindness, and even her cooking — 'her cakes and other dainties have been a god-send where the rationed food has been served up with so little of variety.'",
+      "people": [
+        "elizabeth-harris"
+      ]
+    },
+    {
+      "year": "1951",
+      "date": "6 December 1951",
+      "title": "Thomas Greene Dies",
+      "description": "Thomas Christopher Greene dies on 6 December 1951, age 81, at 38 Goldenbridge Avenue, Inchicore, Dublin. Cause of death: carcinoma of the stomach, cachexia, cardiac failure. Still listed as a Warehouse Porter — a working man to the very end. His death was registered the following day by his son John Greene, who was living at the same address. Registrar: M. Ryan.",
+      "people": [
+        "thomas-greene",
+        "john-greene"
+      ]
+    },
+    {
+      "year": "1970",
+      "date": "9 August 1970",
+      "title": "Bridget Greene Dies",
+      "description": "Bridget Greene (née Clarke) dies on 9 August 1970, age 78, at Adelaide Hospital, Dublin, admitted from 38 Goldenbridge Avenue, Inchicore — still living in the family home nearly 19 years after Thomas's death. Cause of death: acute massive gangrene of small intestine and cardiac failure. Widowed. Death registered 11 August 1970 by her son Brendan Greene of 62 Limekiln Drive, Terenure.",
+      "people": [
+        "bridget-wife2",
+        "brendan-greene"
+      ]
+    },
+    {
+      "year": "c.1891",
+      "title": "Bridget Clarke Born in Duleek",
+      "description": "Bridget Clarke is born in Mullaghfin, Duleek, County Meath, to Catherine Clarke — a widowed general labourer struggling to support six children in rural Ireland. Bridget is the fifth of six children. By age 9, she will be sent into domestic service.",
+      "people": [
+        "bridget-wife2",
+        "catherine-clarke"
+      ]
+    },
+    {
+      "year": "c.1895",
+      "title": "Catherine Clarke Widowed",
+      "description": "Catherine Clarke's husband dies (name unknown), leaving her a widow with six children in Mullaghfin, Duleek. She works as a general labourer — one of the hardest lives imaginable for a woman in 1890s rural Ireland. She cannot read or write.",
+      "people": [
+        "catherine-clarke"
+      ]
+    },
+    {
+      "year": "c.1920s",
+      "title": "Thomas Marries Bridget Clarke",
+      "description": "After the death of his first wife Elizabeth, Thomas Greene marries Bridget Clarke in Dublin. She is 21 years his junior — he is in his 50s, she in her 30s. They go on to have four children: John, Thomas, Brendan, and Ita.",
+      "people": [
+        "thomas-greene",
+        "bridget-wife2"
+      ]
+    },
+    {
+      "year": "c.1930s",
+      "title": "Move to Goldenbridge Avenue",
+      "description": "The Greene family moves from York Street tenements to 38 Goldenbridge Avenue, Inchicore — part of Dublin Corporation's ambitious housing programme replacing inner-city slums with purpose-built suburban homes. This house will remain the family home for over 90 years.",
+      "people": [
+        "thomas-greene",
+        "bridget-wife2"
+      ]
+    },
+    {
+      "year": "2000",
+      "title": "Thomas Patrick Greene Dies in New Zealand",
+      "description": "Thomas Patrick Greene (II), born 21 July 1925 in Dublin, dies in New Zealand at age 75. He had emigrated to New Zealand, married Margaret (a Samoan woman), and raised a family whose descendants now live across New Zealand and Australia. NZ BDM registration: 2000/1764.",
+      "people": [
+        "thomas-greene-ii"
+      ]
+    },
+    {
+      "year": "2023",
+      "date": "3 March 2023",
+      "title": "Brendan Greene Dies",
+      "description": "Brendan Greene dies on 3 March 2023 at Limekiln Road, Terenure, Dublin. Married Roisin (predeceased). Three children: Terry, Geraldine, and Dermot (predeceased). Brendan's move from Inchicore to the middle-class suburb of Terenure represented the upward social mobility of his generation.",
+      "people": [
+        "brendan-greene"
+      ]
+    },
+    {
+      "year": "2025",
+      "date": "6 December 2025",
+      "title": "Ita Donnelly Dies — End of an Era",
+      "description": "Ita Donnelly (née Greene, Eithne) dies peacefully on 6 December 2025 at Kiltipper Woods Care Centre, aged 91. She was the last of Thomas and Bridget's children. Remarkably, she had lived at 38 Goldenbridge Avenue, Inchicore — the family home — her entire life. Survived by children Ann, John, Sheila, and Ger, nine grandchildren including Claire (née Donnelly, wife of researcher Mark Garrigan), and great-grandchildren. Funeral at St. Michael's Church, Inchicore; buried Deansgrange Cemetery. Donations to the Alzheimer Society of Ireland.",
+      "people": [
+        "eita-greene"
+      ]
+    },
+    {
+      "year": "1901",
+      "title": "1901 Census — Clarke household, Mullaghfin, Duleek, Co. Meath",
+      "description": "Catherine Clarke (40, widow, General Labourer, cannot read, Roman Catholic, Head of Family) at House 3 Mullaghfin, Duleek DED, Co. Meath, with six children: Rose (23, Gen. Labourer), Patrick (18, Gen. Labourer, literate), Mary (12, Scholar), Jane (10, Scholar), Bridget (9, Scholar — later Bridget Greene, Mark Garrigan's great-grandmother), Agnes (5, Scholar). All Roman Catholic, born Co. Meath. Source: http://www.census.nationalarchives.ie/pages/1901/Meath/Duleek/Mullaghfin/1609301/ ; Form A image: http://www.census.nationalarchives.ie/reels/nai001112178/",
+      "people": [
+        "catherine-clarke",
+        "rose-clarke",
+        "patrick-clarke",
+        "mary-clarke",
+        "jane-clarke",
+        "bridget-wife2",
+        "agnes-clarke"
+      ]
+    }
   ]
 }
