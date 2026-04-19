@@ -94,11 +94,16 @@ async function fillSearchForm(page, args) {
     }, args['rel-type'], { timeout: 5000 }).catch(() => {});
     try { await page.locator('#relation-0').selectOption({ value: args['rel-type'] }); }
     catch { try { await page.locator('#relation-0').selectOption({ label: args['rel-type'] }); } catch {} }
-    // Force-fire change so the page enables the relation-first/last inputs
-    await page.evaluate(() => {
+    // Force-set value via JS too (selectOption doesn't always stick when option was just enabled)
+    await page.evaluate((val) => {
       const sel = document.querySelector('#relation-0');
-      if (sel) sel.dispatchEvent(new Event('change', { bubbles: true }));
-    });
+      if (sel) {
+        const opt = sel.querySelector(`option[value="${val}"]`);
+        if (opt) opt.disabled = false;
+        sel.value = val;
+        sel.dispatchEvent(new Event('change', { bubbles: true }));
+      }
+    }, args['rel-type']);
     await page.locator('#relation-first-0:not([disabled])').waitFor({ state: 'visible', timeout: 5000 }).catch(() => {});
   }
   if (args['rel-first']) {
