@@ -23,14 +23,16 @@
     }
   },
   "summary": {
-    "total_assets": 18,
+    "total_assets": 40,
     "primary_evidence": 7,
     "derived_evidence": 0,
-    "site_illustration": 4,
+    "site_illustration": 7,
     "hero_background": 12,
     "process_artefact": "many (gitignored or archival only — not catalogued individually)",
     "wishlist": 14,
-    "key_gap": "We have ZERO family-personal photographs (no portraits of Thomas, Bridget, Catherine, Patrick, Elizabeth, Joseph, the Greene siblings, or any group photos). Every photograph on the site is currently either generic Unsplash mood imagery, public-domain place imagery, or a primary-source document scan. Mark/Claire's family albums (if they exist) are the single biggest unrealised source."
+    "key_gap": "We have ZERO family-personal photographs (no portraits of Thomas, Bridget, Catherine, Patrick, Elizabeth, Joseph, the Greene siblings, or any group photos). Every photograph on the site is currently either generic Unsplash mood imagery, public-domain place imagery, or a primary-source document scan. Mark/Claire's family albums (if they exist) are the single biggest unrealised source.",
+    "wishlist_filled": 3,
+    "b2_status": "B2 in progress: 6 of 7 hot-linked/wishlist images now self-hosted under images/illustrations/. Portarlington Main Street geograph file deleted from Wikimedia and replaced with c.1900 Emo Park PD image."
   },
   "primary_evidence": [
     {
@@ -38,7 +40,12 @@
       "file_path": "research-results/r1-tg-bc-marriage-1922/register-p1.png",
       "url": null,
       "kind": "primary-evidence",
-      "person_ids": ["thomas-greene", "bridget-wife2", "william-greene-thomas-father", "patrick-clarke-snr"],
+      "person_ids": [
+        "thomas-greene",
+        "bridget-wife2",
+        "william-greene-thomas-father",
+        "patrick-clarke-snr"
+      ],
       "event_id": "thomas-bridget-marry",
       "date": "1922-06-20",
       "place": "Roman Catholic Church of Holy Cross, Dundrum, Co. Dublin (Rathdown RD)",
@@ -54,7 +61,11 @@
       "file_path": "research-results/r2-bridget-birth-1891/register-p1.png",
       "url": null,
       "kind": "primary-evidence",
-      "person_ids": ["bridget-wife2", "patrick-clarke-snr", "catherine-clarke"],
+      "person_ids": [
+        "bridget-wife2",
+        "patrick-clarke-snr",
+        "catherine-clarke"
+      ],
       "event_id": "bridget-clarke-born",
       "date": "1891-12-02 (birth); 1891-12-26 (registration)",
       "place": "Mullaghfin, Duleek, Co. Meath (Drogheda RD)",
@@ -86,7 +97,15 @@
       "file_path": "research-results/clarke_duleek_1901.png",
       "url": "http://www.census.nationalarchives.ie/pages/1901/Meath/Duleek/Mullaghfin/1609301/",
       "kind": "primary-evidence",
-      "person_ids": ["catherine-clarke", "rose-clarke", "patrick-clarke", "mary-clarke", "jane-clarke", "bridget-wife2", "agnes-clarke"],
+      "person_ids": [
+        "catherine-clarke",
+        "rose-clarke",
+        "patrick-clarke",
+        "mary-clarke",
+        "jane-clarke",
+        "bridget-wife2",
+        "agnes-clarke"
+      ],
       "event_id": "1901-census",
       "date": "1901-03-31",
       "place": "House 3, Mullaghfin, Duleek DED, Co. Meath",
@@ -102,7 +121,9 @@
       "file_path": "research-results/clarke_duleek_ded_1901.png",
       "url": "http://www.census.nationalarchives.ie/pages/1901/Meath/Duleek/Mullaghfin/",
       "kind": "primary-evidence",
-      "person_ids": ["catherine-clarke"],
+      "person_ids": [
+        "catherine-clarke"
+      ],
       "event_id": "1901-census",
       "date": "1901-03-31",
       "place": "Mullaghfin DED, Duleek, Co. Meath",
@@ -118,7 +139,10 @@
       "file_path": "research-results/clarke_duleek_1911.png",
       "url": "http://www.census.nationalarchives.ie/search/results.jsp?county19011911=Meath&ded19011911=Duleek&surname=Clarke",
       "kind": "primary-evidence",
-      "person_ids": ["catherine-clarke", "agnes-clarke"],
+      "person_ids": [
+        "catherine-clarke",
+        "agnes-clarke"
+      ],
       "event_id": "1911-census",
       "date": "1911-04-02",
       "place": "Mullaghfin, Duleek DED, Co. Meath",
@@ -134,7 +158,9 @@
       "file_path": "research-results/catherine_clarke_1911.png",
       "url": "http://www.census.nationalarchives.ie/search/results.jsp?surname=Clarke&firstname=Bridget&county19011911=Dublin&age=19&census_year=1911",
       "kind": "primary-evidence",
-      "person_ids": ["bridget-wife2"],
+      "person_ids": [
+        "bridget-wife2"
+      ],
       "event_id": "1911-census",
       "date": "1911-04-02",
       "place": "Joseph Dollard household, Dublin (Wellington Quay area)",
@@ -149,67 +175,143 @@
   "site_illustration": [
     {
       "id": "ill-biberach-wikimedia",
-      "file_path": null,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Biberach-012.jpg/640px-Biberach-012.jpg",
+      "file_path": "images/illustrations/biberach-an-der-riss-modern.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Biberach-012.jpg",
       "kind": "site-illustration",
-      "person_ids": ["elizabeth-harris"],
+      "person_ids": [
+        "elizabeth-harris"
+      ],
       "event_id": null,
       "date": "Modern photograph",
       "place": "Biberach an der Riß, Baden-Württemberg, Germany",
       "source": "Wikimedia Commons — File:Biberach-012.jpg",
-      "license": "Wikimedia Commons (check file page for exact licence — typically CC-BY-SA)",
+      "license": "Wikimedia Commons — see file page",
       "caption": "Biberach an der Riß — the German town where the WW2 internment camp Ilag VB held British civilian internees evacuated from the Channel Islands, including (by family tradition) Elizabeth Harris.",
       "credit": "Wikimedia Commons",
-      "rights_notes": "Currently HOT-LINKED. Should be downloaded and self-hosted under images/illustrations/ once gallery is built (avoids breakage if Wikimedia URL changes).",
-      "used_on_pages": ["elizabeth.html"]
+      "rights_notes": "Self-hosted from Wikimedia Commons original. File page: https://commons.wikimedia.org/wiki/File:Biberach-012.jpg",
+      "used_on_pages": [
+        "elizabeth.html"
+      ]
     },
     {
       "id": "ill-channel-islands-liberation-iwm",
-      "file_path": null,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Channel_Islands_Liberated-_the_End_of_German_Occupation%2C_Channel_Islands%2C_UK%2C_1945_D24599.jpg/640px-Channel_Islands_Liberated-_the_End_of_German_Occupation%2C_Channel_Islands%2C_UK%2C_1945_D24599.jpg",
+      "file_path": "images/illustrations/channel-islands-liberation-1945-iwm-d24599.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Channel_Islands_Liberated-_the_End_of_German_Occupation,_Channel_Islands,_UK,_1945_D24599.jpg",
       "kind": "site-illustration",
-      "person_ids": ["elizabeth-harris", "alfred-bower-harris"],
+      "person_ids": [
+        "elizabeth-harris",
+        "alfred-bower-harris"
+      ],
       "event_id": null,
       "date": "May 1945",
       "place": "Channel Islands",
       "source": "Imperial War Museum (IWM) collection D24599, via Wikimedia Commons",
-      "license": "IWM Non-Commercial Licence — free for non-commercial use with credit",
+      "license": "PD-scan (Crown © expired pre-1957) — Wikimedia Commons",
       "caption": "Liberation of the Channel Islands, May 1945 — the end of the five-year German occupation under which Elizabeth Harris (then in Jersey) lived.",
       "credit": "Imperial War Museum (IWM D24599) via Wikimedia Commons",
-      "rights_notes": "Hot-linked. Should be downloaded and self-hosted with explicit IWM credit.",
-      "used_on_pages": ["elizabeth.html"]
+      "rights_notes": "Self-hosted from IWM scan via Wikimedia. Always credit IWM D24599. (Earlier hot-link path had become stale on Wikimedia — fixed by this self-host.)",
+      "used_on_pages": [
+        "elizabeth.html"
+      ]
     },
     {
       "id": "ill-leinster-regiment-cap-badge",
-      "file_path": null,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Leinster_Regiment_Cap_Badge.jpg/200px-Leinster_Regiment_Cap_Badge.jpg",
+      "file_path": "images/illustrations/leinster-regiment-cap-badge.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Leinster_Regiment_Cap_Badge.jpg",
       "kind": "site-illustration",
       "person_ids": [],
       "event_id": null,
       "date": "Pre-1922",
       "place": "Ireland (regiment recruited Leinster, Dublin, Maryborough)",
       "source": "Wikimedia Commons — File:Leinster Regiment Cap Badge.jpg",
-      "license": "Wikimedia Commons (check file page; cap-badge images typically PD-Crown or PD-old)",
+      "license": "CC-BY-SA-3.0 — Dormskirk via Wikimedia Commons",
       "caption": "Cap badge of the Prince of Wales's Leinster Regiment (Royal Canadians) — the Irish line infantry regiment whose service area covered the family's home counties.",
-      "credit": "Wikimedia Commons",
-      "rights_notes": "Hot-linked. Generic illustration of the regiment, NOT a personal photo. military.html currently uses this without any confirmed Greene/Clarke service connection — should add a one-line caveat.",
-      "used_on_pages": ["military.html"]
+      "credit": "Dormskirk / Wikimedia Commons (CC-BY-SA-3.0)",
+      "rights_notes": "Self-hosted. Generic illustration of the regiment cap badge, NOT a personal photo. military.html should add a one-line caveat. (Earlier hot-link path had become stale on Wikimedia.)",
+      "used_on_pages": [
+        "military.html"
+      ]
     },
     {
       "id": "ill-portarlington-main-street-geograph",
       "file_path": null,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Portarlington_Main_Street_-_geograph.org.uk_-_575814.jpg/640px-Portarlington_Main_Street_-_geograph.org.uk_-_575814.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Portarlington_Main_Street_-_geograph.org.uk_-_575814.jpg",
       "kind": "site-illustration",
-      "person_ids": ["thomas-greene", "william-greene-thomas-father", "joseph-greene"],
+      "person_ids": [
+        "thomas-greene",
+        "william-greene-thomas-father",
+        "joseph-greene"
+      ],
       "event_id": null,
       "date": "Modern photograph (geograph.org.uk submission)",
       "place": "Portarlington, Co. Laois (formerly Queen's County)",
       "source": "Geograph Britain & Ireland — image 575814, via Wikimedia Commons",
-      "license": "CC-BY-SA-2.0 (geograph terms)",
+      "license": "WAS CC-BY-SA-2.0 (geograph) — file appears to have been DELETED from Wikimedia Commons",
       "caption": "Main Street, Portarlington — the small market town where the Greenes lived in the late 19th century.",
       "credit": "© Geograph (CC-BY-SA-2.0) via Wikimedia Commons",
-      "rights_notes": "Hot-linked, modern photo (not period). Should be replaced or supplemented with a c.1880-1910 Lawrence Collection view of Portarlington if available.",
-      "used_on_pages": ["portarlington.html"]
+      "rights_notes": "BROKEN — Wikimedia returns 404 for both file page and image URL. Live site portarlington.html has been showing a broken image for some time. To be REPLACED by ill-portarlington-emo-park-c1900 (better period match anyway).",
+      "used_on_pages": [
+        "portarlington.html"
+      ],
+      "status": "broken-replace-with: ill-portarlington-emo-park-c1900"
+    },
+    {
+      "id": "ill-portarlington-emo-park-c1900",
+      "file_path": "images/illustrations/portarlington-emo-park-c1900-nli-eason.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Emo_Park,_Portarlington,_Co._Laois_(22609660763).jpg",
+      "kind": "site-illustration",
+      "person_ids": [
+        "thomas-greene",
+        "william-greene-thomas-father",
+        "joseph-greene"
+      ],
+      "event_id": null,
+      "date": "c.1900-1920 (anonymous Eason photographer)",
+      "place": "Emo Park, Portarlington, Co. Laois",
+      "source": "NLI Eason Photographic Collection, via Flickr Commons / Wikimedia Commons",
+      "license": "PD-anonymous-EU (no known copyright restrictions per Flickr Commons)",
+      "caption": "Emo Park, near Portarlington, c.1900-1920 — the kind of Edwardian estate landscape the Greenes would have known. (Eason Photographic Collection, NLI.)",
+      "credit": "NLI Eason Photographic Collection (Public Domain) via Wikimedia Commons",
+      "rights_notes": "Replaces broken ill-portarlington-main-street-geograph. Resolution: 2000x1425, 1.27MB. Better fit anyway — period (c.1900) rather than modern.",
+      "used_on_pages": []
+    },
+    {
+      "id": "ill-holy-cross-dundrum",
+      "file_path": "images/illustrations/holy-cross-church-dundrum.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Holy_Cross_Church_in_Dundrum.jpg",
+      "kind": "site-illustration",
+      "person_ids": [
+        "thomas-greene",
+        "bridget-wife2"
+      ],
+      "event_id": "thomas-bridget-marry",
+      "date": "8 January 2018 (modern photo of historic church)",
+      "place": "Holy Cross Church, Dundrum, Co. Dublin",
+      "source": "Wikimedia Commons — File:Holy_Cross_Church_in_Dundrum.jpg, William Murphy via Flickr (infomatique)",
+      "license": "CC-BY-SA-2.0",
+      "caption": "Holy Cross Catholic Church, Dundrum — where Thomas Greene and Bridget Clarke were married on 20 June 1922 (Phase 10 register entry 89).",
+      "credit": "William Murphy / Flickr / Wikimedia Commons (CC-BY-SA-2.0)",
+      "rights_notes": "Modern photo (2018). Building substantially as it was in 1922. Resolution 7952x5304, downloaded as 1280px wide variant.",
+      "used_on_pages": []
+    },
+    {
+      "id": "ill-jersey-1942-deportation-notice",
+      "file_path": "images/illustrations/jersey-1942-deportation-notice.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bekanntmachung_1942_deportation_Jersey.jpg",
+      "kind": "site-illustration",
+      "person_ids": [
+        "elizabeth-harris",
+        "alfred-bower-harris"
+      ],
+      "event_id": null,
+      "date": "1942 (original German military order); 26 March 2013 (photo)",
+      "place": "Jersey, Channel Islands",
+      "source": "Wikimedia Commons — File:Bekanntmachung_1942_deportation_Jersey.jpg, photographed by Wikimedia user Man vyi",
+      "license": "PD (released to public domain by photographer; 1942 German military document long out of copyright)",
+      "caption": "1942 German Bekanntmachung (public notice) ordering deportation from Jersey to internment camps in Germany — the order that led to Elizabeth Harris being moved to Biberach (per family tradition).",
+      "credit": "Photo: Man vyi / Wikimedia Commons (PD). Original notice: German occupation authorities, Jersey, 1942.",
+      "rights_notes": "Primary-source historical document. Stronger illustration than a generic occupation photo because it directly depicts the mechanism by which Channel Islanders were deported.",
+      "used_on_pages": []
     }
   ],
   "hero_background": [
@@ -227,18 +329,24 @@
       "caption": null,
       "credit": "Unsplash",
       "rights_notes": "Generic mood image, not historical evidence. Acceptable for hero use.",
-      "used_on_pages": ["about.html"]
+      "used_on_pages": [
+        "about.html"
+      ]
     },
     {
       "id": "hero-catherine",
       "file_path": null,
       "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1920",
       "kind": "hero-background",
-      "person_ids": ["catherine-clarke"],
+      "person_ids": [
+        "catherine-clarke"
+      ],
       "rights_notes": "Generic landscape — could be replaced in B2 with a c.1900 Lawrence Collection view of rural Co. Meath.",
       "license": "Unsplash Licence",
       "credit": "Unsplash",
-      "used_on_pages": ["catherine.html"]
+      "used_on_pages": [
+        "catherine.html"
+      ]
     },
     {
       "id": "hero-dublin",
@@ -249,18 +357,24 @@
       "license": "Unsplash Licence",
       "credit": "Unsplash",
       "rights_notes": "Could be replaced with a c.1900 Lawrence Collection view of Wellington Quay / O'Connell Bridge.",
-      "used_on_pages": ["dublin.html"]
+      "used_on_pages": [
+        "dublin.html"
+      ]
     },
     {
       "id": "hero-elizabeth",
       "file_path": null,
       "url": "https://images.unsplash.com/photo-1509281373149-e957c6296406?w=1920",
       "kind": "hero-background",
-      "person_ids": ["elizabeth-harris"],
+      "person_ids": [
+        "elizabeth-harris"
+      ],
       "license": "Unsplash Licence",
       "credit": "Unsplash",
       "rights_notes": "Generic — could be replaced with a Jersey/Channel Islands period view.",
-      "used_on_pages": ["elizabeth.html"]
+      "used_on_pages": [
+        "elizabeth.html"
+      ]
     },
     {
       "id": "hero-index",
@@ -270,7 +384,9 @@
       "license": "Unsplash Licence",
       "credit": "Unsplash",
       "rights_notes": "Used for both index hero and og:image meta-tag.",
-      "used_on_pages": ["index.html"]
+      "used_on_pages": [
+        "index.html"
+      ]
     },
     {
       "id": "hero-military",
@@ -279,7 +395,9 @@
       "kind": "hero-background",
       "license": "Unsplash Licence",
       "credit": "Unsplash",
-      "used_on_pages": ["military.html"]
+      "used_on_pages": [
+        "military.html"
+      ]
     },
     {
       "id": "hero-people",
@@ -288,7 +406,9 @@
       "kind": "hero-background",
       "license": "Unsplash Licence",
       "credit": "Unsplash",
-      "used_on_pages": ["people.html"]
+      "used_on_pages": [
+        "people.html"
+      ]
     },
     {
       "id": "hero-portarlington",
@@ -297,7 +417,9 @@
       "kind": "hero-background",
       "license": "Unsplash Licence",
       "credit": "Unsplash",
-      "used_on_pages": ["portarlington.html"]
+      "used_on_pages": [
+        "portarlington.html"
+      ]
     },
     {
       "id": "hero-sources",
@@ -306,7 +428,9 @@
       "kind": "hero-background",
       "license": "Unsplash Licence",
       "credit": "Unsplash",
-      "used_on_pages": ["sources.html"]
+      "used_on_pages": [
+        "sources.html"
+      ]
     },
     {
       "id": "hero-timeline",
@@ -315,7 +439,9 @@
       "kind": "hero-background",
       "license": "Unsplash Licence",
       "credit": "Unsplash",
-      "used_on_pages": ["timeline.html"]
+      "used_on_pages": [
+        "timeline.html"
+      ]
     },
     {
       "id": "hero-tree",
@@ -324,7 +450,9 @@
       "kind": "hero-background",
       "license": "Unsplash Licence",
       "credit": "Unsplash",
-      "used_on_pages": ["tree.html"]
+      "used_on_pages": [
+        "tree.html"
+      ]
     },
     {
       "id": "hero-og-meta",
@@ -334,20 +462,42 @@
       "license": "Unsplash Licence",
       "credit": "Unsplash",
       "rights_notes": "OpenGraph social-share preview image (1200px crop of the index hero).",
-      "used_on_pages": ["index.html"]
+      "used_on_pages": [
+        "index.html"
+      ]
     }
   ],
   "process_artefacts": {
     "summary": "70+ PNG/HTML files under research-results/ are Playwright-captured search-form / results screenshots from the IG and Arolsen drivers. They are research process documentation, NOT gallery material. Most are gitignored (search-form, filled-form, results, final-state PNGs). They are intentionally excluded from this inventory.",
-    "kept_in_repo": ["register-p1.png and register.pdf for r1, r2, r3 (cited above as primary-evidence)"],
-    "gitignored_categories": ["**/01-search-form.{png,html}", "**/02-filled-form.{png,html}", "**/03-results.{png,html}", "**/04-final-state.{png,html}", "**/01-detail.{png,html}", "**/02-register-image.{png,html}", "**/error.{png,html}", "**/run.log"]
+    "kept_in_repo": [
+      "register-p1.png and register.pdf for r1, r2, r3 (cited above as primary-evidence)"
+    ],
+    "gitignored_categories": [
+      "**/01-search-form.{png,html}",
+      "**/02-filled-form.{png,html}",
+      "**/03-results.{png,html}",
+      "**/04-final-state.{png,html}",
+      "**/01-detail.{png,html}",
+      "**/02-register-image.{png,html}",
+      "**/error.{png,html}",
+      "**/run.log"
+    ]
   },
   "wishlist": [
     {
       "id": "wish-mark-claire-family-photos",
       "kind": "wishlist",
       "priority": "P0 — single biggest gap",
-      "person_ids": ["thomas-greene", "bridget-wife2", "catherine-clarke", "patrick-clarke-snr", "elizabeth-harris", "alfred-bower-harris", "joseph-greene", "william-greene-thomas-father"],
+      "person_ids": [
+        "thomas-greene",
+        "bridget-wife2",
+        "catherine-clarke",
+        "patrick-clarke-snr",
+        "elizabeth-harris",
+        "alfred-bower-harris",
+        "joseph-greene",
+        "william-greene-thomas-father"
+      ],
       "description": "Any family photographs Mark or Claire Garrigan hold — portraits, wedding photos, family groups, christenings, headstone photos, holiday snaps showing the older generations. Most likely to exist: photos of the next generation down (Mark's grandparents) plus possibly Bridget Clarke (b.1891, lived into the photographic era; almost certainly photographed in old age) and Elizabeth Harris (b.~1900, definitely lived into the photo era).",
       "action": "Ask Mark to scan/photograph any albums in his possession or his sisters'/cousins' possession, OneDrive them to the .copilot-shared/ folder."
     },
@@ -355,7 +505,11 @@
       "id": "wish-1875-1922-personal-portraits",
       "kind": "wishlist",
       "priority": "P1",
-      "person_ids": ["thomas-greene", "bridget-wife2", "catherine-clarke"],
+      "person_ids": [
+        "thomas-greene",
+        "bridget-wife2",
+        "catherine-clarke"
+      ],
       "description": "Studio portraits or wedding photos of Thomas (b.~1870 — could have been photographed from c.1890), Bridget (b.1891 — wedding photo from 1922 would be in living-memory range for someone), Catherine (b.~1856 — studio portrait possible but unlikely for a labourer's widow).",
       "action": "Long-shot. Check with extended Greene/Clarke cousins via family tree on Ancestry.com for tagged photos."
     },
@@ -374,7 +528,8 @@
       "place": "Portarlington, Co. Laois",
       "description": "Period (c.1880-1910) view of Portarlington Main Street, market square, French Church, train station. The Lawrence Collection at NLI is the canonical source.",
       "license_target": "NLI Lawrence Collection (mostly out-of-copyright; check NLI catalogue for exact reuse terms)",
-      "action": "Search catalogue.nli.ie for 'Portarlington' in the Lawrence Photographic Collection."
+      "action": "Search catalogue.nli.ie for 'Portarlington' in the Lawrence Photographic Collection.",
+      "status": "FILLED by ill-portarlington-emo-park-c1900"
     },
     {
       "id": "wish-mullaghfin-duleek-c1900",
@@ -410,7 +565,8 @@
       "place": "Jersey, Channel Islands",
       "description": "Period photographs of Jersey under German occupation (1940-1945) and the 1942 deportation of British-born civilians to internment in Germany. The Jersey Heritage Trust archive has many; IWM has more.",
       "license_target": "Jersey Heritage Trust + IWM",
-      "action": "Browse jerseyheritage.org image library; supplement existing IWM Channel Islands liberation image with deportation/occupation context."
+      "action": "Browse jerseyheritage.org image library; supplement existing IWM Channel Islands liberation image with deportation/occupation context.",
+      "status": "FILLED by ill-jersey-1942-deportation-notice"
     },
     {
       "id": "wish-biberach-camp-period",
@@ -425,7 +581,10 @@
       "id": "wish-1941-jersey-marriage-cert",
       "kind": "wishlist",
       "priority": "P1 — primary evidence for elizabeth.html",
-      "person_ids": ["elizabeth-harris", "alfred-bower-harris"],
+      "person_ids": [
+        "elizabeth-harris",
+        "alfred-bower-harris"
+      ],
       "description": "The 1941 Jersey marriage certificate of Elizabeth Greene to Alfred Bower Harris. Referenced in past sessions as known-to-Mark but no scan in repo. Should be added.",
       "license_target": "Jersey civil records (Crown © Bailiwick of Jersey; family copy permitted)",
       "action": "Ask Mark for the scan; add to research-results/ev-1941-jersey-marriage/."
@@ -434,7 +593,9 @@
       "id": "wish-dollard-printing-house-period",
       "kind": "wishlist",
       "priority": "P2 — for dublin.html",
-      "person_ids": ["bridget-wife2"],
+      "person_ids": [
+        "bridget-wife2"
+      ],
       "description": "Period image of Dollard's Printing House on Wellington Quay (Bridget's 1911 employer's premises). The firm operated for decades and was photographed.",
       "license_target": "NLI / Dublin City Library and Archive",
       "action": "Search for 'Dollard Printing House Wellington Quay' on catalogue.nli.ie and dublincity.ie."
@@ -443,16 +604,22 @@
       "id": "wish-holy-cross-dundrum-church",
       "kind": "wishlist",
       "priority": "P1 — for the 1922 marriage story",
-      "person_ids": ["thomas-greene", "bridget-wife2"],
+      "person_ids": [
+        "thomas-greene",
+        "bridget-wife2"
+      ],
       "description": "Photograph of the Roman Catholic Church of Holy Cross, Dundrum, Co. Dublin (where Thomas and Bridget married 20 June 1922).",
       "license_target": "Wikimedia, Geograph, or modern photograph (CC-BY-SA preferred)",
-      "action": "Check Wikimedia 'Holy Cross Church Dundrum'; geograph.org.uk also has parish-church photos."
+      "action": "Check Wikimedia 'Holy Cross Church Dundrum'; geograph.org.uk also has parish-church photos.",
+      "status": "FILLED by ill-holy-cross-dundrum"
     },
     {
       "id": "wish-drummartin-house-dundrum",
       "kind": "wishlist",
       "priority": "P2 — for catherine.html (Bridget-the-housekeeper story)",
-      "person_ids": ["bridget-wife2"],
+      "person_ids": [
+        "bridget-wife2"
+      ],
       "description": "Photograph (modern or historical) of Drummartin House, Dundrum — the Georgian country house where Bridget worked as housekeeper before her 1922 marriage.",
       "license_target": "Wikimedia, Buildings of Ireland, or local heritage society",
       "action": "Search dia.ie (Dictionary of Irish Architects), buildingsofireland.ie, and the South Dublin Libraries image archive."
@@ -461,7 +628,9 @@
       "id": "wish-duleek-old-churchyard-gravestone",
       "kind": "wishlist",
       "priority": "P1 — primary evidence for the Clarke-grandparents hypothesis",
-      "person_ids": ["patrick-clarke-snr"],
+      "person_ids": [
+        "patrick-clarke-snr"
+      ],
       "description": "Photograph of the Thomas & Bridget Clarke (d.1877, d.1882) gravestone at Duleek Old Churchyard — currently we have only the Meath History Hub textual transcription. A photo would let us read it directly and look for further family names below the published transcription.",
       "license_target": "Family-photographed (we'd take it ourselves on a visit) OR Meath History Hub if they hold one",
       "action": "Email Meath History Hub; alternatively, schedule a Mark/Claire visit on next Ireland trip."

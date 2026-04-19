@@ -17,17 +17,25 @@ what it tells us about the next steps for B2/B3/B4.
 | `ev-1911-census-clarke-mullaghfin` | 1911 Census, Catherine still at House 3 Mullaghfin | `research-results/clarke_duleek_1911.png` |
 | `ev-1911-census-bridget-dollard` | 1911 Census, Bridget Clarke as Cook in the Dollard household, Dublin | `research-results/catherine_clarke_1911.png` ⚠️ misnamed |
 
-### 4 illustrations currently embedded (all hot-linked to Wikimedia)
-| Page | Image |
-|---|---|
-| `elizabeth.html` | Biberach an der Riß (modern) |
-| `elizabeth.html` | Channel Islands liberation, May 1945 (IWM via Wikimedia) |
-| `military.html` | Leinster Regiment cap badge |
-| `portarlington.html` | Main Street, Portarlington (modern, geograph.org.uk) |
+### 7 illustrations now embedded (all self-hosted under `images/illustrations/`)
+| Page | Image | Source |
+|---|---|---|
+| `elizabeth.html` | Biberach an der Riß (modern town) | Wikimedia Commons |
+| `elizabeth.html` | Channel Islands liberation, May 1945 | IWM D24599 (PD-scan) via Wikimedia |
+| `military.html` | Leinster Regiment cap badge | Dormskirk / Wikimedia (CC-BY-SA-3.0) |
+| `portarlington.html` | **Emo Park c.1900** (replaces broken Main Street geograph) | NLI Eason Collection (PD) via Wikimedia |
+| _(not yet embedded — B4)_ | Holy Cross Church, Dundrum | William Murphy / Wikimedia (CC-BY-SA-2.0) |
+| _(not yet embedded — B4)_ | 1942 Jersey deportation Bekanntmachung | Man vyi / Wikimedia (PD) |
 
-All 4 should be **downloaded and self-hosted** (`images/illustrations/`)
-during B3 to avoid breakage if Wikimedia URLs change. Credits already
-captured in the JSON.
+B2 fixed two **broken hot-links** that had been silently failing in
+production: the IWM Channel Islands liberation file path on Wikimedia
+had changed (`0/07/...` → `c/c3/...`), and the Leinster Regiment cap
+badge similarly (`9/95/...` → `c/ce/...`). The Portarlington Main
+Street geograph file has been **deleted** from Wikimedia Commons
+entirely — replaced with the period-appropriate Emo Park c.1900 image.
+
+All 7 illustrations are now self-hosted (no longer hot-linked), so
+future Wikimedia URL changes will not break the live site.
 
 ### 12 hero backgrounds (all generic Unsplash mood imagery)
 Acceptable for hero use, but most could be replaced in B2 with period-
@@ -59,15 +67,20 @@ under a `family-photos/` subfolder. This converts the P0 gap into a
 specific actionable list.
 
 ## Next-priority gaps for B2 (period/place imagery)
-1. **Portarlington c.1900** — NLI Lawrence Collection
-2. **Mullaghfin / Duleek c.1900** — NLI Lawrence Collection
-3. **Wellington Quay c.1910** (Bridget's workplace context) — NLI Lawrence
-4. **Holy Cross Church, Dundrum** (the 1922 wedding venue) — Wikimedia/Geograph
-5. **Drummartin House, Dundrum** (Bridget's pre-marriage workplace) — DIA/local archive
-6. **Jersey under occupation 1940-45** — Jersey Heritage Trust + IWM
-7. **Ilag VB Biberach internment camp** (period photos) — IWM
-8. **Duleek Old Churchyard** (Thomas & Bridget Clarke gravestone) — own photo on next visit
-9. **Dollard's Printing House** (Bridget's 1911 employer's premises) — NLI / DCLA
+
+**B2 progress (this commit): 3 of 9 P1 wishlist items filled.**
+
+| # | Wishlist item | B2 status |
+|---|---|---|
+| 1 | Portarlington c.1900 — NLI Lawrence Collection | ✅ FILLED — Emo Park c.1900 (NLI Eason, PD) |
+| 2 | Mullaghfin / Duleek c.1900 | ⏳ pending — try `Category:Duleek` browse + `Category:Geography of County Meath` |
+| 3 | Wellington Quay c.1910 (Bridget's workplace context) | ⏳ pending — NLI Lawrence Dublin set has 165 hits, drill-in needed |
+| 4 | Holy Cross Church, Dundrum (1922 wedding venue) | ✅ FILLED — William Murphy / Wikimedia (CC-BY-SA-2.0) |
+| 5 | Drummartin House, Dundrum (Bridget's pre-marriage workplace) | ❌ unfilled — Drummartin Castle was demolished; building-of-Ireland may have alternative |
+| 6 | Jersey under occupation 1940-45 | ✅ FILLED — 1942 deportation Bekanntmachung (PD), stronger than generic occupation photo |
+| 7 | Ilag VB Biberach internment camp (period photos) | ❌ unfilled — no Wikimedia hit; try Arolsen Archives photo holdings (different from records) |
+| 8 | Duleek Old Churchyard gravestone | 📷 pending — own photo on next visit (not a Wikimedia task) |
+| 9 | Dollard's Printing House premises | ❌ unfilled — no Wikimedia image; building still stands at 2-5 Wellington Quay (1885-1890); try buildingsofireland.ie + archiseek.com |
 
 Full priority list (14 items) is in `gallery-inventory.json` →
 `wishlist[]`.
