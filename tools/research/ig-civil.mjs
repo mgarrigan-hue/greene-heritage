@@ -87,9 +87,19 @@ async function fillSearchForm(page, args) {
   if (args['age-at-death']) await page.locator('#age-at-death').fill(args['age-at-death']);
 
   if (args['rel-type']) {
-    try { await page.locator('#relation-0').selectOption({ label: args['rel-type'] }); }
-    catch { try { await page.locator('#relation-0').selectOption(args['rel-type']); } catch {} }
-    await page.locator('#relation-first-0').waitFor({ state: 'editable', timeout: 5000 }).catch(() => {});
+    // Wait for the spouse option to become enabled (depends on marriage checkbox handler)
+    await page.waitForFunction((val) => {
+      const opt = document.querySelector(`#relation-0 option[value="${val}"]`);
+      return opt && !opt.disabled;
+    }, args['rel-type'], { timeout: 5000 }).catch(() => {});
+    try { await page.locator('#relation-0').selectOption({ value: args['rel-type'] }); }
+    catch { try { await page.locator('#relation-0').selectOption({ label: args['rel-type'] }); } catch {} }
+    // Force-fire change so the page enables the relation-first/last inputs
+    await page.evaluate(() => {
+      const sel = document.querySelector('#relation-0');
+      if (sel) sel.dispatchEvent(new Event('change', { bubbles: true }));
+    });
+    await page.locator('#relation-first-0:not([disabled])').waitFor({ state: 'visible', timeout: 5000 }).catch(() => {});
   }
   if (args['rel-first']) await page.locator('#relation-first-0').fill(args['rel-first']);
   if (args['rel-last']) await page.locator('#relation-last-0').fill(args['rel-last']);
