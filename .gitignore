@@ -6,3 +6,36 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
+
+# Node / Playwright (research automation harness)
+node_modules/
+playwright-cache/
+playwright-report/
+test-results/
+
+# Research artefacts: commit lightweight evidence only
+# (findings.md, summary.md, results.json, metadata.json, register-p1.png are kept;
+#  bulky/transient artefacts are ignored)
+research-results/**/01-search-form.html
+research-results/**/02-filled-form.html
+research-results/**/03-results.html
+research-results/**/04-final-state.html
+research-results/**/01-search-form.png
+research-results/**/02-filled-form.png
+research-results/**/03-results.png
+research-results/**/04-final-state.png
+research-results/**/01-detail.html
+research-results/**/02-register-image.html
+research-results/**/01-detail.png
+research-results/**/02-register-image.png
+research-results/**/error.html
+research-results/**/error.png
+research-results/**/run.log
+research-results/**/results.tsv
+research-results/_*.log
+research-results/probe/
+research-results/probe-arolsen/
+research-results/r*-*.log
+
+# Local backups
+*.bak

@@ -1,0 +1,19 @@
+{
+  "name": "greene-heritage",
+  "version": "1.0.0",
+  "description": "A family heritage research site tracing the Greene lineage from Portarlington, Ireland to Dublin and beyond.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "research:ig": "node tools/research/ig-civil.mjs",
+    "research:arolsen": "node tools/research/arolsen.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgarrigan-hue/greene-heritage.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "playwright": "^1.59.1"
+  }
+}

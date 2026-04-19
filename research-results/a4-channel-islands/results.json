@@ -1,0 +1,274 @@
+{
+  "slug": "a4-channel-islands",
+  "query": "Channel Islands",
+  "args": {
+    "slug": "a4-channel-islands",
+    "keyword": "Channel Islands",
+    "year-from": "1942",
+    "year-to": "1945",
+    "headed": "false",
+    "hold": "0"
+  },
+  "finalUrl": "https://collections.arolsen-archives.org/en/search?s=Channel%20Islands",
+  "countMatches": [
+    "2"
+  ],
+  "apiSummary": {
+    "personHits": 0,
+    "archiveHits": 2,
+    "persons": [],
+    "archives": [
+      {
+        "__type": "ITSPannel.classes.ITSDataValues",
+        "Text": null,
+        "Title": "Various camps and prisons in England",
+        "id": "228376",
+        "hasChildren": false,
+        "ReportsTo": "32026",
+        "treeLevel": 4,
+        "fileCount": 16,
+        "directFile": 8,
+        "Counter": 0,
+        "RefCode": "1107096",
+        "Signature": "1.1.0.7",
+        "TreePath": "Incarceration Documents / Camps and Ghettos / General Information / Compilation of Information Regarding Various Detention Sites and Camps",
+        "UrlID": "1-1-0-7_1107096"
+      },
+      {
+        "__type": "ITSPannel.classes.ITSDataValues",
+        "Text": null,
+        "Title": "Four grave registers of deceased foreign Organization \"Todt\" workers who      were buried in cemeteries on the Channel Islands",
+        "id": "15304",
+        "hasChildren": false,
+        "ReportsTo": "17912",
+        "treeLevel": 4,
+        "fileCount": 21,
+        "directFile": 21,
+        "Counter": 1,
+        "RefCode": "2229000",
+        "Signature": "2.3.4.1",
+        "TreePath": "Registration of Foreigners and German Persecutees by Public Institutions, Social Securities and Companies (1939 - 1947) / Post-war Evaluations of Various Organizations / Miscellaneous / Registration of former persecutees by various tracing bureaux (1945-1946)",
+        "UrlID": "2-3-4-1_2229000"
+      }
+    ],
+    "counts": [
+      {
+        "url": "https://collections-server.arolsen-archives.org/ITS-WS.asmx/GetCount",
+        "value": 2,
+        "postData": "{\"uniqueId\":\"VicHftsoHsm1yvUx3cZr\",\"lang\":\"en\",\"searchType\":\"archive\",\"useFilter\":false}"
+      },
+      {
+        "url": "https://collections-server.arolsen-archives.org/ITS-WS.asmx/GetCount",
+        "value": 0,
+        "postData": "{\"uniqueId\":\"VicHftsoHsm1yvUx3cZr\",\"lang\":\"en\",\"searchType\":\"person\",\"useFilter\":false}"
+      }
+    ]
+  },
+  "filtered": {
+    "persons": [],
+    "archives": [
+      {
+        "__type": "ITSPannel.classes.ITSDataValues",
+        "Text": null,
+        "Title": "Four grave registers of deceased foreign Organization \"Todt\" workers who      were buried in cemeteries on the Channel Islands",
+        "id": "15304",
+        "hasChildren": false,
+        "ReportsTo": "17912",
+        "treeLevel": 4,
+        "fileCount": 21,
+        "directFile": 21,
+        "Counter": 1,
+        "RefCode": "2229000",
+        "Signature": "2.3.4.1",
+        "TreePath": "Registration of Foreigners and German Persecutees by Public Institutions, Social Securities and Companies (1939 - 1947) / Post-war Evaluations of Various Organizations / Miscellaneous / Registration of former persecutees by various tracing bureaux (1945-1946)",
+        "UrlID": "2-3-4-1_2229000"
+      }
+    ]
+  },
+  "domRows": [
+    [
+      "Signature",
+      "Last Name",
+      "First Name",
+      "Maiden Name",
+      "Place of Birth",
+      "Date of Birth",
+      "Prisoner #",
+      "Father (adoptive father)",
+      "Mother (adoptive mother)",
+      "Religion",
+      "Nationality",
+      "Occupaton",
+      "Place of incarceration",
+      "Date of decease",
+      "Last residence",
+      "Last residence (Country)",
+      "Last residence (District)",
+      "Last residence (Province)",
+      "Last residence (Town)",
+      "Last residence (Part of town)",
+      "Last residence (Street)",
+      "Last residence (House number)"
+    ],
+    [
+      "Signature",
+      "Last Name",
+      "First Name",
+      "Maiden Name",
+      "Place of Birth",
+      "Date of Birth",
+      "Prisoner #"
+    ],
+    [
+      "Signature",
+      "Title"
+    ],
+    [
+      "1.1.0.7",
+      "Incarceration Documents / Camps and Ghettos / General Information / Compilation of Information Regarding Various Detention Sites and Camps Various camps and prisons in England 8"
+    ],
+    [
+      "2.3.4.1",
+      "Registration of Foreigners and German Persecutees by Public Institutions, Social Securities and Companies (1939 - 1947) / Post-war Evaluations of Various Organizations / Miscellaneous / Registration of former persecutees by various tracing bureaux (1945-1946) Four grave registers of deceased foreign Organization \"Todt\" workers who were buried in cemeteries on the Channel Islands 21"
+    ],
+    [
+      "Reference code",
+      "Signature",
+      "Title",
+      "hierarchy list"
+    ],
+    [
+      "1107096",
+      "1.1.0.7",
+      "Various camps and prisons in England",
+      "Incarceration Documents / Camps and Ghettos / General Information / Compilation of Information Regarding Various Detention Sites and Camps"
+    ],
+    [
+      "2229000",
+      "2.3.4.1",
+      "Four grave registers of deceased foreign Organization \"Todt\" workers who were buried in cemeteries on the Channel Islands",
+      "Registration of Foreigners and German Persecutees by Public Institutions, Social Securities and Companies (1939 - 1947) / Post-war Evaluations of Various Organizations / Miscellaneous / Registration of former persecutees by various tracing bureaux (1945-1946)"
+    ]
+  ],
+  "domCards": [
+    "Welcome to the Online Archive of the Arolsen Archives! The Arolsen Archives are an international center on Nazi persecution with the world’s most extensive collection of documents about the victims and survivors of National Socialism. The documents relate to the various groups persecuted by the Nazi regime and contain references to around 17.5 million people, making them an important source of knowledge for society today. Many of the around 30 million documents are now available in the Online Archive of the Arolsen Archives. The number of searchable names and keywords is growing all the time. "
+  ],
+  "links": [
+    {
+      "text": "Search",
+      "href": "https://collections.arolsen-archives.org/en/search"
+    },
+    {
+      "text": "Browse archive",
+      "href": "https://collections.arolsen-archives.org/en/archive"
+    },
+    {
+      "text": "Donate",
+      "href": "https://arolsen-archives.org/en/about-us/support-us/"
+    },
+    {
+      "text": "Newsletter",
+      "href": "https://arolsen-archives.org/en/news-events/newsletter/"
+    },
+    {
+      "text": "Contact",
+      "href": "https://arolsen-archives.org/en/contact/"
+    },
+    {
+      "text": "About Us",
+      "href": "https://arolsen-archives.org/en/about-us/"
+    },
+    {
+      "text": "",
+      "href": "https://collections.arolsen-archives.org/"
+    },
+    {
+      "text": "Search",
+      "href": "https://collections.arolsen-archives.org/en/search"
+    },
+    {
+      "text": "Browse archive",
+      "href": "https://collections.arolsen-archives.org/en/archive"
+    },
+    {
+      "text": "Detailed questions/information about thedocuments? Send us an inquiry for free.",
+      "href": "https://arolsen-archives.org/en/search-explore/inquiries/"
+    },
+    {
+      "text": "Donate",
+      "href": "https://arolsen-archives.org/en/about-us/support-us/"
+    },
+    {
+      "text": "Newsletter",
+      "href": "https://arolsen-archives.org/en/news-events/newsletter/"
+    },
+    {
+      "text": "Contact",
+      "href": "https://arolsen-archives.org/en/contact/"
+    },
+    {
+      "text": "About Us",
+      "href": "https://arolsen-archives.org/en/about-us/"
+    },
+    {
+      "text": "Open e-Guide",
+      "href": "https://eguide.arolsen-archives.org/en/"
+    },
+    {
+      "text": "Send inquiry",
+      "href": "https://arolsen-archives.org/en/search-explore/inquiries/"
+    },
+    {
+      "text": "#everynamecounts",
+      "href": "https://arolsen-archives.org/en/learn-participate/exhibitions-campaigns/everynamecounts/"
+    },
+    {
+      "text": "Legal notice",
+      "href": "https://arolsen-archives.org/en/legal-notice/"
+    },
+    {
+      "text": "Privacy policy",
+      "href": "https://arolsen-archives.org/en/privacy-policy/"
+    },
+    {
+      "text": "Imprint",
+      "href": "https://arolsen-archives.org/en/legal-notice/"
+    },
+    {
+      "text": "Privacy Policy",
+      "href": "https://arolsen-archives.org/en/privacy-policy/"
+    }
+  ],
+  "apiResponses": [
+    {
+      "url": "https://collections-server.arolsen-archives.org/ITS-WS.asmx/BuildQueryGlobalForAngular",
+      "status": 200,
+      "requestPostData": "{\"uniqueId\":\"VicHftsoHsm1yvUx3cZr\",\"lang\":\"en\",\"archiveIds\":[],\"strSearch\":\"Channel Islands\",\"synSearch\":true}",
+      "body": "{\"d\":true}"
+    },
+    {
+      "url": "https://collections-server.arolsen-archives.org/ITS-WS.asmx/GetArchiveList",
+      "status": 200,
+      "requestPostData": "{\"uniqueId\":\"VicHftsoHsm1yvUx3cZr\",\"lang\":\"en\",\"orderBy\":\"RN\",\"orderType\":\"asc\",\"rowNum\":0}",
+      "body": "{\"d\":[{\"__type\":\"ITSPannel.classes.ITSDataValues\",\"Text\":null,\"Title\":\"Various camps and prisons in England\",\"id\":\"228376\",\"hasChildren\":false,\"ReportsTo\":\"32026\",\"treeLevel\":4,\"fileCount\":16,\"directFile\":8,\"Counter\":0,\"RefCode\":\"1107096\",\"Signature\":\"1.1.0.7\",\"TreePath\":\"Incarceration Documents / Camps and Ghettos / General Information / Compilation of Information Regarding Various Detention Sites and Camps\",\"UrlID\":\"1-1-0-7_1107096\"},{\"__type\":\"ITSPannel.classes.ITSDataValues\",\"Text\":null,\"Title\":\"Four grave registers of deceased foreign Organization \\\"Todt\\\" workers who      were buried in cemeteries on the Channel Islands\",\"id\":\"15304\",\"hasChildren\":false,\"ReportsTo\":\"17912\",\"treeLevel\":4,\"fileCount\":21,\"directFile\":21,\"Counter\":1,\"RefCode\":\"2229000\",\"Signature\":\"2.3.4.1\",\"TreePath\":\"Registration of Foreigners and German Persecutees by Public Institutions, Social Securities and Companies (1939 - 1947) / Post-war Evaluations of Various Organizations / Miscellaneous / Registration of former persecutees by various tracing bureaux (1945-1946)\",\"UrlID\":\"2-3-4-1_2229000\"}]}"
+    },
+    {
+      "url": "https://collections-server.arolsen-archives.org/ITS-WS.asmx/GetCount",
+      "status": 200,
+      "requestPostData": "{\"uniqueId\":\"VicHftsoHsm1yvUx3cZr\",\"lang\":\"en\",\"searchType\":\"archive\",\"useFilter\":false}",
+      "body": "{\"d\":\"2\"}"
+    },
+    {
+      "url": "https://collections-server.arolsen-archives.org/ITS-WS.asmx/GetCount",
+      "status": 200,
+      "requestPostData": "{\"uniqueId\":\"VicHftsoHsm1yvUx3cZr\",\"lang\":\"en\",\"searchType\":\"person\",\"useFilter\":false}",
+      "body": "{\"d\":\"0\"}"
+    },
+    {
+      "url": "https://collections-server.arolsen-archives.org/ITS-WS.asmx/GetPersonList",
+      "status": 200,
+      "requestPostData": "{\"uniqueId\":\"VicHftsoHsm1yvUx3cZr\",\"lang\":\"en\",\"rowNum\":0,\"orderBy\":\"LastName\",\"orderType\":\"asc\"}",
+      "body": "{\"d\":[]}"
+    }
+  ]
+}
