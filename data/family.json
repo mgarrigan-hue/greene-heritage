@@ -2,7 +2,7 @@
   "meta": {
     "title": "Greene Family Heritage",
     "subtitle": "Tracing the Greene lineage from Portarlington to Dublin and beyond",
-    "lastUpdated": "2026-04-18",
+    "lastUpdated": "2026-04-19",
     "researcher": "Mark Garrigan"
   },
   "people": [
@@ -69,15 +69,15 @@
     {
       "id": "elizabeth-wife1",
       "name": "Elizabeth Greene (née unknown)",
-      "born": { "year": "c.1864", "place": "County Dublin" },
+      "born": { "year": "c.1870", "place": "County Dublin" },
       "died": { "year": "c.1912-1925", "place": "Dublin (presumed)" },
       "occupation": null,
       "religion": "Roman Catholic",
-      "notes": "First wife of Thomas Greene. Seven years older than Thomas. Married c.1899 (12 years married in 1911 census). Three children born, three living in 1911. Maiden name unknown — her marriage record on IrishGenealogy.ie would reveal it.",
+      "notes": "First wife of Thomas Greene. Approximately the same age as Thomas (he 40, she 41 in the April 1911 Census — born c.1870 in Co. Dublin). Married c.1899 (12 years married in 1911 census). Three children born, three living in 1911: Thomas Jr (10), Patrick (8), Elizabeth (4). Maiden name unknown — her marriage record on IrishGenealogy.ie would reveal it. Her death (c.1912-1925) cleared the way for Thomas's second marriage to Bridget Clarke.",
       "confidence": "high",
       "sources": [
         "1901 Census: Ranelagh Avenue, Rathmines, Dublin",
-        "1911 Census: Clonliffe Avenue, Mountjoy, Dublin — 12 years married, 3 born, 3 living"
+        "1911 Census Form A (Form B No. 1842): Clonliffe Avenue, Mountjoy, Dublin — Elizabeth Greene, Wife, age 41, RC, born Co. Dublin, 12 years married, 3 born / 3 living. Signed by head Thomas Greene; enumerator John Broderick."
       ]
     },
     {
@@ -115,17 +115,42 @@
     },
     {
       "id": "elizabeth-harris",
-      "name": "Elizabeth Harris (née Greene)",
+      "name": "Elizabeth Bessie Harris (née Greene)",
       "born": { "year": "c.1907", "place": "Dublin City" },
       "died": null,
       "occupation": "Nurse",
       "religion": "Roman Catholic",
-      "notes": "Daughter of Thomas and Elizabeth (first wife). Married Mr. Harris and moved to the Channel Islands. Working as a nurse during the German Occupation (1940-1945). Deported c.1942 and interned at Biberach Internment Camp (Ilag V-B), Germany. Worked for two years at the Men's Hospital under Dr. A.W.H. Donaldson. Letter of recommendation written 21 May 1945, four weeks after liberation by French forces.",
+      "notes": "Daughter of Thomas and Elizabeth (first wife). Full name Elizabeth Bessie Greene. MAJOR DISCOVERY (Apr 2026): A primary-source marriage certificate from the Parish of St. Helier, Jersey — Page 97, 1941 — confirms she married Alfred Bower Harris on 13 September 1941, AT THE HEIGHT OF THE GERMAN OCCUPATION of the Channel Islands (occupation began 30 June 1940, so they wed 14 months in). She was 34, a Spinster, working as a Nurse, residing at St. Saviour's, Jersey. Alfred was 28, a Bachelor, Printer, also of St. Saviour's, born Bretforton, Evesham, Worcestershire. The marriage was solemnized at the Church of St Mary and St Peter, Vauxhall (a Catholic church in Jersey), by certificate of the Superintendent Registrar — officiant Richard T. Arnett. Witnesses were F.C. Colligny and C.M. Colligny; Deputy Registrar W.A. de la Perrelle. Her father Thomas Greene is recorded as 'Retired' (confirming he was alive in 1941). This places her on JERSEY, not Guernsey as previously assumed — all Channel Islands research should pivot. Working as a nurse during the German Occupation (1940-1945). Deported c.1942 and interned at Biberach Internment Camp (Ilag V-B), Germany. Worked for two years at the Men's Hospital under Dr. A.W.H. Donaldson. Letter of recommendation written 21 May 1945, four weeks after liberation by French forces.",
       "confidence": "high",
       "sources": [
         "1911 Census: Clonliffe Avenue, Mountjoy, Dublin — age 4",
+        "MARRIAGE CERTIFICATE (PRIMARY SOURCE): Extract from the Register of Marriages, Parish of St. Helier, Island of Jersey, Page 97, 1941. Marriage of Alfred Bower Harris and Elizabeth Bessie Greene, 13 September 1941. Held in family papers.",
         "Letter of recommendation from Dr. A.W.H. Donaldson, M.B., D.P.H., Biberach Internment Camp, 21 May 1945"
       ]
+    },
+    {
+      "id": "alfred-harris",
+      "name": "Alfred Bower Harris",
+      "born": { "year": "c.1913", "place": "Bretforton, Evesham, Worcestershire, England" },
+      "died": null,
+      "occupation": "Printer",
+      "religion": null,
+      "notes": "Husband of Elizabeth Bessie Greene. Born c.1913 in Bretforton, a Worcestershire village near Evesham. Working as a Printer in St. Saviour's, Jersey by 1941 — how an English printer ended up on Jersey before the war is unknown (perhaps work, perhaps already there when the German Army arrived 30 June 1940). Aged 28 and a Bachelor when he married Elizabeth Greene on 13 September 1941, during the German Occupation. His father Charles Edward Harris was already deceased by the marriage. As an English-born civilian, Alfred would have been a primary target of the September 1942 deportation orders that sent ~2,300 Channel Islanders to internment camps.",
+      "confidence": "high",
+      "sources": [
+        "MARRIAGE CERTIFICATE (PRIMARY SOURCE): Extract from the Register of Marriages, Parish of St. Helier, Island of Jersey, Page 97, 1941. Marriage of Alfred Bower Harris and Elizabeth Bessie Greene, 13 September 1941."
+      ]
+    },
+    {
+      "id": "charles-edward-harris",
+      "name": "Charles Edward Harris",
+      "born": null,
+      "died": { "year": "before 1941", "place": "England (presumed)" },
+      "occupation": null,
+      "religion": null,
+      "notes": "Father of Alfred Bower Harris (Elizabeth Greene's husband). Recorded as 'Deceased' on his son's marriage certificate, 13 September 1941 — so died before that date. Family from Bretforton, Worcestershire, England.",
+      "confidence": "high",
+      "sources": ["Marriage certificate of Alfred Bower Harris & Elizabeth Bessie Greene, Jersey, 13 September 1941 — father's name and 'deceased' status recorded"]
     },
     {
       "id": "mary-bridget-greene",
@@ -358,6 +383,7 @@
     { "id": "c-ita-john", "partner1": "eita-greene", "partner2": "john-donnelly", "married": { "year": "c.1950s-1960s", "place": "Dublin (presumed)" }, "confidence": "high" },
     { "id": "c-mark-claire", "partner1": "mark-garrigan", "partner2": "claire-garrigan", "married": { "place": "Dublin" }, "confidence": "high" },
     { "id": "c-thomas-ii-margaret", "partner1": "thomas-greene-ii", "partner2": "margaret-greene-nz", "married": { "place": "New Zealand" }, "confidence": "high" },
+    { "id": "c-elizabeth-alfred", "partner1": "elizabeth-harris", "partner2": "alfred-harris", "married": { "year": "1941", "date": "13 September 1941", "place": "Church of St Mary and St Peter Vauxhall, St. Helier, Jersey" }, "confidence": "high" },
     { "id": "c-ann-paul", "partner1": "ann-donnelly", "partner2": "paul-donnelly-inlaw", "married": { "place": "Dublin (presumed)" }, "confidence": "high" },
     { "id": "c-john-jr-josette", "partner1": "john-donnelly-jr", "partner2": "josette-donnelly", "married": { "place": "Dublin (presumed)" }, "confidence": "high" },
     { "id": "c-sheila-robbie", "partner1": "sheila-donnelly", "partner2": "robbie-donnelly-inlaw", "married": { "place": "Dublin (presumed)" }, "confidence": "high" },
@@ -392,7 +418,8 @@
     { "parent": "eita-greene", "child": "sheila-donnelly", "confidence": "high" },
     { "parent": "john-donnelly", "child": "sheila-donnelly", "confidence": "high" },
     { "parent": "eita-greene", "child": "ger-donnelly", "confidence": "high" },
-    { "parent": "john-donnelly", "child": "ger-donnelly", "confidence": "high" }
+    { "parent": "john-donnelly", "child": "ger-donnelly", "confidence": "high" },
+    { "parent": "charles-edward-harris", "child": "alfred-harris", "confidence": "high" }
   ],
   "events": [
     { "year": "c.1830s", "title": "Earliest Record", "description": "Thos Green appears in Tithe Applotment Books, Ballyburly, King's County — approximately 8km north of Portarlington.", "people": ["thos-green-ballyburly"] },
@@ -402,12 +429,13 @@
     { "year": "c.1899", "title": "Thomas Marries Elizabeth", "description": "Thomas Greene marries Elizabeth (surname unknown) in Dublin. She is from County Dublin and approximately 7 years his senior.", "people": ["thomas-greene", "elizabeth-wife1"] },
     { "year": "1899-1902", "title": "Second Boer War", "description": "The Leinster Regiment served in South Africa. Thomas may have served before or during this conflict. Both the 1st and 2nd Battalions saw action at Hammonia, Harrismith, Vrede, and Bethlehem.", "people": ["thomas-greene"] },
     { "year": "1901", "title": "1901 Census", "description": "Thomas (30) and Elizabeth (30) recorded at Ranelagh Avenue, Rathmines & Rathgar East, Dublin. Thomas is a Shop Porter. No children yet.", "people": ["thomas-greene", "elizabeth-wife1"] },
-    { "year": "1911", "title": "1911 Census — Greene Family", "description": "Thomas (40) and Elizabeth (47) at Clonliffe Avenue, Mountjoy, Dublin. Thomas is now a Gentleman's Club Steward. Three children: Thomas Jr (10), Patrick (8), Elizabeth (4). Married 12 years. All children living.", "people": ["thomas-greene", "elizabeth-wife1", "thomas-jr", "patrick-greene", "elizabeth-harris"] },
+    { "year": "1911", "title": "1911 Census — Greene Family", "description": "Sunday 2 April 1911. Thomas (40) and Elizabeth (41) at Clonliffe Avenue, Mountjoy, Dublin (Form A; Form B household No. 1842). Thomas is now a Gentleman's Club Steward. Three children: Thomas Jr (10), Patrick (8), Elizabeth (4). Married 12 years. All children living. All Roman Catholic; all read & write except 4-year-old Elizabeth. Thomas's birthplace recorded as Kings Co. / Portarlington (Offaly side of the town). The form is signed by Thomas Greene himself — confirming he was literate. Enumerator: John Broderick.", "people": ["thomas-greene", "elizabeth-wife1", "thomas-jr", "patrick-greene", "elizabeth-harris"] },
     { "year": "1911", "title": "1911 Census — Bridget Clarke Found", "description": "In the same census, Bridget Clarke (19) appears as a servant in the Dublin household of Dr. Christopher Waters, a Physician & Surgeon from Cappawhite, Co. Limerick. Bridget is single, Roman Catholic, and can read and write. Her birthplace is recorded as Dublin in this census, but the later 1926 Census corrects this to Duleek, County Meath. She will later become Thomas Greene's second wife.", "people": ["bridget-wife2", "christopher-waters"] },
     { "year": "1926", "title": "1926 Census — York Street, Dublin", "description": "The first census of the Irish Free State, enumerated 18 April 1926. Thomas Greene (Head, age 55y 9m, from Queens Co./Portarlington) is living at York Street, Dublin, with his second wife Bridget (age 34y 4m, from Duleek, Co. Meath). Thomas works as Shop Porter at Switzers & Co. Drapers on Grafton Street. Also in the household: Patrick Greene (son from first marriage, age 23, single, Battery Repairer/Motor Engineer for S.F. Robinson), John Greene (age 2y 9m), and baby Thomas Greene (age 0y 9m). The family occupies 2 rooms. All are Roman Catholic. Notable: Thomas Jr (~25) and Elizabeth (~19) from the first marriage are not in the household. Signed by Thomas Greene; Enumerator: Myles Cullen.", "people": ["thomas-greene", "bridget-wife2", "patrick-greene", "john-greene", "thomas-greene-ii"] },
-    { "year": "c.1930s", "title": "Elizabeth Moves to Channel Islands", "description": "Elizabeth Greene marries Mr. Harris and moves to the Channel Islands (likely Guernsey), where she works as a nurse.", "people": ["elizabeth-harris"] },
-    { "year": "1940", "title": "German Occupation", "description": "German forces occupy the Channel Islands on 30 June 1940. Elizabeth Harris is among approximately 66,000 civilians who remain.", "people": ["elizabeth-harris"] },
-    { "year": "1942", "title": "Deportation", "description": "On Hitler's direct orders, approximately 2,300 Channel Islands civilians are deported to internment camps in Germany. Those born outside the islands — including Elizabeth, born in Dublin — are targeted. Elizabeth is sent to Biberach Internment Camp (Ilag V-B) in southern Germany.", "people": ["elizabeth-harris"] },
+    { "year": "c.1930s", "title": "Elizabeth Moves to Channel Islands", "description": "Elizabeth Bessie Greene leaves Dublin and arrives on the island of Jersey (Channel Islands), where she works as a nurse. The exact year and route is not yet documented.", "people": ["elizabeth-harris"] },
+    { "year": "1940", "title": "German Occupation of Jersey", "description": "German forces occupy the Channel Islands on 30 June 1940. Elizabeth Greene is on Jersey at the time and remains there throughout the occupation. Approximately 66,000 civilians stay on the islands; the British government had withdrawn shortly before, leaving the islands undefended.", "people": ["elizabeth-harris"] },
+    { "year": "1941", "title": "Elizabeth Marries Alfred Harris — During the Occupation", "description": "On 13 September 1941, fourteen months into the German Occupation, Elizabeth Bessie Greene (34, Nurse, Spinster) marries Alfred Bower Harris (28, Printer, Bachelor, born Bretforton, Worcestershire) at the Church of St Mary and St Peter Vauxhall, in the Parish of St. Helier, Jersey. The ceremony is officiated by Richard T. Arnett with witnesses F.C. Colligny and C.M. Colligny. Both bride and groom give their address as St. Saviour's, Jersey. Her father Thomas Greene is recorded as 'Retired'. The marriage is registered as Page 97 of the Jersey 1941 register by Deputy Registrar W.A. de la Perrelle. Marrying under enemy occupation — with no telegrams home to Dublin, no ability for family to attend — is itself a remarkable act.", "people": ["elizabeth-harris", "alfred-harris", "thomas-greene"] },
+    { "year": "1942", "title": "Deportation", "description": "On Hitler's direct orders (issued 15 September 1942), approximately 2,300 Channel Islands civilians are deported to internment camps in Germany. Those born outside the islands — including Elizabeth (born Dublin) and her new husband Alfred (born Worcestershire, England) — are primary targets. Both are sent to Biberach Internment Camp (Ilag V-B) in southern Germany. Their marriage of barely 12 months is followed straight into internment.", "people": ["elizabeth-harris", "alfred-harris"] },
     { "year": "1943-1945", "title": "Biberach Internment", "description": "Elizabeth works as a nurse at the Men's Hospital of Biberach Internment Camp under Dr. A.W.H. Donaldson, M.B., D.P.H. Despite harsh conditions and rationed food, she is described as 'keen, energetic and efficient, and always cheerful.'", "people": ["elizabeth-harris"] },
     { "year": "1945", "title": "Liberation", "description": "Biberach is liberated by the French First Army on 23 April 1945. On 21 May, Dr. Donaldson writes a glowing letter of recommendation for Nurse Harris, praising her nursing abilities, kindness, and even her cooking — 'her cakes and other dainties have been a god-send where the rationed food has been served up with so little of variety.'", "people": ["elizabeth-harris"] },
     { "year": "1951", "title": "Thomas Greene Dies", "description": "Thomas Christopher Greene dies on 6 December 1951, age 81, at 38 Goldenbridge Avenue, Inchicore, Dublin. Cause of death: carcinoma of the stomach, cachexia, cardiac failure. Still listed as a Warehouse Porter — a working man to the very end. His death was registered the following day by his son John Greene, who was living at the same address. Registrar: M. Ryan.", "people": ["thomas-greene", "john-greene"] },
