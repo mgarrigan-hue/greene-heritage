@@ -1053,3 +1053,206 @@ body, nav, .card, footer,
  * to avoid animating ToC-anchored headings and prose blockquotes.
  * No CSS work is required for that change.
  * ----------------------------------------------------------- */
+
+/* ─────────────────────────────────────────────────────────────
+ * Phase 11 B3 — Gallery, lightbox & per-page evidence strip
+ * ─────────────────────────────────────────────────────────── */
+
+/* ── Gallery page ── */
+.gallery-intro {
+  max-width: var(--max-width);
+  margin: 1rem auto 2rem;
+  padding: 0 1rem;
+  color: var(--color-text-muted);
+  font-size: 1.05rem;
+  text-align: center;
+}
+.gallery-group {
+  max-width: var(--max-width);
+  margin: 2.5rem auto;
+  padding: 0 1rem;
+}
+.gallery-group h2 {
+  font-family: var(--font-heading);
+  color: var(--color-gold);
+  border-bottom: 1px solid rgba(201,169,89,0.25);
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.25rem;
+}
+.gallery-group h2 small { font-weight: 400; color: var(--color-text-muted); font-size: 0.7em; }
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+.gallery-card {
+  background: var(--color-card);
+  border: 1px solid rgba(201,169,89,0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.gallery-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+}
+.gallery-card-link {
+  display: block;
+  background-image: none;
+  background: #000;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+.gallery-card-link:hover { background-size: 0 1px; }
+.gallery-card-link img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+.gallery-card:hover .gallery-card-link img { transform: scale(1.04); }
+.gallery-card-body { padding: 0.85rem 1rem 1rem; font-size: 0.9rem; }
+.gallery-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  margin-bottom: 0.5rem;
+}
+.gallery-badge-evidence { background: rgba(233,69,96,0.18); color: #ffb3c0; }
+.gallery-badge-illustration { background: rgba(201,169,89,0.18); color: var(--color-gold); }
+.gallery-card-caption { color: var(--color-text); margin: 0 0 0.5rem; line-height: 1.45; }
+.gallery-card-meta { color: var(--color-text-muted); font-size: 0.8rem; display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 0 0 0.4rem; }
+.gallery-card-credit { color: var(--color-text-muted); font-size: 0.75rem; margin: 0 0 0.3rem; }
+.gallery-card-credit em { color: var(--color-gold); font-style: normal; }
+.gallery-card-usedon { font-size: 0.75rem; color: var(--color-text-muted); margin: 0; }
+.gallery-card-usedon a { color: var(--color-link); }
+
+.gallery-wishlist {
+  max-width: var(--max-width);
+  margin: 3rem auto 2rem;
+  padding: 1.5rem;
+  background: var(--color-parchment);
+  border: 1px dashed rgba(201,169,89,0.3);
+  border-radius: 10px;
+}
+.gallery-wishlist h2 { font-family: var(--font-heading); color: var(--color-gold); margin-bottom: 0.5rem; }
+.gallery-wishlist h2 small { font-weight: 400; color: var(--color-text-muted); font-size: 0.7em; }
+.gallery-wishlist ul { margin: 0.75rem 0 0 1.25rem; }
+.gallery-wishlist li { margin-bottom: 0.4rem; color: var(--color-text-muted); }
+.gallery-wishlist li strong { color: var(--color-text); text-transform: capitalize; }
+.gallery-error { color: #ff8e8e; padding: 1.5rem; text-align: center; }
+
+/* ── Per-page evidence strip ── */
+.evidence-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: var(--color-parchment);
+  border-left: 3px solid var(--color-gold);
+  border-radius: 4px;
+}
+.evidence-strip figure { margin: 0; }
+.evidence-strip a {
+  display: block;
+  background-image: none;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #000;
+  aspect-ratio: 4 / 3;
+}
+.evidence-strip a:hover { background-size: 0 1px; }
+.evidence-strip img {
+  width: 100%; height: 100%;
+  object-fit: cover; display: block;
+  transition: opacity 0.2s ease;
+}
+.evidence-strip a:hover img { opacity: 0.85; }
+.evidence-strip figcaption {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  margin-top: 0.35rem;
+  line-height: 1.35;
+}
+
+/* ── Lightbox ── */
+.lightbox {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.92);
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+.lightbox[aria-hidden="false"] { display: flex; }
+body.lightbox-open { overflow: hidden; }
+.lightbox-figure {
+  margin: 0;
+  max-width: 1100px;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+.lightbox-img {
+  max-width: 100%;
+  max-height: 75vh;
+  object-fit: contain;
+  border-radius: 6px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.6);
+  background: #000;
+}
+.lightbox-caption {
+  color: #f0f0f0;
+  text-align: center;
+  max-width: 800px;
+  font-size: 0.95rem;
+}
+.lightbox-text { margin: 0 0 0.5rem; line-height: 1.5; }
+.lightbox-meta {
+  margin: 0 0 0.5rem;
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+.lightbox-license { color: var(--color-gold); }
+.lightbox-source { margin: 0; font-size: 0.85rem; }
+.lightbox-source a { color: var(--color-link); }
+.lightbox-close {
+  position: absolute;
+  top: 1rem; right: 1rem;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 50%;
+  width: 44px; height: 44px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+.lightbox-close:hover, .lightbox-close:focus { background: rgba(233,69,96,0.7); outline: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .gallery-card, .gallery-card-link img,
+  .evidence-strip img { transition: none; }
+  .gallery-card:hover { transform: none; }
+  .gallery-card:hover .gallery-card-link img { transform: none; }
+}
+
+/* ── Print: hide lightbox, show evidence inline ── */
+@media print {
+  .lightbox, .lightbox-close { display: none !important; }
+  .gallery-card { break-inside: avoid; }
+  .evidence-strip { background: transparent; border-left-color: #000; }
+}

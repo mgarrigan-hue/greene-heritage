@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — Greene Family Heritage</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☘️</text></svg>">
+  <meta property="og:title" content="Gallery — Greene Family Heritage">
+  <meta property="og:description" content="Every primary-source document and contextual image catalogued for the Greene Heritage Project, with full provenance and licensing.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://greene.garrigan.me/gallery.html">
+  <meta name="description" content="Gallery of primary-source documents and contextual imagery for the Greene Family Heritage research project. Every asset catalogued with date, place, source, licence, and credit.">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/site.js" defer></script>
+  <script src="js/gallery.js" defer></script>
+</head>
+<body class="use-drawer-nav" data-long-page>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="site-title">☘ Greene Heritage</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" data-nav-toggle>☰</button>
+      <div class="nav-links" data-nav-links>
+        <a href="index.html">Home</a>
+        <a href="people.html">People</a>
+        <a href="timeline.html">Timeline</a>
+        <a href="tree.html">Family Tree</a>
+        <div class="nav-dropdown" data-nav-dropdown>
+          <button class="nav-dropdown-trigger" aria-expanded="false">Places ▾</button>
+          <div class="nav-dropdown-menu">
+            <a href="portarlington.html">Portarlington</a>
+            <a href="dublin.html">Dublin</a>
+          </div>
+        </div>
+        <div class="nav-dropdown" data-nav-dropdown>
+          <button class="nav-dropdown-trigger" aria-expanded="false">Stories ▾</button>
+          <div class="nav-dropdown-menu">
+            <a href="elizabeth.html">Elizabeth's Story</a>
+            <a href="catherine.html">Catherine's Story</a>
+            <a href="military.html">Military Service</a>
+          </div>
+        </div>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="sources.html">Sources</a>
+        <a href="about.html">About</a>
+        <div class="search-wrap">
+          <input type="search" class="search-input" placeholder="Search…" aria-label="Search the site" data-global-search>
+          <div class="search-results" data-search-results role="listbox"></div>
+        </div>
+        <button class="theme-toggle" aria-label="Toggle light/dark theme" data-theme-toggle title="Toggle theme">🌙</button>
+      </div>
+    </div>
+  </nav>
+
+  <div id="main" class="hero-cinematic" style="min-height:38vh;background-image:url('https://images.unsplash.com/photo-1568667256549-094345857637?w=1920');">
+    <h1>Gallery</h1>
+    <p class="subtitle">Every primary-source document and contextual image, catalogued with full provenance</p>
+  </div>
+
+  <div class="container" style="padding-top:1rem;padding-bottom:0;">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> › <span>Gallery</span></nav>
+  </div>
+
+  <div class="container">
+    <div class="prose">
+      <p style="font-size:1.05rem;line-height:1.7;">
+        This page is the visual companion to <a href="sources.html">Sources &amp; Citations</a>. Where Sources lists every record by category, Gallery shows you the actual scans, registers, and contextual imagery — grouped by person and place, with full credits.
+      </p>
+      <p style="font-size:0.95rem;color:var(--color-text-muted);">
+        <strong>Primary evidence</strong> badges mark scans of original civil registers, census forms, and church records — the documents that anchor specific factual claims. <strong>Context</strong> badges mark period and place imagery (public-domain photographs, historic illustrations) that help visualise the world the family lived in.
+      </p>
+      <p style="font-size:0.9rem;color:var(--color-text-muted);">
+        The catalogue is generated from <code>research-results/gallery-inventory.json</code>. Click any image to view it full-size with caption, credit, licence, and link to original source.
+      </p>
+    </div>
+
+    <div data-gallery-root>
+      <p style="text-align:center;color:var(--color-text-muted);padding:3rem 1rem;">Loading gallery…</p>
+    </div>
+  </div>
+
+  <footer style="text-align:center;padding:2rem 1rem;color:var(--color-text-muted);font-size:0.85rem;border-top:1px solid rgba(201,169,89,0.15);margin-top:3rem;">
+    <p>Greene Family Heritage Project · <a href="about.html">About</a> · <a href="sources.html">Sources</a></p>
+  </footer>
+</body>
+</html>
