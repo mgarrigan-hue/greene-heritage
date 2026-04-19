@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sources &amp; Citations — Greene Family Heritage</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☘️</text></svg>">
+  <meta property="og:title" content="Sources & Citations — Greene Family Heritage">
+  <meta property="og:description" content="Every claim on this site, sourced. Primary and secondary sources organised by category, with confidence levels.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://greene.garrigan.me/sources.html">
+  <meta name="description" content="Sources, citations and research log for the Greene Family Heritage project.">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <style>
+    .source-category { background:rgba(212,175,55,0.04); border-left:3px solid var(--color-gold); padding:1rem 1.25rem; margin:1.25rem 0; border-radius:4px; }
+    .source-category h3 { margin:0 0 0.6rem 0; color:var(--color-gold); }
+    .source-category .cat-meta { font-size:0.85rem; color:var(--color-text-muted); margin-bottom:0.6rem; font-style:italic; }
+    .source-list { list-style:none; padding:0; margin:0; }
+    .source-list li { padding:0.55rem 0; border-bottom:1px dashed rgba(255,255,255,0.08); display:grid; grid-template-columns:auto 1fr; gap:0.6rem; align-items:start; }
+    .source-list li:last-child { border-bottom:none; }
+    .conf-badge { display:inline-block; padding:0.1rem 0.45rem; border-radius:3px; font-size:0.7rem; font-weight:600; text-transform:uppercase; letter-spacing:0.05em; white-space:nowrap; margin-top:0.15rem; }
+    .conf-high { background:rgba(46,160,67,0.18); color:#7ee08c; border:1px solid rgba(46,160,67,0.4); }
+    .conf-medium { background:rgba(212,175,55,0.18); color:var(--color-gold); border:1px solid rgba(212,175,55,0.4); }
+    .conf-low { background:rgba(220,80,80,0.18); color:#ff8a8a; border:1px solid rgba(220,80,80,0.4); }
+    .conf-primary { background:rgba(120,80,200,0.22); color:#c9b6ff; border:1px solid rgba(120,80,200,0.5); }
+    .source-cite { line-height:1.5; }
+    .source-cite .cite-people { color:var(--color-text-muted); font-size:0.82rem; margin-top:0.2rem; }
+    .legend { display:flex; flex-wrap:wrap; gap:0.6rem; margin:1rem 0 2rem; padding:0.9rem 1rem; background:rgba(255,255,255,0.03); border-radius:6px; }
+    .legend span { display:flex; align-items:center; gap:0.4rem; font-size:0.85rem; color:var(--color-text-muted); }
+    .stats-row { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:0.75rem; margin:1.5rem 0 2rem; }
+    .stat-tile { background:rgba(212,175,55,0.06); padding:0.9rem; text-align:center; border-radius:6px; border:1px solid rgba(212,175,55,0.15); }
+    .stat-tile .num { font-family:'Playfair Display',serif; font-size:2rem; color:var(--color-gold); display:block; line-height:1; }
+    .stat-tile .lbl { font-size:0.8rem; color:var(--color-text-muted); margin-top:0.3rem; display:block; text-transform:uppercase; letter-spacing:0.05em; }
+    .research-log { background:rgba(40,60,90,0.18); border-left:3px solid #6aa3ff; padding:1rem 1.2rem; margin:1.5rem 0; border-radius:4px; }
+    .research-log h4 { color:#6aa3ff; margin:0 0 0.4rem; }
+    .research-log .neg { color:#ff8a8a; font-weight:600; }
+    .research-log .pos { color:#7ee08c; font-weight:600; }
+    @media (max-width:600px){ .source-list li { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-inner">
+      <span class="site-title">☘ Greene Heritage</span>
+      <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="people.html">People</a>
+        <a href="timeline.html">Timeline</a>
+        <a href="tree.html">Family Tree</a>
+        <span class="nav-divider"></span>
+        <a href="portarlington.html">Portarlington</a>
+        <a href="dublin.html">Dublin</a>
+        <span class="nav-divider"></span>
+        <a href="military.html">Military</a>
+        <a href="elizabeth.html">Elizabeth's Story</a>
+        <a href="catherine.html">Catherine's Story</a>
+        <span class="nav-divider"></span>
+        <a href="sources.html" class="active">Sources</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero-cinematic" style="min-height:38vh;background-image:url('https://images.unsplash.com/photo-1568667256549-094345857637?w=1920');">
+    <h1>Sources &amp; Citations</h1>
+    <p class="subtitle">Every claim on this site, sourced — so future cousins can verify and extend the work</p>
+  </div>
+
+  <div class="container">
+
+    <p style="font-size:1.05rem;line-height:1.7;">A genealogy without sources is just a story. This page lists every record, document, and conversation that underpins the people, events, and relationships displayed across the site. Where a record is held in an online archive, a link is provided. Where the source is family oral history, that is stated honestly. Confidence levels follow the genealogical standard: <strong>primary</strong> sources (original document, contemporaneous), <strong>high</strong> (multiple corroborating records), <strong>medium</strong> (one strong record, plausible inference), <strong>low</strong> (oral history or single weak inference).</p>
+
+    <div class="legend">
+      <span><span class="conf-badge conf-primary">Primary</span> Original contemporaneous document</span>
+      <span><span class="conf-badge conf-high">High</span> Multiple records corroborate</span>
+      <span><span class="conf-badge conf-medium">Medium</span> One strong record</span>
+      <span><span class="conf-badge conf-low">Low</span> Oral history / weak inference</span>
+    </div>
+
+    <div class="stats-row" id="source-stats"></div>
+
+    <h2 style="margin-top:2rem;">Sources by Category</h2>
+    <p style="color:var(--color-text-muted);font-size:0.95rem;">Generated automatically from <code>data/family.json</code>. Each entry shows the source citation and the people it informs.</p>
+
+    <div id="source-categories"></div>
+
+    <h2 style="margin-top:3rem;">Research Log — Negative Evidence</h2>
+    <p style="color:var(--color-text-muted);">A list of searches we have already run that returned <em>no result</em>. Recording these saves future researchers from repeating dead-end work.</p>
+
+    <div class="research-log">
+      <h4>Thomas × Bridget Marriage Record (Dublin, c.1915–1925)</h4>
+      <p><span class="neg">Not yet found.</span> IrishGenealogy.ie civil marriage indexes for "Thomas Greene" + "Bridget Clarke" across all Dublin districts 1915–1925 returned no exact match in spring 2026. Variant spellings (Green / Clark) also tried. Possible the marriage was registered in a neighbouring county or under a slightly different name. <em>This is the highest-priority outstanding record — it would name Bridget's father.</em></p>
+    </div>
+
+    <div class="research-log">
+      <h4>Catherine Clarke's Husband (Bridget's Father)</h4>
+      <p><span class="neg">Identity unknown.</span> Catherine Clarke was already a widow by the 1901 Census. His death predates 1901 civil registration searches we have completed for Mullaghfin / Duleek. The marriage record between Catherine and Mr Clarke (c.1875–1885) remains unfound. <em>Will be resolved by either: (a) finding their marriage record, or (b) finding Bridget's birth registration which would name him.</em></p>
+    </div>
+
+    <div class="research-log">
+      <h4>Thomas Greene's First Marriage (Dublin South 1899)</h4>
+      <p><span class="pos">Indexed but image not yet retrieved.</span> Ancestry.com index entry: Dublin South Registration District, 1899, Vol 2, Page 593. The actual register image is on IrishGenealogy.ie and would name Elizabeth's maiden surname and Thomas's father — closing two open questions in one document.</p>
+    </div>
+
+    <div class="research-log">
+      <h4>Elizabeth Harris (née Greene) — Channel Islands Records</h4>
+      <p><span class="pos">Pivot from Guernsey → Jersey.</span> Until April 2026 we assumed Elizabeth was on Guernsey. The newly-surfaced 1941 Jersey marriage certificate confirms she was in fact in <strong>Jersey</strong>, parish of St. Saviour's. All future Channel Islands research should target <a href="https://www.jerseyheritage.org/collections/jersey-archive/" target="_blank" rel="noopener">Jersey Archive</a>, not Guernsey. Specifically: German Occupation Registration Cards (with photographs) for both Alfred and Elizabeth Harris.</p>
+    </div>
+
+    <div class="research-log">
+      <h4>Thomas Greene — Military Service Record</h4>
+      <p><span class="neg">Not yet retrieved.</span> Service papers for the Prince of Wales's Leinster Regiment (Royal Canadians) are held at <a href="https://www.nationalarchives.gov.uk/" target="_blank" rel="noopener">The National Archives, Kew</a> (WO 363 / WO 364) and on Findmypast.co.uk. Many WWI service records were destroyed in the 1940 Blitz ("burnt documents"); those that survive are paywalled. <em>Requires a Findmypast subscription or Kew visit.</em></p>
+    </div>
+
+    <h2 style="margin-top:3rem;">Methodology Notes</h2>
+    <ul style="line-height:1.9;margin-left:1.2rem;">
+      <li><strong>Census triangulation:</strong> Where a person appears in 1901, 1911, and 1926 census, ages are cross-checked. A discrepancy of ±1 year is treated as normal (different enumeration months); &gt; 3 years requires a research note.</li>
+      <li><strong>Birthplace ambiguity:</strong> Portarlington straddles the historic county line between Kings Co. (Offaly) and Queens Co. (Laois). Thomas Greene is recorded under both at different censuses — both are correct depending on which side of the river the household stood.</li>
+      <li><strong>Name normalisation:</strong> "Greene" / "Green" are treated as the same surname; the family used both spellings interchangeably until c.1900 after which "Greene" predominates. "Eithne" / "Ita" / "Eita" are all the same person — Mark's grandmother-in-law.</li>
+      <li><strong>1926 Census:</strong> Released on 18 April 2026 — exactly 100 years after enumeration day — under Ireland's century rule. Several of this site's most important findings (Bridget's Duleek birthplace, Thomas at Switzers) emerged on launch day.</li>
+      <li><strong>Confidence inheritance:</strong> A parent-child relationship can never have higher confidence than the lower of the two people's records. The site's <code>family.json</code> records confidence on every relationship explicitly.</li>
+      <li><strong>Living people:</strong> Birth dates and addresses for living people (Mark, Claire, Donnelly cousins) are deliberately omitted in line with normal genealogical practice.</li>
+    </ul>
+
+    <h2 style="margin-top:3rem;">How To Cite This Site</h2>
+    <p>Garrigan, M. (2026). <em>Greene Family Heritage</em> [website]. Available at: <a href="https://greene.garrigan.me/">https://greene.garrigan.me/</a> (Accessed: [date]).</p>
+    <p style="margin-top:0.6rem;">All underlying data is in <a href="https://github.com/mgarrigan-hue/greene-heritage/blob/master/data/family.json" target="_blank" rel="noopener"><code>data/family.json</code></a> on GitHub — open the file to see every person, event, relationship and source citation in machine-readable form.</p>
+
+    <div class="story-nav">
+      <a href="catherine.html">
+        <div class="nav-label">← Previous</div>
+        <div class="nav-title">Catherine's Story</div>
+      </a>
+      <a href="about.html" class="next">
+        <div class="nav-label">Next →</div>
+        <div class="nav-title">About This Research</div>
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    <p>Greene Family Heritage Research &copy; 2026 | A project by Claire Garrigan</p>
+    <p style="margin-top:0.5rem;"><a href="about.html" style="color:var(--color-gold);">About This Research</a></p>
+  </footer>
+
+  <script>
+    // Source classification heuristics — keyword → category
+    const CATEGORIES = [
+      { id:'primary-docs', name:'Primary Documents (in family possession)', meta:'Original certificates, letters, and papers held by the family',
+        match:(s) => /MARRIAGE CERTIFICATE|Death Certificate|Letter (of recommendation|from Dr|Donaldson)/i.test(s) },
+      { id:'census-1901', name:'1901 Census of Ireland', meta:'National Archives of Ireland — census.nationalarchives.ie',
+        match:(s) => /1901 Census/i.test(s) },
+      { id:'census-1911', name:'1911 Census of Ireland', meta:'National Archives of Ireland — Form A & Form B household returns',
+        match:(s) => /1911 Census/i.test(s) },
+      { id:'census-1926', name:'1926 Census of the Irish Free State', meta:'Released 18 April 2026 by the National Archives of Ireland',
+        match:(s) => /1926 Census/i.test(s) },
+      { id:'civil-records', name:'Civil Registration Records', meta:'Births, marriages, deaths from the General Register Office of Ireland (and Jersey)',
+        match:(s) => /Death Certificate|Marriage [Cc]ertificate|Civil birth|civil registration|GRO|Register of Marriages/i.test(s) },
+      { id:'rip-obit', name:'Death Notices & Obituaries', meta:'RIP.ie and newspaper obituaries',
+        match:(s) => /RIP\.ie|death notice|obituary/i.test(s) },
+      { id:'overseas-records', name:'Overseas Records', meta:'New Zealand BDM, US records, etc.',
+        match:(s) => /NZ BDM|New Zealand|Queens NY|United States/i.test(s) },
+      { id:'tithe-vall', name:'Pre-1864 Records', meta:'Tithe Applotment Books and Griffith\'s Valuation',
+        match:(s) => /Tithe|Griffith/i.test(s) },
+      { id:'ancestry', name:'Ancestry.com Indexes', meta:'Index entries (image not yet retrieved)',
+        match:(s) => /Ancestry/i.test(s) },
+      { id:'oral', name:'Family Oral History', meta:'Stories and recollections passed down through the family',
+        match:(s) => /oral history|Family papers/i.test(s) }
+    ];
+
+    fetch('data/family.json').then(r => r.json()).then(data => {
+      // Build a flat list of [source-string, [person-names], confidence]
+      const all = [];
+      const personById = Object.fromEntries(data.people.map(p => [p.id, p]));
+      data.people.forEach(p => {
+        (p.sources || []).forEach(src => {
+          all.push({ src, person: p.name, personId: p.id, confidence: p.confidence });
+        });
+      });
+
+      // Bucket sources by category
+      const buckets = CATEGORIES.map(c => ({ ...c, items: [] }));
+      const uncategorised = { id:'other', name:'Other Sources', meta:'Sources that don\'t fit a primary category', items: [] };
+      const seen = new Set();
+      all.forEach(entry => {
+        const key = entry.src + '|' + entry.personId;
+        if (seen.has(key)) return; // de-dupe person+source pairs
+        seen.add(key);
+        const cat = buckets.find(c => c.match(entry.src));
+        (cat || uncategorised).items.push(entry);
+      });
+      const final = [...buckets.filter(b => b.items.length), ...(uncategorised.items.length ? [uncategorised] : [])];
+
+      // Stats
+      const totalSources = all.length;
+      const uniqueDocs = new Set(all.map(a => a.src)).size;
+      const peopleSourced = data.people.filter(p => (p.sources||[]).length).length;
+      const primaryCount = (buckets.find(b=>b.id==='primary-docs')?.items.length) || 0;
+
+      document.getElementById('source-stats').innerHTML = `
+        <div class="stat-tile"><span class="num">${data.people.length}</span><span class="lbl">People</span></div>
+        <div class="stat-tile"><span class="num">${peopleSourced}</span><span class="lbl">People with sources</span></div>
+        <div class="stat-tile"><span class="num">${uniqueDocs}</span><span class="lbl">Distinct documents</span></div>
+        <div class="stat-tile"><span class="num">${totalSources}</span><span class="lbl">Source citations</span></div>
+        <div class="stat-tile"><span class="num">${primaryCount}</span><span class="lbl">Primary documents</span></div>
+        <div class="stat-tile"><span class="num">${data.events.length}</span><span class="lbl">Events</span></div>
+      `;
+
+      // Render categories
+      const container = document.getElementById('source-categories');
+      const isPrimaryCat = id => id === 'primary-docs';
+      final.forEach(cat => {
+        // Group items by source string so the same census record isn't repeated for each named person
+        const grouped = {};
+        cat.items.forEach(it => {
+          if (!grouped[it.src]) grouped[it.src] = { src: it.src, people: [], confidences: new Set() };
+          grouped[it.src].people.push(it.person);
+          grouped[it.src].confidences.add(it.confidence);
+        });
+
+        const itemsHtml = Object.values(grouped).sort((a,b) => a.src.localeCompare(b.src)).map(g => {
+          const conf = isPrimaryCat(cat.id) ? 'primary' : (g.confidences.has('high') ? 'high' : g.confidences.has('medium') ? 'medium' : 'low');
+          const confLabel = conf === 'primary' ? 'Primary' : conf.charAt(0).toUpperCase() + conf.slice(1);
+          return `<li>
+              <span class="conf-badge conf-${conf}">${confLabel}</span>
+              <div class="source-cite">
+                ${g.src}
+                <div class="cite-people">→ ${g.people.join(' · ')}</div>
+              </div>
+            </li>`;
+        }).join('');
+
+        container.insertAdjacentHTML('beforeend', `
+          <div class="source-category">
+            <h3>${cat.name} <span style="font-size:0.7em;color:var(--color-text-muted);font-weight:normal;">(${Object.keys(grouped).length})</span></h3>
+            <div class="cat-meta">${cat.meta}</div>
+            <ul class="source-list">${itemsHtml}</ul>
+          </div>
+        `);
+      });
+
+      // GSAP after content in DOM
+      gsap.registerPlugin(ScrollTrigger);
+      gsap.utils.toArray('.source-category, .research-log, .stat-tile, h2').forEach(el => {
+        gsap.from(el, {
+          scrollTrigger: { trigger: el, start: 'top 88%', toggleActions: 'play none none none' },
+          opacity: 0, y: 24, duration: 0.55, ease: 'power2.out'
+        });
+      });
+    }).catch(err => {
+      document.getElementById('source-categories').innerHTML = '<p style="color:#ff8a8a">Failed to load sources from family.json: ' + err.message + '</p>';
+    });
+  </script>
+</body>
+</html>
