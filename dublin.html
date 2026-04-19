@@ -10,39 +10,58 @@
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://greene.garrigan.me/dublin.html">
   <meta name="description" content="The Dublin social history of the Greene family — Switzers, York Street tenements, Corporation housing, and three generations at Goldenbridge Avenue.">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/site.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 </head>
-<body>
+<body class="use-drawer-nav" data-long-page>
+  <a class="skip-link" href="#main">Skip to main content</a>
   <nav>
     <div class="nav-inner">
-      <span class="site-title">☘ Greene Heritage</span>
-      <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
-      <div class="nav-links">
+      <a href="index.html" class="site-title">☘ Greene Heritage</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" data-nav-toggle>☰</button>
+      <div class="nav-links" data-nav-links>
         <a href="index.html">Home</a>
         <a href="people.html">People</a>
         <a href="timeline.html">Timeline</a>
         <a href="tree.html">Family Tree</a>
-        <span class="nav-divider"></span>
-        <a href="portarlington.html">Portarlington</a>
-        <a href="dublin.html" class="active">Dublin</a>
-        <span class="nav-divider"></span>
-        <a href="military.html">Military</a>
-        <a href="elizabeth.html">Elizabeth's Story</a>
-        <a href="catherine.html">Catherine's Story</a>
+        <div class="nav-dropdown" data-nav-dropdown>
+          <button class="nav-dropdown-trigger active" aria-expanded="false">Places ▾</button>
+          <div class="nav-dropdown-menu">
+            <a href="portarlington.html">Portarlington</a>
+            <a href="dublin.html" class="active">Dublin</a>
+          </div>
+        </div>
+        <div class="nav-dropdown" data-nav-dropdown>
+          <button class="nav-dropdown-trigger" aria-expanded="false">Stories ▾</button>
+          <div class="nav-dropdown-menu">
+            <a href="elizabeth.html">Elizabeth's Story</a>
+            <a href="catherine.html">Catherine's Story</a>
+            <a href="military.html">Military Service</a>
+          </div>
+        </div>
         <a href="sources.html">Sources</a>
+        <a href="about.html">About</a>
+        <div class="search-wrap">
+          <input type="search" class="search-input" placeholder="Search…" aria-label="Search the site" data-global-search>
+          <div class="search-results" data-search-results role="listbox"></div>
+        </div>
+        <button class="theme-toggle" aria-label="Toggle light/dark theme" data-theme-toggle title="Toggle theme">🌙</button>
       </div>
     </div>
   </nav>
 
-  <div class="hero-cinematic" style="min-height:40vh;background-image:url('https://images.unsplash.com/photo-1549918864-48ac978761a4?w=1920');">
+  <div id="main" class="hero-cinematic" style="min-height:40vh;background-image:url('https://images.unsplash.com/photo-1549918864-48ac978761a4?w=1920');">
     <h1>Dublin Lives</h1>
     <p class="subtitle">From tenement rooms to suburban homes — the Greene family's journey through 20th century Dublin</p>
   </div>
 
+  <div class="container" style="padding-top:1rem;padding-bottom:0;"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> › <span>Places</span> › <span>Dublin</span></nav></div>
+
   <div class="container">
+    <div class="prose">
 
     <h3>Switzers &amp; Co. — A Shop Porter's Life</h3>
     <p>Every morning, Thomas Greene walked the ten minutes from York Street to Grafton Street — past the corners of Aungier Street, across the top of South Great George's Street, and into the beating commercial heart of Dublin. His destination was <strong>Switzers &amp; Co. Drapers</strong>, one of the most prestigious department stores in the city, where the 1926 Census records him working as a Shop Porter.</p>
@@ -86,6 +105,8 @@
     <p style="margin-top:1rem;"><strong>Ita Greene</strong> took a different path. She married <strong>John Donnelly</strong> and stayed at 38 Goldenbridge Avenue — the family home becoming the Donnelly family home, the continuity unbroken. Where Brendan moved outward and upward, Ita held the centre. Both choices were valid expressions of what the Corporation housing revolution had made possible: a stable foundation from which the next generation could either reach further or plant deeper roots.</p>
     <p style="margin-top:1rem;">The family spread across Dublin but never lost its connections. From York Street to Inchicore to Terenure — the geography of the Greene family maps onto the geography of Dublin's social transformation. Each address tells a chapter: poverty, stability, aspiration. And through it all, the thread that connected them was not an address but a family — the Greenes of Dublin, who had started with two rooms and a shop porter's wages, and who had built, generation by generation, something that endured.</p>
 
+</div>
+
     <div class="story-nav">
       <a href="elizabeth.html">
         <div class="nav-label">← Previous</div>
@@ -107,7 +128,7 @@
   <script src="js/app.js"></script>
   <script>
     gsap.registerPlugin(ScrollTrigger);
-    gsap.utils.toArray('.card, .timeline-event, h3, blockquote, figure, p').forEach(el => {
+    gsap.utils.toArray('.card, h2').forEach(el => {
       gsap.from(el, {
         scrollTrigger: { trigger: el, start: 'top 85%', toggleActions: 'play none none none' },
         opacity: 0, y: 30, duration: 0.6, ease: 'power2.out'

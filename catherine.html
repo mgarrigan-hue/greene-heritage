@@ -10,39 +10,68 @@
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://greene.garrigan.me/catherine.html">
   <meta name="description" content="Catherine Clarke — widowed, illiterate, and raising six children alone in rural Meath. Her daughter Bridget was sent 120 miles away to work as a servant at age nine. This is their story.">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/site.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Catherine Clarke",
+    "familyName": "Clarke",
+    "birthPlace": "County Meath, Ireland",
+    "description": "Widowed labourer of Mullaghfin, Duleek, County Meath. Mother of six children including Bridget Clarke who married Thomas Greene of Portarlington."
+  }
+  </script>
 </head>
-<body>
+<body class="use-drawer-nav" data-long-page>
+  <a class="skip-link" href="#main">Skip to main content</a>
   <nav>
     <div class="nav-inner">
-      <span class="site-title">☘ Greene Heritage</span>
-      <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
-      <div class="nav-links">
+      <a href="index.html" class="site-title">☘ Greene Heritage</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" data-nav-toggle>☰</button>
+      <div class="nav-links" data-nav-links>
         <a href="index.html">Home</a>
         <a href="people.html">People</a>
         <a href="timeline.html">Timeline</a>
         <a href="tree.html">Family Tree</a>
-        <span class="nav-divider"></span>
-        <a href="portarlington.html">Portarlington</a>
-        <a href="dublin.html">Dublin</a>
-        <span class="nav-divider"></span>
-        <a href="military.html">Military</a>
-        <a href="elizabeth.html">Elizabeth's Story</a>
-        <a href="catherine.html" class="active">Catherine's Story</a>
+        <div class="nav-dropdown" data-nav-dropdown>
+          <button class="nav-dropdown-trigger" aria-expanded="false">Places ▾</button>
+          <div class="nav-dropdown-menu">
+            <a href="portarlington.html">Portarlington</a>
+            <a href="dublin.html">Dublin</a>
+          </div>
+        </div>
+        <div class="nav-dropdown" data-nav-dropdown>
+          <button class="nav-dropdown-trigger active" aria-expanded="false">Stories ▾</button>
+          <div class="nav-dropdown-menu">
+            <a href="elizabeth.html">Elizabeth's Story</a>
+            <a href="catherine.html" class="active">Catherine's Story</a>
+            <a href="military.html">Military Service</a>
+          </div>
+        </div>
         <a href="sources.html">Sources</a>
+        <a href="about.html">About</a>
+        <div class="search-wrap">
+          <input type="search" class="search-input" placeholder="Search…" aria-label="Search the site" data-global-search>
+          <div class="search-results" data-search-results role="listbox"></div>
+        </div>
+        <button class="theme-toggle" aria-label="Toggle light/dark theme" data-theme-toggle title="Toggle theme">🌙</button>
       </div>
     </div>
   </nav>
 
-  <div class="hero-cinematic" style="min-height:40vh;background-image:url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1920');">
+  <div id="main" class="hero-cinematic" style="min-height:40vh;background-image:url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1920');">
     <h1>Catherine's Story</h1>
     <p class="subtitle">A widow's struggle in rural Meath, and the daughter she sent into the world at age nine</p>
   </div>
 
+  <div class="container" style="padding-top:1rem;padding-bottom:0;"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> › <span>Stories</span> › <span>Catherine Clarke</span></nav></div>
+
   <div class="container">
+    <div class="prose">
 
     <h3>Mullaghfin, 1901</h3>
     <p>The census enumerator came to House Number 3 in the townland of <strong>Mullaghfin</strong> sometime in the spring of 1901. He recorded what he found in the careful bureaucratic hand that would, more than a century later, be the only surviving portrait of this family. Catherine Clarke, age 40, widowed, head of household. Religion: Roman Catholic. Occupation: General Labourer. Literacy: cannot read, cannot write.</p>
@@ -84,7 +113,7 @@
     <p style="margin-top:1rem;">In the Ireland of 1911, a 55-year-old charwoman was old. Life expectancy for women of her class hovered around 50. She had outlived her husband by at least fifteen years. She had survived the grinding poverty of the 1890s, the economic stagnation of the early 1900s, and the slow haemorrhage of emigration and domestic service that drained rural Ireland of its young. She had endured.</p>
     <p style="margin-top:1rem;">We do not know when Catherine died, or where she is buried. There is no gravestone that we have found, no death certificate yet located. She left no letters — she could not have written them. She left no photographs that we know of. What she left were her children, and through them, the family that would eventually include the Greenes of York Street, Dublin, and all who came after.</p>
 
-    <h3>What We Don't Know</h3>
+    <h3 id="further-research">What We Don't Know</h3>
     <p>Family history is as much about absence as presence — about the questions that the records do not answer, the silences between the census lines.</p>
     <p style="margin-top:1rem;">We do not know <strong>Catherine's husband's name</strong>. The 1901 and 1911 Census records list her as widowed and head of household, but the man she married and the father of her six children is unnamed. He died before 1901 — perhaps years before — and without a death certificate or marriage record, he remains a shadow.</p>
     <p style="margin-top:1rem;">We do not know <strong>when he died, or how</strong>. Was it sudden — an accident on a farm, a fall, a kick from a horse? Or was it slow — tuberculosis, typhoid, the wasting diseases that stalked labouring families in 1890s Ireland? The cause would tell us something about Catherine's world, about the risks that surrounded her daily life.</p>
@@ -102,6 +131,8 @@
       <li><strong>1926 Census</strong> (when released by the Central Statistics Office) — which may show Catherine if she was still alive, or confirm her children's locations</li>
     </ul>
     <p style="margin-top:1rem;">Catherine Clarke's story is incomplete. But incomplete is not the same as lost. Every record we find draws the picture a little clearer — a woman who lived in hardship, who sent her children into the world because she had no other choice, and who endured alone in a house that had once been full. She is the root of a family that would grow in Dublin and beyond, and her story deserves to be told — even with its silences, even with its gaps, even with all the things we do not yet know.</p>
+
+</div>
 
     <div class="story-nav">
       <a href="dublin.html">
@@ -121,7 +152,7 @@
   <script src="js/app.js"></script>
   <script>
     gsap.registerPlugin(ScrollTrigger);
-    gsap.utils.toArray('.card, .timeline-event, h3, blockquote, figure, p, ul').forEach(el => {
+    gsap.utils.toArray('.card, h2').forEach(el => {
       gsap.from(el, {
         scrollTrigger: { trigger: el, start: 'top 85%', toggleActions: 'play none none none' },
         opacity: 0, y: 30, duration: 0.6, ease: 'power2.out'

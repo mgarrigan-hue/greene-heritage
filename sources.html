@@ -10,10 +10,9 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://greene.garrigan.me/sources.html">
   <meta name="description" content="Sources, citations and research log for the Greene Family Heritage project.">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="js/site.js" defer></script>
   <style>
     .source-category { background:rgba(212,175,55,0.04); border-left:3px solid var(--color-gold); padding:1rem 1.25rem; margin:1.25rem 0; border-radius:4px; }
     .source-category h3 { margin:0 0 0.6rem 0; color:var(--color-gold); }
@@ -41,36 +40,53 @@
     @media (max-width:600px){ .source-list li { grid-template-columns:1fr; } }
   </style>
 </head>
-<body>
+<body class="use-drawer-nav" data-long-page>
+  <a class="skip-link" href="#main">Skip to main content</a>
   <nav>
     <div class="nav-inner">
-      <span class="site-title">☘ Greene Heritage</span>
-      <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
-      <div class="nav-links">
+      <a href="index.html" class="site-title">☘ Greene Heritage</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" data-nav-toggle>☰</button>
+      <div class="nav-links" data-nav-links>
         <a href="index.html">Home</a>
         <a href="people.html">People</a>
         <a href="timeline.html">Timeline</a>
         <a href="tree.html">Family Tree</a>
-        <span class="nav-divider"></span>
-        <a href="portarlington.html">Portarlington</a>
-        <a href="dublin.html">Dublin</a>
-        <span class="nav-divider"></span>
-        <a href="military.html">Military</a>
-        <a href="elizabeth.html">Elizabeth's Story</a>
-        <a href="catherine.html">Catherine's Story</a>
-        <span class="nav-divider"></span>
+        <div class="nav-dropdown" data-nav-dropdown>
+          <button class="nav-dropdown-trigger" aria-expanded="false">Places ▾</button>
+          <div class="nav-dropdown-menu">
+            <a href="portarlington.html">Portarlington</a>
+            <a href="dublin.html">Dublin</a>
+          </div>
+        </div>
+        <div class="nav-dropdown" data-nav-dropdown>
+          <button class="nav-dropdown-trigger" aria-expanded="false">Stories ▾</button>
+          <div class="nav-dropdown-menu">
+            <a href="elizabeth.html">Elizabeth's Story</a>
+            <a href="catherine.html">Catherine's Story</a>
+            <a href="military.html">Military Service</a>
+          </div>
+        </div>
         <a href="sources.html" class="active">Sources</a>
+        <a href="about.html">About</a>
+        <div class="search-wrap">
+          <input type="search" class="search-input" placeholder="Search…" aria-label="Search the site" data-global-search>
+          <div class="search-results" data-search-results role="listbox"></div>
+        </div>
+        <button class="theme-toggle" aria-label="Toggle light/dark theme" data-theme-toggle title="Toggle theme">🌙</button>
       </div>
     </div>
   </nav>
 
-  <div class="hero-cinematic" style="min-height:38vh;background-image:url('https://images.unsplash.com/photo-1568667256549-094345857637?w=1920');">
+  <div id="main" class="hero-cinematic" style="min-height:38vh;background-image:url('https://images.unsplash.com/photo-1568667256549-094345857637?w=1920');">
     <h1>Sources &amp; Citations</h1>
     <p class="subtitle">Every claim on this site, sourced — so future cousins can verify and extend the work</p>
   </div>
 
+  <div class="container" style="padding-top:1rem;padding-bottom:0;"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> › <span>Sources</span></nav></div>
+
   <div class="container">
 
+    <div class="prose">
     <p style="font-size:1.05rem;line-height:1.7;">A genealogy without sources is just a story. This page lists every record, document, and conversation that underpins the people, events, and relationships displayed across the site. Where a record is held in an online archive, a link is provided. Where the source is family oral history, that is stated honestly. Confidence levels follow the genealogical standard: <strong>primary</strong> sources (original document, contemporaneous), <strong>high</strong> (multiple corroborating records), <strong>medium</strong> (one strong record, plausible inference), <strong>low</strong> (oral history or single weak inference).</p>
 
     <div class="legend">
@@ -79,14 +95,18 @@
       <span><span class="conf-badge conf-medium">Medium</span> One strong record</span>
       <span><span class="conf-badge conf-low">Low</span> Oral history / weak inference</span>
     </div>
+    </div>
 
     <div class="stats-row" id="source-stats"></div>
 
+    <div class="prose">
     <h2 style="margin-top:2rem;">Sources by Category</h2>
     <p style="color:var(--color-text-muted);font-size:0.95rem;">Generated automatically from <code>data/family.json</code>. Each entry shows the source citation and the people it informs.</p>
+    </div>
 
     <div id="source-categories"></div>
 
+    <div class="prose">
     <h2 style="margin-top:3rem;">Research Log — Negative Evidence</h2>
     <p style="color:var(--color-text-muted);">A list of searches we have already run that returned <em>no result</em>. Recording these saves future researchers from repeating dead-end work.</p>
 
@@ -128,6 +148,7 @@
     <h2 style="margin-top:3rem;">How To Cite This Site</h2>
     <p>Garrigan, M. (2026). <em>Greene Family Heritage</em> [website]. Available at: <a href="https://greene.garrigan.me/">https://greene.garrigan.me/</a> (Accessed: [date]).</p>
     <p style="margin-top:0.6rem;">All underlying data is in <a href="https://github.com/mgarrigan-hue/greene-heritage/blob/master/data/family.json" target="_blank" rel="noopener"><code>data/family.json</code></a> on GitHub — open the file to see every person, event, relationship and source citation in machine-readable form.</p>
+    </div>
 
     <div class="story-nav">
       <a href="catherine.html">
@@ -240,15 +261,6 @@
             <ul class="source-list">${itemsHtml}</ul>
           </div>
         `);
-      });
-
-      // GSAP after content in DOM
-      gsap.registerPlugin(ScrollTrigger);
-      gsap.utils.toArray('.source-category, .research-log, .stat-tile, h2').forEach(el => {
-        gsap.from(el, {
-          scrollTrigger: { trigger: el, start: 'top 88%', toggleActions: 'play none none none' },
-          opacity: 0, y: 24, duration: 0.55, ease: 'power2.out'
-        });
       });
     }).catch(err => {
       document.getElementById('source-categories').innerHTML = '<p style="color:#ff8a8a">Failed to load sources from family.json: ' + err.message + '</p>';
