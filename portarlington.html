@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/site.js" defer></script>
+  <script src="js/gallery.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 </head>
@@ -97,7 +98,13 @@
     <h3>Historical Maps &amp; Photographs</h3>
     <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem;margin:1.5rem 0;">
       <figure style="margin:0;">
-        <img src="images/illustrations/portarlington-emo-park-c1900-nli-eason.jpg" alt="Emo Park, Portarlington, c.1900 — NLI Eason Photographic Collection" style="width:100%;border-radius:8px;" loading="lazy">
+        <a href="images/illustrations/portarlington-emo-park-c1900-nli-eason.jpg" data-lightbox
+           data-caption="Emo Park, near Portarlington, c.1900–1920 — the parkland just outside the town the Greenes called home."
+           data-credit="NLI Eason Photographic Collection via Wikimedia Commons"
+           data-license="Public Domain"
+           data-source-url="https://commons.wikimedia.org/wiki/File:Emo_Park,_Portarlington_(NLI_Eason).jpg">
+          <img src="images/illustrations/portarlington-emo-park-c1900-nli-eason.jpg" alt="Emo Park, Portarlington, c.1900 — NLI Eason Photographic Collection" style="width:100%;border-radius:8px;" loading="lazy">
+        </a>
         <p style="font-size:0.8rem;opacity:0.7;margin-top:0.5rem;">Emo Park, near Portarlington, c.1900–1920. NLI Eason Photographic Collection (Public Domain) via Wikimedia Commons.</p>
         <figcaption style="font-size:0.85rem;color:var(--color-text-muted);margin-top:0.5rem;">Main Street, Portarlington — the heart of the town the Greenes called home</figcaption>
       </figure>
