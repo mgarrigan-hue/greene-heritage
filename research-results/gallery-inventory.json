@@ -31,12 +31,14 @@
     "process_artefact": "many (gitignored or archival only — not catalogued individually)",
     "wishlist": 14,
     "key_gap": "We have ZERO family-personal photographs (no portraits of Thomas, Bridget, Catherine, Patrick, Elizabeth, Joseph, the Greene siblings, or any group photos). Every photograph on the site is currently either generic Unsplash mood imagery, public-domain place imagery, or a primary-source document scan. Mark/Claire's family albums (if they exist) are the single biggest unrealised source.",
-    "wishlist_filled": 4,
+    "wishlist_filled": 5,
     "b2_status": "B2 in progress: 6 of 7 hot-linked/wishlist images now self-hosted under images/illustrations/. Portarlington Main Street geograph file deleted from Wikimedia and replaced with c.1900 Emo Park PD image.",
     "b4_status": "integrated 2026-04: 11 assets wired into evidence-strips + inline lightbox figures on catherine/elizabeth/portarlington/military",
     "b5_status": "wishlist hunt 2026-04: 2 new illustrations sourced (Meath cottage, Clonliffe Road). 6 wishlist items researched with negative findings (notes added).",
-    "wishlist_open": 10,
-    "site_illustration_count": 9
+    "wishlist_open": 7,
+    "site_illustration_count": 16,
+    "b6_status": "B6 fleet hunt 2026-04 (3 parallel agents): 7 new period photos sourced via NLI Flickr Commons + Geograph. Rathmines/Ranelagh and Clonliffe-Drumcondra wishlists FILLED. Wellington Quay and Duleek-gravestone PARTIAL (good substitutes; specific targets still gaps). Biberach and Dollard remain GAPS with detailed manual-outreach paths now documented.",
+    "wishlist_partial": 2
   },
   "primary_evidence": [
     {
@@ -374,6 +376,142 @@
       "used_on_pages": [
         "elizabeth.html"
       ]
+    },
+    {
+      "id": "ill-duleek-old-churchyard-st-kienans",
+      "file_path": "images/illustrations/duleek-old-churchyard-st-kienans.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Mary%27s_Abbey_ruins_and_former_St_Kienan%27s_church,_Duleek,_Co._Meath_-_geograph.org.uk_-_7780062.jpg",
+      "kind": "site-illustration",
+      "person_ids": [
+        "catherine-clarke",
+        "bridget-wife2"
+      ],
+      "event_id": null,
+      "date": "21 May 2024 (modern photo)",
+      "place": "Duleek Old Churchyard (St Cianán's / St Kienan's), Duleek, Co. Meath",
+      "source": "Wikimedia Commons / Geograph Britain and Ireland — Nigel Thompson",
+      "license": "CC-BY-SA-2.0",
+      "caption": "St Mary's Abbey ruins and former St Cianán's church at Duleek Old Churchyard — burial ground of Thomas (d.1877) and Bridget (d.1882) Clarke, almost certainly Patrick Clarke Snr's parents and so the paternal grandparents of Bridget Clarke (b.1891).",
+      "credit": "Nigel Thompson / Geograph / Wikimedia Commons (CC-BY-SA-2.0)",
+      "rights_notes": "Substitute: contextual photograph of the churchyard, not the specific Clarke gravestone (which is documented textually but not yet photographed openly).",
+      "used_on_pages": [
+        "catherine.html"
+      ]
+    },
+    {
+      "id": "ill-nli-lawrence-river-liffey",
+      "file_path": "images/illustrations/nli-lawrence-river-liffey-dublin-36918524193.jpg",
+      "url": "https://www.flickr.com/photos/nlireland/36918524193/",
+      "kind": "site-illustration",
+      "person_ids": [
+        "catherine-clarke",
+        "bridget-wife2"
+      ],
+      "event_id": null,
+      "date": "c.1882-1889",
+      "place": "River Liffey at Carlisle (now O'Connell) Bridge, Dublin",
+      "source": "Robert French / Lawrence Photograph Collection / National Library of Ireland on The Commons. NLI Ref. L_CAB_02252.",
+      "license": "No known copyright restrictions (Flickr Commons)",
+      "caption": "The Liffey at Carlisle Bridge c.1880s — Wellington Quay (Bridget's 1911 workplace at Joseph Dollard's house) lies just upstream on the south bank.",
+      "credit": "Robert French / Lawrence Photograph Collection / NLI on The Commons",
+      "rights_notes": "Period substitute for direct Wellington Quay photo (no Lawrence Wellington Quay shot found on NLI Flickr).",
+      "used_on_pages": [
+        "catherine.html"
+      ]
+    },
+    {
+      "id": "ill-nli-lawrence-college-green",
+      "file_path": "images/illustrations/nli-lawrence-college-green-dublin-36938784044.jpg",
+      "url": "https://www.flickr.com/photos/nlireland/36938784044/",
+      "kind": "site-illustration",
+      "person_ids": [
+        "thomas-greene"
+      ],
+      "event_id": null,
+      "date": "c.1889-1892",
+      "place": "College Green, Dublin",
+      "source": "Robert French / Lawrence Photograph Collection / National Library of Ireland on The Commons. NLI Ref. L_CAB_02264.",
+      "license": "No known copyright restrictions (Flickr Commons)",
+      "caption": "College Green c.1890 — the route Thomas Greene walked daily from York Street to Switzers on Grafton Street.",
+      "credit": "Robert French / Lawrence Photograph Collection / NLI on The Commons",
+      "rights_notes": "",
+      "used_on_pages": [
+        "dublin.html"
+      ]
+    },
+    {
+      "id": "ill-nli-eason-rathmines-clock-tower",
+      "file_path": "images/illustrations/nli-eason-rathmines-clock-tower-54271252214.jpg",
+      "url": "https://www.flickr.com/photos/nlireland/54271252214/",
+      "kind": "site-illustration",
+      "person_ids": [],
+      "event_id": null,
+      "date": "c.1903-1911",
+      "place": "Rathmines Road, Dublin",
+      "source": "Eason Photographic Collection / National Library of Ireland on The Commons. NLI Ref. Eas 1936.",
+      "license": "No known copyright restrictions (Flickr Commons)",
+      "caption": "Rathmines Road and Town Hall clock tower c.1905 — Edwardian south Dublin streetscape.",
+      "credit": "Eason Photographic Collection / NLI on The Commons",
+      "rights_notes": "",
+      "used_on_pages": [
+        "dublin.html"
+      ]
+    },
+    {
+      "id": "ill-nli-eason-ranelagh-village",
+      "file_path": "images/illustrations/nli-eason-ranelagh-village-53449679143.jpg",
+      "url": "https://www.flickr.com/photos/nlireland/53449679143/",
+      "kind": "site-illustration",
+      "person_ids": [],
+      "event_id": null,
+      "date": "c.1900-1909",
+      "place": "Ranelagh village, Dublin",
+      "source": "Eason Photographic Collection / National Library of Ireland on The Commons. NLI Ref. Eas 1895.",
+      "license": "No known copyright restrictions (Flickr Commons)",
+      "caption": "Ranelagh village c.1905 — when this south-Dublin suburb still had a country-village feel.",
+      "credit": "Eason Photographic Collection / NLI on The Commons",
+      "rights_notes": "",
+      "used_on_pages": [
+        "dublin.html"
+      ]
+    },
+    {
+      "id": "ill-nli-lawrence-glasnevin-aerial",
+      "file_path": "images/illustrations/nli-lawrence-glasnevin-aerial-35284885854.jpg",
+      "url": "https://www.flickr.com/photos/nlireland/35284885854/",
+      "kind": "site-illustration",
+      "person_ids": [],
+      "event_id": null,
+      "date": "c.1900",
+      "place": "Glasnevin Cemetery, north Dublin",
+      "source": "Robert French / Lawrence Photograph Collection / National Library of Ireland on The Commons. NLI Ref. L_ROY_06467.",
+      "license": "No known copyright restrictions (Flickr Commons)",
+      "caption": "Aerial view of Glasnevin Cemetery c.1900 — Catholic Dublin's great burial ground, a few miles from the Greene family's 1911 home on Clonliffe Avenue.",
+      "credit": "Robert French / Lawrence Photograph Collection / NLI on The Commons",
+      "rights_notes": "",
+      "used_on_pages": [
+        "dublin.html"
+      ]
+    },
+    {
+      "id": "ill-nli-lawrence-clonliffe-cardinal-cullen-tomb",
+      "file_path": "images/illustrations/nli-lawrence-clonliffe-cardinal-cullen-tomb-52006198805.jpg",
+      "url": "https://www.flickr.com/photos/nlireland/52006198805/",
+      "kind": "site-illustration",
+      "person_ids": [
+        "elizabeth-harris"
+      ],
+      "event_id": null,
+      "date": "c.1865-1914",
+      "place": "Holy Cross College (Clonliffe), Dublin",
+      "source": "Robert French / Lawrence Photograph Collection / National Library of Ireland on The Commons. NLI Ref. L_ROY_01110.",
+      "license": "No known copyright restrictions (Flickr Commons)",
+      "caption": "Cardinal Cullen's tomb at Clonliffe College — the dominant religious institution of the Clonliffe neighbourhood when Elizabeth Greene was living on Clonliffe Avenue as a small child in 1911.",
+      "credit": "Robert French / Lawrence Photograph Collection / NLI on The Commons",
+      "rights_notes": "Period companion piece to the existing modern Clonliffe Road photo.",
+      "used_on_pages": [
+        "elizabeth.html"
+      ]
     }
   ],
   "hero_background": [
@@ -612,7 +750,8 @@
       "description": "View of Wellington Quay c.1910-1915 — where Joseph Dollard's printing house stood and where Bridget Clarke worked as Cook in 1911.",
       "license_target": "NLI Lawrence Collection (PD)",
       "action": "Search catalogue.nli.ie for 'Wellington Quay'.",
-      "research_notes": "searched 2026-04: Wikimedia Category:Wellington_Quay,_Dublin has 16 files, all modern. No Lawrence Collection period imagery surfaced."
+      "research_notes": "searched 2026-04: Wikimedia Category:Wellington_Quay,_Dublin has 16 files, all modern. No Lawrence Collection period imagery surfaced.",
+      "status": "PARTIAL: no direct Wellington Quay photo on NLI Flickr Lawrence Collection. Filled with ill-nli-lawrence-river-liffey (Liffey at Carlisle Bridge, just downstream) and ill-nli-lawrence-college-green (immediate environs). True Wellington Quay shot would need Dublin City Library & Archive or NLI onsite."
     },
     {
       "id": "wish-rathmines-ranelagh-c1901",
@@ -622,7 +761,8 @@
       "description": "View of Rathmines or Ranelagh c.1900 (the Greene family's other Dublin connections lived in this area — Thomas at Clonliffe Avenue, Mountjoy in 1911).",
       "license_target": "NLI Lawrence Collection (PD)",
       "action": "Search NLI for 'Rathmines', 'Ranelagh', 'Mountjoy', 'Clonliffe'.",
-      "research_notes": "searched 2026-04: Wikimedia categories for Rathmines/Mountjoy_Square/Drumcondra contain only modern photos. Lawrence Collection items not surfaced via search; would need PetScan or NLI direct lookup."
+      "research_notes": "searched 2026-04: Wikimedia categories for Rathmines/Mountjoy_Square/Drumcondra contain only modern photos. Lawrence Collection items not surfaced via search; would need PetScan or NLI direct lookup.",
+      "status": "FILLED by ill-nli-eason-rathmines-clock-tower + ill-nli-eason-ranelagh-village"
     },
     {
       "id": "wish-jersey-occupation-1940-1945",
@@ -642,7 +782,7 @@
       "description": "Period photograph of Ilag VB (the actual internment camp) rather than the modern town view we currently use.",
       "license_target": "IWM, Wikimedia, or Channel Islands Occupation Society",
       "action": "Search for 'Ilag V-B Biberach', 'Biberach internment camp', 'Channel Islands deportees Biberach'.",
-      "research_notes": "searched 2026-04: Wikimedia Commons Category:Lager_Lindele has only modern photos (graves, sculptures, streets). Period WW2 photos likely require Bundesarchiv access."
+      "research_notes": "searched 2026-04 (b6-iwm-biberach): no openly-licensed period photo exists on IWM, Wikimedia Commons, ICRC, or LABW. Best candidates require manual permission requests to (1) Guernsey Press editorial@guernseypress.com (Skillett family liberation photo + camp clock-tower view), (2) Stadtarchiv Biberach info@stadtarchiv.biberach-riss.de (Reinhold Adler 2002 archive), or (3) IWM Documents.9020 reading-room access (Lt R G Johnson papers)."
     },
     {
       "id": "wish-1941-jersey-marriage-cert",
@@ -666,7 +806,7 @@
       "description": "Period image of Dollard's Printing House on Wellington Quay (Bridget's 1911 employer's premises). The firm operated for decades and was photographed.",
       "license_target": "NLI / Dublin City Library and Archive",
       "action": "Search for 'Dollard Printing House Wellington Quay' on catalogue.nli.ie and dublincity.ie.",
-      "research_notes": "searched 2026-04: no period photo of Dollards Printing House on Wikimedia. NLI catalogue may have one but requires manual lookup."
+      "research_notes": "searched 2026-04 (b6-nli-lawrence): NLI Flickr Lawrence Collection has no Dollard hits — only Waterford Dollard drapery (Poole Collection). Suggest re-targeting Dublin City Library & Archive holdings or trade journal mastheads from Dollard's printing output."
     },
     {
       "id": "wish-holy-cross-dundrum-church",
@@ -702,7 +842,8 @@
       ],
       "description": "Photograph of the Thomas & Bridget Clarke (d.1877, d.1882) gravestone at Duleek Old Churchyard — currently we have only the Meath History Hub textual transcription. A photo would let us read it directly and look for further family names below the published transcription.",
       "license_target": "Family-photographed (we'd take it ourselves on a visit) OR Meath History Hub if they hold one",
-      "action": "Email Meath History Hub; alternatively, schedule a Mark/Claire visit on next Ireland trip."
+      "action": "Email Meath History Hub; alternatively, schedule a Mark/Claire visit on next Ireland trip.",
+      "status": "PARTIAL: substitute churchyard photo (ill-duleek-old-churchyard-st-kienans, CC-BY-SA-2.0 by Nigel Thompson via Geograph/Commons). Specific Clarke gravestone still GAP — needs Find a Grave contributor outreach (cemetery 2154186), BillionGraves, or commissioned local photo (Historic Graves Ireland have not yet surveyed Duleek Old)."
     }
   ],
   "last_updated": "2026-04-19"

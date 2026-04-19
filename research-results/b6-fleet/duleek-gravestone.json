@@ -1,0 +1,41 @@
+{
+  "todo_id": "b6-duleek-gravestone",
+  "outcome": "PARTIAL",
+  "downloaded_files": [
+    {
+      "path": "images/illustrations/duleek-old-churchyard-st-kienans.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Mary%27s_Abbey_ruins_and_former_St_Kienan%27s_church,_Duleek,_Co._Meath_-_geograph.org.uk_-_7780062.jpg",
+      "source_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/St_Mary%27s_Abbey_ruins_and_former_St_Kienan%27s_church%2C_Duleek%2C_Co._Meath_-_geograph.org.uk_-_7780062.jpg",
+      "license": "CC-BY-SA-2.0",
+      "credit": "Nigel Thompson, via Geograph Britain and Ireland / Wikimedia Commons (CC BY-SA 2.0)",
+      "caption": "St Mary's Abbey ruins and the former St Cianán's (St Kienan's) church at Duleek Old Churchyard, Co. Meath — the burial ground where Thomas Clarke (d.1877) and his wife Bridget (d.1882), parents of Patrick Clarke, are interred. Photo taken 21 May 2024.",
+      "person_ids": ["bridget-wife2"],
+      "used_on_pages": ["catherine.html"],
+      "is_substitute": true,
+      "substitute_for": "wish-duleek-old-churchyard-gravestone",
+      "notes": "This is a contextual photograph of the churchyard itself, NOT the specific Thomas & Bridget Clarke gravestone. Use as a stand-in illustration of the burial place while pairing with the documented inscription text (see narrative)."
+    }
+  ],
+  "candidates_not_downloaded": [
+    {
+      "url": "https://www.findagrave.com/cemetery/2154186/Duleek-Churchyard",
+      "why_not": "Find a Grave cemetery page is 403-blocked from automated fetch and the cemetery overview confirms ~248 memorials with ~98% photographed, but I could not enumerate individual memorials to confirm whether the Thomas/Bridget Clarke stone has a photo there. Photos on Find a Grave are copyright the contributor — even if a photo exists it must be requested directly from the photographer. RECOMMENDED MANUAL STEP: visit the cemetery page in a browser, search 'Clarke' within the cemetery, and if a Thomas Clarke 1877 memorial exists with a photo, message the contributor for permission."
+    },
+    {
+      "url": "https://billiongraves.com/search (search: Clarke, Duleek, Meath)",
+      "why_not": "Could not confirm via search whether BillionGraves has the specific stone; would also be contributor-copyrighted. Worth a manual search."
+    },
+    {
+      "url": "https://historicgraves.com/ (graveyard code likely ME-DLOO or similar)",
+      "why_not": "Historic Graves search returned zero hits for Clarke+Duleek and the project's Duleek graveyard page could not be located via 404-tested URLs. Duleek Old Churchyard does not appear to have been surveyed/photographed by the Historic Graves community project — adjacent Meath graveyards (Ardcath, Clonalvy, Piercetown) are well covered but Duleek Old itself is a gap in their coverage."
+    }
+  ],
+  "documented_inscription": {
+    "text": "Erected by the children of Thomas and Bridget Clarke of Duleek in loving memory of their father who died 23 January 1877 aged 45 years and their mother who died 25th January 1882 aged 44 years. Also their brothers, Patrick who died 4 July 1897 aged 28 years and Richard who died 25 July 1937 aged 72 years.",
+    "source": "Enda O'Boyle, transcription of Duleek Old Churchyard memorials, published in Riocht na Midhe (Journal of the Meath Archaeological & Historical Society), 2001 and 2002; reproduced at https://meathhistoryhub.ie/duleek-old-churchyard/ (Meath History Hub, Noel French)",
+    "source_url": "https://meathhistoryhub.ie/duleek-old-churchyard/",
+    "implications": "Thomas Clarke d. 23 Jan 1877 aged 45 (b. ~1831/32). Bridget Clarke d. 25 Jan 1882 aged 44 (b. ~1837/38) — exactly five years and two days after her husband. Two of their sons predeceased the stone's later additions: Patrick (d. 4 Jul 1897 aged 28, b. ~1869) and Richard (d. 25 Jul 1937 aged 72, b. ~1865). NOTE: this Patrick (d.1897 aged 28) is NOT Patrick Clarke the husband of Catherine McAleavy, who was alive and resident in Duleek in the 1901 and 1911 censuses — there were evidently at least two sons named Patrick or these are different children. Worth cross-checking civil death records for both Patricks to disambiguate."
+  },
+  "narrative": "The Thomas & Bridget Clarke gravestone in Duleek Old Churchyard (Saint Cianán's) is well documented textually — Enda O'Boyle's transcription of the inscription is preserved at meathhistoryhub.ie and was originally published in Riocht na Midhe (2001/2002). However, no openly licensed photograph of the specific stone exists on Wikimedia Commons, Geograph, or Historic Graves Ireland (which has not surveyed this particular graveyard). Find a Grave does have the cemetery indexed (ID 2154186, ~248 memorials, ~98% photographed) but the page is blocked from automated browsing and any photos there are contributor-copyrighted, so a manual visit + permission request is the only path to a photograph of the actual stone from that source. As a substitute, I downloaded a CC-BY-SA-2.0 Wikimedia/Geograph photograph (Nigel Thompson, May 2024) of St Mary's Abbey ruins and the former St Cianán's church — i.e. the churchyard itself — which can illustrate the burial place even though it does not show the Clarke headstone specifically. Recommend pairing this image with a quoted excerpt from the documented inscription on Catherine's page (or a future Thomas-Clarke-Sr / Bridget-Clarke-Sr ancestor page).",
+  "wishlist_status_update": "PARTIAL: substitute churchyard photo (ill-duleek-old-churchyard-st-kienans, CC-BY-SA-2.0 by Nigel Thompson via Geograph/Commons) downloaded as a contextual illustration. Specific gravestone photo still a GAP — next steps: (1) manual Find a Grave search of cemetery 2154186 for Thomas Clarke 1877 and contributor permission request; (2) BillionGraves manual search; (3) commission a photo via Historic Graves Ireland or a local Duleek volunteer (the graveyard appears not to have been systematically photographed by HG)."
+}

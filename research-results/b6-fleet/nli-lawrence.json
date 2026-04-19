@@ -1,0 +1,101 @@
+{
+  "todo_id": "b6-nli-lawrence",
+  "outcome": "PARTIAL",
+  "downloaded_files": [
+    {
+      "path": "images/illustrations/nli-lawrence-clonliffe-cardinal-cullen-tomb-52006198805.jpg",
+      "url": "https://www.flickr.com/photos/nlireland/52006198805/",
+      "source_url_full": "https://live.staticflickr.com/65535/52006198805_1745f5823c_b.jpg",
+      "license": "No known copyright restrictions (Flickr Commons)",
+      "credit": "Robert French / Lawrence Photograph Collection, National Library of Ireland on The Commons (no known copyright restrictions). NLI Ref. L_ROY_01110.",
+      "caption": "Tomb of Cardinal Paul Cullen at Clonliffe (Holy Cross College), Dublin. Robert French / Lawrence Photograph Collection, c.1865-1914.",
+      "person_ids": ["elizabeth-greene", "michael-greene"],
+      "used_on_pages": ["elizabeth.html", "michael-greene.html"],
+      "fills_wishlist_id": "wish-clonliffe-drumcondra-c1911"
+    },
+    {
+      "path": "images/illustrations/nli-lawrence-glasnevin-aerial-35284885854.jpg",
+      "url": "https://www.flickr.com/photos/nlireland/35284885854/",
+      "source_url_full": "https://live.staticflickr.com/4319/35284885854_5e3cd537d7_b.jpg",
+      "license": "No known copyright restrictions (Flickr Commons)",
+      "credit": "Robert French / Lawrence Photograph Collection, National Library of Ireland on The Commons (no known copyright restrictions). NLI Ref. L_ROY_06467.",
+      "caption": "Aerial view of Glasnevin Cemetery, north Dublin, c.1900. Robert French / Lawrence Photograph Collection.",
+      "person_ids": ["elizabeth-greene", "michael-greene"],
+      "used_on_pages": ["elizabeth.html"],
+      "fills_wishlist_id": "wish-clonliffe-drumcondra-c1911"
+    },
+    {
+      "path": "images/illustrations/nli-lawrence-college-green-dublin-36938784044.jpg",
+      "url": "https://www.flickr.com/photos/nlireland/36938784044/",
+      "source_url_full": "https://live.staticflickr.com/4466/36938784044_4254a68652_b.jpg",
+      "license": "No known copyright restrictions (Flickr Commons)",
+      "credit": "Robert French / Lawrence Photograph Collection, National Library of Ireland on The Commons (no known copyright restrictions). NLI Ref. L_CAB_02264.",
+      "caption": "College Green, Dublin, with horse trams and the statue of King William III, c.1889-1892. Robert French / Lawrence Photograph Collection. A few minutes' walk from Wellington Quay.",
+      "person_ids": ["catherine-clarke", "bridget-clarke"],
+      "used_on_pages": ["catherine.html", "bridget.html"],
+      "fills_wishlist_id": "wish-wellington-quay-c1911"
+    },
+    {
+      "path": "images/illustrations/nli-lawrence-river-liffey-dublin-36918524193.jpg",
+      "url": "https://www.flickr.com/photos/nlireland/36918524193/",
+      "source_url_full": "https://live.staticflickr.com/4443/36918524193_23694b2776_b.jpg",
+      "license": "No known copyright restrictions (Flickr Commons)",
+      "credit": "Robert French / Lawrence Photograph Collection, National Library of Ireland on The Commons (no known copyright restrictions). NLI Ref. L_CAB_02252.",
+      "caption": "River Liffey, Dublin, looking downstream toward the old swing Butt Bridge and Carlisle (O'Connell) Bridge, c.1882-1889. Robert French / Lawrence Photograph Collection. Wellington Quay (where Dollard's Printing House stood and Bridget Clarke worked as cook) lies just upstream of these bridges on the south bank.",
+      "person_ids": ["catherine-clarke", "bridget-clarke"],
+      "used_on_pages": ["catherine.html", "bridget.html"],
+      "fills_wishlist_id": "wish-wellington-quay-c1911"
+    },
+    {
+      "path": "images/illustrations/nli-eason-ranelagh-village-53449679143.jpg",
+      "url": "https://www.flickr.com/photos/nlireland/53449679143/",
+      "source_url_full": "https://live.staticflickr.com/65535/53449679143_5040716f5d_b.jpg",
+      "license": "No known copyright restrictions (Flickr Commons)",
+      "credit": "Eason Photographic Collection, National Library of Ireland on The Commons (no known copyright restrictions). NLI Ref. Eas 1895.",
+      "caption": "The village of Ranelagh, Dublin, c.1900-1909, when the suburb still felt like a country village. Eason Photographic Collection.",
+      "person_ids": [],
+      "used_on_pages": [],
+      "fills_wishlist_id": "wish-rathmines-ranelagh-c1901"
+    },
+    {
+      "path": "images/illustrations/nli-eason-rathmines-clock-tower-54271252214.jpg",
+      "url": "https://www.flickr.com/photos/nlireland/54271252214/",
+      "source_url_full": "https://live.staticflickr.com/65535/54271252214_892a2b5a22_b.jpg",
+      "license": "No known copyright restrictions (Flickr Commons)",
+      "credit": "Eason Photographic Collection, National Library of Ireland on The Commons (no known copyright restrictions). NLI Ref. Eas 1936.",
+      "caption": "Rathmines Road, Dublin, with the Rathmines Town Hall clock tower and shopfronts, c.1903-1911 (dated by tram evidence). Eason Photographic Collection.",
+      "person_ids": [],
+      "used_on_pages": [],
+      "fills_wishlist_id": "wish-rathmines-ranelagh-c1901"
+    }
+  ],
+  "candidates_not_downloaded": [
+    {
+      "url": "https://www.flickr.com/photos/nlireland/50974930438/",
+      "why_not": "Lawrence Collection 'Rathmines Waterworks' but actual location is Bohernabreena reservoir (Co. Wicklow border), not Rathmines suburb. Not visually recognizable as Rathmines."
+    },
+    {
+      "url": "https://www.flickr.com/photos/nlireland/50928566016/",
+      "why_not": "Search hit for 'Dollard' is Mrs Dollard's drapery in Barronstrand Street, Waterford (Poole Collection 1911) - a different Dollard family unrelated to Joseph Dollard JP / Dollard's Printing House on Wellington Quay, Dublin."
+    },
+    {
+      "url": "https://www.flickr.com/photos/nlireland/10850856096/",
+      "why_not": "Same Waterford Dollard shop (Poole Collection 1911) - unrelated to Dublin Dollards."
+    },
+    {
+      "url": "https://www.flickr.com/photos/nlireland/7446316960/",
+      "why_not": "Sole 'Wellington Quay' tag hit on NLI Flickr is a 1959 Guinness barge photo (O'Dea Collection) - half a century after the Bridget Clarke 1911 era and outside Lawrence period."
+    },
+    {
+      "url": "https://www.flickr.com/photos/nlireland/30304050995/",
+      "why_not": "Rathmines hit but it's Hogan-Wilson 1922 of soldiers leaving Portobello Barracks - post-Lawrence era, military scene rather than residential streetscape."
+    }
+  ],
+  "narrative": "Searched NLI Flickr Commons (the primary public outlet for Lawrence Collection photos), NLI catalogue, and adjacent collections for Wellington Quay, Rathmines, Ranelagh, Mountjoy Square, Drumcondra, Clonliffe, Dollard, and related Dublin terms. Wellington Quay itself yielded NO Lawrence Collection photo (the only Flickr 'Wellington Quay' tag was a 1959 Guinness barge photo from a different collection); 'Dollard' produced only Poole Collection shots of an unrelated Waterford drapery; 'Mountjoy Square' returned zero hits. As partial substitutes for Wellington Quay context I downloaded two strong Lawrence Collection Dublin city-centre views from the same era - College Green c.1889-1892 and the River Liffey looking toward Carlisle Bridge c.1882-1889 - both within minutes' walk of Wellington Quay and showing Bridget Clarke's working environment. For Rathmines/Ranelagh I found two excellent Eason Collection (also NLI Flickr Commons, no known copyright restrictions) Edwardian-era streetscapes that directly fill the wishlist: Rathmines clock tower c.1903-1911 and Ranelagh village c.1900-1909. As a bonus for the Greene/Clonliffe context, I downloaded two genuine Lawrence Collection photos: Cardinal Cullen's tomb at Clonliffe College and an aerial view of Glasnevin Cemetery c.1900 - both of the neighbourhoods where Elizabeth Greene's family lived. Total: 6 downloaded (4 Lawrence Collection + 2 Eason Collection), all CC-equivalent 'no known copyright restrictions'.",
+  "per_wishlist_status": {
+    "wish-wellington-quay-c1911": "PARTIAL: no direct Wellington Quay photo exists in the digitized Lawrence Collection on NLI Flickr. Filled with two Lawrence Collection Dublin-centre period substitutes - College Green c.1889-92 (nli-lawrence-college-green-dublin-36938784044.jpg) and River Liffey at Carlisle Bridge c.1882-89 (nli-lawrence-river-liffey-dublin-36918524193.jpg, the latter showing the river just downstream of Wellington Quay). Suggest captioning these as 'the streets and quays Bridget Clarke would have walked' rather than as Wellington Quay itself.",
+    "wish-dollard-printing-house-period": "GAP: no period photograph of Dollard's Printing House on Wellington Quay located on NLI Flickr or NLI catalogue search. The only 'Dollard' hits were a Waterford drapery (Poole Collection) for a different Dollard family. Suggest re-targeting future searches at Dublin City Library & Archive or the National Photographic Archive's onsite holdings, and/or trade journal mastheads from Dollard's printing output (which itself became a typographic landmark).",
+    "wish-rathmines-ranelagh-c1901": "FILLED: nli-eason-rathmines-clock-tower-54271252214.jpg (Rathmines Road / Town Hall clock tower c.1903-1911, Eason) and nli-eason-ranelagh-village-53449679143.jpg (Ranelagh village c.1900-1909, Eason). Both are NLI Flickr Commons 'no known copyright restrictions'. Note: while task title was 'Lawrence Collection', NLI did not digitize a Lawrence Rathmines or Ranelagh streetscape on Flickr; the Eason Collection (also NLI, also free) is the appropriate substitute and is roughly the same vintage.",
+    "wish-clonliffe-drumcondra-c1911 (bonus, for elizabeth.html)": "BONUS-FILLED: nli-lawrence-clonliffe-cardinal-cullen-tomb-52006198805.jpg (Cardinal Cullen tomb at Clonliffe College, Lawrence Collection) and nli-lawrence-glasnevin-aerial-35284885854.jpg (Glasnevin Cemetery aerial c.1900, Lawrence Collection). Both directly relevant to the Greene family's north-Dublin neighbourhoods."
+  }
+}

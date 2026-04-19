@@ -1,0 +1,62 @@
+{
+  "todo_id": "b6-iwm-biberach",
+  "outcome": "GAP",
+  "downloaded_files": [],
+  "candidates_not_downloaded": [
+    {
+      "source": "IWM",
+      "catalogue_ref": "Documents.9020",
+      "url": "https://www.iwm.org.uk/collections/item/object/1030008848",
+      "title": "Private Papers of Lieutenant R G Johnson",
+      "note": "Officer's personal papers from Oflag V-B (1940-1942 PoW phase, BEFORE camp became Ilag V-B for Channel Islands civilians in Sept 1942). Not digitised online; record page is metadata-only. Would need a manual visit/copy request to IWM Department of Documents to see if photographs are included. Marginally relevant — same physical site (Lindele barracks), but officer-prisoner phase, not the civilian internment phase that held Bessie Greene Harris."
+    },
+    {
+      "source": "IWM",
+      "catalogue_ref": "EPH 804",
+      "url": "https://www.iwm.org.uk/collections/item/object/30081016",
+      "title": "Tapestry, handmade, British (Biberach internment)",
+      "note": "Artifact, not a period camp scene. Object photograph may exist on request but not displayed online."
+    },
+    {
+      "source": "IWM Memorials Register",
+      "catalogue_ref": "Memorial 50258",
+      "url": "https://www.iwm.org.uk/memorials/item/memorial/50258",
+      "title": "Biberach Internment Camp WW2 memorial plaque, St Peter Port, Guernsey",
+      "note": "Modern memorial (2003), not a period photo. IWM record has no image — public contributions invited."
+    },
+    {
+      "source": "IWM Sound Archive",
+      "catalogue_refs": ["12547 (Skillett, Gladys Eileen)", "10717 (Ginns, William Michael)", "11203 (Scott, Michael Sefton)", "17522 (Barnett, Gwendoline Morfydd)", "30259 (Duffield, James Albert Francis)", "31948 (Cheape, Hugh Bruce Ismay)"],
+      "note": "Six oral histories from Biberach internees/PoWs — text only, no images. Useful as sources for narrative copy but not for the photo wishlist."
+    },
+    {
+      "source": "Guernsey Press",
+      "url": "https://guernseypress.com/news/2020/04/23/today-marks-75-years-since-the-liberation-of-biberach/",
+      "images_seen": [
+        "Skillett family with German friend Maria Koch immediately post-liberation (1945)",
+        "Sketch of Biberach camp layout with Gladys Skillett's ID card",
+        "Main administration centre at Biberach with clock tower (period view)"
+      ],
+      "note": "All three are exactly the kind of period images we want, but credited '© Guernsey Press' / Guernsey Deportees' Association — NOT openly licensed. Would need direct permission from Guernsey Press or the Skillett/Dudley-Owen family to use on greene.garrigan.me. Recommend a polite email request: editorial@guernseypress.com."
+    },
+    {
+      "source": "Stadtarchiv Biberach / Museum Biberach",
+      "url": "https://www.hfpol-bw.de/lindele/",
+      "note": "The Hochschule für Polizei Baden-Württemberg, on the former Lindele camp site, hosts a permanent 'Lager Lindele' exhibition with period photos drawn from the Biberach city archive and Reinhold Adler's research. No online image gallery, but a direct enquiry (info@stadtarchiv.biberach-riss.de) might yield CC-licensed reproductions for non-commercial family-history use."
+    },
+    {
+      "source": "Reinhold Adler, 'Das war nicht nur Karneval im August. Das Internierungslager Biberach an der Riß 1942–1945' (Biberach 2002, ISBN 3-9806818-2-3)",
+      "note": "Standard academic monograph on Ilag V-B; contains numerous period photographs sourced from internee diaries, ICRC, and the Stadtarchiv. Not openly licensed but is the obvious print reference behind any future digital request."
+    },
+    {
+      "source": "ICRC Audiovisual Archive (avarchives.icrc.org)",
+      "note": "ICRC's V-P-HIST series holds inspection-visit photos of Allied internment camps; for Biberach a search returned 403 from the public search endpoint in this session. Worth a manual browser visit — the ICRC has historically released many WWII inspection photos under CC-BY-SA-4.0 via Wikimedia. Search terms: 'Biberach', 'Ilag VB', 'Lindele'."
+    }
+  ],
+  "wikimedia_commons_check": {
+    "category_lager_lindele": "https://commons.wikimedia.org/wiki/Category:Lager_Lindele — 14 files, ALL modern (2024-2025) photos of memorial plaques, the 'Der Schrei' sculpture, street signs (Jerseyweg, Guernseyallee, Tunnelweg), and graves of camp internees in the Biberach cemeteries. No period images.",
+    "other_searches": "Searches for 'Biberach internment', 'Lager Lindele', 'Bundesarchiv Biberach', 'ICRC Biberach', 'Channel Islands deportation' across Commons File namespace returned zero relevant period photos. Two LABW/Hauptstaatsarchiv Stuttgart files by Edmund Müller dated 1939 are pre-war town views (Wieland house, inn signs), not the camp."
+  },
+  "narrative": "An exhaustive open-web sweep produced NO openly-licensed period (1942-1945) photograph of Ilag V-B / Lager Lindele Biberach. The Imperial War Museum holds 8 Biberach-tagged records but they are oral histories, an artifact, and one set of officer's private papers from the earlier Oflag V-B (PoW) phase — none are online photographs. Wikimedia Commons' 'Lager Lindele' category contains only modern (2024-2025) memorial photography. The best period images that DO exist (Skillett family at liberation, the camp clock tower, internal sketches) are held by Guernsey Press / Guernsey Deportees' Association and the Stadtarchiv Biberach, all under standard copyright. To FILL this wishlist will require a permission email to either (a) Guernsey Press for re-use of the 1945 liberation photo or (b) Stadtarchiv Biberach for a CC-licensed scan from the Reinhold Adler archive. Recommend the orchestrator queue a manual outreach task and, in the meantime, leave the existing modern Biberach town photo on elizabeth.html with a more explicit caption noting that period camp photos are awaiting permission.",
+  "wishlist_status_update": "GAP: No openly-licensed period photograph of Ilag V-B Biberach found in IWM, Wikimedia Commons, ICRC, or LABW. Best candidates require manual permission requests to (1) Guernsey Press, (2) Stadtarchiv Biberach, or (3) IWM Documents.9020 reading-room access. Wishlist remains open."
+}
