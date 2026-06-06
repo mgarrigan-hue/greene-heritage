@@ -1,0 +1,34 @@
+{
+  "source": "National Library of Ireland Catholic Parish Registers",
+  "parish": "Mountmellick",
+  "parishUrl": "https://registers.nli.ie/parishes/0717",
+  "diocese": "Kildare and Leighlin",
+  "county": "Laois",
+  "register": "Microfilm 04204 / 04, vtls000634517",
+  "registerUrl": "https://registers.nli.ie/registers/vtls000634517",
+  "events": [
+    {
+      "type": "Baptisms",
+      "range": "29 Apr. 1860 to 30 Jan. 1881"
+    },
+    {
+      "type": "Marriages",
+      "range": "19 Jan. 1873 to 27 Jun. 1881"
+    }
+  ],
+  "imageCount": 94,
+  "pageMetadata": {
+    "37": "Feb. 1870 to Apr. 1870",
+    "38": "May 1870 to July 1870",
+    "39": "July 1870 to Oct. 1870",
+    "40": "Oct. 1870 to Feb. 1871"
+  },
+  "pages": [
+    37,
+    38,
+    39,
+    40
+  ],
+  "imageUrlPattern": "https://iserver.nli.ie/fcgi-bin/iipsrv.fcgi?FIF=000640000/000634517/vtls000634517_{page:000}.jp2&WID=4000&CVT=JPEG",
+  "notes": "Primary Mountmellick baptism register covering Thomas Christopher Greene expected birth/baptism window. Lower Forest residence in the William Green x Eliza Woods 1868 marriage makes this parish geographically high priority."
+}
