@@ -15,7 +15,7 @@ what it tells us about the next steps for B2/B3/B4.
 | `ev-1901-census-clarke-mullaghfin` | 1901 Census Form A, House 3 Mullaghfin (Catherine + 6 Clarke children) | `research-results/clarke_duleek_1901.png` |
 | `ev-1901-census-clarke-ded` | 1901 DED-level browse page, Mullaghfin | `research-results/clarke_duleek_ded_1901.png` |
 | `ev-1911-census-clarke-mullaghfin` | 1911 Census, Catherine still at House 3 Mullaghfin | `research-results/clarke_duleek_1911.png` |
-| `ev-1911-census-bridget-dollard` | 1911 Census, Bridget Clarke as Cook in the Dollard household, Dublin | `research-results/catherine_clarke_1911.png` ⚠️ misnamed |
+| `ev-1911-census-bridget-dollard` | 1911 Census, Bridget Clarke as Cook in the Dollard household, Dublin | `research-results/bridget-clarke-dollard-1911.png` |
 
 ### 7 illustrations now embedded (all self-hosted under `images/illustrations/`)
 | Page | Image | Source |
@@ -85,11 +85,9 @@ specific actionable list.
 Full priority list (14 items) is in `gallery-inventory.json` →
 `wishlist[]`.
 
-## File-rename recommendation
-`research-results/catherine_clarke_1911.png` → rename to
-`bridget_clarke_dollard_1911.png` in a future cleanup commit. The
-current name is inaccurate — the file is in fact Bridget Clarke's 1911
-census record as Cook in the Dollard household, NOT Catherine's.
+## File rename completed
+`research-results/bridget-clarke-dollard-1911.png` is Bridget Clarke's
+1911 census record as Cook in the Dollard household, NOT Catherine's.
 
 ## Schema used
 See `gallery-inventory.json` → `schema.fields`. Stable kebab-case IDs

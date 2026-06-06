@@ -168,7 +168,7 @@
     },
     {
       "id": "ev-1911-census-bridget-dollard",
-      "file_path": "research-results/catherine_clarke_1911.png",
+      "file_path": "research-results/bridget-clarke-dollard-1911.png",
       "url": "http://www.census.nationalarchives.ie/search/results.jsp?surname=Clarke&firstname=Bridget&county19011911=Dublin&age=19&census_year=1911",
       "kind": "primary-evidence",
       "person_ids": [
@@ -177,11 +177,11 @@
       "event_id": "1911-census",
       "date": "1911-04-02",
       "place": "Joseph Dollard household, Dublin (Wellington Quay area)",
-      "source": "National Archives of Ireland — 1911 Census of Ireland, Form B No. 142, enumerated 2 April 1911 by Robert J. Holmes. Filename is misleading — this is in fact Bridget Clarke's 1911 census entry as Cook in the Dollard household, NOT Catherine's.",
+      "source": "National Archives of Ireland — 1911 Census of Ireland, Form B No. 142, enumerated 2 April 1911 by Robert J. Holmes. Local screenshot at research-results/bridget-clarke-dollard-1911.png.",
       "license": "© National Archives of Ireland — free non-commercial use",
       "caption": "Bridget Clarke at age 19, working as Cook (Domestic) in the household of magistrate Joseph Dollard (a printer-master and JP) in Dublin — eleven years before her marriage to Thomas Greene.",
       "credit": "© National Archives of Ireland — 1911 Census, Dublin (Dollard household)",
-      "rights_notes": "FILE-RENAME-RECOMMENDED: rename catherine_clarke_1911.png → bridget_clarke_dollard_1911.png in a future cleanup commit (the current name is inaccurate).",
+      "rights_notes": "Renamed to accurately reflect that the image depicts Bridget Clarke in the Dollard household, not Catherine Clarke.",
       "used_on_pages": [
         "catherine.html"
       ]
