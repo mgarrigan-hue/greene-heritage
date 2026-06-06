@@ -1,4 +1,12 @@
 #!/usr/bin/env node
+/*
+ * ARCHIVED ONE-SHOT — DO NOT RERUN AS A NORMAL TOOL.
+ *
+ * This script was used once in April 2026 to integrate the confirmed Phase 10
+ * findings into data/family.json. It is preserved here for audit/history only.
+ * It is not idempotent and has no dry-run mode; copy it forward and add a
+ * reviewed dry-run/backup workflow before using any of this logic again.
+ */
 // Phase 10 integration: apply confirmed findings from R1 (1922 marriage),
 // R2 (1891 birth), and the negative R3 (Catherine maiden = Clinton, NOT McKenna)
 // to data/family.json. Atomic write.
