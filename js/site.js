@@ -408,6 +408,19 @@
       if (node && node.scrollIntoView) node.scrollIntoView({ block: 'nearest' });
     }
 
+    async function getStories() {
+      if (Site._storiesCache) return Site._storiesCache;
+      try {
+        const r = await fetch('data/stories.json', { cache: 'force-cache' });
+        if (!r.ok) return [];
+        const d = await r.json();
+        Site._storiesCache = Array.isArray(d.stories) ? d.stories : [];
+        return Site._storiesCache;
+      } catch (_) {
+        return [];
+      }
+    }
+
     async function runQuery(q) {
       q = q.trim().toLowerCase();
       if (q.length < 2) { clearResults(); return; }
@@ -456,6 +469,23 @@
           const href = pageForPlace(place);
           if (!href) return;
           push('pl:' + place, { href, name: place, meta: 'Place' });
+        }
+      });
+
+      const stories = await getStories();
+      stories.forEach(s => {
+        const haystack = [
+          s.title || '',
+          s.summary || '',
+          (s.tags || []).join(' '),
+          s.era || ''
+        ].join(' ').toLowerCase();
+        if (haystack.includes(q)) {
+          push('s:' + s.id, {
+            href: `stories.html#story-${encodeURIComponent(s.id)}`,
+            name: s.title,
+            meta: `Story · ${s.era || ''}`
+          });
         }
       });
 
