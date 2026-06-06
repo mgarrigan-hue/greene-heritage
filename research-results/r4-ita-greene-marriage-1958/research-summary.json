@@ -1,0 +1,118 @@
+{
+  "phase": 12,
+  "generatedAt": "2026-06-06T14:20:00+01:00",
+  "researcherDeclarant": "Mark Garrigan",
+  "repository": "C:\\CLI\\personal\\greene-heritage",
+  "purpose": "Ita Greene (Eithne) × John Donnelly marriage and caregiving-context research.",
+  "authoritativeOralHistory": {
+    "marriage": "Ita Greene married John Donnelly around 1958.",
+    "postMarriageResidence": "After marriage they moved to 'Drimna' / 'Dremna' — interpreted as Drimnagh, Dublin 12.",
+    "returnToGoldenbridge": "They moved back to 38 Goldenbridge Avenue, Inchicore in the 1960s to care for Bridget Greene (née Clarke), who died 9 August 1970.",
+    "children": [
+      "Ann",
+      "John Jr",
+      "Sheila",
+      "Ger"
+    ]
+  },
+  "irishGenealogySearches": [
+    {
+      "slug": "s1-marriage-ita-greene-1957-1959",
+      "query": "Marriage, Ita Greene + spouse John Donnelly, 1957-1959",
+      "outcome": "No results found."
+    },
+    {
+      "slug": "s2-marriage-eithne-greene-1957-1959",
+      "query": "Marriage, Eithne Greene + spouse John Donnelly, 1957-1959",
+      "outcome": "No results found."
+    },
+    {
+      "slug": "s3-marriage-john-donnelly-greene-1957-1959",
+      "query": "Marriage, John Donnelly + spouse Greene, 1957-1959",
+      "outcome": "No results found."
+    },
+    {
+      "slug": "s6-marriage-ita-greene-1955-1962",
+      "query": "Marriage, Ita Greene, 1955-1962",
+      "outcome": "No results found."
+    },
+    {
+      "slug": "s7-marriage-eithne-greene-1955-1962",
+      "query": "Marriage, Eithne Greene, 1955-1962",
+      "outcome": "No results found."
+    },
+    {
+      "slug": "s8-marriage-eita-greene-1955-1962",
+      "query": "Marriage, Eita Greene, 1955-1962",
+      "outcome": "No results found."
+    },
+    {
+      "slug": "s9-marriage-greene-donnelly-1957-1959",
+      "query": "Marriage, surname Greene + spouse surname Donnelly, 1957-1959",
+      "outcome": "No results found."
+    },
+    {
+      "slug": "s10-marriage-donnelly-greene-1957-1959",
+      "query": "Marriage, surname Donnelly + spouse surname Greene, 1957-1959",
+      "outcome": "No results found."
+    },
+    {
+      "slug": "s4-birth-john-donnelly-1925-1940",
+      "query": "Birth, John Donnelly, 1925-1940, all districts",
+      "outcome": "74 results found; first page captured. Results are almost entirely 1925 records because later births are not returned online."
+    },
+    {
+      "slug": "s4b-birth-john-donnelly-dublin-1925-1940-direct",
+      "query": "Birth, John Donnelly, Dublin district, 1925-1940, per_page=100 direct capture",
+      "outcome": "11 Dublin/variant 1925 candidates. No definitive identification without marriage record, father, occupation, or address."
+    },
+    {
+      "slug": "s18-birth-john-donnelly-1926-1940",
+      "query": "Birth, John Donnelly, 1926-1940",
+      "outcome": "No results found."
+    },
+    {
+      "slug": "s12b-s16b-birth-children-no-mother",
+      "query": "Births of Ann, John, Sheila, Gerard/Gerald Donnelly, 1959-1975",
+      "outcome": "No results found for individual names."
+    },
+    {
+      "slug": "s4b-birth-john-donnelly-dublin-1925-1940-direct",
+      "query": "Births, surname Donnelly, mother Greene, 1959-1975",
+      "outcome": "No results found."
+    },
+    {
+      "slug": "s5-death-bridget-greene-1970-noage",
+      "query": "Death, Bridget Greene, 1970",
+      "outcome": "4 results found; matching 9 August 1970 Dublin age 78 record id cide-459812 confirmed."
+    },
+    {
+      "slug": "s5-death-bridget-greene-1970-register",
+      "query": "Register capture for Bridget Greene death cide-459812",
+      "outcome": "Register PDF and screenshots saved. Cause appears to read auto-toxic gangrene of small intestine; this is not explicit evidence of a long illness, so caregiving remains family-tradition context."
+    },
+    {
+      "slug": "s11-death-john-donnelly-1970-1975",
+      "query": "Death, John Donnelly, 1970-1975",
+      "outcome": "132 results found; no positive match to Ita's husband from search-list data alone."
+    },
+    {
+      "slug": "s17-death-john-donnelly-1976-2025",
+      "query": "Death, John Donnelly, 1976-2025",
+      "outcome": "No results found online."
+    }
+  ],
+  "findings": [
+    "No online IrishGenealogy.ie civil marriage result was found for Ita/Eithne/Eita Greene and John Donnelly in the tested 1955-1962 range.",
+    "No primary-source marriage date, church/parish, witnesses, John Donnelly father, profession, or residence was confirmed in Phase 12.",
+    "John Donnelly birth remains unresolved; Dublin-district online birth search returned 11 1925 candidates/variants, none linkable to Ita without the marriage certificate.",
+    "Children birth searches returned no results for the 1959-1975 window.",
+    "Bridget Greene death record cide-459812 was re-confirmed: 9 August 1970, Dublin registration, age 78; register image saved."
+  ],
+  "openFollowUp": [
+    "Order or search the GRO civil marriage certificate/index for Ita/Eithne Greene × John Donnelly, likely Dublin South/Rathdown area, around 1958.",
+    "Search Catholic parish registers/church records for St Michael's Inchicore or nearby parishes if civil online index remains unavailable.",
+    "Use the marriage certificate to identify John Donnelly's age, occupation, residence, and father before selecting a birth record.",
+    "Search post-1975 death indexes/RIP.ie/newspaper notices for John Donnelly, husband of Ita."
+  ]
+}

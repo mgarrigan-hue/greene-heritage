@@ -1,0 +1,131 @@
+{
+  "generatedAt": "2026-06-06T14:15:57.231Z",
+  "note": "Direct URL capture used after maintained ig-civil location/advanced-field UI selectors proved brittle; Section 61 names were supplied in maintained-tool runs for the same research set.",
+  "queries": {
+    "johnBirthDublin": {
+      "url": "https://www.irishgenealogy.ie/search/?church-or-civil=civil&firstname=John&lastname=Donnelly&location=Dublin&yearStart=1925&yearEnd=1940&event-birth=1&_day=&month=&mothers-surname=&age-at-death=&relation-0=&per_page=100",
+      "httpStatus": 200,
+      "resultCountText": "11 results found",
+      "rows": [
+        {
+          "title": "Birth of JOHN O DONNELLY on 22 September 1925",
+          "href": "https://www.irishgenealogy.ie/view?record_id=e768beed6b-14666",
+          "fields": {
+            "Group registration ID": "2152242",
+            "SR District/Reg Area": "Dublin",
+            "Child's Sex": "Male",
+            "Mother's Birth Surname": "KELLY"
+          }
+        },
+        {
+          "title": "Birth of JOHN ROCK on 05 September 1925",
+          "href": "https://www.irishgenealogy.ie/view?record_id=e768beed6b-17430",
+          "fields": {
+            "Group registration ID": "2152612",
+            "SR District/Reg Area": "Dublin",
+            "Child's Sex": "Male",
+            "Mother's Birth Surname": "DONNELLY"
+          }
+        },
+        {
+          "title": "Birth of JOHN O DONNELL on 22 September 1925",
+          "href": "https://www.irishgenealogy.ie/view?record_id=e768beed6b-14797",
+          "fields": {
+            "Group registration ID": "2167141",
+            "SR District/Reg Area": "Dublin",
+            "Child's Sex": "Male",
+            "Mother's Birth Surname": "O DONNELL"
+          }
+        },
+        {
+          "title": "Birth of JOHN MC DONNELL on 15 February 1925",
+          "href": "https://www.irishgenealogy.ie/view?record_id=e768beed6b-52190",
+          "fields": {
+            "Group registration ID": "2186175",
+            "SR District/Reg Area": "Dublin",
+            "Child's Sex": "Male",
+            "Mother's Birth Surname": "SHEILDS"
+          }
+        },
+        {
+          "title": "Birth of JOHN MC DONNELL on 15 February 1925",
+          "href": "https://www.irishgenealogy.ie/view?record_id=e768beed6b-52231",
+          "fields": {
+            "Group registration ID": "2186665",
+            "SR District/Reg Area": "Dublin",
+            "Child's Sex": "Male",
+            "Mother's Birth Surname": "SHEILDS"
+          }
+        },
+        {
+          "title": "Birth of JOHN MC DONNELL on 07 February 1925",
+          "href": "https://www.irishgenealogy.ie/view?record_id=e768beed6b-53545",
+          "fields": {
+            "Group registration ID": "2125460",
+            "SR District/Reg Area": "Dublin",
+            "Child's Sex": "Male",
+            "Mother's Birth Surname": "DUFFY"
+          }
+        },
+        {
+          "title": "Birth of JOHN MC DONNELL on 06 June 1925",
+          "href": "https://www.irishgenealogy.ie/view?record_id=e768beed6b-32730",
+          "fields": {
+            "Group registration ID": "2152927",
+            "SR District/Reg Area": "Dublin",
+            "Child's Sex": "Male",
+            "Mother's Birth Surname": "DUNNE"
+          }
+        },
+        {
+          "title": "Birth of JOHN SHEILS on 26 March 1925",
+          "href": "https://www.irishgenealogy.ie/view?record_id=e768beed6b-45446",
+          "fields": {
+            "Group registration ID": "2138168",
+            "SR District/Reg Area": "Dublin",
+            "Child's Sex": "Male",
+            "Mother's Birth Surname": "MC DONNELL"
+          }
+        },
+        {
+          "title": "Birth of JOHN SATELL on 06 January 1925",
+          "href": "https://www.irishgenealogy.ie/view?record_id=e768beed6b-58585",
+          "fields": {
+            "Group registration ID": "2125409",
+            "SR District/Reg Area": "Dublin",
+            "Child's Sex": "Male",
+            "Mother's Birth Surname": "MC DONNELL"
+          }
+        },
+        {
+          "title": "Birth of JOHN KEANNY on 24 June 1925",
+          "href": "https://www.irishgenealogy.ie/view?record_id=e768beed6b-29582",
+          "fields": {
+            "Group registration ID": "2139006",
+            "SR District/Reg Area": "Dublin",
+            "Child's Sex": "Male",
+            "Mother's Birth Surname": "MC DONNELL"
+          }
+        },
+        {
+          "title": "Birth of JOHN DOLAN on 19 June 1925",
+          "href": "https://www.irishgenealogy.ie/view?record_id=e768beed6b-30455",
+          "fields": {
+            "Group registration ID": "2176452",
+            "SR District/Reg Area": "Dublin",
+            "Child's Sex": "Male",
+            "Mother's Birth Surname": "MC DONNELL"
+          }
+        }
+      ],
+      "resultsText": "11 results found Sorted by Relevance / Date Records per page: 10 / 20 / 50 / 100 Birth of JOHN O DONNELLY on 22 September 1925Group registration ID: 2152242SR District/Reg Area: DublinChild's Sex: MaleMother's Birth Surname: KELLYBirth of JOHN ROCK on 05 September 1925Group registration ID: 2152612SR District/Reg Area: DublinChild's Sex: MaleMother's Birth Surname: DONNELLYBirth of JOHN O DONNELL on 22 September 1925Group registration ID: 2167141SR District/Reg Area: DublinChild's Sex: MaleMother's Birth Surname: O DONNELLBirth of JOHN MC DONNELL on 15 February 1925Group registration ID: 2186175SR District/Reg Area: DublinChild's Sex: MaleMother's Birth Surname: SHEILDSBirth of JOHN MC DONNELL on 15 February 1925Group registration ID: 2186665SR District/Reg Area: DublinChild's Sex: MaleMother's Birth Surname: SHEILDSBirth of JOHN MC DONNELL on 07 February 1925Group registration ID: 2125460SR District/Reg Area: DublinChild's Sex: MaleMother's Birth Surname: DUFFYBirth of JOHN MC DONNELL on 06 June 1925Group registration ID: 2152927SR District/Reg Area: DublinChild's Sex: MaleMother's Birth Surname: DUNNEBirth of JOHN SHEILS on 26 March 1925Group registration ID: 2138168SR District/Reg Area: DublinChild's Sex: MaleMother's Birth Surname: MC DONNELLBirth of JOHN SATELL on 06 January 1925Group registration ID: 2125409SR District/Reg Area: DublinChild's Sex: MaleMother's Birth Surname: MC DONNELLBirth of JOHN KEANNY on 24 June 1925Group registration ID: 2139006SR District/Reg Area: DublinChild's Sex: MaleMother's Birth Surname: MC DONNELLBirth of JOHN DOLAN on 19 June 1925Group registration ID: 2176452SR District/Reg Area: DublinChild's Sex: MaleMother's Birth Surname: MC DONNELL"
+    },
+    "childrenMotherGreene": {
+      "url": "https://www.irishgenealogy.ie/search/?church-or-civil=civil&firstname=&lastname=Donnelly&location=&yearStart=1959&yearEnd=1975&event-birth=1&_day=&month=&mothers-surname=Greene&age-at-death=&relation-0=&per_page=100",
+      "httpStatus": 200,
+      "resultCountText": "No results found",
+      "rows": [],
+      "resultsText": "No results found. Please try a different search."
+    }
+  }
+}
