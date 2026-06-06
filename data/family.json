@@ -16,6 +16,10 @@
       {
         "date": "2026-06-06",
         "summary": "2026-06-06: Phase 15 — Elizabeth (first wife) maiden name research"
+      },
+      {
+        "date": "2026-06-06",
+        "summary": "2026-06-06: Phase 16 — RIP.ie / Irish Times John Donnelly death notice search (negative; no matching notice confirmed)"
       }
     ]
   },
@@ -413,12 +417,13 @@
       },
       "occupation": null,
       "religion": "Roman Catholic",
-      "notes": "Husband of Ita Greene (Eithne). Married Ita around 1958 according to Mark Garrigan's family contribution; the online IrishGenealogy.ie civil-register search in Phase 12 did not locate a matching Ita/Eithne/Eita Greene × John Donnelly marriage result for 1955-1962, so the exact date, parish/church, witnesses, residence, occupation, and father's name remain unconfirmed. After marriage John and Ita moved to their own home in \"Drimna\" / \"Dremna\" — likely Drimnagh, Dublin 12 — before moving their young family back to 38 Goldenbridge Avenue, Inchicore in the 1960s to help care for Ita's mother Bridget Greene. Father of Ann, John Jr, Sheila, and Ger Donnelly. Predeceased Ita. Phase 12 birth research found 11 Dublin-district 1925 John Donnelly / variant candidates but no definitive match without the marriage certificate; a 1926-1940 online birth search returned no results. Phase 12 death searches found many older John Donnelly deaths for 1970-1975 and no online 1976-2025 result, with no positive identification of Ita's husband.",
+      "notes": "Husband of Ita Greene (Eithne). Married Ita around 1958 according to Mark Garrigan's family contribution; the online IrishGenealogy.ie civil-register search in Phase 12 did not locate a matching Ita/Eithne/Eita Greene × John Donnelly marriage result for 1955-1962, so the exact date, parish/church, witnesses, residence, occupation, and father's name remain unconfirmed. After marriage John and Ita moved to their own home in \"Drimna\" / \"Dremna\" — likely Drimnagh, Dublin 12 — before moving their young family back to 38 Goldenbridge Avenue, Inchicore in the 1960s to help care for Ita's mother Bridget Greene. Father of Ann, John Jr, Sheila, and Ger Donnelly. Predeceased Ita. Phase 12 birth research found 11 Dublin-district 1925 John Donnelly / variant candidates but no definitive match without the marriage certificate; a 1926-1940 online birth search returned no results. Phase 12 death searches found many older John Donnelly deaths for 1970-1975 and no online 1976-2025 result, with no positive identification of Ita's husband. Phase 16 (6 June 2026) searched RIP.ie public notices, Irish Times family notices, FamilySearch-indexed public results, and GRO access routes for John Donnelly death evidence. It found Ita Donnelly’s 2025 RIP.ie notice confirming she was the beloved wife of the late John, but no John/Sean Donnelly death notice matched the expected family signature (wife Ita/Eithne plus children Ann, John, Sheila, and Ger, or Goldenbridge/Inchicore/Drimnagh). A tempting 2014 RIP.ie Lucan/Ringsend notice for John (Sean) Donnelly was rejected because it names wife Eithne but children John, Sheila, Niamh, and Barry, not Ann, John, Sheila, and Ger. John’s death date, age, parents, occupation, and burial place therefore remain unconfirmed; next step is family/GRO/cemetery follow-up with any approximate death year.",
       "confidence": "high",
       "sources": [
         "RIP.ie death notice for Ita Donnelly née Greene, December 2025",
         "Mark Garrigan family contribution, 6 June 2026 (Phase 12 oral history: Ita and John married c.1958, moved to Drimnagh/\"Drimna\" after marriage, and returned to 38 Goldenbridge Avenue in the 1960s to care for Bridget Greene)",
-        "Phase 12 IrishGenealogy.ie search artefacts, research-results/r4-ita-greene-marriage-1958/research-summary.json"
+        "Phase 12 IrishGenealogy.ie search artefacts, research-results/r4-ita-greene-marriage-1958/research-summary.json",
+        "Phase 16 death-notice search artefacts (negative): research-results/r8-rip-john-donnelly/phase-16-summary.json and RIP.ie/Irish Times candidate captures under research-results/r8-rip-john-donnelly/"
       ]
     },
     {
