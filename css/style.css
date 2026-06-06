@@ -359,6 +359,14 @@ h3 {
 .node circle { cursor: pointer; stroke: var(--color-gold); stroke-width: 2px; }
 .node text { fill: var(--color-text); font-size: 12px; font-family: var(--font-body); }
 .link { fill: none; stroke: rgba(201,169,89,0.4); stroke-width: 1.5px; }
+.link-uncertain { stroke-dasharray: 6 4; stroke: rgba(255,152,0,0.75); }
+.tree-legend-line {
+  display: inline-block;
+  width: 2.5rem;
+  border-top: 2px dashed rgba(255,152,0,0.9);
+  vertical-align: middle;
+  margin: 0 0.35rem;
+}
 
 /* Celtic divider */
 .celtic-divider {
@@ -433,6 +441,8 @@ blockquote strong { color: var(--color-text); font-style: normal; }
   cursor: pointer;
 }
 .modal h3 { color: var(--color-gold); margin-top: 0; }
+.modal h2 { color: var(--color-gold); margin-top: 0; }
+body.person-modal-open { overflow: hidden; }
 
 /* Mobile tree alternative */
 .tree-mobile-view {
@@ -443,9 +453,14 @@ blockquote strong { color: var(--color-text); font-style: normal; }
   margin-bottom: 1.5rem;
 }
 .tree-gen-title {
+  display: block;
+  width: 100%;
   font-family: var(--font-heading);
   font-size: 1.1rem;
   color: var(--color-gold);
+  background: none;
+  border: 0;
+  text-align: left;
   padding: 0.5rem 0;
   border-bottom: 1px solid rgba(201,169,89,0.2);
   margin-bottom: 0.75rem;
@@ -459,6 +474,10 @@ blockquote strong { color: var(--color-text); font-style: normal; }
   content: ' ▸';
 }
 .tree-person {
+  display: block;
+  width: 100%;
+  border: 0;
+  text-align: left;
   padding: 0.6rem 0.75rem;
   margin: 0.3rem 0;
   background: var(--color-surface);

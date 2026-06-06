@@ -8,14 +8,12 @@
   <meta property="og:title" content="Family Tree — Greene Family Heritage">
   <meta property="og:description" content="Explore the Greene family history — people, events, and connections from 1830s Ireland to the present.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://greene.garrigan.me/tree.html">
+  <meta property="og:url" content="https://mgarrigan-hue.github.io/greene-heritage/tree.html">
   <meta name="description" content="Greene Family Heritage — interactive family history exploring people, timelines, and connections.">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/site.js" defer></script>
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://d3js.org/d3.v7.min.js" defer integrity="sha384-CjloA8y00+1SDAUkjs099PVfnY2KmDC2BZnws9kh8D/lX1s46w6EPhpXdqMfjK6i" crossorigin="anonymous"></script>
 </head>
 <body class="use-drawer-nav">
   <a class="skip-link" href="#main">Skip to main content</a>
@@ -55,25 +53,29 @@
     </div>
   </nav>
 
-  <div id="main" class="hero-cinematic" style="min-height:40vh;background-image:url('https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=1920');">
+
+  <main id="main">
+<div class="hero-cinematic" style="min-height:40vh;background-image:url('https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=1920');">
     <h1>Family Tree</h1>
     <p class="subtitle">Interactive visualization of the Greene lineage</p>
   </div>
   <div class="container">
-    <p>Click nodes to expand/collapse branches. Click a name to see full details.</p>
+    <p>Click nodes for details. Solid lines are high-confidence parent-child links; dashed lines mark uncertain or hypothetical links.</p>
     <p style="font-size:0.85rem;color:var(--color-text-muted);margin-bottom:1rem;">
       <span class="confidence-badge confidence-high">high</span>
       <span class="confidence-badge confidence-medium">medium</span>
       <span class="confidence-badge confidence-low">low</span>
-      — indicates confidence level of the relationship
+      — indicates confidence level of the relationship <span class="tree-legend-line" aria-hidden="true"></span> uncertain / hypothetical link
     </p>
     <div id="tree-mobile" class="tree-mobile-view"></div>
     <div id="tree-container"></div>
   </div>
 
   <div class="modal-overlay" id="person-modal">
-    <div class="modal" id="modal-content"></div>
+    <div class="modal" id="modal-content" role="dialog" aria-modal="true" aria-labelledby="person-modal-title" tabindex="-1"></div>
   </div>
+
+  </main>
 
   <footer>
     <p>Greene Family Heritage Research &copy; 2026 | A project by Claire Garrigan</p>
@@ -82,140 +84,149 @@
 
   <script src="js/app.js"></script>
   <script>
-    loadFamilyData().then(data => {
-      buildTree(data);
+    function treeEscapeHtml(str) {
+      if (window.Site && typeof window.Site.escapeHtml === 'function') return window.Site.escapeHtml(str);
+      return String(str ?? '').replace(/[&<>"']/g, c => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+      }[c]));
+    }
 
-      // Mobile tree alternative
-      function buildMobileTree(data) {
-        const container = document.getElementById('tree-mobile');
-        if (!container) return;
-
-        const generations = [
-          {
-            title: "🌱 Ancestors (1800s)",
-            people: [
-              { id: "thos-green-ballyburly" },
-              { id: "catherine-clarke" },
-              { id: "joseph-greene", indent: 1 },
-              { id: "elizabeth-foran", indent: 1, relation: "wife of Joseph" }
-            ]
-          },
-          {
-            title: "⚔️ Thomas's Generation",
-            people: [
-              { id: "thomas-greene" },
-              { id: "elizabeth-wife1", indent: 1, relation: "1st wife" },
-              { id: "bridget-wife2", indent: 1, relation: "2nd wife, daughter of Catherine Clarke" }
-            ]
-          },
-          {
-            title: "👨‍👩‍👧‍👦 The Children",
-            people: [
-              { id: "thomas-jr", indent: 1, relation: "son (1st marriage)" },
-              { id: "patrick-greene", indent: 1, relation: "son (1st marriage)" },
-              { id: "elizabeth-harris", indent: 1, relation: "daughter (1st marriage) → Biberach" },
-              { id: "john-greene", indent: 1, relation: "son (2nd marriage)" },
-              { id: "thomas-greene-ii", indent: 1, relation: "son (2nd marriage) → New Zealand" },
-              { id: "margaret-greene-nz", indent: 2, relation: "wife of Thomas II (Samoan)" },
-              { id: "brendan-greene", indent: 1, relation: "son (2nd marriage)" },
-              { id: "eita-greene", indent: 1, relation: "daughter (2nd marriage) ★" }
-            ]
-          },
-          {
-            title: "💍 Ita & John Donnelly's Family",
-            people: [
-              { id: "john-donnelly", relation: "Ita's husband" },
-              { id: "ann-donnelly", indent: 1 },
-              { id: "paul-donnelly-inlaw", indent: 2, relation: "Ann's husband" },
-              { id: "john-donnelly-jr", indent: 1 },
-              { id: "josette-donnelly", indent: 2, relation: "John Jr's wife" },
-              { id: "sheila-donnelly", indent: 1 },
-              { id: "robbie-donnelly-inlaw", indent: 2, relation: "Sheila's husband" },
-              { id: "ger-donnelly", indent: 1 },
-              { id: "emily-donnelly", indent: 2, relation: "Ger's wife" }
-            ]
-          },
-          {
-            title: "🏠 Present Day",
-            people: [
-              { id: "claire-garrigan", indent: 1, relation: "daughter of Ann" },
-              { id: "mark-garrigan", indent: 1, relation: "Claire's husband — researcher" }
-            ]
-          }
-        ];
-
-        let html = '';
-        generations.forEach(gen => {
-          html += '<div class="tree-gen">';
-          html += '<div class="tree-gen-title" onclick="this.classList.toggle(\'collapsed\'); this.nextElementSibling.style.display = this.classList.contains(\'collapsed\') ? \'none\' : \'block\'">' + gen.title + '</div>';
-          html += '<div class="tree-gen-people">';
-          gen.people.forEach(entry => {
-            const p = data.people.find(x => x.id === entry.id);
-            if (!p) return;
-            const indent = entry.indent ? ' indent-' + entry.indent : '';
-            const dates = p.born ? (p.born.year || '') + (p.died ? ' — ' + (p.died.year || '?') : '') : '';
-            html += '<div class="tree-person' + indent + '" onclick="showPersonModal(\'' + p.id + '\')">';
-            html += '<div class="tree-person-name">' + p.name + '</div>';
-            if (dates) html += '<div class="tree-person-dates">' + dates + '</div>';
-            if (entry.relation) html += '<div class="tree-person-relation">' + entry.relation + '</div>';
-            html += '</div>';
-          });
-          html += '</div></div>';
-        });
-
-        container.innerHTML = html;
-      }
-
-      buildMobileTree(data);
+    window.addEventListener('load', () => {
+      loadFamilyData().then(data => {
+        const treeData = buildHierarchy(data);
+        buildTree(data, treeData);
+        buildMobileTree(treeData);
+      }).catch(err => {
+        const container = document.getElementById('tree-container');
+        if (container) {
+          container.innerHTML = '<p style="padding:1rem;color:#ff8a8a">Could not load family tree: ' + treeEscapeHtml(err.message) + '</p>';
+        }
+      });
     });
 
-    function buildTree(data) {
-      // Build hierarchical structure from flat data
-      const treeData = buildHierarchy(data);
+    function confidenceIsUncertain(confidence) {
+      return confidence && confidence !== 'high';
+    }
 
+    function buildMobileTree(treeData) {
+      const container = document.getElementById('tree-mobile');
+      if (!container) return;
+      container.innerHTML = '';
+
+      (treeData.children || []).forEach(root => {
+        const group = document.createElement('div');
+        group.className = 'tree-gen';
+
+        const title = document.createElement('button');
+        title.type = 'button';
+        title.className = 'tree-gen-title';
+        title.setAttribute('aria-expanded', 'true');
+        title.textContent = root.name;
+
+        const people = document.createElement('div');
+        people.className = 'tree-gen-people';
+        title.addEventListener('click', () => {
+          const collapsed = title.classList.toggle('collapsed');
+          people.hidden = collapsed;
+          title.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
+        });
+
+        appendMobilePerson(root, people, 0);
+        group.append(title, people);
+        container.appendChild(group);
+      });
+    }
+
+    function appendMobilePerson(node, container, depth) {
+      const row = document.createElement('button');
+      row.type = 'button';
+      row.className = 'tree-person' + (depth ? ' indent-' + Math.min(depth, 3) : '');
+      row.setAttribute('aria-label', 'View details for ' + node.name);
+
+      const name = document.createElement('div');
+      name.className = 'tree-person-name';
+      name.textContent = node.name;
+      row.appendChild(name);
+
+      if (node.born) {
+        const dates = document.createElement('div');
+        dates.className = 'tree-person-dates';
+        dates.textContent = node.born;
+        row.appendChild(dates);
+      }
+      if (confidenceIsUncertain(node.edgeConfidence)) {
+        const relation = document.createElement('div');
+        relation.className = 'tree-person-relation';
+        relation.textContent = (node.edgeConfidence || 'uncertain') + ' relationship';
+        row.appendChild(relation);
+      }
+
+      if (node.id) {
+        row.addEventListener('click', () => showPersonModal(node.id, { trigger: row }));
+      } else {
+        row.disabled = true;
+      }
+      container.appendChild(row);
+      (node.children || []).forEach(child => appendMobilePerson(child, container, depth + 1));
+    }
+
+    function buildTree(data, treeData) {
       const container = document.getElementById('tree-container');
+      if (!container) return;
+      container.innerHTML = '';
+
       const width = container.clientWidth || 900;
-      const height = Math.max(500, data.people.length * 55);
+      const root = d3.hierarchy(treeData);
+      const height = Math.max(520, root.descendants().length * 48);
 
       const svg = d3.select('#tree-container')
         .append('svg')
         .attr('width', width)
         .attr('height', height)
         .append('g')
-        .attr('transform', 'translate(80, 20)');
+        .attr('transform', 'translate(90, 24)');
 
-      const treeLayout = d3.tree().size([height - 40, width - 250]);
-      const root = d3.hierarchy(treeData);
-      treeLayout(root);
+      d3.tree().size([height - 48, width - 280])(root);
 
-      // Links
-      svg.selectAll('.link')
+      const links = svg.selectAll('.link')
         .data(root.links())
         .enter()
         .append('path')
-        .attr('class', 'link')
+        .attr('class', d => 'link' + (confidenceIsUncertain(d.target.data.edgeConfidence) ? ' link-uncertain' : ''))
         .attr('d', d3.linkHorizontal()
           .x(d => d.y)
           .y(d => d.x));
 
-      // Nodes
+      links.append('title')
+        .text(d => d.target.data.edgeLabel || 'High-confidence family grouping');
+
       const nodes = svg.selectAll('.node')
         .data(root.descendants())
         .enter()
         .append('g')
         .attr('class', 'node')
-        .attr('transform', d => `translate(${d.y},${d.x})`);
+        .attr('transform', d => `translate(${d.y},${d.x})`)
+        .attr('tabindex', d => d.data.id ? 0 : null)
+        .attr('role', d => d.data.id ? 'button' : null)
+        .attr('aria-label', d => d.data.id ? `View details for ${d.data.name}` : null)
+        .on('click', (event, d) => {
+          if (d.data.id) showPersonModal(d.data.id, { trigger: event.currentTarget });
+        })
+        .on('keydown', (event, d) => {
+          if (!d.data.id || (event.key !== 'Enter' && event.key !== ' ')) return;
+          event.preventDefault();
+          showPersonModal(d.data.id, { trigger: event.currentTarget });
+        });
+
+      nodes.append('title').text(d => d.data.tooltip || d.data.name);
 
       nodes.append('circle')
-        .attr('r', 6)
+        .attr('r', d => d.depth === 0 ? 7 : 6)
         .attr('fill', d => {
-          const conf = d.data.confidence || 'medium';
+          const conf = d.data.edgeConfidence || d.data.confidence || 'medium';
           if (conf === 'high') return '#4caf50';
           if (conf === 'medium') return '#ff9800';
           return '#f44336';
-        })
-        .on('click', (event, d) => {
-          if (d.data.id) showPersonModal(d.data.id);
         });
 
       nodes.append('text')
@@ -223,12 +234,8 @@
         .attr('x', d => d.children ? -12 : 12)
         .attr('text-anchor', d => d.children ? 'end' : 'start')
         .text(d => d.data.name)
-        .style('cursor', d => d.data.id ? 'pointer' : 'default')
-        .on('click', (event, d) => {
-          if (d.data.id) showPersonModal(d.data.id);
-        });
+        .style('cursor', d => d.data.id ? 'pointer' : 'default');
 
-      // Add birth years
       nodes.append('text')
         .attr('dy', '1.6em')
         .attr('x', d => d.children ? -12 : 12)
@@ -239,72 +246,79 @@
     }
 
     function buildHierarchy(data) {
-      // Find root ancestors (people who have no parents in our data)
-      const childIds = new Set(data.parentChild.map(pc => pc.child));
-      const parentIds = new Set(data.parentChild.map(pc => pc.parent));
+      const peopleById = new Map((data.people || []).map(p => [p.id, p]));
+      const primaryRelByChild = new Map();
+      (data.parentChild || []).forEach(rel => {
+        if (!primaryRelByChild.has(rel.child)) primaryRelByChild.set(rel.child, rel);
+      });
 
-      // Joseph Greene is the earliest confirmed ancestor with descendants
-      const rootPerson = data.people.find(p => p.id === 'joseph-greene');
+      const childrenByParent = new Map();
+      primaryRelByChild.forEach(rel => {
+        if (!childrenByParent.has(rel.parent)) childrenByParent.set(rel.parent, []);
+        childrenByParent.get(rel.parent).push(rel);
+      });
 
-      function buildNode(personId) {
-        const person = data.people.find(p => p.id === personId);
-        if (!person) return null;
+      const yearValue = person => parseInt(String(person?.born?.year || '').match(/\d{4}/)?.[0] || '9999', 10);
+      childrenByParent.forEach(rels => rels.sort((a, b) => {
+        const pa = peopleById.get(a.child);
+        const pb = peopleById.get(b.child);
+        return yearValue(pa) - yearValue(pb) || String(pa?.name || '').localeCompare(String(pb?.name || ''));
+      }));
 
-        const childRels = data.parentChild.filter(pc => pc.parent === personId);
-        // Deduplicate children (a child appears for both parents)
-        const uniqueChildIds = [...new Set(childRels.map(c => c.child))];
-        const children = uniqueChildIds
-          .map(cid => buildNode(cid))
-          .filter(c => c);
-
-        // Add spouses as part of the label
-        const spouses = data.couples
+      function spousesFor(personId) {
+        return (data.couples || [])
           .filter(c => c.partner1 === personId || c.partner2 === personId)
-          .map(c => {
-            const sid = c.partner1 === personId ? c.partner2 : c.partner1;
-            return data.people.find(p => p.id === sid);
-          })
-          .filter(s => s);
+          .map(c => peopleById.get(c.partner1 === personId ? c.partner2 : c.partner1))
+          .filter(Boolean);
+      }
 
-        const spouseLabel = spouses.length ? ` & ${spouses[0].name}` : '';
+      function buildNode(personId, rel = null, trail = new Set()) {
+        const person = peopleById.get(personId);
+        if (!person || trail.has(personId)) return null;
+        const nextTrail = new Set(trail);
+        nextTrail.add(personId);
+
+        const spouses = spousesFor(personId).map(s => s.name);
+        const childNodes = (childrenByParent.get(personId) || [])
+          .map(childRel => buildNode(childRel.child, childRel, nextTrail))
+          .filter(Boolean);
+        const edgeConfidence = rel?.confidence || person.confidence || 'medium';
+        const edgeLabel = rel
+          ? `${peopleById.get(rel.parent)?.name || rel.parent} → ${person.name}: ${edgeConfidence} confidence`
+          : `${person.name}: ${person.confidence || 'medium'} confidence`;
 
         return {
-          name: person.name + spouseLabel,
+          name: [person.name, ...spouses].join(' & '),
           id: person.id,
           born: person.born?.year || '',
-          confidence: person.confidence,
-          children: children.length ? children : undefined
+          confidence: person.confidence || 'medium',
+          edgeConfidence,
+          edgeLabel,
+          tooltip: edgeLabel,
+          children: childNodes.length ? childNodes : undefined
         };
       }
 
-      // Build from Thos Green (earliest) → Joseph → Thomas → children
-      const thosGreen = data.people.find(p => p.id === 'thos-green-ballyburly');
+      const explicitOrder = [
+        'thos-green-ballyburly',
+        'joseph-greene',
+        'william-greene-thomas-father',
+        'catherine-clarke',
+        'charles-edward-harris'
+      ];
+      const rootIds = new Set();
+      explicitOrder.forEach(id => { if (peopleById.has(id)) rootIds.add(id); });
+      childrenByParent.forEach((_rels, parentId) => {
+        if (!primaryRelByChild.has(parentId)) rootIds.add(parentId);
+      });
 
       return {
-        name: thosGreen.name,
-        id: thosGreen.id,
-        born: thosGreen.born?.year || '',
-        confidence: thosGreen.confidence,
-        children: [
-          {
-            ...buildNode('joseph-greene'),
-            children: [
-              buildNode('thomas-greene'),
-              buildNode('mary-bridget-greene')
-            ].filter(c => c)
-          }
-        ]
+        name: 'Greene & Clarke family lines',
+        confidence: 'high',
+        edgeConfidence: 'high',
+        children: Array.from(rootIds).map(id => buildNode(id)).filter(Boolean)
       };
     }
-  </script>
-  <script>
-    gsap.registerPlugin(ScrollTrigger);
-    gsap.utils.toArray('.card, h2').forEach(el => {
-      gsap.from(el, {
-        scrollTrigger: { trigger: el, start: 'top 85%', toggleActions: 'play none none none' },
-        opacity: 0, y: 30, duration: 0.6, ease: 'power2.out'
-      });
-    });
   </script>
 </body>
 </html>
