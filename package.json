@@ -6,7 +6,11 @@
   "private": true,
   "scripts": {
     "research:ig": "node tools/research/ig-civil.mjs",
-    "research:arolsen": "node tools/research/arolsen.mjs"
+    "research:arolsen": "node tools/research/arolsen.mjs",
+    "serve": "npx http-server -p 8080 -c-1",
+    "validate:data": "node tools/validate-data.mjs",
+    "check:links": "node tools/check-links.mjs",
+    "check:pages": "node tools/check-pages.mjs"
   },
   "repository": {
     "type": "git",
