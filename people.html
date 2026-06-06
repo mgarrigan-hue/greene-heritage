@@ -8,7 +8,7 @@
   <meta property="og:title" content="People — Greene Family Heritage">
   <meta property="og:description" content="Explore the Greene family history — people, events, and connections from 1830s Ireland to the present.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://greene.garrigan.me/people.html">
+  <meta property="og:url" content="https://mgarrigan-hue.github.io/greene-heritage/people.html">
   <meta name="description" content="Greene Family Heritage — interactive family history exploring people, timelines, and connections.">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
@@ -52,7 +52,9 @@
     </div>
   </nav>
 
-  <div id="main" class="hero-cinematic" style="min-height:40vh;background-image:url('https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=1920');">
+
+  <main id="main">
+<div class="hero-cinematic" style="min-height:40vh;background-image:url('https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=1920');">
     <h1>People</h1>
     <p class="subtitle">The people who shaped the Greene family story</p>
   </div>
@@ -67,8 +69,10 @@
   </div>
 
   <div class="modal-overlay" id="person-modal">
-    <div class="modal" id="modal-content"></div>
+    <div class="modal" id="modal-content" role="dialog" aria-modal="true" aria-labelledby="person-modal-title" tabindex="-1"></div>
   </div>
+
+  </main>
 
   <footer>
     <p>Greene Family Heritage Research &copy; 2026 | A project by Claire Garrigan</p>
@@ -118,7 +122,7 @@
 
         if (people.length > 0) {
           html += `<div style="grid-column: 1 / -1; margin-top: 1.5rem;">
-            <h3 style="color: var(--color-gold); font-family: var(--font-heading); border-bottom: 1px solid rgba(201,169,89,0.2); padding-bottom: 0.5rem;">${gen.title}</h3>
+            <h2 style="color: var(--color-gold); font-family: var(--font-heading); border-bottom: 1px solid rgba(201,169,89,0.2); padding-bottom: 0.5rem;">${gen.title}</h2>
           </div>`;
           html += people.map(p => renderPersonCard(p)).join('');
         }
@@ -131,7 +135,7 @@
       );
       if (ungrouped.length > 0) {
         html += `<div style="grid-column: 1 / -1; margin-top: 1.5rem;">
-          <h3 style="color: var(--color-gold); font-family: var(--font-heading);">Other</h3>
+          <h2 style="color: var(--color-gold); font-family: var(--font-heading);">Other</h2>
         </div>`;
         html += ungrouped.map(p => renderPersonCard(p)).join('');
       }

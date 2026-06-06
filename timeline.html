@@ -8,13 +8,11 @@
   <meta property="og:title" content="Timeline — Greene Family Heritage">
   <meta property="og:description" content="Explore the Greene family history — people, events, and connections from 1830s Ireland to the present.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://greene.garrigan.me/timeline.html">
+  <meta property="og:url" content="https://mgarrigan-hue.github.io/greene-heritage/timeline.html">
   <meta name="description" content="Greene Family Heritage — interactive family history exploring people, timelines, and connections.">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/site.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 </head>
 <body class="use-drawer-nav">
   <a class="skip-link" href="#main">Skip to main content</a>
@@ -54,7 +52,9 @@
     </div>
   </nav>
 
-  <div id="main" class="hero-cinematic" style="min-height:40vh;background-image:url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1920');">
+
+  <main id="main">
+<div class="hero-cinematic" style="min-height:40vh;background-image:url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1920');">
     <h1>Timeline</h1>
     <p class="subtitle">Key events in the Greene family story, from the 1830s to the present</p>
   </div>
@@ -63,8 +63,10 @@
   </div>
 
   <div class="modal-overlay" id="person-modal">
-    <div class="modal" id="modal-content"></div>
+    <div class="modal" id="modal-content" role="dialog" aria-modal="true" aria-labelledby="person-modal-title" tabindex="-1"></div>
   </div>
+
+  </main>
 
   <footer>
     <p>Greene Family Heritage Research &copy; 2026 | A project by Claire Garrigan</p>
@@ -86,6 +88,13 @@
       return match ? parseInt(match[1]) : 0;
     }
 
+    const timelineEscapeHtml = str => {
+      if (window.Site && typeof window.Site.escapeHtml === 'function') return window.Site.escapeHtml(str);
+      return String(str ?? '').replace(/[&<>"']/g, c => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+      }[c]));
+    };
+
     loadFamilyData().then(data => {
       const tl = document.getElementById('timeline');
       let html = '';
@@ -98,30 +107,21 @@
 
         if (events.length > 0) {
           html += `<div style="margin: 2.5rem 0 1.5rem; padding: 0.75rem 0; border-bottom: 2px solid rgba(201,169,89,0.3);">
-            <span style="font-size: 1.5rem; margin-right: 0.5rem;">${era.icon}</span>
-            <span style="font-family: var(--font-heading); font-size: 1.3rem; color: var(--color-gold);">${era.title}</span>
+            <span style="font-size: 1.5rem; margin-right: 0.5rem;">${timelineEscapeHtml(era.icon)}</span>
+            <span style="font-family: var(--font-heading); font-size: 1.3rem; color: var(--color-gold);">${timelineEscapeHtml(era.title)}</span>
           </div>`;
 
           html += events.map(e => `
             <div class="timeline-event">
-              <div class="event-year">${e.year}</div>
-              <div class="event-title">${e.title}</div>
-              <div class="event-desc">${e.description}</div>
+              <div class="event-year">${timelineEscapeHtml(e.year)}</div>
+              <div class="event-title">${timelineEscapeHtml(e.title)}</div>
+              <div class="event-desc">${timelineEscapeHtml(e.description)}</div>
             </div>
           `).join('');
         }
       });
 
       tl.innerHTML = html;
-    });
-  </script>
-  <script>
-    gsap.registerPlugin(ScrollTrigger);
-    gsap.utils.toArray('.card, h2').forEach(el => {
-      gsap.from(el, {
-        scrollTrigger: { trigger: el, start: 'top 85%', toggleActions: 'play none none none' },
-        opacity: 0, y: 30, duration: 0.6, ease: 'power2.out'
-      });
     });
   </script>
 </body>

@@ -23,6 +23,57 @@
 
   let lightboxEl = null;
   let lastFocus = null;
+  const FOCUSABLE_SELECTOR = [
+    'a[href]',
+    'button:not([disabled])',
+    'input:not([disabled])',
+    'select:not([disabled])',
+    'textarea:not([disabled])',
+    '[tabindex]:not([tabindex="-1"])'
+  ].join(',');
+
+  function escapeHtml(s) {
+    if (window.Site && typeof window.Site.escapeHtml === 'function') {
+      return window.Site.escapeHtml(s);
+    }
+    return String(s ?? '').replace(/[&<>"']/g, (c) => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    }[c]));
+  }
+
+  function isSafeHttpUrl(value) {
+    if (window.Site && typeof window.Site.isSafeHttpUrl === 'function') {
+      return window.Site.isSafeHttpUrl(value);
+    }
+    try {
+      const url = new URL(String(value), window.location.href);
+      return url.protocol === 'http:' || url.protocol === 'https:';
+    } catch (_) {
+      return false;
+    }
+  }
+
+  function trapFocus(e) {
+    if (!lightboxEl || lightboxEl.getAttribute('aria-hidden') !== 'false') return;
+    if (e.key === 'Escape') {
+      e.preventDefault();
+      closeLightbox();
+      return;
+    }
+    if (e.key !== 'Tab') return;
+    const focusable = Array.from(lightboxEl.querySelectorAll(FOCUSABLE_SELECTOR))
+      .filter(el => el.offsetParent !== null || el === document.activeElement);
+    if (!focusable.length) return;
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    if (e.shiftKey && document.activeElement === first) {
+      e.preventDefault();
+      last.focus();
+    } else if (!e.shiftKey && document.activeElement === last) {
+      e.preventDefault();
+      first.focus();
+    }
+  }
 
   function ensureLightbox() {
     if (lightboxEl) return lightboxEl;
@@ -30,6 +81,7 @@
     lightboxEl.className = 'lightbox';
     lightboxEl.setAttribute('role', 'dialog');
     lightboxEl.setAttribute('aria-modal', 'true');
+    lightboxEl.setAttribute('aria-label', 'Image viewer');
     lightboxEl.setAttribute('aria-hidden', 'true');
     lightboxEl.innerHTML = `
       <button class="lightbox-close" aria-label="Close image viewer">&times;</button>
@@ -53,11 +105,7 @@
         closeLightbox();
       }
     });
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && lightboxEl.getAttribute('aria-hidden') === 'false') {
-        closeLightbox();
-      }
-    });
+    document.addEventListener('keydown', trapFocus);
     return lightboxEl;
   }
 
@@ -71,8 +119,14 @@
     lb.querySelector('.lightbox-credit').textContent = opts.credit || '';
     lb.querySelector('.lightbox-license').textContent = opts.license ? ' · ' + opts.license : '';
     const sourceEl = lb.querySelector('.lightbox-source');
-    if (opts.sourceUrl) {
-      sourceEl.innerHTML = '<a href="' + opts.sourceUrl + '" target="_blank" rel="noopener">View original source</a>';
+    sourceEl.textContent = '';
+    if (opts.sourceUrl && isSafeHttpUrl(opts.sourceUrl)) {
+      const link = document.createElement('a');
+      link.href = opts.sourceUrl;
+      link.target = '_blank';
+      link.rel = 'noopener';
+      link.textContent = 'View original source';
+      sourceEl.appendChild(link);
     } else {
       sourceEl.textContent = '';
     }
@@ -125,21 +179,15 @@
     { id: 'other', label: 'Other context', match: () => true }
   ];
 
-  function escapeHtml(s) {
-    return String(s || '').replace(/[&<>"']/g, (c) => ({
-      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
-    }[c]));
-  }
-
   function assetThumb(a) {
     // Prefer local file; fall back to URL only if it's a direct image URL.
     if (a.file_path) return a.file_path;
-    if (a.url && /\.(jpe?g|png|gif|webp)$/i.test(a.url)) return a.url;
+    if (a.url && isSafeHttpUrl(a.url) && /\.(jpe?g|png|gif|webp)$/i.test(a.url)) return a.url;
     return null;
   }
 
   function assetSourceUrl(a) {
-    return a.url || null;
+    return a.url && isSafeHttpUrl(a.url) ? a.url : null;
   }
 
   function renderCard(a) {
