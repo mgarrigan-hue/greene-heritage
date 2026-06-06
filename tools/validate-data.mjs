@@ -28,21 +28,7 @@ async function loadAjv() {
   try {
     return [await import('ajv'), await import('ajv-formats')];
   } catch {
-    console.warn('ℹ️ ajv not found; installing temporary validation dependencies with npm install --no-save --no-package-lock ajv ajv-formats');
-    const result = process.platform === 'win32'
-      ? spawnSync('npm install --no-save --no-package-lock ajv ajv-formats', {
-          cwd: ROOT,
-          shell: true,
-          stdio: 'inherit'
-        })
-      : spawnSync('npm', ['install', '--no-save', '--no-package-lock', 'ajv', 'ajv-formats'], {
-          cwd: ROOT,
-          stdio: 'inherit'
-        });
-    if (result.status !== 0) {
-      throw new Error('Unable to install ajv/ajv-formats for schema validation.');
-    }
-    return [await import('ajv'), await import('ajv-formats')];
+    throw new Error('ajv/ajv-formats not found. Run `npm install` first — both are declared in devDependencies.');
   }
 }
 
