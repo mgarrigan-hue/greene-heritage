@@ -8,6 +8,10 @@
       {
         "date": "2026-06-06",
         "summary": "Data integrity corrections, event provenance fields, privacy review worksheet, and JSON Schema added."
+      },
+      {
+        "date": "2026-06-06",
+        "summary": "2026-06-06: Phase 12 — Ita Greene marriage research + caregiving context corrections (per Mark's family contribution)"
       }
     ]
   },
@@ -364,16 +368,18 @@
       },
       "died": {
         "year": "2025",
-        "place": "Goldenbridge Avenue, Inchicore, Dublin",
+        "place": "Kiltipper Woods Care Centre, Dublin",
         "date": "6 December 2025"
       },
       "occupation": null,
       "religion": "Roman Catholic",
-      "notes": "Youngest daughter of Thomas Greene and Bridget Clarke (second wife). Mark Garrigan's grandmother-in-law. Name 'Eita' / 'Ita' from the Irish name Eithne. Born 1934 in Dublin. Married John Donnelly (predeceased). Four children: Ann (m. Paul), John Jr (m. Josette), Sheila (m. Robbie), Ger (m. Emily). Nine grandchildren: Claire, Eoin, Laura, Emma, JJ, Christopher, Nicole, Lauren, Jack. Also had great-grandchildren. Remained at Goldenbridge Avenue, Inchicore — the family home — her entire life. Passed away peacefully on 6 December 2025 in Kiltipper Woods Care Centre, surrounded by her family. Repose at daughter Sheila's home. Funeral Mass at St. Michael's Church, Inchicore; buried Deansgrange Cemetery. Family requested donations to the Alzheimer Society of Ireland in her memory.",
+      "notes": "Youngest daughter of Thomas Greene and Bridget Clarke (second wife). Mark Garrigan's grandmother-in-law. Name \"Eita\" / \"Ita\" from the Irish name Eithne. Born 1934 in Dublin. Lived at 38 Goldenbridge Avenue, Inchicore until her marriage to John Donnelly around 1958 (family tradition). After marriage Ita and John moved into their own home in \"Drimna\" / \"Dremna\" — almost certainly Drimnagh, Dublin 12, the suburb directly beside Inchicore/Goldenbridge. In the 1960s they moved their young family back to 38 Goldenbridge Avenue to care for Ita's mother Bridget Greene (née Clarke), who was declining and died on 9 August 1970. Ita and John had four children: Ann (m. Paul), John Jr (m. Josette), Sheila (m. Robbie), and Ger (m. Emily). Nine grandchildren: Claire, Eoin, Laura, Emma, JJ, Christopher, Nicole, Lauren, Jack. Also had great-grandchildren. John predeceased her. Phase 12 IrishGenealogy.ie online civil-register searches for Ita/Eithne/Eita Greene × John Donnelly in the 1955-1962 range returned no matching online result, so the exact civil marriage date, church/parish, witnesses, and John's recorded details remain open pending a GRO/parish certificate. Ita passed away peacefully on 6 December 2025 at Kiltipper Woods Care Centre, aged 91, surrounded by her family. Repose at daughter Sheila's home. Funeral Mass at St. Michael's Church, Inchicore; buried Deansgrange Cemetery. Family requested donations to the Alzheimer Society of Ireland in her memory.",
       "confidence": "high",
       "sources": [
         "Family oral history",
-        "RIP.ie death notice, December 2025"
+        "RIP.ie death notice, December 2025",
+        "Mark Garrigan family contribution, 6 June 2026 (Phase 12 oral history: Ita and John married c.1958, moved to Drimnagh/\"Drimna\" after marriage, and returned to 38 Goldenbridge Avenue in the 1960s to care for Bridget Greene)",
+        "Phase 12 IrishGenealogy.ie search artefacts, research-results/r4-ita-greene-marriage-1958/research-summary.json"
       ]
     },
     {
@@ -718,10 +724,11 @@
       "partner1": "eita-greene",
       "partner2": "john-donnelly",
       "married": {
-        "year": "c.1950s-1960s",
-        "place": "Dublin (presumed)"
+        "year": "c.1958",
+        "place": "Dublin area (family tradition; exact civil district/parish not yet confirmed)"
       },
-      "confidence": "high"
+      "confidence": "family-tradition",
+      "notes": "Approximate marriage year supplied by Mark Garrigan. Phase 12 IrishGenealogy.ie online civil-register searches for Ita/Eithne/Eita Greene × John Donnelly and Greene/Donnelly spouse variants across 1955-1962 returned no matching online result; GRO/parish follow-up required."
     },
     {
       "id": "c-mark-claire",
