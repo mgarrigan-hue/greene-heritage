@@ -1,0 +1,47 @@
+name: CI
+
+# Runs on every push to master and on every pull request.
+# Validates the family data, verifies all top-level pages return HTTP 200
+# with no JS errors, and that external links resolve (with an allowlist
+# for known anti-bot archive sites that block automated HEAD/GET).
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+jobs:
+  validate-and-check:
+    name: Validate data + check pages + check links
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Validate data/family.json against schema
+        run: npm run validate:data
+
+      - name: Validate data/stories.json is parseable
+        run: node -e "const s=JSON.parse(require('fs').readFileSync('data/stories.json','utf8')); if(!Array.isArray(s.stories)) throw new Error('stories.json missing stories[]'); console.log('stories.json valid:', s.stories.length, 'stories')"
+
+      - name: Check all HTML pages return 200 + no JS errors
+        run: npm run check:pages
+
+      - name: Check external links resolve
+        run: npm run check:links

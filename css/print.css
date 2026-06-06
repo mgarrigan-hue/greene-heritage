@@ -1,0 +1,218 @@
+/* Greene Family Heritage — print stylesheet
+ *
+ * Optimised for distributing pages to relatives who prefer paper:
+ * family trees, person pages, source citations.
+ *
+ * Loaded only when the browser is in print mode (media="print"),
+ * so it never affects on-screen presentation.
+ */
+
+@media print {
+  /* ------------------------------------------------------------ */
+  /* Base typography: dark text on white, generous line height    */
+  /* ------------------------------------------------------------ */
+  :root {
+    --color-bg: #ffffff;
+    --color-surface: #ffffff;
+    --color-card: #ffffff;
+    --color-text: #1a1a1a;
+    --color-text-muted: #4a4a4a;
+    --color-link: #00347a;
+    --color-gold: #8b6914;
+    --color-accent: #8b1a1a;
+    --color-parchment: #f8f5ee;
+  }
+
+  html, body {
+    background: #ffffff !important;
+    color: #1a1a1a !important;
+    font-family: Georgia, 'Times New Roman', serif !important;
+    font-size: 11pt;
+    line-height: 1.45;
+  }
+
+  /* ------------------------------------------------------------ */
+  /* Hide everything that is purely interactive / navigation      */
+  /* ------------------------------------------------------------ */
+  nav,
+  .skip-link,
+  .nav-toggle,
+  .nav-dropdown,
+  .nav-links,
+  .nav-drawer,
+  .nav-overlay,
+  .search-wrap,
+  .theme-toggle,
+  .reading-mode-toggle,
+  .nav-control,
+  [data-nav-toggle],
+  [data-theme-toggle],
+  [data-reading-mode-toggle],
+  [data-global-search],
+  .breadcrumbs,
+  footer p:has(a[href*="about.html"]),
+  .modal-overlay,
+  .lightbox,
+  .story-toc,
+  .story-sources summary::after,
+  details > summary { display: none !important; }
+
+  /* Force details panels open for print */
+  details { display: block !important; }
+  details > * { display: block !important; }
+
+  /* ------------------------------------------------------------ */
+  /* Page layout                                                  */
+  /* ------------------------------------------------------------ */
+  @page {
+    margin: 1.8cm 1.4cm;
+    size: A4;
+  }
+
+  main {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .container, .content-wrap {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* ------------------------------------------------------------ */
+  /* Hero / banners — shrink to a printable header                */
+  /* ------------------------------------------------------------ */
+  .hero-cinematic, .hero {
+    background: none !important;
+    color: #1a1a1a !important;
+    min-height: 0 !important;
+    padding: 0 0 0.5cm 0 !important;
+    border-bottom: 2px solid #1a1a1a;
+    margin-bottom: 0.7cm !important;
+  }
+  .hero-cinematic h1, .hero h1 {
+    color: #1a1a1a !important;
+    font-size: 22pt;
+    margin-bottom: 0.15cm !important;
+  }
+  .hero-cinematic .subtitle, .hero .subtitle {
+    color: #4a4a4a !important;
+    font-style: italic;
+  }
+
+  /* ------------------------------------------------------------ */
+  /* Headings + section spacing                                   */
+  /* ------------------------------------------------------------ */
+  h1 { font-size: 20pt; page-break-after: avoid; margin-top: 0; }
+  h2 {
+    font-size: 14pt;
+    border-bottom: 1px solid #888;
+    padding-bottom: 2pt;
+    margin-top: 0.8cm;
+    page-break-after: avoid;
+  }
+  h3 { font-size: 12pt; margin-top: 0.5cm; page-break-after: avoid; }
+
+  p, li { orphans: 3; widows: 3; }
+
+  /* ------------------------------------------------------------ */
+  /* Story cards in print mode                                    */
+  /* ------------------------------------------------------------ */
+  .story-card {
+    background: none !important;
+    border-left: 3px solid #888 !important;
+    page-break-inside: avoid;
+    margin-bottom: 0.8cm;
+    padding: 0 0 0 0.5cm !important;
+    border-radius: 0 !important;
+  }
+  .story-title { color: #1a1a1a !important; font-size: 14pt; }
+  .story-summary { color: #4a4a4a !important; border-left: none !important; padding: 0 !important; }
+  .story-tags, .story-footer { font-size: 9pt; color: #4a4a4a !important; }
+  .story-tag { background: none !important; border: 1px solid #888; color: #4a4a4a !important; }
+  .story-body blockquote {
+    background: none !important;
+    border-left: 2px solid #888 !important;
+  }
+
+  /* ------------------------------------------------------------ */
+  /* Person cards / event cards                                   */
+  /* ------------------------------------------------------------ */
+  .person-card, .event-card, .source-card, .contribute-card {
+    background: none !important;
+    border: 1px solid #888 !important;
+    page-break-inside: avoid;
+    margin-bottom: 0.4cm;
+    border-radius: 0 !important;
+  }
+
+  /* ------------------------------------------------------------ */
+  /* Links — show the URL after each link for offline reference   */
+  /* ------------------------------------------------------------ */
+  a {
+    color: #00347a !important;
+    text-decoration: underline;
+    background: none !important;
+  }
+  a[href^="http"]::after,
+  a[href^="//"]::after {
+    content: " <" attr(href) ">";
+    font-size: 8pt;
+    color: #4a4a4a;
+    word-break: break-all;
+  }
+  /* Don't show URLs for in-page anchors */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after { content: ""; }
+
+  /* ------------------------------------------------------------ */
+  /* Images                                                       */
+  /* ------------------------------------------------------------ */
+  img, picture {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+  }
+
+  /* ------------------------------------------------------------ */
+  /* Tables                                                       */
+  /* ------------------------------------------------------------ */
+  table { border-collapse: collapse; width: 100%; }
+  th, td { border: 1px solid #888; padding: 3pt 5pt; font-size: 10pt; }
+  thead { background: #f0f0f0 !important; }
+  th { font-weight: bold; }
+
+  /* ------------------------------------------------------------ */
+  /* Callouts                                                     */
+  /* ------------------------------------------------------------ */
+  .callout {
+    background: #f8f5ee !important;
+    border-left: 3px solid #888 !important;
+    page-break-inside: avoid;
+    border-radius: 0 !important;
+  }
+
+  /* ------------------------------------------------------------ */
+  /* Footer — short citation                                      */
+  /* ------------------------------------------------------------ */
+  footer {
+    border-top: 1px solid #888;
+    margin-top: 1cm;
+    padding-top: 0.3cm;
+    font-size: 9pt;
+    color: #4a4a4a !important;
+  }
+  footer::after {
+    content: " — Printed from https://greene.garrigan.me/";
+    font-style: italic;
+  }
+
+  /* ------------------------------------------------------------ */
+  /* D3 family tree — try to print it landscape                   */
+  /* ------------------------------------------------------------ */
+  #tree-container, .tree-wrap, svg.tree {
+    page-break-inside: avoid;
+    max-width: 100% !important;
+  }
+}

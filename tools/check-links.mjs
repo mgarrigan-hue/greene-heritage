@@ -8,6 +8,15 @@ const TIMEOUT_MS = 10_000;
 const CONCURRENCY = 6;
 const USER_AGENT = 'greene-heritage-link-check/1.0';
 
+// Domains that legitimately exist for human visitors but block automated
+// HEAD/GET requests from generic user agents (anti-bot protection). A 4xx
+// from these is expected — surface it as a warning but do not fail CI.
+const EXPECTED_4XX_DOMAINS = new Set([
+  'catalogue.nli.ie',
+  'maps.nls.uk',
+  'museumandarchives.redcross.org.uk'
+]);
+
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 async function htmlFiles() {
@@ -89,11 +98,17 @@ async function checkUrl(item) {
   }
 
   if (result.status >= 400) {
+    let isExpectedAntiBot = false;
+    try {
+      const host = new URL(item.url).hostname;
+      isExpectedAntiBot = EXPECTED_4XX_DOMAINS.has(host) && result.status >= 400 && result.status < 500;
+    } catch { /* invalid URL → still treat normally */ }
+
     return {
       ...item,
       status: String(result.status),
       issue: result.statusText || `HTTP ${result.status}`,
-      fail: result.status >= 400 && result.status < 500
+      fail: result.status >= 400 && result.status < 500 && !isExpectedAntiBot
     };
   }
 

@@ -1,5 +1,6 @@
 /* Greene Family Heritage — Stylesheet */
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+@import url('print.css') print;
 
 html { scroll-behavior: smooth; }
 
