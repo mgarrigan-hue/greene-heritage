@@ -8,16 +8,16 @@
   <meta property="og:title" content="Greene Family Heritage">
   <meta property="og:description" content="Tracing the Greene lineage from Portarlington to Dublin, the Channel Islands, New Zealand, and beyond. An interactive family history.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://greene.garrigan.me/">
+  <meta property="og:url" content="https://mgarrigan-hue.github.io/greene-heritage/">
   <meta property="og:image" content="https://images.unsplash.com/photo-1501791330673-603715379ded?w=1200">
   <meta name="description" content="Greene Family Heritage — tracing the Greene lineage from 1830s Portarlington, Ireland through Dublin, the Channel Islands, WWII Biberach internment camp, and New Zealand.">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/site.js" defer></script>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer integrity="sha384-g4NTh/Iv5PPU4xPyhEWqPcwtNXOvdaDI8LLnyYfyNZOjKJeYQyjzQ9X5275eBjpt" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer integrity="sha384-Z3REaz79l2IaAZqJsSABtTbhjgOUYyV3p90XNnAPCSHg3EMTz1fouunq9WZRtj3d" crossorigin="anonymous"></script>
 </head>
 <body class="use-drawer-nav">
   <a class="skip-link" href="#main">Skip to main content</a>
@@ -57,7 +57,9 @@
     </div>
   </nav>
 
-  <div id="main" class="hero-cinematic" style="background-image:url('https://images.unsplash.com/photo-1501791330673-603715379ded?w=1920');">
+
+  <main id="main">
+<div class="hero-cinematic" style="background-image:url('https://images.unsplash.com/photo-1501791330673-603715379ded?w=1920');">
     <div class="hero-overlay"></div>
     <div class="hero-content">
       <h1>The Greene Family</h1>
@@ -136,8 +138,10 @@
   </div>
 
   <div class="modal-overlay" id="person-modal">
-    <div class="modal" id="modal-content"></div>
+    <div class="modal" id="modal-content" role="dialog" aria-modal="true" aria-labelledby="person-modal-title" tabindex="-1"></div>
   </div>
+
+  </main>
 
   <footer>
     <p>Greene Family Heritage Research &copy; 2026 | A project by Claire Garrigan</p>
@@ -156,54 +160,55 @@
       }).join('');
     });
 
-    // Interactive map
-    (function() {
-      const map = L.map('map-container').setView([30, 60], 2);
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-        attribution: '&copy; <a href="https://carto.com/">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>',
-        maxZoom: 19
-      }).addTo(map);
+      window.addEventListener('load', () => {
+        if (window.L && document.getElementById('map-container')) {
+          const map = L.map('map-container').setView([30, 60], 2);
+          L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; <a href="https://carto.com/">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>',
+            maxZoom: 19
+          }).addTo(map);
 
-      const gold = '#c9a959';
-      const markerOpts = { radius: 7, fillColor: gold, color: gold, weight: 2, opacity: 1, fillOpacity: 0.7 };
-      const popupStyle = '<style>.leaflet-popup-content-wrapper{background:#1a1a2e;color:#e0d8c8;border:1px solid rgba(201,169,89,0.3);border-radius:8px;}.leaflet-popup-tip{background:#1a1a2e;}.leaflet-popup-content{font-family:"Source Sans Pro",sans-serif;font-size:0.9rem;line-height:1.4;}</style>';
+          const gold = '#c9a959';
+          const markerOpts = { radius: 7, fillColor: gold, color: gold, weight: 2, opacity: 1, fillOpacity: 0.7 };
+          const popupStyle = '<style>.leaflet-popup-content-wrapper{background:#1a1a2e;color:#e0d8c8;border:1px solid rgba(201,169,89,0.3);border-radius:8px;}.leaflet-popup-tip{background:#1a1a2e;}.leaflet-popup-content{font-family:"Source Sans Pro",sans-serif;font-size:0.9rem;line-height:1.4;}</style>';
 
-      const locations = [
-        { lat: 53.163, lng: -7.191, text: '<strong>Portarlington, King\'s County</strong> — Where the Greene family originated. Thomas born c.1871.' },
-        { lat: 53.349, lng: -6.260, text: '<strong>Dublin</strong> — Thomas & Bridget\'s home from 1899. York Street tenements, then 38 Goldenbridge Avenue, Inchicore.' },
-        { lat: 49.454, lng: -2.536, text: '<strong>Channel Islands</strong> — Elizabeth Harris (née Greene) lived and worked as a nurse before deportation in 1942.' },
-        { lat: 48.098, lng: 9.787,  text: '<strong>Biberach an der Riß, Germany</strong> — Internment Camp Ilag V-B. Elizabeth worked at the Men\'s Hospital 1943–1945.' },
-        { lat: 40.728, lng: -73.794, text: '<strong>Queens, New York</strong> — Mary Bridget Greene (b.1874) emigrated here. Died 1966.' },
-        { lat: -41.286, lng: 174.776, text: '<strong>New Zealand</strong> — Thomas Greene II emigrated here after marrying a Samoan woman. Descendants now in NZ and Australia.' }
-      ];
+          const locations = [
+            { lat: 53.163, lng: -7.191, text: '<strong>Portarlington, King&rsquo;s County</strong> — Where the Greene family originated. Thomas born c.1871.' },
+            { lat: 53.349, lng: -6.260, text: '<strong>Dublin</strong> — Thomas & Bridget&rsquo;s home from 1899. York Street tenements, then 38 Goldenbridge Avenue, Inchicore.' },
+            { lat: 49.454, lng: -2.536, text: '<strong>Channel Islands</strong> — Elizabeth Harris (née Greene) lived and worked as a nurse before deportation in 1942.' },
+            { lat: 48.098, lng: 9.787,  text: '<strong>Biberach an der Riß, Germany</strong> — Internment Camp Ilag V-B. Elizabeth worked at the Men&rsquo;s Hospital 1943–1945.' },
+            { lat: 40.728, lng: -73.794, text: '<strong>Queens, New York</strong> — Mary Bridget Greene (b.1874) emigrated here. Died 1966.' },
+            { lat: -41.286, lng: 174.776, text: '<strong>New Zealand</strong> — Thomas Greene II emigrated here after marrying a Samoan woman. Descendants now in NZ and Australia.' }
+          ];
 
-      locations.forEach(loc => {
-        L.circleMarker([loc.lat, loc.lng], markerOpts)
-          .addTo(map)
-          .bindPopup(popupStyle + loc.text);
+          locations.forEach(loc => {
+            L.circleMarker([loc.lat, loc.lng], markerOpts)
+              .addTo(map)
+              .bindPopup(popupStyle + loc.text);
+          });
+
+          L.polyline([
+            [53.163, -7.191],
+            [53.349, -6.260],
+            [49.454, -2.536],
+            [48.098, 9.787]
+          ], { color: gold, weight: 2, opacity: 0.6, dashArray: '10,10' }).addTo(map);
+        }
+
+        if (window.gsap && window.ScrollTrigger) {
+          gsap.registerPlugin(ScrollTrigger);
+          gsap.utils.toArray('.card, h2').forEach((card, i) => {
+            gsap.from(card, {
+              scrollTrigger: { trigger: card, start: 'top 85%', toggleActions: 'play none none none' },
+              opacity: 0,
+              y: 40,
+              duration: 0.6,
+              delay: i * 0.1,
+              ease: 'power2.out'
+            });
+          });
+        }
       });
-
-      // Polyline: Portarlington → Dublin → Channel Islands → Biberach
-      L.polyline([
-        [53.163, -7.191],
-        [53.349, -6.260],
-        [49.454, -2.536],
-        [48.098, 9.787]
-      ], { color: gold, weight: 2, opacity: 0.6, dashArray: '10,10' }).addTo(map);
-    })();
-
-    // GSAP scroll-triggered card animations
-    gsap.registerPlugin(ScrollTrigger);
-    gsap.utils.toArray('.card, h2').forEach((card, i) => {
-      gsap.from(card, {
-        scrollTrigger: { trigger: card, start: 'top 85%', toggleActions: 'play none none none' },
-        opacity: 0,
-        y: 40,
-        duration: 0.6,
-        delay: i * 0.1,
-        ease: 'power2.out'
-      });
-    });
   </script>
 </body>
 </html>
