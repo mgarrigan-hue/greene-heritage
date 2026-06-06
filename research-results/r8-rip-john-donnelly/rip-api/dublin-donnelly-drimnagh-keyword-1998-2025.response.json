@@ -1,0 +1,11 @@
+{
+  "data": {
+    "searchDeathNoticesForList": {
+      "count": 0,
+      "perPage": 80,
+      "page": 1,
+      "nextPage": false,
+      "records": []
+    }
+  }
+}

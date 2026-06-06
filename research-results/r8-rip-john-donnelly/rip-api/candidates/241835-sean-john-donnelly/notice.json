@@ -1,0 +1,49 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/sean-john-donnelly-dublin-walkinstown-241835",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/sean-john-donnelly-dublin-walkinstown-241835"
+  ],
+  "searchIds": [
+    "dublin-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025",
+    "dublin-sean-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 241835,
+        "surname": "Donnelly",
+        "firstname": "Seán (John)",
+        "nee": "",
+        "createdAt": "2015-04-11T17:02:31.000+01:00",
+        "description": "<p>Donnelly, Se&aacute;n (John) (Beechfield Road, Walkinstown, Dublin 12&nbsp; and ex Irish Navy and Port and Docks and Irish Shipping and formerly of 76 Coastguard Station, Pidgeon House Road, Ringsend) April 11th 2015 (peacefully) at Peamount Hospital:&nbsp; beloved husband of Julia and loving dad of Stephen, Josie, Johnny and the late Anthony:&nbsp; he will be sadly missed by his loving family, brothers Paddy and Jimmy, sister Kathleen, sister-in-laws, daughters-in-law, also Kay, son-in-law, grandchildren, great granddaughter, nieces, nephews, neighbours, relatives and friends.&nbsp;</p>\r\n\r\n<p style=\"text-align:center\"><strong>May he rest in peace.</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Reposing at his home on Monday. Removal to Newlands Cross Crematorium on Tuesday afternoon arriving for 2pm&nbsp;Funeral Mass with Cremation immediately afterwards.&nbsp; Family flowers only please.&nbsp; Donations if desired to The Alzheimer&rsquo;s Society.&nbsp;</p>",
+        "address": "",
+        "dateOfDeath": "2015-04-11T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": 253646,
+        "county": {
+          "id": 10,
+          "name": "Dublin"
+        },
+        "town": {
+          "id": 418,
+          "name": "Walkinstown"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 418,
+              "name": "Walkinstown",
+              "slug": "Walkinstown"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

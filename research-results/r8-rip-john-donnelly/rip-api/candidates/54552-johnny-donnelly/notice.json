@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/johnny-donnelly-kerry-ardfert-54552",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/johnny-donnelly-kerry-ardfert-54552"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 54552,
+        "surname": "DONNELLY",
+        "firstname": "Johnny",
+        "nee": "",
+        "createdAt": "2008-10-10T00:00:00.000+01:00",
+        "description": "<p>Formerly of Curraclare, Co. Clare. Removal this evening at 7.30pm from The Gleasure Funeral Home to The Sacred Heart Church, Kilmoyley. Requiem Mass on Saturday at 12 noon. Burial afterwards in The Abbey New Cemetery, Ardfert.&nbsp;</p>",
+        "address": "Ardrahan,",
+        "dateOfDeath": null,
+        "dateOfBirth": null,
+        "oldId": 56288,
+        "county": {
+          "id": 13,
+          "name": "Kerry"
+        },
+        "town": {
+          "id": 492,
+          "name": "Ardfert"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 13,
+              "name": "Kerry"
+            },
+            "town": {
+              "id": 492,
+              "name": "Ardfert",
+              "slug": "Ardfert"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

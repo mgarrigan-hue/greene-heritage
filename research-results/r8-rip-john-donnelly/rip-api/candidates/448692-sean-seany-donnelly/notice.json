@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/sean-seany-donnelly-dublin-belcamp-448692",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/sean-seany-donnelly-dublin-belcamp-448692"
+  ],
+  "searchIds": [
+    "dublin-sean-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 448692,
+        "surname": "Donnelly",
+        "firstname": "Sean (Seany)",
+        "nee": "",
+        "createdAt": "2021-07-02T16:57:19.000+01:00",
+        "description": "<p>Donnelly (Belcamp, D 17)&nbsp;-&nbsp;June 30, 2021, (unexpectedly) &nbsp;Sean (Seany); sadly missed by his loving and heartbroken mam Bernie, dad Peter, brother Martin, sisters Natalie and Holly, partner Amy, son Harry, niece Sasha, nephews Jacob and JJ, aunts, uncles, cousins, relatives and a large circle of friends.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p style=\"text-align: center;\"><strong>May Sean&nbsp;Rest in Peace.</strong></p>\r\n<p>&nbsp;</p>\r\n<p>Due to the recent government guidelines regarding public gatherings, a private funeral will be held on Tuesday morning at 11am in the Church of Our Lady Immaculate, Darndale for family and close friends (with a limit of 50 persons). To view Sean's Funeral Mass please <a href=\"https://www.mcnmedia.tv/camera/our-lady-immaculate-church\" target=\"_blank\" rel=\"noopener\"><span style=\"text-decoration: underline;\"><strong>CLICK HERE</strong></span></a> on Tuesday &nbsp;morning at 11am. Family flowers only, donations, if desired, to Pieta House, to donate please <a href=\"https://www.pieta.ie/support-our-work/donate/\" target=\"_blank\" rel=\"noopener\"><strong><span style=\"text-decoration: underline;\">Click Here</span></strong></a>.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>Sean&rsquo;s family have asked if you have a Chelsea Jersey (or if not, something blue) please wear it on Tuesday morning in memory of Sean.</p>\r\n<p>&nbsp;</p>\r\n<p>Sean's funeral will travel from his home to the Church of Our Lady Immaculate, Darndale on Tuesday morning at 10.40am. Friends and neighbours are very welcome to line that route in a safe and socially distanced manner as a mark of respect.</p>",
+        "address": "",
+        "dateOfDeath": "2021-06-30T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": 462882,
+        "county": {
+          "id": 10,
+          "name": "Dublin"
+        },
+        "town": {
+          "id": 1818,
+          "name": "Belcamp"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 1818,
+              "name": "Belcamp",
+              "slug": "Belcamp"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-jack-donnelly-tipperary-tipperary-town-555468",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-jack-donnelly-tipperary-tipperary-town-555468",
+    "https://rip.ie/death-notice/john-jack-donnelly-monaghan-clones-555468"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 555468,
+        "surname": "Donnelly",
+        "firstname": "John (Jack)",
+        "nee": "",
+        "createdAt": "2024-05-07T17:08:07.039+01:00",
+        "description": "<p>Fr. Matthew Street, Tipperary Town and formerly of Mc Curtin Street, Clones, Co. Monaghan. Peacefully in the wonderful care of Moorehall Lodge Nursing Home surrounded by his family. Predeceased by his parents Patrick and Frances, brothers Patrick and Tony and sister Mary. Sadly missed by his loving family, sons Richard, Pat, Troy, John and Jason and their mother Teresa. Jack will be deeply missed by his brother Joe, sisters Kathleen and Eileen, sisters in law, daughters in law, grandchildren, great-granddaughter, nephews, nieces, relatives, carers, neighbours and many friends.</p>\n\n<p> </p>\n\n<p style=\"text-align:center\"><strong>Rest in Peace</strong></p>\n\n<p style=\"text-align:center\"> </p>\n\n<p>Reposing at Whelan’s Funeral Home, Bansha Road, Tipperary on Wednesday evening, May 8th, from 6pm to 7:30pm. Mass for Jack will take place in St. Michael's Church, Tipperary on Thursday, 8th of May 2024, at 12noon followed by private cremation. Mass may be viewed on <a href=\"http://www.stmichaelsparishtipperary.ie/\" style=\"color:blue;text-decoration:underline\" target=\"_blank\">www.stmichaelsparishtipperary.ie</a>.</p>\n\n<p> </p>\n\n<p>If you wish to leave a message of condolence please click on the box below. Family flowers only, please.</p>\n",
+        "address": "Fr. Matthew Street",
+        "dateOfDeath": "2024-05-04T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": null,
+        "county": {
+          "id": 27,
+          "name": "Tipperary"
+        },
+        "town": {
+          "id": 837,
+          "name": "Tipperary Town"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 27,
+              "name": "Tipperary"
+            },
+            "town": {
+              "id": 837,
+              "name": "Tipperary Town",
+              "slug": "Tipperary-Town"
+            }
+          },
+          {
+            "county": {
+              "id": 23,
+              "name": "Monaghan"
+            },
+            "town": {
+              "id": 741,
+              "name": "Clones",
+              "slug": "Clones"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

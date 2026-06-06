@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-joe-donnelly-kerry-caherdaniel-415611",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-joe-donnelly-kerry-caherdaniel-415611"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 415611,
+        "surname": "Donnelly",
+        "firstname": "John Joe",
+        "nee": "",
+        "createdAt": "2020-08-28T23:58:42.000+01:00",
+        "description": "<p>John Joe died, unexpectedly, at his home. Sadly missed by his loving sister Patsy, brothers Michael and Kevin, sisters-in-law Mary and Eileen, nieces, nephews, grandnieces, grandnephews, relatives, neighbours and many friends. Predeceased by his parents Michael and Abbie and sister Maureen. <br/><br/></p>\r\n<p style=\"text-align: center;\"><strong>May He Rest In Peace<br/><br/></strong></p>\r\n<p>In keeping with HSE guidelines and in the interest of public health, a private family funeral Mass will take place on Monday, August 31st, at 11am in St Crohan's Church, Caherdaniel. Burial afterwards in Derrynane Abbey. A live stream of John Joe's funeral Mass can be viewed on: <span style=\"text-decoration: underline;\"><a href=\"http://www.churchservices.tv/caherdaniel\">www.churchservices.tv/caherdaniel</a></span></p>\r\n<p>&nbsp;</p>\r\n<p><br/><br/>Those who would have liked to attend the funeral but are unable to do so due to the current restrictions, please leave a message in the condolence section below.</p>",
+        "address": "Caherdaniel Village",
+        "dateOfDeath": "2020-08-28T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": 432134,
+        "county": {
+          "id": 13,
+          "name": "Kerry"
+        },
+        "town": {
+          "id": 499,
+          "name": "Caherdaniel"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 13,
+              "name": "Kerry"
+            },
+            "town": {
+              "id": 499,
+              "name": "Caherdaniel",
+              "slug": "Caherdaniel"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

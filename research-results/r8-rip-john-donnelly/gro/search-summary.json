@@ -1,0 +1,11 @@
+{
+  "generatedAt": "2026-06-06T17:31:34+01:00",
+  "source": "GRO / civil death index access triage",
+  "attempts": [
+    { "url": "https://grosearch.ie/", "result": "DNS lookup failed: getaddrinfo ENOTFOUND grosearch.ie" },
+    { "url": "https://www.grosearch.ie/", "result": "DNS lookup failed: getaddrinfo ENOTFOUND www.grosearch.ie" },
+    { "url": "http://grosearch.ie/", "result": "DNS lookup failed: getaddrinfo ENOTFOUND grosearch.ie" }
+  ],
+  "civilRecordsConstraint": "IrishGenealogy.ie public civil death images/indexes do not cover modern deaths in the likely 1990-2025 window; GRO Research Room request is the next authoritative route if the death notice remains unidentified.",
+  "officialReference": "https://www.gov.ie/en/department-of-social-protection/organisation-information/search-room-at-the-general-register-office-gro/"
+}

@@ -1,0 +1,48 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-donnelly-dublin-clonskeagh-263399",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-donnelly-dublin-clonskeagh-263399"
+  ],
+  "searchIds": [
+    "dublin-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 263399,
+        "surname": "DONNELLY",
+        "firstname": "John",
+        "nee": "",
+        "createdAt": "2016-01-04T17:34:54.000+00:00",
+        "description": "<p><strong>DONNELLY </strong>John (Clonskeagh, Dublin 14)&ndash; December 31st 2015 &ndash; (suddenly). Beloved son of William and Ruth and loving brother of Liam. He will be very sadly missed by his heart broken parents, brother, aunts, uncles, cousins, relatives and all his many friends.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Reposing at Rom Massey & Sons Funeral Home, Cranford Centre, Stillorgan Road (opposite Belfield Flyover) on Tuesday, 5th January&nbsp;from 12pm until 5pm and on&nbsp;Wednesday, 6th January,&nbsp;from 12pm prior to removal to the Church of St. Paul of the Cross, Mount Argus, arriving for Funeral Mass at 2.30pm, followed by burial at Mount Jerome Cemetery.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p style=\"text-align:center\">&ldquo;May he rest in peace&rdquo;</p>\r\n\r\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>\r\n\r\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\r\n\r\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\r\n\r\n<p>&nbsp;</p>",
+        "address": "",
+        "dateOfDeath": "2015-12-31T00:00:00.000+00:00",
+        "dateOfBirth": null,
+        "oldId": 275791,
+        "county": {
+          "id": 10,
+          "name": "Dublin"
+        },
+        "town": {
+          "id": 346,
+          "name": "Clonskeagh"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 346,
+              "name": "Clonskeagh",
+              "slug": "Clonskeagh"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-donnelly-mayo-crossmolina-116852",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-donnelly-mayo-crossmolina-116852"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 116852,
+        "surname": "DONNELLY",
+        "firstname": "John",
+        "nee": "",
+        "createdAt": "2010-12-06T00:00:00.000+00:00",
+        "description": "Reposing at Hiney&#8217;s Funeral Home, Crossmolina on Tuesday evening from 5pm with removal at 7pm to St. Tiernan's Church, Crossmolina. Requiem Mass on Wednesday morning at 11.30am. Burial&nbsp;afterwards in&nbsp;Crossmolina Cemetery.",
+        "address": "Tubbermore,",
+        "dateOfDeath": null,
+        "dateOfBirth": null,
+        "oldId": 121376,
+        "county": {
+          "id": 21,
+          "name": "Mayo"
+        },
+        "town": {
+          "id": 697,
+          "name": "Crossmolina"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 21,
+              "name": "Mayo"
+            },
+            "town": {
+              "id": 697,
+              "name": "Crossmolina",
+              "slug": "Crossmolina"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

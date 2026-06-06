@@ -1,0 +1,2925 @@
+{
+  "generatedAt": "2026-06-06T16:38:03.540Z",
+  "source": "RIP.ie public GraphQL + notice HTML",
+  "searches": [
+    {
+      "id": "dublin-john-donnelly-1998-2025",
+      "note": "Exact firstname/surname, Dublin, full RIP.ie window",
+      "recordCount": 22,
+      "records": [
+        {
+          "id": 585485,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2025-02-15T14:23:58.361+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 329,
+            "name": "Ballygall"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-ballygall-585485"
+        },
+        {
+          "id": 573657,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2024-11-04T12:39:30.589+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 323,
+            "name": "Balbriggan"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-balbriggan-573657"
+        },
+        {
+          "id": 523241,
+          "firstname": "John (Paddy)",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2023-07-11T12:46:13.832+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 404,
+            "name": "Sandyford"
+          },
+          "url": "https://rip.ie/death-notice/john-paddy-donnelly-dublin-sandyford-523241"
+        },
+        {
+          "id": 508898,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2023-02-22T14:14:12.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 368,
+            "name": "Glenageary"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-glenageary-508898"
+        },
+        {
+          "id": 484618,
+          "firstname": "John (Jockser)",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2022-06-21T16:47:08.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 413,
+            "name": "Swords"
+          },
+          "url": "https://rip.ie/death-notice/john-jockser-donnelly-dublin-swords-484618"
+        },
+        {
+          "id": 478674,
+          "firstname": "John",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2022-04-21T20:08:14.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 361,
+            "name": "Dundrum"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-dundrum-478674"
+        },
+        {
+          "id": 478674,
+          "firstname": "John",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2022-04-21T20:08:14.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 405,
+            "name": "Sandymount"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-sandymount-478674"
+        },
+        {
+          "id": 470250,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2022-02-01T17:54:40.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 962,
+            "name": "Harold's Cross"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-harold-s-cross-470250"
+        },
+        {
+          "id": 438591,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2021-03-11T16:49:21.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 393,
+            "name": "Portmarnock"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-portmarnock-438591"
+        },
+        {
+          "id": 438591,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2021-03-11T16:49:21.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 367,
+            "name": "Glasnevin"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-glasnevin-438591"
+        },
+        {
+          "id": 400422,
+          "firstname": "John (Sean)",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2020-03-16T18:40:45.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 401,
+            "name": "Rush"
+          },
+          "url": "https://rip.ie/death-notice/john-sean-donnelly-dublin-rush-400422"
+        },
+        {
+          "id": 374303,
+          "firstname": "John",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2019-06-04T17:00:24.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 331,
+            "name": "Blackrock"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-blackrock-374303"
+        },
+        {
+          "id": 351481,
+          "firstname": "John",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2018-09-28T19:10:16.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 345,
+            "name": "Clonsilla"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-clonsilla-351481"
+        },
+        {
+          "id": 287031,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2016-10-05T13:16:43.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 1037,
+            "name": "Beaumont"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-beaumont-287031"
+        },
+        {
+          "id": 287031,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2016-10-05T13:16:43.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 374,
+            "name": "Irishtown"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-irishtown-287031"
+        },
+        {
+          "id": 277657,
+          "firstname": "John",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2016-06-10T16:07:09.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 356,
+            "name": "Donnycarney"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-donnycarney-277657"
+        },
+        {
+          "id": 263399,
+          "firstname": "John",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2016-01-04T17:34:54.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 346,
+            "name": "Clonskeagh"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-clonskeagh-263399"
+        },
+        {
+          "id": 241835,
+          "firstname": "Seán (John)",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2015-04-11T17:02:31.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 418,
+            "name": "Walkinstown"
+          },
+          "url": "https://rip.ie/death-notice/sean-john-donnelly-dublin-walkinstown-241835"
+        },
+        {
+          "id": 227551,
+          "firstname": "John (Sean)",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2014-11-05T17:12:29.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 383,
+            "name": "Lucan"
+          },
+          "url": "https://rip.ie/death-notice/john-sean-donnelly-dublin-lucan-227551"
+        },
+        {
+          "id": 227551,
+          "firstname": "John (Sean)",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2014-11-05T17:12:29.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 400,
+            "name": "Ringsend"
+          },
+          "url": "https://rip.ie/death-notice/john-sean-donnelly-dublin-ringsend-227551"
+        },
+        {
+          "id": 140434,
+          "firstname": "Paul John",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2011-10-18T00:00:00.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 398,
+            "name": "Rathgar"
+          },
+          "url": "https://rip.ie/death-notice/paul-john-donnelly-dublin-rathgar-140434"
+        },
+        {
+          "id": 138181,
+          "firstname": "John",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2011-09-17T00:00:00.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 1061,
+            "name": "East Wall"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-east-wall-138181"
+        }
+      ]
+    },
+    {
+      "id": "all-ireland-john-donnelly-1998-2025",
+      "note": "Exact firstname/surname, all counties, full RIP.ie window",
+      "recordCount": 60,
+      "records": [
+        {
+          "id": 613174,
+          "firstname": "John (Twick)",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2025-12-03T10:45:11.073+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 20,
+            "name": "Louth"
+          },
+          "town": {
+            "id": 672,
+            "name": "Drogheda"
+          },
+          "url": "https://rip.ie/death-notice/john-twick-donnelly-louth-drogheda-613174"
+        },
+        {
+          "id": 585485,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2025-02-15T14:23:58.361+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 329,
+            "name": "Ballygall"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-ballygall-585485"
+        },
+        {
+          "id": 575702,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2024-11-24T12:45:45.015+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 19,
+            "name": "Longford"
+          },
+          "town": {
+            "id": 653,
+            "name": "Aughnacliffe"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-longford-aughnacliffe-575702"
+        },
+        {
+          "id": 573657,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2024-11-04T12:39:30.589+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 26,
+            "name": "Sligo"
+          },
+          "town": {
+            "id": 796,
+            "name": "Gurteen"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-sligo-gurteen-573657"
+        },
+        {
+          "id": 573657,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2024-11-04T12:39:30.589+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 323,
+            "name": "Balbriggan"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-balbriggan-573657"
+        },
+        {
+          "id": 561929,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2024-07-10T11:01:24.754+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 24,
+            "name": "Offaly"
+          },
+          "town": {
+            "id": 752,
+            "name": "Birr"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-offaly-birr-561929"
+        },
+        {
+          "id": 561929,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2024-07-10T11:01:24.754+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 27,
+            "name": "Tipperary"
+          },
+          "town": null,
+          "url": "https://rip.ie/death-notice/john-donnelly-tipperary-unknown-561929"
+        },
+        {
+          "id": 561752,
+          "firstname": "John",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2024-07-10T10:37:27.063+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 29,
+            "name": "Waterford"
+          },
+          "town": {
+            "id": 870,
+            "name": "Passage East"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-waterford-passage-east-561752"
+        },
+        {
+          "id": 555468,
+          "firstname": "John (Jack)",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2024-05-07T17:08:07.039+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 27,
+            "name": "Tipperary"
+          },
+          "town": {
+            "id": 837,
+            "name": "Tipperary Town"
+          },
+          "url": "https://rip.ie/death-notice/john-jack-donnelly-tipperary-tipperary-town-555468"
+        },
+        {
+          "id": 555468,
+          "firstname": "John (Jack)",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2024-05-07T17:08:07.039+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 23,
+            "name": "Monaghan"
+          },
+          "town": {
+            "id": 741,
+            "name": "Clones"
+          },
+          "url": "https://rip.ie/death-notice/john-jack-donnelly-monaghan-clones-555468"
+        },
+        {
+          "id": 532826,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2023-10-15T15:42:47.051+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 4,
+            "name": "Cavan"
+          },
+          "town": {
+            "id": 48,
+            "name": "Arva"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-cavan-arva-532826"
+        },
+        {
+          "id": 532826,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2023-10-15T15:42:47.051+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 19,
+            "name": "Longford"
+          },
+          "town": null,
+          "url": "https://rip.ie/death-notice/john-donnelly-longford-unknown-532826"
+        },
+        {
+          "id": 523241,
+          "firstname": "John (Paddy)",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2023-07-11T12:46:13.832+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 404,
+            "name": "Sandyford"
+          },
+          "url": "https://rip.ie/death-notice/john-paddy-donnelly-dublin-sandyford-523241"
+        },
+        {
+          "id": 508898,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2023-02-22T14:14:12.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 368,
+            "name": "Glenageary"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-glenageary-508898"
+        },
+        {
+          "id": 504547,
+          "firstname": "John Joe",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2023-01-15T19:57:31.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 28,
+            "name": "Tyrone"
+          },
+          "town": {
+            "id": 2138,
+            "name": "Coalisland"
+          },
+          "url": "https://rip.ie/death-notice/john-joe-donnelly-tyrone-coalisland-504547"
+        },
+        {
+          "id": 504547,
+          "firstname": "John Joe",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2023-01-15T19:57:31.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 4,
+            "name": "Cavan"
+          },
+          "town": {
+            "id": 64,
+            "name": "Mountnugent"
+          },
+          "url": "https://rip.ie/death-notice/john-joe-donnelly-cavan-mountnugent-504547"
+        },
+        {
+          "id": 484618,
+          "firstname": "John (Jockser)",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2022-06-21T16:47:08.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 413,
+            "name": "Swords"
+          },
+          "url": "https://rip.ie/death-notice/john-jockser-donnelly-dublin-swords-484618"
+        },
+        {
+          "id": 478674,
+          "firstname": "John",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2022-04-21T20:08:14.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 361,
+            "name": "Dundrum"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-dundrum-478674"
+        },
+        {
+          "id": 478674,
+          "firstname": "John",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2022-04-21T20:08:14.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 405,
+            "name": "Sandymount"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-sandymount-478674"
+        },
+        {
+          "id": 470250,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2022-02-01T17:54:40.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 962,
+            "name": "Harold's Cross"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-harold-s-cross-470250"
+        },
+        {
+          "id": 449002,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2021-07-06T15:04:56.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 12,
+            "name": "Galway"
+          },
+          "town": {
+            "id": 1230,
+            "name": "Ballinamore Bridge"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-galway-ballinamore-bridge-449002"
+        },
+        {
+          "id": 444025,
+          "firstname": "The Very Reverend Fr John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2021-05-10T16:54:42.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 27,
+            "name": "Tipperary"
+          },
+          "town": {
+            "id": 833,
+            "name": "Roscrea"
+          },
+          "url": "https://rip.ie/death-notice/the-very-reverend-fr-john-donnelly-tipperary-roscrea-444025"
+        },
+        {
+          "id": 442751,
+          "firstname": "John",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2021-04-28T11:14:07.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 14,
+            "name": "Kildare"
+          },
+          "town": {
+            "id": 544,
+            "name": "Newbridge"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-kildare-newbridge-442751"
+        },
+        {
+          "id": 438591,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2021-03-11T16:49:21.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 393,
+            "name": "Portmarnock"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-portmarnock-438591"
+        },
+        {
+          "id": 438591,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2021-03-11T16:49:21.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 367,
+            "name": "Glasnevin"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-glasnevin-438591"
+        },
+        {
+          "id": 438591,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2021-03-11T16:49:21.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 18,
+            "name": "Limerick"
+          },
+          "town": null,
+          "url": "https://rip.ie/death-notice/john-donnelly-limerick-unknown-438591"
+        },
+        {
+          "id": 428998,
+          "firstname": "John",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2020-12-22T17:22:24.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 20,
+            "name": "Louth"
+          },
+          "town": {
+            "id": 675,
+            "name": "Dundalk"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-louth-dundalk-428998"
+        },
+        {
+          "id": 428998,
+          "firstname": "John",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2020-12-22T17:22:24.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 2,
+            "name": "Armagh"
+          },
+          "town": {
+            "id": 1955,
+            "name": "Keady"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-armagh-keady-428998"
+        },
+        {
+          "id": 418546,
+          "firstname": "Jack (John)",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2020-10-02T13:28:15.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 5,
+            "name": "Clare"
+          },
+          "town": {
+            "id": 103,
+            "name": "Newmarket-on-Fergus"
+          },
+          "url": "https://rip.ie/death-notice/jack-john-donnelly-clare-newmarket-on-fergus-418546"
+        },
+        {
+          "id": 416883,
+          "firstname": "John Patrick",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2020-09-14T11:38:39.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 17,
+            "name": "Leitrim"
+          },
+          "town": {
+            "id": 591,
+            "name": "Cloone"
+          },
+          "url": "https://rip.ie/death-notice/john-patrick-donnelly-leitrim-cloone-416883"
+        },
+        {
+          "id": 415611,
+          "firstname": "John Joe",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2020-08-28T23:58:42.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 13,
+            "name": "Kerry"
+          },
+          "town": {
+            "id": 499,
+            "name": "Caherdaniel"
+          },
+          "url": "https://rip.ie/death-notice/john-joe-donnelly-kerry-caherdaniel-415611"
+        },
+        {
+          "id": 400422,
+          "firstname": "John (Sean)",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2020-03-16T18:40:45.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 401,
+            "name": "Rush"
+          },
+          "url": "https://rip.ie/death-notice/john-sean-donnelly-dublin-rush-400422"
+        },
+        {
+          "id": 374845,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2019-06-11T13:35:12.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 14,
+            "name": "Kildare"
+          },
+          "town": {
+            "id": 525,
+            "name": "Athy"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-kildare-athy-374845"
+        },
+        {
+          "id": 374303,
+          "firstname": "John",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2019-06-04T17:00:24.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 331,
+            "name": "Blackrock"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-blackrock-374303"
+        },
+        {
+          "id": 351481,
+          "firstname": "John",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2018-09-28T19:10:16.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 29,
+            "name": "Waterford"
+          },
+          "town": {
+            "id": 876,
+            "name": "Waterford City"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-waterford-waterford-city-351481"
+        },
+        {
+          "id": 351481,
+          "firstname": "John",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2018-09-28T19:10:16.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 345,
+            "name": "Clonsilla"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-clonsilla-351481"
+        },
+        {
+          "id": 335976,
+          "firstname": "John",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2018-03-25T15:56:55.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 21,
+            "name": "Mayo"
+          },
+          "town": {
+            "id": 695,
+            "name": "Claremorris"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-mayo-claremorris-335976"
+        },
+        {
+          "id": 320746,
+          "firstname": "Johnny (Johnny)",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2017-10-26T13:08:27.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 2,
+            "name": "Armagh"
+          },
+          "town": {
+            "id": 1958,
+            "name": "Silverbridge"
+          },
+          "url": "https://rip.ie/death-notice/johnny-johnny-donnelly-armagh-silverbridge-320746"
+        },
+        {
+          "id": 320338,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2017-10-23T12:10:49.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 32,
+            "name": "Wicklow"
+          },
+          "town": {
+            "id": 1247,
+            "name": "Kilmacanogue"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-wicklow-kilmacanogue-320338"
+        },
+        {
+          "id": 287031,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2016-10-05T13:16:43.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 1037,
+            "name": "Beaumont"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-beaumont-287031"
+        },
+        {
+          "id": 287031,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2016-10-05T13:16:43.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 374,
+            "name": "Irishtown"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-irishtown-287031"
+        },
+        {
+          "id": 277657,
+          "firstname": "John",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2016-06-10T16:07:09.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 356,
+            "name": "Donnycarney"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-donnycarney-277657"
+        },
+        {
+          "id": 263399,
+          "firstname": "John",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2016-01-04T17:34:54.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 346,
+            "name": "Clonskeagh"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-clonskeagh-263399"
+        },
+        {
+          "id": 241835,
+          "firstname": "Seán (John)",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2015-04-11T17:02:31.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 418,
+            "name": "Walkinstown"
+          },
+          "url": "https://rip.ie/death-notice/sean-john-donnelly-dublin-walkinstown-241835"
+        },
+        {
+          "id": 228634,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2014-11-18T20:40:36.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 16,
+            "name": "Laois"
+          },
+          "town": {
+            "id": 583,
+            "name": "Portarlington"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-laois-portarlington-228634"
+        },
+        {
+          "id": 227551,
+          "firstname": "John (Sean)",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2014-11-05T17:12:29.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 383,
+            "name": "Lucan"
+          },
+          "url": "https://rip.ie/death-notice/john-sean-donnelly-dublin-lucan-227551"
+        },
+        {
+          "id": 227551,
+          "firstname": "John (Sean)",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2014-11-05T17:12:29.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 400,
+            "name": "Ringsend"
+          },
+          "url": "https://rip.ie/death-notice/john-sean-donnelly-dublin-ringsend-227551"
+        },
+        {
+          "id": 217216,
+          "firstname": "John Ronald (Ronnie)",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2014-06-21T19:34:48.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 32,
+            "name": "Wicklow"
+          },
+          "town": {
+            "id": 956,
+            "name": "Bray"
+          },
+          "url": "https://rip.ie/death-notice/john-ronald-ronnie-donnelly-wicklow-bray-217216"
+        },
+        {
+          "id": 214838,
+          "firstname": "John Arthur",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2014-05-20T18:08:01.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 2,
+            "name": "Armagh"
+          },
+          "town": {
+            "id": 2290,
+            "name": "Mullaghbawn"
+          },
+          "url": "https://rip.ie/death-notice/john-arthur-donnelly-armagh-mullaghbawn-214838"
+        },
+        {
+          "id": 208274,
+          "firstname": "John (Sean)",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2014-02-28T12:31:30.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 14,
+            "name": "Kildare"
+          },
+          "town": {
+            "id": 544,
+            "name": "Newbridge"
+          },
+          "url": "https://rip.ie/death-notice/john-sean-donnelly-kildare-newbridge-208274"
+        },
+        {
+          "id": 189651,
+          "firstname": "John",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2013-07-07T14:47:55.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 27,
+            "name": "Tipperary"
+          },
+          "town": {
+            "id": 835,
+            "name": "Templemore"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-tipperary-templemore-189651"
+        },
+        {
+          "id": 140434,
+          "firstname": "Paul John",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2011-10-18T00:00:00.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 398,
+            "name": "Rathgar"
+          },
+          "url": "https://rip.ie/death-notice/paul-john-donnelly-dublin-rathgar-140434"
+        },
+        {
+          "id": 138181,
+          "firstname": "John",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2011-09-17T00:00:00.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 1061,
+            "name": "East Wall"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-dublin-east-wall-138181"
+        },
+        {
+          "id": 131940,
+          "firstname": "Johnny",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2011-06-15T00:00:00.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 21,
+            "name": "Mayo"
+          },
+          "town": {
+            "id": 712,
+            "name": "Westport"
+          },
+          "url": "https://rip.ie/death-notice/johnny-donnelly-mayo-westport-131940"
+        },
+        {
+          "id": 116852,
+          "firstname": "John",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2010-12-06T00:00:00.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 21,
+            "name": "Mayo"
+          },
+          "town": {
+            "id": 697,
+            "name": "Crossmolina"
+          },
+          "url": "https://rip.ie/death-notice/john-donnelly-mayo-crossmolina-116852"
+        },
+        {
+          "id": 110796,
+          "firstname": "John (Jackie)",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2010-09-20T00:00:00.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 6,
+            "name": "Cork"
+          },
+          "town": {
+            "id": 1494,
+            "name": "Cullen"
+          },
+          "url": "https://rip.ie/death-notice/john-jackie-donnelly-cork-cullen-110796"
+        },
+        {
+          "id": 54552,
+          "firstname": "Johnny",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2008-10-10T00:00:00.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 13,
+            "name": "Kerry"
+          },
+          "town": {
+            "id": 492,
+            "name": "Ardfert"
+          },
+          "url": "https://rip.ie/death-notice/johnny-donnelly-kerry-ardfert-54552"
+        },
+        {
+          "id": 33618,
+          "firstname": "John (Seán)",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2008-01-14T00:00:00.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 30,
+            "name": "Westmeath"
+          },
+          "town": {
+            "id": 886,
+            "name": "Moate"
+          },
+          "url": "https://rip.ie/death-notice/john-sean-donnelly-westmeath-moate-33618"
+        },
+        {
+          "id": 14609,
+          "firstname": "John",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2007-03-01T00:00:00.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 21,
+            "name": "Mayo"
+          },
+          "town": null,
+          "url": "https://rip.ie/death-notice/john-donnelly-mayo-unknown-14609"
+        },
+        {
+          "id": 14609,
+          "firstname": "John",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2007-03-01T00:00:00.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 21,
+            "name": "Mayo"
+          },
+          "town": null,
+          "url": "https://rip.ie/death-notice/john-donnelly-mayo-unknown-14609"
+        }
+      ]
+    },
+    {
+      "id": "dublin-sean-donnelly-1998-2025",
+      "note": "Sean/Seán first-name variant, Dublin",
+      "recordCount": 10,
+      "records": [
+        {
+          "id": 612515,
+          "firstname": "Seán",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2025-11-26T19:23:27.539+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 1105,
+            "name": "Dublin 6"
+          },
+          "url": "https://rip.ie/death-notice/sean-donnelly-dublin-dublin-6-612515"
+        },
+        {
+          "id": 526859,
+          "firstname": "Sean",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2023-08-17T16:41:38.422+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 385,
+            "name": "Malahide"
+          },
+          "url": "https://rip.ie/death-notice/sean-donnelly-dublin-malahide-526859"
+        },
+        {
+          "id": 448692,
+          "firstname": "Sean (Seany)",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2021-07-02T16:57:19.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 1818,
+            "name": "Belcamp"
+          },
+          "url": "https://rip.ie/death-notice/sean-seany-donnelly-dublin-belcamp-448692"
+        },
+        {
+          "id": 400422,
+          "firstname": "John (Sean)",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2020-03-16T18:40:45.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 401,
+            "name": "Rush"
+          },
+          "url": "https://rip.ie/death-notice/john-sean-donnelly-dublin-rush-400422"
+        },
+        {
+          "id": 386983,
+          "firstname": "Seán",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2019-11-01T17:44:02.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 412,
+            "name": "Sutton"
+          },
+          "url": "https://rip.ie/death-notice/sean-donnelly-dublin-sutton-386983"
+        },
+        {
+          "id": 241835,
+          "firstname": "Seán (John)",
+          "surname": "Donnelly",
+          "nee": "",
+          "createdAt": "2015-04-11T17:02:31.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 418,
+            "name": "Walkinstown"
+          },
+          "url": "https://rip.ie/death-notice/sean-john-donnelly-dublin-walkinstown-241835"
+        },
+        {
+          "id": 227551,
+          "firstname": "John (Sean)",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2014-11-05T17:12:29.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 383,
+            "name": "Lucan"
+          },
+          "url": "https://rip.ie/death-notice/john-sean-donnelly-dublin-lucan-227551"
+        },
+        {
+          "id": 227551,
+          "firstname": "John (Sean)",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2014-11-05T17:12:29.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 400,
+            "name": "Ringsend"
+          },
+          "url": "https://rip.ie/death-notice/john-sean-donnelly-dublin-ringsend-227551"
+        },
+        {
+          "id": 182047,
+          "firstname": "Therese Anne (Tess)",
+          "surname": "DONNELLY",
+          "nee": "Leonard",
+          "createdAt": "2013-04-01T00:00:00.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 347,
+            "name": "Clontarf"
+          },
+          "url": "https://rip.ie/death-notice/therese-anne-tess-donnelly-dublin-clontarf-182047"
+        },
+        {
+          "id": 26548,
+          "firstname": "Seán",
+          "surname": "DONNELLY",
+          "nee": "",
+          "createdAt": "2007-09-20T00:00:00.000+01:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 1117,
+            "name": "Marino"
+          },
+          "url": "https://rip.ie/death-notice/sean-donnelly-dublin-marino-26548"
+        }
+      ]
+    },
+    {
+      "id": "dublin-donnelly-ita-keyword-1998-2025",
+      "note": "Free-text Ita + surname Donnelly, Dublin",
+      "recordCount": 2,
+      "records": [
+        {
+          "id": 613742,
+          "firstname": "Ita",
+          "surname": "Donnelly",
+          "nee": "Greene",
+          "createdAt": "2025-12-08T13:41:52.494+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 373,
+            "name": "Inchicore"
+          },
+          "url": "https://rip.ie/death-notice/ita-donnelly-dublin-inchicore-613742"
+        },
+        {
+          "id": 62115,
+          "firstname": "Rita",
+          "surname": "DONNELLY",
+          "nee": "O'Brien",
+          "createdAt": "2009-01-09T00:00:00.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": null,
+          "url": "https://rip.ie/death-notice/rita-donnelly-dublin-unknown-62115"
+        }
+      ]
+    },
+    {
+      "id": "dublin-donnelly-inchicore-keyword-1998-2025",
+      "note": "Free-text Inchicore + surname Donnelly, Dublin",
+      "recordCount": 0,
+      "records": []
+    },
+    {
+      "id": "dublin-donnelly-goldenbridge-keyword-1998-2025",
+      "note": "Free-text Goldenbridge + surname Donnelly, Dublin",
+      "recordCount": 0,
+      "records": []
+    },
+    {
+      "id": "dublin-donnelly-drimnagh-keyword-1998-2025",
+      "note": "Free-text Drimnagh + surname Donnelly, Dublin",
+      "recordCount": 0,
+      "records": []
+    }
+  ],
+  "uniqueCandidateCount": 55,
+  "candidates": [
+    {
+      "id": 613742,
+      "url": "https://rip.ie/death-notice/ita-donnelly-dublin-inchicore-613742",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/ita-donnelly-dublin-inchicore-613742"
+      ],
+      "searchIds": [
+        "dublin-donnelly-ita-keyword-1998-2025"
+      ],
+      "name": "Ita Donnelly",
+      "dateOfDeath": "2025-12-06T00:00:00.000+00:00",
+      "createdAt": "2025-12-08T13:41:52.494+00:00",
+      "address": "",
+      "places": [
+        "Inchicore, Dublin"
+      ],
+      "signalHits": [
+        "Ita",
+        "Ann",
+        "Sheila",
+        "Ger",
+        "Josette",
+        "Robbie",
+        "Emily",
+        "Paul",
+        "Goldenbridge",
+        "Inchicore",
+        "St. Michael",
+        "Michael’s",
+        "Deansgrange"
+      ],
+      "matchAssessment": "review",
+      "descriptionText": "Donnelly (née Greene), (Dublin), December 6th, 2025, peacefully, surrounded by her loving family, in the wonderful care of all the staff of Kiltipper Woods Care Centre, Ita, late of Goldenbridge Avenue, Inchicore. Beloved wife of the late John and much-loved mother of Ann, John, Sheila, and Ger. Sadly missed and always remembered by her loving family, sons-in-law Paul and Robbie, daughters-in-law Josette and Emily, her cherished grandchildren Claire, Eoin, Laura, Emma, JJ, Christopher, Nicole, Lauren and Jack, her great-grandchildren, sister-in-law, nephews, nieces, relatives, and friends. May Ita Rest in Peace. Reposing at her daughter Sheila’s home tomorrow, Tuesday (December 9th) from 6pm to 8pm. Funeral Mass on Wednesday (December 10th) at 10am in St. Michael’s Church, Inchicore followed by burial to Deansgrange Cemetery. To view the Funeral Mass live, please click here . Family flowers only please, donations if desired to the Alzheimer Society of Ireland (donate below). To leave a private message of condolence, please click here or alternatively on the condolence section below. All enquiries to Massey Bros., Inchicore on (01) 453 3333. Please Note: The link provided to live-stream the Funeral Mass/Cremation service is managed by an independent streaming company. The Funeral Home accepts NO responsibility for its functionality or interruption to a live transmission."
+    },
+    {
+      "id": 613174,
+      "url": "https://rip.ie/death-notice/john-twick-donnelly-louth-drogheda-613174",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-twick-donnelly-louth-drogheda-613174"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John (Twick) Donnelly",
+      "dateOfDeath": "2025-12-01T00:00:00.000+00:00",
+      "createdAt": "2025-12-03T10:45:11.073+00:00",
+      "address": "",
+      "places": [
+        "Drogheda, Louth"
+      ],
+      "signalHits": [
+        "Paul"
+      ],
+      "matchAssessment": "unlikely",
+      "descriptionText": "John (Twick) Donnelly, Brookville Park, Drogheda, Co. Louth and formerly of 8 Peter Street. 1st December 2025. Peacefully, surrounded by his loving family. Predeceased by his parents Peter and Annie, brothers Jim and Ken. Loving dad to Lorraine, Ashley and John-Paul. John will be sadly missed by his daughters, son, Lorraine’s partner Rob, son-in-law Stuart, daughter-in-law Samantha, grandchildren Dillon, Holly, Danny, Louisa, Amelia and John, sisters Marian and Pauline, sisters-in-law Joan and Mary, wife Nancy, extended family and friends. May John Rest in Peace. Reposing at Townley’s Funeral Home, Crosslanes (A92 XN75) on Monday 8th December from 3pm until 7pm. Removal from home on Tuesday 9th December at 11 o’clock walking to Our Lady of Lourdes Church arriving for funeral Mass at 11.30am which can be viewed live on www.saintpetersdrogheda.ie Burial afterwards in St. Peter’s Cemetery. House strictly private at all times please. Family would like to thank the staff in Oldbridge House, Moorehall Lodge, Drogheda, for their exceptional care and attention in looking after John’s needs. Please leave a personal message of sympathy for the family in the Condolences section below. When parking around the Funeral Home please have consideration for residents in nearby houses. Please Note: Live links are provided by an independent streaming company. The Funeral Directors accepts no responsibility for its functionality or interruption to a live transmission"
+    },
+    {
+      "id": 612515,
+      "url": "https://rip.ie/death-notice/sean-donnelly-dublin-dublin-6-612515",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/sean-donnelly-dublin-dublin-6-612515"
+      ],
+      "searchIds": [
+        "dublin-sean-donnelly-1998-2025"
+      ],
+      "name": "Seán Donnelly",
+      "dateOfDeath": "2025-11-26T00:00:00.000+00:00",
+      "createdAt": "2025-11-26T19:23:27.539+00:00",
+      "address": "Milltown",
+      "places": [
+        "Dublin 6, Dublin",
+        "Letterkenny, Donegal"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "The peaceful death has taken place on Wednesday 26th November 2025 at St. Vincent’s Hospital, Dublin of Seán Donnelly, Milltown, Dublin 6 and formerly from Cathedral Place, Letterkenny, Co. Donegal. Deeply missed by his loving sisters Marie Kelly (Dublin), Frances Hughes (Dave) (Dublin), brother Leo (Sharon) (Letterkenny), nieces, nephew and a wide circle of family, friends and neighbours in Dublin and Letterkenny. Seán is predeceased by his wife Eilish, parents Frank and Eilís, sisters’ baby Elaine, Sue Lynch and Greta. May Seán Rest in Peace Seán’s remains will be reposing at his brother Leo’s residence at Cathedral Place, Letterkenny F92 RWK7 on Thursday 27th November from 1pm until 10pm with Rosary at 9pm. Funeral on Friday 28th November 2025 in St. Eunan’s Cathedral, Letterkenny at 11am and can be viewed live on www.churchservices.tv/letterkenny . Interment afterwards in New Leck Cemetery, Letterkenny. Family flowers only please. If you would like to leave a message of condolence for the family, please do so by selecting ‘Condolences’ below."
+    },
+    {
+      "id": 585485,
+      "url": "https://rip.ie/death-notice/john-donnelly-dublin-ballygall-585485",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-dublin-ballygall-585485"
+      ],
+      "searchIds": [
+        "dublin-john-donnelly-1998-2025",
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John Donnelly",
+      "dateOfDeath": "2025-02-14T00:00:00.000+00:00",
+      "createdAt": "2025-02-15T14:23:58.361+00:00",
+      "address": "",
+      "places": [
+        "Ballygall, Dublin"
+      ],
+      "signalHits": [
+        "Ann"
+      ],
+      "matchAssessment": "review",
+      "descriptionText": "DONNELLY , John (Late of Ballygall and formerly of the Carlton and Savoy Cinema’s Dublin) February 14, 2025 (peacefully), in the tender care of the staff of Beaumont Hospital, surrounded by his loving family. Beloved son of the late Hanora and John, dear brother of Helen and Daniel. He will be sadly missed and lovingly remembered by his sister and brother, sister-in-law Ann, nieces Grace, Avril and Joyce, nephew Daniel, extended family, friends and neighbours. May he Rest in Peace Reposing at the Fanagan Kirwan Funeral Home, Ballygall Road West, (D11 W7VX) on Tuesday (18th February) from 3pm to 5.30 pm., with family in attendance. Requiem Mass on Wednesday (19th February) at 10 am in St Canice’s Church, Finglas Village. Funeral thereafter to Dardistown Cemetery. Family flowers only please. Donations, if desired, in lieu to The Irish Heart Foundation. John’s Funeral Mass can be viewed live on the link below. Messages of sympathy may be left for John’s family in the “Condolences” section below."
+    },
+    {
+      "id": 575702,
+      "url": "https://rip.ie/death-notice/john-donnelly-longford-aughnacliffe-575702",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-longford-aughnacliffe-575702"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John Donnelly",
+      "dateOfDeath": "2024-11-23T00:00:00.000+00:00",
+      "createdAt": "2024-11-24T12:45:45.015+00:00",
+      "address": "Glenmore,",
+      "places": [
+        "Aughnacliffe, Longford"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "John, Glenmore, Aughnacliffe, Co. Longford, peacefully on 23rd November 2024. Pre-deceased by his parents Felix and Rose, brothers Bill and Brian and by his sister Anne (Cissie). John will be sadly missed and remembered with love by his family, nieces, nephews, grand-nieces, grand-nephews, Rosie, partner Mary, relatives, neighbours and friends. May he rest in peace. Reposing at Glennon’s Funeral Home, Ballinalee Road (N39 EC81) on Monday 25th November from 6.00pm concluding with prayers at 8.00pm. Mass of the Resurrection on Tuesday 26th November in St. Colmcille’s Church, Aughnacliffe at 12 noon, interment afterwards in the adjoining cemetery. The Funeral Mass will be streamed live please view here Family flowers only please House private please"
+    },
+    {
+      "id": 573657,
+      "url": "https://rip.ie/death-notice/john-donnelly-dublin-balbriggan-573657",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-dublin-balbriggan-573657",
+        "https://rip.ie/death-notice/john-donnelly-sligo-gurteen-573657"
+      ],
+      "searchIds": [
+        "dublin-john-donnelly-1998-2025",
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John Donnelly",
+      "dateOfDeath": "2024-11-03T00:00:00.000+00:00",
+      "createdAt": "2024-11-04T12:39:30.589+00:00",
+      "address": "Doon East",
+      "places": [
+        "Gurteen, Sligo",
+        "Balbriggan, Dublin"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "John Donnelly, Doon East, Gurteen, Co. Sligo & formerly of Balbriggan, Co. Dublin. Peacefully in Sligo University Hospital with his loving family by his side. Sadly missed by his wife Lenore, his sons Aaron & Jamie & his Mum Meg, extended family, neighbours & friends & his many assorted animals. May he rest in peace John will be reposing in Gavin's Funeral Home, Knox Street, Ballyhaunis, Co Mayo F35 WF22 on Tuesday evening from 7 o'clock concluding with Prayer Service at 8 o'clock. Removal from Gavin's Funeral Home on Wednesday morning at 11 o'clock for Prayer Service at Lakelands Crematorium, Dublin Road, Tullymongan Upper, Cavan H12 RF78 at 1 o'clock. Family Flowers only please, donations, if desired, to North West SPCA."
+    },
+    {
+      "id": 561929,
+      "url": "https://rip.ie/death-notice/john-donnelly-offaly-birr-561929",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-offaly-birr-561929",
+        "https://rip.ie/death-notice/john-donnelly-tipperary-unknown-561929"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John Donnelly",
+      "dateOfDeath": "2024-07-08T00:00:00.000+01:00",
+      "createdAt": "2024-07-10T11:01:24.754+01:00",
+      "address": "Dromrue, Moneygall",
+      "places": [
+        "Birr, Offaly",
+        "Tipperary"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "Peacefully at home surrounded by his loving family. Pre-deceased by his parents Pat and Ellie and his brother Pat. Deeply regretted by his loving wife Nora, his children Patrick, Margaret, John and Ellie, Ellie's husband Jamie and Patrick's partner Evie, his sister Eileen Kennedy (Nenagh), his brother Michael (Perth, Australia), nieces, nephews, relatives, good neighbours and wide circle of friends. Rest in Peace. Reposing at his residence Moneygall (E53 CX68) on Friday evening from 5.00pm to 8.00pm. Removal from his residence on Saturday morning at 10.30am arriving in the Church of St. Mary's and Joseph's, Moneygall for Funeral Mass at 11.00am. Burial afterwards in Dunkerrin cemetery. (Traffic flow will be in operation. We ask anyone travelling to John's residence to come from the Moneygall village side. Exit will be via Loughan. Parking attendants will be available to help with traffic flow) Webcam link to follow. Family flowers only please, donations if desired, to Nenagh Parkinson Association."
+    },
+    {
+      "id": 561752,
+      "url": "https://rip.ie/death-notice/john-donnelly-waterford-passage-east-561752",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-waterford-passage-east-561752"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John DONNELLY",
+      "dateOfDeath": "2024-07-07T00:00:00.000+01:00",
+      "createdAt": "2024-07-10T10:37:27.063+01:00",
+      "address": "Barrack Street",
+      "places": [
+        "Passage East, Waterford"
+      ],
+      "signalHits": [
+        "Ann"
+      ],
+      "matchAssessment": "review",
+      "descriptionText": "John Donnelly, L ate of Barrack Street, Passage East, Co. Waterford. Ex. Waterford Harbour Commissioners and The Port Lairge. Died July 7th 2024 Predeceased by his parents Jack and Mary Ann, sisters Finola, Maeve, Pauline and Veronica. John will be sadly missed by his sister Maisie and his brother Dick, nieces, nephews extended family neighbours and friends. May He Rest In Peace. Reposing in Tom Hennessy’s Funeral Home, Johnstown, X91 FW4A on Friday July 12th from 5.30pm to 7pm. The Funeral Cortége will stop at John’s house in Barrack Street, Passage East, on Saturday July 13th en route to St. John The Baptist Church, Crooke, for Requiem Mass on arrival at 10am. Burial afterwards in Crooke Cemetery. House Private Please Family flowers only please donations in lieu to to Dunmore East R.N.L.I. by following the link below Donation Link The Donnelly family would like to sincerely thank all the staff of University Hospital Waterford for the care given to John during his stay in hospital. Book of Condolence: A message of support and sympathy can be left for John’s family in the condolence section below. Thank you for your consideration and cooperation at this difficult time."
+    },
+    {
+      "id": 555468,
+      "url": "https://rip.ie/death-notice/john-jack-donnelly-tipperary-tipperary-town-555468",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-jack-donnelly-tipperary-tipperary-town-555468",
+        "https://rip.ie/death-notice/john-jack-donnelly-monaghan-clones-555468"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John (Jack) Donnelly",
+      "dateOfDeath": "2024-05-04T00:00:00.000+01:00",
+      "createdAt": "2024-05-07T17:08:07.039+01:00",
+      "address": "Fr. Matthew Street",
+      "places": [
+        "Tipperary Town, Tipperary",
+        "Clones, Monaghan"
+      ],
+      "signalHits": [
+        "St. Michael"
+      ],
+      "matchAssessment": "unlikely",
+      "descriptionText": "Fr. Matthew Street, Tipperary Town and formerly of Mc Curtin Street, Clones, Co. Monaghan. Peacefully in the wonderful care of Moorehall Lodge Nursing Home surrounded by his family. Predeceased by his parents Patrick and Frances, brothers Patrick and Tony and sister Mary. Sadly missed by his loving family, sons Richard, Pat, Troy, John and Jason and their mother Teresa. Jack will be deeply missed by his brother Joe, sisters Kathleen and Eileen, sisters in law, daughters in law, grandchildren, great-granddaughter, nephews, nieces, relatives, carers, neighbours and many friends. Rest in Peace Reposing at Whelan’s Funeral Home, Bansha Road, Tipperary on Wednesday evening, May 8th, from 6pm to 7:30pm. Mass for Jack will take place in St. Michael's Church, Tipperary on Thursday, 8th of May 2024, at 12noon followed by private cremation. Mass may be viewed on www.stmichaelsparishtipperary.ie . If you wish to leave a message of condolence please click on the box below. Family flowers only, please."
+    },
+    {
+      "id": 532826,
+      "url": "https://rip.ie/death-notice/john-donnelly-cavan-arva-532826",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-cavan-arva-532826",
+        "https://rip.ie/death-notice/john-donnelly-longford-unknown-532826"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John Donnelly",
+      "dateOfDeath": "2023-10-14T00:00:00.000+01:00",
+      "createdAt": "2023-10-15T15:42:47.051+01:00",
+      "address": "",
+      "places": [
+        "Arva, Cavan",
+        "Longford"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "John, passed away peacefully on 14th October 2023, surrounded by his loving family. Pre-deceased by his parents Michael and Bridget, his infant brother Michael, his sister Mary, brothers in law Danny, Tony and Paddy. John will be sadly missed and remembered with love by his family, wife Alice, daughters Rosemarie, Oona, Eimear and son Sean, sister Angela, his much-adored grandchildren Lauren, Alan, Barry, Ronan and Evanne, daughter in law Claire, sons in law Seamus and Gerry, sisters in law Maura and Nora, brothers in law Chris and Dave, cousins, nieces and nephews, and his extended family and a large circle of neighbours and friends. May his gentle soul rest in peace. Reposing at Glennon’s Funeral home , Ballinalee Road ,Longford (N39 EC81) on Tuesday from 5.00pm concluding with prayers at 8.00pm. Removal from his home on Wednesday to arrive at The Sacred Heart Church, Arva, for Requiem Mass at 11.00am, followed by cremation in Lakelands Crematorium, Dublin Road, Cavan, at 2.00pm. House private, please. Family flowers only, please."
+    },
+    {
+      "id": 526859,
+      "url": "https://rip.ie/death-notice/sean-donnelly-dublin-malahide-526859",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/sean-donnelly-dublin-malahide-526859"
+      ],
+      "searchIds": [
+        "dublin-sean-donnelly-1998-2025"
+      ],
+      "name": "Sean Donnelly",
+      "dateOfDeath": "2023-08-16T00:00:00.000+01:00",
+      "createdAt": "2023-08-17T16:41:38.422+01:00",
+      "address": "",
+      "places": [
+        "Malahide, Dublin"
+      ],
+      "signalHits": [
+        "Paul"
+      ],
+      "matchAssessment": "unlikely",
+      "descriptionText": "Donnelly Sean, Malahide, Co. Dublin and late of McInerney’s, Malahide Golf Club and Malahide United AFC. 16th August 2023. Peacefully, in the wonderful care of the staff in Talbot Lodge Nursing Home, Kinsealy. Beloved husband of the late Doreen. Very sadly missed by his loving son Eamon, daughter-in-law Maria, grandsons Paul and Stephen, great-granddaughter Fiadh, nieces, nephews, extended family, friends and neighbours. May He Rest in Peace. Reposing in Staffords Funeral Home, Golf Links Road, Portmarnock on Saturday, 19th August, from 3pm to 5pm. Removal to St. Sylvester’s Church, Malahide on Monday morning for 10.30am Funeral Mass followed by burial in Yellow Walls Cemetery, Malahide. Family flowers only please. Donations, if desired, to a charity of your choice. The family will walk from Sean’s home to the Church on Monday morning. A live stream of Sean’s Funeral mass can be viewed on the following link: https://www.churchservices.tv/malahide The above link is provided and managed by an independent streaming company. The Funeral Home accepts no responsibility for its functionality or any interruption to a live transmission."
+    },
+    {
+      "id": 523241,
+      "url": "https://rip.ie/death-notice/john-paddy-donnelly-dublin-sandyford-523241",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-paddy-donnelly-dublin-sandyford-523241"
+      ],
+      "searchIds": [
+        "dublin-john-donnelly-1998-2025",
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John (Paddy) Donnelly",
+      "dateOfDeath": "2023-07-11T00:00:00.000+01:00",
+      "createdAt": "2023-07-11T12:46:13.832+01:00",
+      "address": "Stepaside Hill",
+      "places": [
+        "Sandyford, Dublin"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "John (Paddy) Donnelly of Stepaside Hill, Sandyford, Dublin 18. July 11th, 2023. Peacefully at Blackrock Hospice, surrounded by his loving family. He will be sadly missed by his brothers Eamonn, Malachy, Barry and his sister Mary, sisters-in-law, brother-in-law, nieces, nephews, extended family and friends. Reposing at Thomas Murphy and Sons Funeral Home, Boghall Road Bray (A98R673) on Wednesday, July 12th, from 5pm to 6pm. Funeral Mass on Thursday morning at 11am in St. Patrick's Church, Glencullen followed by interment in the adjoining cemetery. May he rest in peace"
+    },
+    {
+      "id": 508898,
+      "url": "https://rip.ie/death-notice/john-donnelly-dublin-glenageary-508898",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-dublin-glenageary-508898"
+      ],
+      "searchIds": [
+        "dublin-john-donnelly-1998-2025",
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John Donnelly",
+      "dateOfDeath": "2023-02-22T00:00:00.000+00:00",
+      "createdAt": "2023-02-22T14:14:12.000+00:00",
+      "address": "",
+      "places": [
+        "Glenageary, Dublin"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "Donnelly (Glenageary, Co. Dublin and member of Blainroe Golf Club) 22nd February 2023, peacefully in the kind care of the staff in St. Vincent&rsquo;s Hospital. John Nugent, beloved husband of the late Eileen (Cecilia) loving father of Olwyn and Richard. Sadly missed by his children and their partners Stephen and Jill, adored grandchildren Meg, Patrick and Jamie, his brother James, sisters Anne and Geraldine, brothers-in-law, sisters-in-law, extended family, neighbours and friends. Removal Monday (27th February) from Quinn&rsquo;s of Glasthule to St. Joseph&rsquo;s Church, Glasthule arriving for 10am Funeral Mass which can be viewed online at www.churchservices.tv/glasthule followed by burial in Kilternan Cemetery Park. May he rest in peace."
+    },
+    {
+      "id": 504547,
+      "url": "https://rip.ie/death-notice/john-joe-donnelly-tyrone-coalisland-504547",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-joe-donnelly-tyrone-coalisland-504547",
+        "https://rip.ie/death-notice/john-joe-donnelly-cavan-mountnugent-504547"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John Joe Donnelly",
+      "dateOfDeath": "2023-01-15T00:00:00.000+00:00",
+      "createdAt": "2023-01-15T19:57:31.000+00:00",
+      "address": "Pollareagh",
+      "places": [
+        "Coalisland, Tyrone",
+        "Mountnugent, Cavan"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "John Joe Donnelly, Pollareagh, Mountnugent, Co Cavan and formerly Aughamullan, Coalisland, Co Tyrone. Sunday, January 15th, peacefully, in the wonderful care of the staff at St Christopher&rsquo;s Hospice, Cavan, surrounded by his loving family and friends. Pre-deceased by his parents John and Molly Donnelly, Aughamullan, Coalisland, Co Tyrone. Sadly missed by his loving family Caiti, (George Hanna), Brian (Isobel), Thomas (Noreen), Carol (Declan Hughes) and Kieran, nephews, nieces, and wider family circle. Reposing at Lakelands Funeral Home, Dublin Road, Cavan, on Monday evening from 5.00pm until 7.00pm. Reposing at the home of his brother Brian from Tuesday afternoon Removal on Thursday morning at 11.15am to St Brigid&rsquo;s Church Brocagh, to arrive for Requiem Mass at 12.00 noon, interment afterwards in the adjoining cemetery. Sacred heart of Jesus have mercy on his soul Ar dheis D&eacute; go raibh a anam d&iacute;lis."
+    },
+    {
+      "id": 484618,
+      "url": "https://rip.ie/death-notice/john-jockser-donnelly-dublin-swords-484618",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-jockser-donnelly-dublin-swords-484618"
+      ],
+      "searchIds": [
+        "dublin-john-donnelly-1998-2025",
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John (Jockser) Donnelly",
+      "dateOfDeath": "2022-06-19T00:00:00.000+01:00",
+      "createdAt": "2022-06-21T16:47:08.000+01:00",
+      "address": "",
+      "places": [
+        "Swords, Dublin"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "DONNELLY, John (Jockser) (Swords) - June 19th, 2022, (peacefully) at Beaumont Hospital. Beloved husband of the late Theresa. Sadly missed by his loving sons Thomas, Sean and Philip, daughters Frances, Tina, Mary and Marice, sons-in-law, daughters-in-law, grandchildren, great-grandchildren, brothers-in-law Jim and Tom. relatives and friends. May he Rest In Peace. Reposing at Rock's Funeral Home, Swords on Wednesday (22nd June) evening from 4 - 6 p.m. Removal on Thursday (June 23rd) morning to St. Cronan&rsquo;s Church, Brackenstown arriving for 10 a.m. Mass followed by funeral to Swords Cemetery. You can view the funeral mass live on the church webcam through the following link. Webcam link: https://www.mcnmedia.tv/Camera/st-cronans-church-brackenstown-swords Messages of sympathy for John's family can be left in the condolences section below."
+    },
+    {
+      "id": 478674,
+      "url": "https://rip.ie/death-notice/john-donnelly-dublin-dundrum-478674",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-dublin-dundrum-478674",
+        "https://rip.ie/death-notice/john-donnelly-dublin-sandymount-478674"
+      ],
+      "searchIds": [
+        "dublin-john-donnelly-1998-2025",
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John DONNELLY",
+      "dateOfDeath": "2022-04-21T00:00:00.000+01:00",
+      "createdAt": "2022-04-21T20:08:14.000+01:00",
+      "address": "",
+      "places": [
+        "Dundrum, Dublin",
+        "Sandymount, Dublin"
+      ],
+      "signalHits": [
+        "Paul"
+      ],
+      "matchAssessment": "unlikely",
+      "descriptionText": "John passed away on 21st April 2022, peacefully in his home, surrounded by his family. Beloved husband of Ben (Bernadette) and dearest father of Shane, Mike and Paul. Sadly missed by his family, daughters-in-law Laoise and Rossana, grandchildren Layla, Isa and Jonah, sister Miriam, brothers Desmond, Brian, Paul and Noel, sisters-in-law, brothers-in-law, nieces, nephews, extended family and many friends. Pre-deceased by his brother Peter. May He Rest in Peace John will repose at his residence on Friday, 22nd April, from 4pm until 7pm. All visitors welcome. Funeral on Saturday, 23rd April in the Church of the Ascension of the Lord, Balally arriving for 2pm Requiem Mass ( watch live ). Cremation Service at 4pm in the Victorian Chapel, Mount Jerome Crematorium ( watch live ). Family flowers only please, donations in lieu, if desired to Irish Cancer Society . You may leave your personal message for John's family in the condolence section open below."
+    },
+    {
+      "id": 470250,
+      "url": "https://rip.ie/death-notice/john-donnelly-dublin-harold-s-cross-470250",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-dublin-harold-s-cross-470250"
+      ],
+      "searchIds": [
+        "dublin-john-donnelly-1998-2025",
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John Donnelly",
+      "dateOfDeath": "2022-02-01T00:00:00.000+00:00",
+      "createdAt": "2022-02-01T17:54:40.000+00:00",
+      "address": "",
+      "places": [
+        "Harold's Cross, Dublin"
+      ],
+      "signalHits": [
+        "Paul"
+      ],
+      "matchAssessment": "unlikely",
+      "descriptionText": "John Donnelly, Harold&rsquo;s Cross, Dublin (late of the ESB, Rathmines). Peacefully, in the tender care of the staff at Elm Green Nursing Home, Castleknock. Beloved husband of Maureen for more than 62 years and cherished father of Paul, Dermot, Julie (Varma) and Mary (Lisson). John will be sadly missed by his broken-hearted wife and children, his daughters-in-law Helen and Brenda, sons-in-law Rajiv and John, adored grandchildren Sin&eacute;ad, Aisling, R&oacute;is&iacute;n, Claire, Catherine, Anne, Sarah, David, Emma and Robert, great-grandchildren Tom and Matthew, brothers-in law, sisters-in-law, nieces, nephews, his wonderful carer Maura, neighbours and friends. Rest in Peace A personal message may be placed in Condolences below. Family flowers only please. Donations may be made in lieu to: https://rnli.org/support-us/give-money/donate Reposing in the Elm Green Nursing Home on Friday (4th February) from 5pm to 7pm. Removal on Saturday morning (5th February) to St Mary&rsquo;s, Star of the Sea Church, Sandymount arriving for Requiem Mass at 11oc which may be viewed through the parish web camera at: https://mcnmedia.tv/Camera/st-marys-star-of-the-sea-sandymount followed by committal in Mount Jerome Crematorium from 1pm which can be viewed at: https://www.mountjerome.ie/victorian-chapel-service/ Enquiries to Fanagans Funeral Home, Lower Kimmage Road-014925959."
+    },
+    {
+      "id": 449002,
+      "url": "https://rip.ie/death-notice/john-donnelly-galway-ballinamore-bridge-449002",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-galway-ballinamore-bridge-449002"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John Donnelly",
+      "dateOfDeath": "2021-07-05T00:00:00.000+01:00",
+      "createdAt": "2021-07-06T15:04:56.000+01:00",
+      "address": "Ballinlass",
+      "places": [
+        "Ballinamore Bridge, Galway"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "The death has occurred (peacefully) of John Donnelly, Ballinlass, Ballinamore Bridge, Ballinasloe, Co. Galway on July 5th, in the care of the respiratory ward Portiuncla Hospital Ballinasloe. Predeceased by his son Patrick & daughter Ciara Mary. Deeply regretted by his wife, Mary, sons, daughters-in-law, grandchildren, brothers, sisters-in-law, nephews, nieces, relatives & friends. Ar dheis D&eacute; go raibh a anam May he rest in peace John&rsquo;s funeral cort&eacute;ge will be leaving Moran's funeral home, Ballygar on Thursday, July 8th to pass by his residence before 11:30am funeral mass in St. Brendan's Church, Toghergar. Burial afterwards in Killyan Cemetery."
+    },
+    {
+      "id": 448692,
+      "url": "https://rip.ie/death-notice/sean-seany-donnelly-dublin-belcamp-448692",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/sean-seany-donnelly-dublin-belcamp-448692"
+      ],
+      "searchIds": [
+        "dublin-sean-donnelly-1998-2025"
+      ],
+      "name": "Sean (Seany) Donnelly",
+      "dateOfDeath": "2021-06-30T00:00:00.000+01:00",
+      "createdAt": "2021-07-02T16:57:19.000+01:00",
+      "address": "",
+      "places": [
+        "Belcamp, Dublin"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "Donnelly (Belcamp, D 17) - June 30, 2021, (unexpectedly) Sean (Seany); sadly missed by his loving and heartbroken mam Bernie, dad Peter, brother Martin, sisters Natalie and Holly, partner Amy, son Harry, niece Sasha, nephews Jacob and JJ, aunts, uncles, cousins, relatives and a large circle of friends. May Sean Rest in Peace. Due to the recent government guidelines regarding public gatherings, a private funeral will be held on Tuesday morning at 11am in the Church of Our Lady Immaculate, Darndale for family and close friends (with a limit of 50 persons). To view Sean's Funeral Mass please CLICK HERE on Tuesday morning at 11am. Family flowers only, donations, if desired, to Pieta House, to donate please Click Here . Sean&rsquo;s family have asked if you have a Chelsea Jersey (or if not, something blue) please wear it on Tuesday morning in memory of Sean. Sean's funeral will travel from his home to the Church of Our Lady Immaculate, Darndale on Tuesday morning at 10.40am. Friends and neighbours are very welcome to line that route in a safe and socially distanced manner as a mark of respect."
+    },
+    {
+      "id": 444025,
+      "url": "https://rip.ie/death-notice/the-very-reverend-fr-john-donnelly-tipperary-roscrea-444025",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/the-very-reverend-fr-john-donnelly-tipperary-roscrea-444025"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "The Very Reverend Fr John Donnelly",
+      "dateOfDeath": "2021-05-09T00:00:00.000+01:00",
+      "createdAt": "2021-05-10T16:54:42.000+01:00",
+      "address": "Rathcabbin",
+      "places": [
+        "Roscrea, Tipperary"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "Predeceased by his sisters and brothers, Kathleen,Mai, Nora, Teresa, Jos, Jim and Paddy. Deeply regretted by his nieces, nephews, grandnieces, grandnephews, wonderful carers and Milford Care centre. Bishop Fintan Monahan, priests and religious in Killaloe Diocese, relatives, friends and parishioners of the various parishes that he administered. Rest In Peace Fr Donnelly&rsquo;s cort&egrave;ge will depart from his residence this Tuesday afternoon to Rathcabbin School arriving at 1pm, to Lorrha School arriving at 1:30pm Via Welshpark & Abbeyville, to Redwood School arriving at 2pm Via Ballyquirke, The Ferry, Portland & Moatfield, returning back to Rathcabbin. Concelebrate Mass on Wednesday afternoon at 3pm in Our Lady Queen of Ireland Church Rathcabbin followed by interment in the church grounds. Mass can be viewed on www.premieravproductions.com. In an effort to follow best practice in regard to gatherings for funerals people are asked to adhere to guidelines, thank you for cooperation."
+    },
+    {
+      "id": 442751,
+      "url": "https://rip.ie/death-notice/john-donnelly-kildare-newbridge-442751",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-kildare-newbridge-442751"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John DONNELLY",
+      "dateOfDeath": "2021-04-24T00:00:00.000+01:00",
+      "createdAt": "2021-04-28T11:14:07.000+01:00",
+      "address": "Moorefield Park",
+      "places": [
+        "Newbridge, Kildare"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "DONNELLY John (Moorefield Park, Newbridge, Co. Kildare) - 24 April 2021. John, son of the late Ellen and Jim; sadly missed by his family and friends. May John Rest in Peace Due to current restrictions on public gatherings, a private family funeral will take place. Removal from Anderson and Leahy's Funeral Home on Saturday to arrive at St Conleth's Parish Church for Mass at 11 o'clock. John's Funeral Mass will be live streamed on newbridgeparish.ie. Funeral afterwards to St. Conleth's Cemetery, Newbridge. Those who would have liked to have attended but due to current restrictions cannot, can leave their condolences on the RIP condolence section below."
+    },
+    {
+      "id": 438591,
+      "url": "https://rip.ie/death-notice/john-donnelly-dublin-portmarnock-438591",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-dublin-portmarnock-438591",
+        "https://rip.ie/death-notice/john-donnelly-dublin-glasnevin-438591",
+        "https://rip.ie/death-notice/john-donnelly-limerick-unknown-438591"
+      ],
+      "searchIds": [
+        "dublin-john-donnelly-1998-2025",
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John Donnelly",
+      "dateOfDeath": "2021-03-11T00:00:00.000+00:00",
+      "createdAt": "2021-03-11T16:49:21.000+00:00",
+      "address": "",
+      "places": [
+        "Portmarnock, Dublin",
+        "Glasnevin, Dublin",
+        "Limerick"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "Donnelly John, Portmarnock and formerly of Glasnevin and Limerick and late of Burmah Castrol. 11th March 2021. Peacefully, in the care of Beaumont Hospital. Beloved husband of Evelyn. Very sadly missed by his loving wife, sons Aubrey and Shane, daughter Una, daughter-in-law Edel, son-in-law Ronan, his adored grandchildren Faye, Zach and Rose, brothers Martin and Bernard, sisters Mary, Katherine and Anne, nieces, nephews, extended family and his many friends. May He Rest in Peace. Due to Government advice regarding public gatherings, a private family Funeral Service will take place. To those who would have liked to attend the funeral, but due to current restrictions cannot, please leave your condolences at the bottom of this page or send on condolences by traditional manner. Family flowers only please. Donations, if desired, to Brother Kevin's Capuchin Day Centre. A live stream of John's Funeral Mass can be viewed on Monday, 15th March, at 10am on the following link: http://portmarnockparish.ie/ The above link is provided and managed by an independent streaming company. The Funeral Home accepts no responsibility for its functionality or any interruption to a live transmission."
+    },
+    {
+      "id": 428998,
+      "url": "https://rip.ie/death-notice/john-donnelly-louth-dundalk-428998",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-louth-dundalk-428998",
+        "https://rip.ie/death-notice/john-donnelly-armagh-keady-428998"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John DONNELLY",
+      "dateOfDeath": "2020-12-22T00:00:00.000+00:00",
+      "createdAt": "2020-12-22T17:22:24.000+00:00",
+      "address": "",
+      "places": [
+        "Dundalk, Louth",
+        "Keady, Armagh"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "John Donnelly, Hughes Park, Dundalk and formerly of Keady, Co. Armagh. Peacefully in Louth County Hospital. 22nd December 2020. John beloved husband of Lily (n&eacute;e Worthington), dear father of Sean, Emma, Liam, and Barry and loving grandad of Bryan, Claire, S&eacute;an, Graeme, Niamh and Shane great grandad of Finn, and Ellie and brother of Bill, Bridie, Rory and Basil. John will be sadly missed by his wife, sons, daughter, grandchildren, great-grandchildren, brothers, sister, daughters-in-law Natasha, Eimear and Elaine, son in law Declan, nephews, nieces, relatives and friends. May He Rest In Peace Due to Covid restrictions the Family home is strictly private. Due to Government guidelines John&rsquo;s Funeral will take place privately on Thursday (Christmas Eve) at 11am in St Fursey&rsquo;s Church Haggardstown followed by burial in adjoining Cemetery. The Mass and can be viewed on www.churchservices.tv/Haggardstown There will be an opportunity for the community to pay their respects as John&rsquo;s cort&egrave;ge will pass the family home, on the way to the church. Please keep your social distance. His family understand and appreciate that people would like to offer their condolences. Please feel free to leave a message in the condolence book at the bottom of this page. All enquiries to Mc Geoughs Funerals on 0429334283."
+    },
+    {
+      "id": 418546,
+      "url": "https://rip.ie/death-notice/jack-john-donnelly-clare-newmarket-on-fergus-418546",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/jack-john-donnelly-clare-newmarket-on-fergus-418546"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "Jack (John) Donnelly",
+      "dateOfDeath": "2020-10-01T00:00:00.000+01:00",
+      "createdAt": "2020-10-02T13:28:15.000+01:00",
+      "address": "Killnasoolagh Pk.",
+      "places": [
+        "Newmarket-on-Fergus, Clare"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "Peacefully at his niece Lena's residence. Deeply missed by his loving family nieces Catherine, Lena, Mellissa and Mary, nephew Philip, grandnieces, grandnephews, great-grandnieces, great-grandnephew, Noel and Deirdre Mc Carthy, his friends in Obair, relatives, neighbours. May he Rest In Peace. In accordance with current government guidelines a private Funeral Mass for family and friends will be celebrated in Our Lady of The Rosary Church, Newmarke-on-Fergus this Monday (5th October) at 12 noon followed by burial afterwards in Lemenagh Cemetery Newmarket-on-Fergus. Family flowers only, donations, if desired, to Milford Care Centre. Mass cards and letters of sympathy can be sent to Mc Mahon Funeral Directors. If you would like to write a condolence please do so on the link below."
+    },
+    {
+      "id": 416883,
+      "url": "https://rip.ie/death-notice/john-patrick-donnelly-leitrim-cloone-416883",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-patrick-donnelly-leitrim-cloone-416883"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John Patrick Donnelly",
+      "dateOfDeath": "2020-09-12T00:00:00.000+01:00",
+      "createdAt": "2020-09-14T11:38:39.000+01:00",
+      "address": "Drumharkin Glebe",
+      "places": [
+        "Cloone, Leitrim"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "The death has occurred of John Patrick Donnelly, Drumharkin Glebe, Cloone, Co Leitrim, Saturday, September 12th 2020, peacefully, at Ballinamore Nursing Unit. Predeceased by his sisters; Rose and Mary. Sadly missed by his brother in law Martin Farrell (UK), his nephews; Se&aacute;n and Martin Farrell, (UK), relatives, neighbours and friends. May John Patrick Rest In Peace John Patrick&rsquo;s Funeral mass will take place on Wednesday September 16th 2020 at 12 noon in St Mary&rsquo;s Church, Cloone, to family, neighbours and close friends, in accordance with COVID guidelines, followed by burial in the local cemetery. In compliance with the current guidelines on public public gatherings ,those who would have liked to attend the funeral but are unable to do so due to COVID restrictions, can leave a message of sympathy in the &ldquo;Condolence&rdquo; section below. The family appreciates your sympathy, support and understanding at this time. John Patrick&rsquo;s Funeral Mass will be streamed live on: https://churchtv.ie/cloone.html"
+    },
+    {
+      "id": 415611,
+      "url": "https://rip.ie/death-notice/john-joe-donnelly-kerry-caherdaniel-415611",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-joe-donnelly-kerry-caherdaniel-415611"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John Joe Donnelly",
+      "dateOfDeath": "2020-08-28T00:00:00.000+01:00",
+      "createdAt": "2020-08-28T23:58:42.000+01:00",
+      "address": "Caherdaniel Village",
+      "places": [
+        "Caherdaniel, Kerry"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "John Joe died, unexpectedly, at his home. Sadly missed by his loving sister Patsy, brothers Michael and Kevin, sisters-in-law Mary and Eileen, nieces, nephews, grandnieces, grandnephews, relatives, neighbours and many friends. Predeceased by his parents Michael and Abbie and sister Maureen. May He Rest In Peace In keeping with HSE guidelines and in the interest of public health, a private family funeral Mass will take place on Monday, August 31st, at 11am in St Crohan's Church, Caherdaniel. Burial afterwards in Derrynane Abbey. A live stream of John Joe's funeral Mass can be viewed on: www.churchservices.tv/caherdaniel Those who would have liked to attend the funeral but are unable to do so due to the current restrictions, please leave a message in the condolence section below."
+    },
+    {
+      "id": 400422,
+      "url": "https://rip.ie/death-notice/john-sean-donnelly-dublin-rush-400422",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-sean-donnelly-dublin-rush-400422"
+      ],
+      "searchIds": [
+        "dublin-john-donnelly-1998-2025",
+        "all-ireland-john-donnelly-1998-2025",
+        "dublin-sean-donnelly-1998-2025"
+      ],
+      "name": "John (Sean) Donnelly",
+      "dateOfDeath": "2020-03-14T00:00:00.000+00:00",
+      "createdAt": "2020-03-16T18:40:45.000+00:00",
+      "address": "",
+      "places": [
+        "Rush, Dublin"
+      ],
+      "signalHits": [
+        "Ann"
+      ],
+      "matchAssessment": "review",
+      "descriptionText": "Donnelly (Rush, Co. Dublin) 14th March, 2020 (peacefully) John (Sean), sadly missed by his loving sisters Pauline and Ann, nieces, nephews, great-nieces and nephews, relatives and friends. May John (Sean) Rest In Peace Reposing at Fitzgerald's Funeral Home, Rush, tomorrow, from 4pm to 6pm with removal on Wednesday morning to St Maur's Church, Rush, for 10am Mass, followed by buiral in Whitestown Cemetery. Due to the goverment advice and HSE guidelines. Those who would have liked to attend the Funeral, but due to current restrictions cannot, please feel free to leave a message in the Condolence Book at the bottom of this page. Thank you."
+    },
+    {
+      "id": 386983,
+      "url": "https://rip.ie/death-notice/sean-donnelly-dublin-sutton-386983",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/sean-donnelly-dublin-sutton-386983"
+      ],
+      "searchIds": [
+        "dublin-sean-donnelly-1998-2025"
+      ],
+      "name": "Seán Donnelly",
+      "dateOfDeath": null,
+      "createdAt": "2019-11-01T17:44:02.000+00:00",
+      "address": "",
+      "places": [
+        "Omagh, Tyrone",
+        "Sutton, Dublin"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "Donnelly, Se&aacute;n, Sutton and formerly of Omagh, Co. Tyrone. Late of the Irish Press News Paper. 31st October 2019. Peacefully in the care of St. Patrick's Nursing Home, Baldoyle. Beloved husband of the late Patricia. Very sadly missed by his loving sons Gary and Damian, daughters-in-law Ruth and Sharon, his adored grandchildren Conor, Claire, Sorcha, Cian, Bronagh, Daniel, Jessica and Niall, brothers Patsy, Hugh and Noel, sisters Moire and Pearl, nieces, nephews, relatives and friends. May He Rest in Peace. Reposing in Staffords Funeral Home, Golf Links Road, Portmarnock on Monday, 4th November, from 4pm to 6pm. Removal to the Church of the Resurrection, Bayside on Tuesday morning for 11am Funeral Mass, followed by burial in Fingal Cemetery."
+    },
+    {
+      "id": 374845,
+      "url": "https://rip.ie/death-notice/john-donnelly-kildare-athy-374845",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-kildare-athy-374845"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John Donnelly",
+      "dateOfDeath": "2019-06-11T00:00:00.000+01:00",
+      "createdAt": "2019-06-11T13:35:12.000+01:00",
+      "address": "32 Avondale",
+      "places": [
+        "Athy, Kildare"
+      ],
+      "signalHits": [
+        "Paul",
+        "St. Michael"
+      ],
+      "matchAssessment": "unlikely",
+      "descriptionText": "Husband of the Late Sadie. Deeply regretted by his loving sons John, Paul and Terry, daughters-in-law, grandchildren, nieces, nephews, relatives and friends. Rest in Peace Reposing at his residence (Eir Code R14 AD93) with Rosary at 8pm on Wednesday evening. Removal by Rigney's Funeral Director's at 10.30am on Thursday morning to arrive at St. Michael's Parish Church, Athy for Requiem Mass at 11am. Burial afterwards in St. Michael's Old Cemetery, Athy."
+    },
+    {
+      "id": 374303,
+      "url": "https://rip.ie/death-notice/john-donnelly-dublin-blackrock-374303",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-dublin-blackrock-374303"
+      ],
+      "searchIds": [
+        "dublin-john-donnelly-1998-2025",
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John DONNELLY",
+      "dateOfDeath": "2019-06-02T00:00:00.000+01:00",
+      "createdAt": "2019-06-04T17:00:24.000+01:00",
+      "address": "",
+      "places": [
+        "Blackrock, Dublin"
+      ],
+      "signalHits": [
+        "Gerard"
+      ],
+      "matchAssessment": "unlikely",
+      "descriptionText": "(1929 &ndash; 2019), former Senior Partner of Deloitte in Dublin, peacefully on the morning of June 2nd 2019; beloved husband of Aoibheann (nee MacEllin) for 57 years and loving father to Grace, Caoimhe, Deirdre and JP. Sadly missed by his sons-in-law Fintan O&rsquo;Gorman, Andrew Lowe and Aillil O&rsquo;Reilly, his brother Gerard and brother-in-law Peter Dunn. Predeceased by his sisters Ethel and Phil, and brothers Daniel and Michael. Cherished by his fourteen grandchildren Jack, Katie and Harry Donnelly; Christopher, Eleanor, and Louisa O&rsquo;Gorman; Jonathan, Alec, Cormac and Jake Lowe; Ailbhe, Honor, Lauren and James O&rsquo;Reilly. Reposing at home on Thursday (6th June) from 5:30pm to 7:30pm. Funeral Mass on Friday (7th June) at 10:00 am in Church of the Assumption, Booterstown Avenue, followed by burial in Shanganagh Cemetery. Family flowers only please."
+    },
+    {
+      "id": 351481,
+      "url": "https://rip.ie/death-notice/john-donnelly-dublin-clonsilla-351481",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-dublin-clonsilla-351481",
+        "https://rip.ie/death-notice/john-donnelly-waterford-waterford-city-351481"
+      ],
+      "searchIds": [
+        "dublin-john-donnelly-1998-2025",
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John DONNELLY",
+      "dateOfDeath": "2018-09-27T00:00:00.000+01:00",
+      "createdAt": "2018-09-28T19:10:16.000+01:00",
+      "address": "",
+      "places": [
+        "Waterford City, Waterford",
+        "Clonsilla, Dublin"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "DONNELLY (Clonsilla, Dublin and formerly of Donnelly&rsquo;s Bar, The Quays, Waterford City and Tramore, Co, Waterford) September 27th 2018 (suddenly) John, beloved partner of Angela, dear father of Martina, Brian and Aidan, devoted grandfather of Fiona, Conor, Jamie and Ciara and great-grandfather to Robyn. Sadly missed by his loving family, Josie, son-in-law Thomas, daughter-in-law Claire, Angela&rsquo;s children, brother-in-law, sisters-in-law, relatives and friends. Reposing at his home on ( Monday ) evening from 6.00 o&rsquo;c to 8.00 o&rsquo;c. Removal to St. Mochta&rsquo;s Church, Porterstown on ( Tuesday ) morning arriving for Requiem Mass at 10.00 o&rsquo;c followed by Cremation in Glasnevin Crematorium. Family flowers only, please. Donations if desired to St. Francis Hospice, Blanchardstown ."
+    },
+    {
+      "id": 335976,
+      "url": "https://rip.ie/death-notice/john-donnelly-mayo-claremorris-335976",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-mayo-claremorris-335976"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John DONNELLY",
+      "dateOfDeath": "2018-03-25T00:00:00.000+00:00",
+      "createdAt": "2018-03-25T15:56:55.000+01:00",
+      "address": "Ballynagran",
+      "places": [
+        "Claremorris, Mayo"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "John passed away peacefully after a short illness at Mayo University Hospital. Husband of the late Kathleen (nee Morris). Deeply regretted by his son Sean, daughters Brid and Mary (Woolley), son-in-law Raymond, grandsons James, Luke and David, sister, Evelyn Lyons, brother-in-law, sisters-in-law, nephews, nieces, relatives and many friends. R.I.P. Reposing at Gilligan&rsquo;s Funeral Home, Market Square, Claremorris from 6 o.c this Tuesday evening (27th March) until 8 o.c. Remains will arrive to St Colman&rsquo;s Church, Claremorris on Wednesday for funeral Mass at 12 o.c with burial afterwards in St Colman&rsquo;s Cemetery. House private on Wednesday morning please. Family flowers only. Donations if desired to The Irish Kidney Association c/o Gilligan Funeral Directors, Claremorris."
+    },
+    {
+      "id": 320746,
+      "url": "https://rip.ie/death-notice/johnny-johnny-donnelly-armagh-silverbridge-320746",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/johnny-johnny-donnelly-armagh-silverbridge-320746"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "Johnny (Johnny) DONNELLY",
+      "dateOfDeath": "2017-10-25T00:00:00.000+01:00",
+      "createdAt": "2017-10-26T13:08:27.000+01:00",
+      "address": "46 Carnally Rd",
+      "places": [
+        "Silverbridge, Armagh"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "Johnny RIP passed away peacefully in the loving care of family and staff of Mother of Mercy Residential Care Home, Newry. Loving brother of Margaret, Alice and the late James, Ned, Bridget, Maud and Elizabeth, dear brother-in-law of Peggy, uncle of Pat and Deirdre. Reposing at McConville's Chapel of Rest, Crosmmaglen between 2pm to 6.30pm today, Thursday. Removal this evening at 7pm (via Carnally) to St. Brigid's Church, Glassdrummond arriving for 7.30pm. Funeral Mass on Friday, October 27th, at 11am. Burial afterwards in the adjoining cemetery. \" Sacred Heart of Jesus Have Mercy on His Soul \" Deeply regretted by his sorrowing sisters, sister-in-law, nephews, nieces and wider family circle. Enquiries to Mc Conville Funeral Directors, Crossmaglen 02830861212."
+    },
+    {
+      "id": 320338,
+      "url": "https://rip.ie/death-notice/john-donnelly-wicklow-kilmacanogue-320338",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-wicklow-kilmacanogue-320338"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John Donnelly",
+      "dateOfDeath": "2017-10-21T00:00:00.000+01:00",
+      "createdAt": "2017-10-23T12:10:49.000+01:00",
+      "address": "Kilmurray",
+      "places": [
+        "Kilmacanogue, Wicklow"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "DONNELLY, John (Kilmurray, Kilmacanogue, Co. Wicklow, late of Irish Lights and County Secretary of the Wicklow Ploughing Association) - Oct. 21, 2017 (unexpectedly), at his home, predeceased by his sister Mary Melrose; remembered with love by his devoted family, wife Mary (n&eacute;e Joyce), daughters Orla McHugh and Fiona Power, sisters Anne Woodcock and Eilish Donnelly, sons-in-law Larry and Brendan, grandchildren Eamon, Aoife, Ciara, Aisling and Lisa, brothers-in-law, sisters-in-law, nieces, nephews, extended family, relatives, neighbours and a wide circle of friends. Reposing at his home (Tuesday, Oct. 24) from 8 o'c. Evening prayer will take place at his home on Wednesday at 7 o'c. Funeral Mass on Thursday afternoon at 1 o'c. in St. Mochonog&rsquo;s Church, Kilmacanogue followed by interment in the adjoining cemetery. Family flowers only, donations, if desired, to the Irish Heart Foundation, donation boxes at the church. May He Rest In Peace"
+    },
+    {
+      "id": 287031,
+      "url": "https://rip.ie/death-notice/john-donnelly-dublin-beaumont-287031",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-dublin-beaumont-287031",
+        "https://rip.ie/death-notice/john-donnelly-dublin-irishtown-287031"
+      ],
+      "searchIds": [
+        "dublin-john-donnelly-1998-2025",
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John Donnelly",
+      "dateOfDeath": "2016-10-04T00:00:00.000+01:00",
+      "createdAt": "2016-10-05T13:16:43.000+01:00",
+      "address": "",
+      "places": [
+        "Beaumont, Dublin",
+        "Irishtown, Dublin"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "Donnelly John (Beaumont, Dublin, late of Irishtown and ex C.I.E. Broadstone) October 4th 2016 (peacefully) surrounded by his family; beloved husband of Helen and loving father of Gillian, Helena, R&oacute;is&iacute;n and Andrew. Sadly missed by his family, sons-in-law, daughter-in-law, his 13 grandchildren, brother, brothers-in-law, sisters-in-law, nieces, nephews, relatives and friends. Rest in Peace Reposing on Thursday evening in Lanigan&rsquo;s Funeral Home, 21 Beaumont Road, from 4.30 pm to 6.30 pm. Removal on Friday morning to the Church of the Nativity, Beaumont, arriving at 9.50 am for Mass at 10 am. Funeral afterwards to Glasnevin Cemetery."
+    },
+    {
+      "id": 277657,
+      "url": "https://rip.ie/death-notice/john-donnelly-dublin-donnycarney-277657",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-dublin-donnycarney-277657"
+      ],
+      "searchIds": [
+        "dublin-john-donnelly-1998-2025",
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John DONNELLY",
+      "dateOfDeath": "2016-06-03T00:00:00.000+01:00",
+      "createdAt": "2016-06-10T16:07:09.000+01:00",
+      "address": "",
+      "places": [
+        "Donnycarney, Dublin"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "DONNELLY, John (Donnycarney, Dublin 9 and late of the Department of Agriculture) 3rd June 2016, tragically in Turkey. Loving son of the late John. John will be very sadly missed by his loving mother Peg, partner Gavin, sisters Geraldine, Valerie, Claire, Helen and Margaret, brother Brian, sister-in-law, brothers-in-law, aunts, nieces and nephews and many relatives. Reposing at Staffords Funeral Home, Portmarnock on Monday, 13th June, from 5.30pm to 7.30pm. Funeral Service will be held on Tuesday 14th in Naomh Mearnog, GAA Club, Blackwood Ln, Portmarnock, Co. Dublin at 10.30am (sharp) followed by burial in Fingal Cemetery. Rest in Peace \"The Show Must Go On\""
+    },
+    {
+      "id": 263399,
+      "url": "https://rip.ie/death-notice/john-donnelly-dublin-clonskeagh-263399",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-dublin-clonskeagh-263399"
+      ],
+      "searchIds": [
+        "dublin-john-donnelly-1998-2025",
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John DONNELLY",
+      "dateOfDeath": "2015-12-31T00:00:00.000+00:00",
+      "createdAt": "2016-01-04T17:34:54.000+00:00",
+      "address": "",
+      "places": [
+        "Clonskeagh, Dublin"
+      ],
+      "signalHits": [
+        "Paul"
+      ],
+      "matchAssessment": "unlikely",
+      "descriptionText": "DONNELLY John (Clonskeagh, Dublin 14)&ndash; December 31st 2015 &ndash; (suddenly). Beloved son of William and Ruth and loving brother of Liam. He will be very sadly missed by his heart broken parents, brother, aunts, uncles, cousins, relatives and all his many friends. Reposing at Rom Massey & Sons Funeral Home, Cranford Centre, Stillorgan Road (opposite Belfield Flyover) on Tuesday, 5th January from 12pm until 5pm and on Wednesday, 6th January, from 12pm prior to removal to the Church of St. Paul of the Cross, Mount Argus, arriving for Funeral Mass at 2.30pm, followed by burial at Mount Jerome Cemetery. &ldquo;May he rest in peace&rdquo;"
+    },
+    {
+      "id": 241835,
+      "url": "https://rip.ie/death-notice/sean-john-donnelly-dublin-walkinstown-241835",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/sean-john-donnelly-dublin-walkinstown-241835"
+      ],
+      "searchIds": [
+        "dublin-john-donnelly-1998-2025",
+        "all-ireland-john-donnelly-1998-2025",
+        "dublin-sean-donnelly-1998-2025"
+      ],
+      "name": "Seán (John) Donnelly",
+      "dateOfDeath": "2015-04-11T00:00:00.000+01:00",
+      "createdAt": "2015-04-11T17:02:31.000+01:00",
+      "address": "",
+      "places": [
+        "Walkinstown, Dublin"
+      ],
+      "signalHits": [
+        "Dublin 12"
+      ],
+      "matchAssessment": "unlikely",
+      "descriptionText": "Donnelly, Se&aacute;n (John) (Beechfield Road, Walkinstown, Dublin 12 and ex Irish Navy and Port and Docks and Irish Shipping and formerly of 76 Coastguard Station, Pidgeon House Road, Ringsend) April 11th 2015 (peacefully) at Peamount Hospital: beloved husband of Julia and loving dad of Stephen, Josie, Johnny and the late Anthony: he will be sadly missed by his loving family, brothers Paddy and Jimmy, sister Kathleen, sister-in-laws, daughters-in-law, also Kay, son-in-law, grandchildren, great granddaughter, nieces, nephews, neighbours, relatives and friends. May he rest in peace. Reposing at his home on Monday. Removal to Newlands Cross Crematorium on Tuesday afternoon arriving for 2pm Funeral Mass with Cremation immediately afterwards. Family flowers only please. Donations if desired to The Alzheimer&rsquo;s Society."
+    },
+    {
+      "id": 228634,
+      "url": "https://rip.ie/death-notice/john-donnelly-laois-portarlington-228634",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-laois-portarlington-228634"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John Donnelly",
+      "dateOfDeath": "2014-11-18T00:00:00.000+00:00",
+      "createdAt": "2014-11-18T20:40:36.000+00:00",
+      "address": "Killenard",
+      "places": [
+        "Portarlington, Laois"
+      ],
+      "signalHits": [
+        "Paul"
+      ],
+      "matchAssessment": "unlikely",
+      "descriptionText": "Died peacefully on November 18th, 2014 at the Midland Regional Hospital, Portlaoise. Beloved husband of the late Elizabeth; deeply regretted by his loving daughters Elizabeth and Margaret, sons-in-law Pat and Andy, grandchildren Kevan and his wife Sylwia, Brendan, Conor, Matthew, Christopher, Dominic and Tom, nieces, nephews, relatives and friends. RIP. Reposing at Maher&rsquo;s Chapel of Rest, Portarlington tomorrow, Wednesday evening, from 6 o&rsquo;clock with Rosary at 7.30 o&rsquo;clock. Removal on Thursday morning at 11:15 o&rsquo;clock arriving at St. John&rsquo;s Church, Killenard for Requiem Mass at 12 o&rsquo;clock. Interment afterwards in the adjoining cemetery. Family flowers only please. Donations if desired to the local St Vincent de Paul Society."
+    },
+    {
+      "id": 227551,
+      "url": "https://rip.ie/death-notice/john-sean-donnelly-dublin-lucan-227551",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-sean-donnelly-dublin-lucan-227551",
+        "https://rip.ie/death-notice/john-sean-donnelly-dublin-ringsend-227551"
+      ],
+      "searchIds": [
+        "dublin-john-donnelly-1998-2025",
+        "all-ireland-john-donnelly-1998-2025",
+        "dublin-sean-donnelly-1998-2025"
+      ],
+      "name": "John (Sean) DONNELLY",
+      "dateOfDeath": "2014-11-05T00:00:00.000+00:00",
+      "createdAt": "2014-11-05T17:12:29.000+00:00",
+      "address": "",
+      "places": [
+        "Lucan, Dublin",
+        "Ringsend, Dublin"
+      ],
+      "signalHits": [
+        "Eithne",
+        "Sheila"
+      ],
+      "matchAssessment": "review",
+      "descriptionText": "DONNELLY, (Lucan, Co. Dublin and formerly of Ringsend and the Revenue Commissioners) November 5th, 2014 (peacefully) in the loving care of the staff at Our Lady&rsquo;s Hospice, Harold&rsquo;s Cross. John (Sean), beloved husband of Eithne and dear father of John, Sheila, Niamh and Barry; Sadly missed by his loving wife, sons, daughters, grandchildren Jessica, James, Harry, Charlie, Freddie and Tilly, sons-in-law Dean and Gerry, daughter-in-law Jacqui, brother, sister, brothers-in-law, sisters-in-law, relatives and friends. Reposing at Cunningham&rsquo;s Funeral Home, Chapel Hill, Lucan on Thursday evening between 6pm and 8pm. Removal to St. Mary&rsquo;s Church, Lucan on Friday morning arriving for Requiem Mass at 10am followed by burial in Esker Cemetery. Family flowers only please. Donations, if desired, to Our Lady&rsquo;s Hospice, Harold&rsquo;s Cross. Rest in Peace"
+    },
+    {
+      "id": 217216,
+      "url": "https://rip.ie/death-notice/john-ronald-ronnie-donnelly-wicklow-bray-217216",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-ronald-ronnie-donnelly-wicklow-bray-217216"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John Ronald (Ronnie) DONNELLY",
+      "dateOfDeath": "2014-06-21T00:00:00.000+01:00",
+      "createdAt": "2014-06-21T19:34:48.000+01:00",
+      "address": "",
+      "places": [
+        "Bray, Wicklow"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "John Ronald (Ronnie) Donnelly of Bray, Co. Wicklow and formerly of Barnacullia, Sandyford, Co. Dublin, died on June 21, 2014, peacefully, in the loving care of his family and the wonderful staff at St. Vincent&rsquo;s University Hospital, Dublin, much loved by his wife Mary, sons John and Alan, daughter Aisling, grandchildren Laoise, Ciara and Se&aacute;n and daughter-in-law Jillian; he will be sadly missed by his brothers Tony and Matty, sisters Wendy and Sadie, father-in-law Patrick, brothers-in-law, sisters-in-law, nieces, nephews, relatives and friends. There will be a gathering for family and friends on Monday, June 23 from 5pm to 7pm at Colliers Funeral Home, Old Connaught Avenue, Bray. Requiem Mass on Tuesday, June24 at 11.00am in St. Fergal&rsquo;s Church, Ballywaltrim, Bray followed by burial in Springfield Cemetery, Killarney Road, Bray. Family flowers only please. Donations, if desired to St. Vincent&rsquo;s Foundation, Elm Park, Dublin 4 can be made at the church. May he rest in peace"
+    },
+    {
+      "id": 214838,
+      "url": "https://rip.ie/death-notice/john-arthur-donnelly-armagh-mullaghbawn-214838",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-arthur-donnelly-armagh-mullaghbawn-214838"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John Arthur Donnelly",
+      "dateOfDeath": "2014-05-19T00:00:00.000+01:00",
+      "createdAt": "2014-05-20T18:08:01.000+01:00",
+      "address": "49 Tullymacrieve Rd.,",
+      "places": [
+        "Mullaghbawn, Armagh"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "Passed away peacefully in Craigavon Hospital, surrounded by loving family and friends. Dearly beloved husband of Eleanor, father of Sharon and much loved grandfather of Rhiannon, Blaithin and Amelia Grace. Sadly missed brother of Mary, Alice and the late Frank and Paddy. John Arthur's remains will leave his late residence on Thursday the 22nd of May at 12:15 for 1:00pm Requiem Mass at St Mary's Church, Mullaghbawn. Burial afterwards in adjoining cemetery. Very deeply regretted by his sorrowing wife, daughter, granddaughters, sisters, son-in-law Padraig and a wide circle of family and friends."
+    },
+    {
+      "id": 208274,
+      "url": "https://rip.ie/death-notice/john-sean-donnelly-kildare-newbridge-208274",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-sean-donnelly-kildare-newbridge-208274"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John (Sean) DONNELLY",
+      "dateOfDeath": "2014-02-28T00:00:00.000+00:00",
+      "createdAt": "2014-02-28T12:31:30.000+00:00",
+      "address": "Tankards Garden,",
+      "places": [
+        "Newbridge, Kildare"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "DONNELLY (Tankards Garden, Newbridge) - 28th February 2014 (peacefully) at Naas Hospital. John (Sean); deeply regretted by his brother Brendan, sister Maura, sister-in-law Norah, nephews and nieces, grand-nephew, grand-nieces, relatives and friends. May he Rest in Peace. Reposing at Anderson & Leahy's Funeral Home, Newbridge from 6pm on Monday evening with Rosary at 8pm. Removal on Tuesday evening at 6pm to arrive at the Dominican College Church at 6.30pm. Funeral after 12.15pm Mass on Wednesday to Barrettstown Cemetery."
+    },
+    {
+      "id": 189651,
+      "url": "https://rip.ie/death-notice/john-donnelly-tipperary-templemore-189651",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-tipperary-templemore-189651"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John Donnelly",
+      "dateOfDeath": "2013-07-06T00:00:00.000+01:00",
+      "createdAt": "2013-07-07T14:47:55.000+01:00",
+      "address": "Ashpark Killea",
+      "places": [
+        "Templemore, Tipperary"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "Reposing at His Residence this Tuesday Evening from 5pm to 8pm. Removal on Wednesday Morning to St. James Church Killea for Requiem Mass at 11am. Interment in the adjoining Cemetery afterwards."
+    },
+    {
+      "id": 182047,
+      "url": "https://rip.ie/death-notice/therese-anne-tess-donnelly-dublin-clontarf-182047",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/therese-anne-tess-donnelly-dublin-clontarf-182047"
+      ],
+      "searchIds": [
+        "dublin-sean-donnelly-1998-2025"
+      ],
+      "name": "Therese Anne (Tess) DONNELLY",
+      "dateOfDeath": "2013-03-31T00:00:00.000+00:00",
+      "createdAt": "2013-04-01T00:00:00.000+01:00",
+      "address": "",
+      "places": [
+        "Clontarf, Dublin"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "DONNELLY, Therese Anne (Tess) nee Leonard (Clontarf, Dublin), 31st March 2013 (peacefully) in the loving care of the staff of Highfield Hospital. Beloved wife of the late Thomas, she will be sadly missed by her loving sons, Brian and Michael, daughter Liz and grand-daughter Ellen, daughters-in-law Jan and Mary, sister Carmel, brothers Sean and Frank, sister-in-laws, nieces and nephews, relatives and friends. Rest in Peace Removal from Staffords Funeral Home, Strand Road, Portmarnock on Wednesday to St. Anthony's Church, Clontarf arriving for a 10am Mass, followed immediately by burial in Fingal Cemetery."
+    },
+    {
+      "id": 140434,
+      "url": "https://rip.ie/death-notice/paul-john-donnelly-dublin-rathgar-140434",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/paul-john-donnelly-dublin-rathgar-140434"
+      ],
+      "searchIds": [
+        "dublin-john-donnelly-1998-2025",
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "Paul John DONNELLY",
+      "dateOfDeath": "2011-10-15T00:00:00.000+01:00",
+      "createdAt": "2011-10-18T00:00:00.000+01:00",
+      "address": "",
+      "places": [
+        "Rathgar, Dublin"
+      ],
+      "signalHits": [
+        "Sheila"
+      ],
+      "matchAssessment": "review",
+      "descriptionText": "Suddenly, to the insurmountable and inexpressible grief of his family and friends. Adored son of Mary Murphy, adored brother of Jeffrey and Gregory and adored grandson of Sheila and John. Wonderful nephew and godson. Never forgotten and always loved. Funeral service on Thursday afternoon, Oct. 20th, at 2pm in Mount Jerome Victorian Chapel. May his gentle spirit Rest in Peace. \"Forever young\""
+    },
+    {
+      "id": 138181,
+      "url": "https://rip.ie/death-notice/john-donnelly-dublin-east-wall-138181",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-dublin-east-wall-138181"
+      ],
+      "searchIds": [
+        "dublin-john-donnelly-1998-2025",
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John DONNELLY",
+      "dateOfDeath": "2011-09-16T00:00:00.000+01:00",
+      "createdAt": "2011-09-17T00:00:00.000+01:00",
+      "address": "",
+      "places": [
+        "East Wall, Dublin"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "Reposing at the family home today, Saturday, with removal on Monday to St. Joseph's Church, East Wall, arriving for an 11.30am Mass, followed by burial in Glasnevin Cemetery. Family flowers only. Donations, in lieu, of The Mater Heart Foundation."
+    },
+    {
+      "id": 131940,
+      "url": "https://rip.ie/death-notice/johnny-donnelly-mayo-westport-131940",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/johnny-donnelly-mayo-westport-131940"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "Johnny DONNELLY",
+      "dateOfDeath": null,
+      "createdAt": "2011-06-15T00:00:00.000+01:00",
+      "address": "Lecanvey,",
+      "places": [
+        "Westport, Mayo"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "Reposing at his home today, Wednesday, from 2pm with removal at 7.45pm to St. Patrick's Church, Lecanvey, arriving at 8pm. Mass on Thursday at 12 noon, with burial afterwards in Murrisk Abbey Cemetery."
+    },
+    {
+      "id": 116852,
+      "url": "https://rip.ie/death-notice/john-donnelly-mayo-crossmolina-116852",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-mayo-crossmolina-116852"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John DONNELLY",
+      "dateOfDeath": null,
+      "createdAt": "2010-12-06T00:00:00.000+00:00",
+      "address": "Tubbermore,",
+      "places": [
+        "Crossmolina, Mayo"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "Reposing at Hiney&#8217;s Funeral Home, Crossmolina on Tuesday evening from 5pm with removal at 7pm to St. Tiernan's Church, Crossmolina. Requiem Mass on Wednesday morning at 11.30am. Burial afterwards in Crossmolina Cemetery."
+    },
+    {
+      "id": 110796,
+      "url": "https://rip.ie/death-notice/john-jackie-donnelly-cork-cullen-110796",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-jackie-donnelly-cork-cullen-110796"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John (Jackie) DONNELLY",
+      "dateOfDeath": "2010-09-19T00:00:00.000+01:00",
+      "createdAt": "2010-09-20T00:00:00.000+01:00",
+      "address": "Derragh,",
+      "places": [
+        "Cullen, Cork"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "Late of The Quarry Cross, Gneeveguilla. Reposing at Tarrant's Funeral Home, Millstreet. Rosary this Monday evening at 9pm. Removal tomorrow, Tuesday, at 8pm to the Church of the Nativity, Cullen. Requiem Mass on Wednesday at 12 noon. Burial afterwards in adjoining cemetery."
+    },
+    {
+      "id": 62115,
+      "url": "https://rip.ie/death-notice/rita-donnelly-dublin-unknown-62115",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/rita-donnelly-dublin-unknown-62115"
+      ],
+      "searchIds": [
+        "dublin-donnelly-ita-keyword-1998-2025"
+      ],
+      "name": "Rita DONNELLY",
+      "dateOfDeath": "2009-01-08T00:00:00.000+00:00",
+      "createdAt": "2009-01-09T00:00:00.000+00:00",
+      "address": "Greentrees Park,",
+      "places": [
+        "Dublin"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "Reposing at the Brian McElroy Funeral Home Crumlin Village. Removal tomorrow, Saturday evening, to The Church of the Holy Spirit, Greenhills, arriving at 5pm. Funeral on Monday, after 10am Mass, to Newlands Cross Cemetery."
+    },
+    {
+      "id": 54552,
+      "url": "https://rip.ie/death-notice/johnny-donnelly-kerry-ardfert-54552",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/johnny-donnelly-kerry-ardfert-54552"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "Johnny DONNELLY",
+      "dateOfDeath": null,
+      "createdAt": "2008-10-10T00:00:00.000+01:00",
+      "address": "Ardrahan,",
+      "places": [
+        "Ardfert, Kerry"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "Formerly of Curraclare, Co. Clare. Removal this evening at 7.30pm from The Gleasure Funeral Home to The Sacred Heart Church, Kilmoyley. Requiem Mass on Saturday at 12 noon. Burial afterwards in The Abbey New Cemetery, Ardfert."
+    },
+    {
+      "id": 33618,
+      "url": "https://rip.ie/death-notice/john-sean-donnelly-westmeath-moate-33618",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-sean-donnelly-westmeath-moate-33618"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John (Seán) DONNELLY",
+      "dateOfDeath": "2008-01-13T00:00:00.000+00:00",
+      "createdAt": "2008-01-14T00:00:00.000+00:00",
+      "address": "Curragh, Rosemount,",
+      "places": [
+        "Moate, Westmeath"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "Formerly of Ballyglass and Gardenfort, Dysart, Ballinasloe, Co. Roscommon. Reposing at his niece's residence, Mary and David Geoghegan, Curragh, Rosemount. Removal this Monday evening at 8pm to St. Patrick's Church, Dysart, Ballinasloe, Co. Roscommon, arriving at 9pm. Funeral Mass tomorrow, Tuesday, at 11am. Burial afterwards in Dysart Cemetery."
+    },
+    {
+      "id": 26548,
+      "url": "https://rip.ie/death-notice/sean-donnelly-dublin-marino-26548",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/sean-donnelly-dublin-marino-26548"
+      ],
+      "searchIds": [
+        "dublin-sean-donnelly-1998-2025"
+      ],
+      "name": "Seán DONNELLY",
+      "dateOfDeath": "2007-09-18T00:00:00.000+01:00",
+      "createdAt": "2007-09-20T00:00:00.000+01:00",
+      "address": "",
+      "places": [
+        "Marino, Dublin"
+      ],
+      "signalHits": [
+        "Paul"
+      ],
+      "matchAssessment": "unlikely",
+      "descriptionText": "Late Castleblaney, Co. Monaghan. Reposing at Rom Massey & Sons Funeral Home, the Civic Centre, Ballymun Road. Funeral tomorrow morning, Friday, to arrive at the Church of St. Vincent de Paul, Griffith Avenue, Marino, for 11am Mass, followed by cremation at Glasnevin Crematorium. Family flowers only, please. Donations, if desired, to the ICCU, Mater Hospital, Dublin 7 or the Irish Heart Foundation, 4 Clyde Road, Dublin 4."
+    },
+    {
+      "id": 14609,
+      "url": "https://rip.ie/death-notice/john-donnelly-mayo-unknown-14609",
+      "alternateUrls": [
+        "https://rip.ie/death-notice/john-donnelly-mayo-unknown-14609"
+      ],
+      "searchIds": [
+        "all-ireland-john-donnelly-1998-2025"
+      ],
+      "name": "John DONNELLY",
+      "dateOfDeath": "2007-02-28T00:00:00.000+00:00",
+      "createdAt": "2007-03-01T00:00:00.000+00:00",
+      "address": "Polronaghane, Kiltimagh",
+      "places": [
+        "Mayo",
+        "Mayo"
+      ],
+      "signalHits": [],
+      "matchAssessment": "unlikely",
+      "descriptionText": "Remains Reposing in O'Hora's Funeral Home, Kiltimagh, this Thursday evening from 6pm with removal to the Church of The Holy Family, Kiltimagh, arriving at 8pm. Burial after 12 noon Mass tomorrow, Friday, in Kilkimure Cemetery."
+    }
+  ]
+}

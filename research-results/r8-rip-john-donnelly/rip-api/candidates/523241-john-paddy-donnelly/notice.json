@@ -1,0 +1,48 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-paddy-donnelly-dublin-sandyford-523241",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-paddy-donnelly-dublin-sandyford-523241"
+  ],
+  "searchIds": [
+    "dublin-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 523241,
+        "surname": "Donnelly",
+        "firstname": "John (Paddy)",
+        "nee": "",
+        "createdAt": "2023-07-11T12:46:13.832+01:00",
+        "description": "<p>John (Paddy) Donnelly of Stepaside Hill, Sandyford, Dublin 18. July 11th, 2023. Peacefully at Blackrock Hospice, surrounded by his loving family. He will be sadly missed by his brothers Eamonn, Malachy, Barry and his sister Mary, sisters-in-law, brother-in-law, nieces, nephews, extended family and friends.</p>\n\n<p> </p>\n\n<p>Reposing at Thomas Murphy and Sons Funeral Home, Boghall Road Bray (A98R673) on Wednesday,  July 12th, from 5pm to 6pm. Funeral Mass on Thursday morning at 11am in St. Patrick's Church, Glencullen followed by interment in the adjoining cemetery.</p>\n\n<p> </p>\n\n<p style=\"text-align:center\"><strong>May he rest in peace</strong></p>\n",
+        "address": "Stepaside Hill",
+        "dateOfDeath": "2023-07-11T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": null,
+        "county": {
+          "id": 10,
+          "name": "Dublin"
+        },
+        "town": {
+          "id": 404,
+          "name": "Sandyford"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 404,
+              "name": "Sandyford",
+              "slug": "Sandyford"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

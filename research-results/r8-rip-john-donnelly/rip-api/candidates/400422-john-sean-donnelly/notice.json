@@ -1,0 +1,49 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-sean-donnelly-dublin-rush-400422",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-sean-donnelly-dublin-rush-400422"
+  ],
+  "searchIds": [
+    "dublin-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025",
+    "dublin-sean-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 400422,
+        "surname": "Donnelly",
+        "firstname": "John (Sean)",
+        "nee": "",
+        "createdAt": "2020-03-16T18:40:45.000+00:00",
+        "description": "<p>Donnelly (Rush, Co. Dublin) 14th March, 2020 (peacefully) John (Sean), sadly missed by his loving sisters Pauline and Ann, nieces, nephews, great-nieces and nephews, relatives and friends.</p>\r\n<p style=\"text-align: center;\"><strong>May John (Sean) Rest In Peace</strong></p>\r\n<p style=\"text-align: left;\">Reposing at Fitzgerald's Funeral Home, Rush, tomorrow, from 4pm to 6pm with removal on Wednesday morning to St Maur's Church, Rush, for 10am Mass, followed by buiral in Whitestown Cemetery.</p>\r\n<p style=\"text-align: left;\">&nbsp;</p>\r\n<p style=\"text-align: left;\"><strong>Due to the goverment advice and HSE guidelines. Those who would have liked to attend the Funeral, but due to current restrictions cannot, please feel free to leave a message in the Condolence Book at the bottom of this page. Thank you.</strong></p>",
+        "address": "",
+        "dateOfDeath": "2020-03-14T00:00:00.000+00:00",
+        "dateOfBirth": null,
+        "oldId": 416597,
+        "county": {
+          "id": 10,
+          "name": "Dublin"
+        },
+        "town": {
+          "id": 401,
+          "name": "Rush"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 401,
+              "name": "Rush",
+              "slug": "Rush"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

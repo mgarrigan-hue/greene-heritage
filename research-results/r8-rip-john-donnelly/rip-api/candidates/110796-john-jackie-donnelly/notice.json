@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-jackie-donnelly-cork-cullen-110796",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-jackie-donnelly-cork-cullen-110796"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 110796,
+        "surname": "DONNELLY",
+        "firstname": "John (Jackie)",
+        "nee": "",
+        "createdAt": "2010-09-20T00:00:00.000+01:00",
+        "description": "Late of The Quarry Cross, Gneeveguilla. Reposing at Tarrant's Funeral Home, Millstreet. Rosary this Monday evening at 9pm. Removal tomorrow, Tuesday, at 8pm to the Church of the Nativity, Cullen. Requiem Mass on Wednesday at 12 noon. Burial afterwards in adjoining cemetery.",
+        "address": "Derragh,",
+        "dateOfDeath": "2010-09-19T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": 115010,
+        "county": {
+          "id": 6,
+          "name": "Cork"
+        },
+        "town": {
+          "id": 1494,
+          "name": "Cullen"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 6,
+              "name": "Cork"
+            },
+            "town": {
+              "id": 1494,
+              "name": "Cullen",
+              "slug": "Cullen"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-donnelly-dublin-balbriggan-573657",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-donnelly-dublin-balbriggan-573657",
+    "https://rip.ie/death-notice/john-donnelly-sligo-gurteen-573657"
+  ],
+  "searchIds": [
+    "dublin-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 573657,
+        "surname": "Donnelly",
+        "firstname": "John",
+        "nee": "",
+        "createdAt": "2024-11-04T12:39:30.589+00:00",
+        "description": "<p style=\"text-align:center\">John Donnelly, Doon East, Gurteen, Co. Sligo</p>\n\n<p style=\"text-align:center\">&amp; formerly of Balbriggan, Co. Dublin.</p>\n\n<p style=\"text-align:center\">Peacefully in Sligo University Hospital with his loving family by his side.</p>\n\n<p style=\"text-align:center\">Sadly missed by his wife Lenore, his sons Aaron &amp; Jamie &amp; his Mum Meg,</p>\n\n<p style=\"text-align:center\">extended family, neighbours &amp; friends &amp; his many assorted animals.</p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\"><strong>May he rest in peace</strong></p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\">John will be reposing in Gavin's Funeral Home,</p>\n\n<p style=\"text-align:center\">Knox Street, Ballyhaunis, Co Mayo F35 WF22</p>\n\n<p style=\"text-align:center\">on Tuesday evening from 7 o'clock</p>\n\n<p style=\"text-align:center\">concluding with Prayer Service at 8 o'clock.</p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\">Removal from Gavin's Funeral Home</p>\n\n<p style=\"text-align:center\">on Wednesday morning at 11 o'clock</p>\n\n<p style=\"text-align:center\">for Prayer Service at Lakelands Crematorium,</p>\n\n<p style=\"text-align:center\">Dublin Road, Tullymongan Upper, Cavan H12 RF78</p>\n\n<p style=\"text-align:center\">at 1 o'clock.</p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\"><strong>Family Flowers only please, donations, if desired, to North West SPCA.</strong></p>\n",
+        "address": "Doon East",
+        "dateOfDeath": "2024-11-03T00:00:00.000+00:00",
+        "dateOfBirth": null,
+        "oldId": null,
+        "county": {
+          "id": 26,
+          "name": "Sligo"
+        },
+        "town": {
+          "id": 796,
+          "name": "Gurteen"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 26,
+              "name": "Sligo"
+            },
+            "town": {
+              "id": 796,
+              "name": "Gurteen",
+              "slug": "Gurteen"
+            }
+          },
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 323,
+              "name": "Balbriggan",
+              "slug": "Balbriggan"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

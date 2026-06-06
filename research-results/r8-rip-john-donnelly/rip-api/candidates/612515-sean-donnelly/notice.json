@@ -1,0 +1,58 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/sean-donnelly-dublin-dublin-6-612515",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/sean-donnelly-dublin-dublin-6-612515"
+  ],
+  "searchIds": [
+    "dublin-sean-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 612515,
+        "surname": "Donnelly",
+        "firstname": "Seán",
+        "nee": "",
+        "createdAt": "2025-11-26T19:23:27.539+00:00",
+        "description": "<p>The peaceful death has taken place on Wednesday 26th November 2025 at St. Vincent’s Hospital, Dublin of Seán Donnelly, Milltown, Dublin 6 and formerly from Cathedral Place, Letterkenny, Co. Donegal.  Deeply missed by his loving sisters Marie Kelly (Dublin), Frances Hughes (Dave) (Dublin), brother Leo (Sharon) (Letterkenny), nieces, nephew and a wide circle of family, friends and neighbours in Dublin and Letterkenny. </p>\n\n<p> </p>\n\n<p>Seán is predeceased by his wife Eilish, parents Frank and Eilís, sisters’ baby Elaine, Sue Lynch and Greta.</p>\n\n<p> </p>\n\n<p style=\"text-align:center\"><strong>May Seán Rest in Peace</strong></p>\n\n<p> </p>\n\n<p>Seán’s remains will be reposing at his brother Leo’s residence at Cathedral Place, Letterkenny F92 RWK7 on Thursday 27th November from 1pm until 10pm with Rosary at 9pm.</p>\n\n<p> </p>\n\n<p>Funeral on Friday 28th November 2025 in St. Eunan’s Cathedral, Letterkenny at 11am  and can be viewed live on <a href=\"http://www.churchservices.tv/letterkenny\" style=\"color:blue;text-decoration:underline\">www.churchservices.tv/letterkenny</a>.  Interment afterwards in New Leck Cemetery, Letterkenny.</p>\n\n<p> </p>\n\n<p>Family flowers only please.</p>\n\n<p> </p>\n\n<p>If you would like to leave a message of condolence for the family, please do so by selecting ‘Condolences’ below.</p>\n",
+        "address": "Milltown",
+        "dateOfDeath": "2025-11-26T00:00:00.000+00:00",
+        "dateOfBirth": null,
+        "oldId": null,
+        "county": {
+          "id": 10,
+          "name": "Dublin"
+        },
+        "town": {
+          "id": 1105,
+          "name": "Dublin 6"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 1105,
+              "name": "Dublin 6",
+              "slug": "Dublin-6"
+            }
+          },
+          {
+            "county": {
+              "id": 8,
+              "name": "Donegal"
+            },
+            "town": {
+              "id": 269,
+              "name": "Letterkenny",
+              "slug": "Letterkenny"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

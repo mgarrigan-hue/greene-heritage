@@ -1,0 +1,48 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-donnelly-dublin-east-wall-138181",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-donnelly-dublin-east-wall-138181"
+  ],
+  "searchIds": [
+    "dublin-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 138181,
+        "surname": "DONNELLY",
+        "firstname": "John",
+        "nee": "",
+        "createdAt": "2011-09-17T00:00:00.000+01:00",
+        "description": "Reposing at the family home today, Saturday, with removal on Monday to St. Joseph's Church, East Wall, arriving for an 11.30am Mass, followed by burial in Glasnevin Cemetery. Family flowers only. Donations, in lieu, of The Mater Heart Foundation.",
+        "address": "",
+        "dateOfDeath": "2011-09-16T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": 144033,
+        "county": {
+          "id": 10,
+          "name": "Dublin"
+        },
+        "town": {
+          "id": 1061,
+          "name": "East Wall"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 1061,
+              "name": "East Wall",
+              "slug": "East-Wall"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

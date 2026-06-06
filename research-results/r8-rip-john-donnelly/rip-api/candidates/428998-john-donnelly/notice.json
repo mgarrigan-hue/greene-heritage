@@ -1,0 +1,60 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-donnelly-louth-dundalk-428998",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-donnelly-louth-dundalk-428998",
+    "https://rip.ie/death-notice/john-donnelly-armagh-keady-428998"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 428998,
+        "surname": "DONNELLY",
+        "firstname": "John",
+        "nee": "",
+        "createdAt": "2020-12-22T17:22:24.000+00:00",
+        "description": "<p>John Donnelly, Hughes Park, Dundalk and formerly of Keady, Co. Armagh.<span class=\"Apple-converted-space\">&nbsp; </span>Peacefully in Louth County Hospital.<span class=\"Apple-converted-space\">&nbsp; </span>22nd December 2020.<span class=\"Apple-converted-space\">&nbsp; </span>John beloved husband of Lily (n&eacute;e Worthington), dear father of Sean, Emma, Liam, and Barry and loving grandad of Bryan, Claire, S&eacute;an, Graeme, Niamh and Shane<span class=\"Apple-converted-space\">&nbsp; </span>great grandad of Finn, and Ellie and brother of Bill, Bridie, Rory and Basil. John will be sadly missed by his wife, sons, daughter, grandchildren, great-grandchildren, brothers, sister, daughters-in-law Natasha, Eimear and Elaine, son in law Declan, nephews, nieces, relatives and friends.</p>\r\n<p>&nbsp;</p>\r\n<p style=\"text-align: center;\"><strong>May He Rest In Peace</strong></p>\r\n<p>&nbsp;</p>\r\n<p style=\"text-align: center;\">Due to Covid restrictions the Family home is strictly private.</p>\r\n<p>Due to Government guidelines John&rsquo;s<span class=\"Apple-converted-space\">&nbsp; </span>Funeral will take place privately on Thursday (Christmas Eve) at 11am in St Fursey&rsquo;s Church Haggardstown followed by burial in adjoining Cemetery.<span class=\"Apple-converted-space\">&nbsp; </span>The Mass and can be viewed on</p>\r\n<p style=\"text-align: center;\"><span style=\"text-decoration: underline;\"><a href=\"http://www.churchservices.tv/Haggardstown\" target=\"_blank\" rel=\"noopener\">www.churchservices.tv/Haggardstown</a></span><span class=\"Apple-converted-space\">&nbsp;</span></p>\r\n<p>&nbsp;</p>\r\n<p>There will be an opportunity for the community to pay their respects as John&rsquo;s cort&egrave;ge will pass the family home, on the way to the church.<span class=\"Apple-converted-space\">&nbsp; </span>Please keep your social distance.<span class=\"Apple-converted-space\">&nbsp; </span>His family understand and appreciate that people would like to offer their condolences.&nbsp;&nbsp;Please feel free to leave a message in the condolence book at the bottom of this page.</p>\r\n<p style=\"text-align: center;\">&nbsp;All enquiries to Mc Geoughs Funerals on 0429334283.</p>",
+        "address": "",
+        "dateOfDeath": "2020-12-22T00:00:00.000+00:00",
+        "dateOfBirth": null,
+        "oldId": 442791,
+        "county": {
+          "id": 20,
+          "name": "Louth"
+        },
+        "town": {
+          "id": 675,
+          "name": "Dundalk"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 20,
+              "name": "Louth"
+            },
+            "town": {
+              "id": 675,
+              "name": "Dundalk",
+              "slug": "Dundalk"
+            }
+          },
+          {
+            "county": {
+              "id": 2,
+              "name": "Armagh"
+            },
+            "town": {
+              "id": 1955,
+              "name": "Keady",
+              "slug": "Keady"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

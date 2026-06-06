@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/therese-anne-tess-donnelly-dublin-clontarf-182047",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/therese-anne-tess-donnelly-dublin-clontarf-182047"
+  ],
+  "searchIds": [
+    "dublin-sean-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 182047,
+        "surname": "DONNELLY",
+        "firstname": "Therese Anne (Tess)",
+        "nee": "Leonard",
+        "createdAt": "2013-04-01T00:00:00.000+01:00",
+        "description": "DONNELLY, Therese Anne (Tess) nee Leonard (Clontarf, Dublin), 31st March 2013 (peacefully) in the loving care of the staff of Highfield Hospital. Beloved wife of the late Thomas, she will be sadly missed by her loving sons, Brian and Michael, daughter Liz and grand-daughter Ellen, daughters-in-law Jan and Mary, sister Carmel, brothers Sean and Frank, sister-in-laws, nieces and nephews, relatives and friends. <br /><br/><br/><strong><center>Rest in Peace</center></strong><br/><br/><br /><br /><br />Removal from Staffords Funeral Home, Strand Road, Portmarnock on Wednesday to St. Anthony's Church, Clontarf arriving for a 10am Mass, followed immediately by burial in Fingal Cemetery.",
+        "address": "",
+        "dateOfDeath": "2013-03-31T00:00:00.000+00:00",
+        "dateOfBirth": null,
+        "oldId": 191574,
+        "county": {
+          "id": 10,
+          "name": "Dublin"
+        },
+        "town": {
+          "id": 347,
+          "name": "Clontarf"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 347,
+              "name": "Clontarf",
+              "slug": "Clontarf"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

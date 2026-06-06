@@ -1,0 +1,25 @@
+{
+  "phase": "Phase 16 — RIP.ie / newspaper death-notice scrape for John Donnelly",
+  "generatedAt": "2026-06-06T17:31:34+01:00",
+  "targetPersonId": "john-donnelly",
+  "target": "John Donnelly, husband of Ita Greene (Eithne)",
+  "conclusion": "Not confirmed. RIP.ie and Irish Times searches found Ita Donnelly's 2025 notice confirming she was wife of the late John, but no John Donnelly death notice with the expected combined family signature (wife Ita/Eithne plus children Ann, John, Sheila and Ger, or Goldenbridge/Inchicore/Drimnagh).",
+  "rip": {
+    "uniqueCandidatesCaptured": 55,
+    "strongPositive": false,
+    "knownFamilyNotice": "https://rip.ie/death-notice/ita-donnelly-dublin-inchicore-613742",
+    "notableFalsePositive": "https://rip.ie/death-notice/john-sean-donnelly-dublin-lucan-227551 — wife Eithne and children John/Sheila/Niamh/Barry; rejected because children and places do not match Ita Greene's family."
+  },
+  "irishTimes": {
+    "candidatesCaptured": 7,
+    "strongPositive": false,
+    "note": "Irish Times notices mirrored unrelated Donnelly notices (including the 2023 Glenageary John Donnelly) and older Kilkenny/Limerick Donnelly notices; no Ita/Goldenbridge/Inchicore/Drimnagh match."
+  },
+  "familySearch": "No direct public FamilySearch result linking John Donnelly and Ita/Eithne Greene/Donnelly was found.",
+  "gro": "grosearch.ie did not resolve via DNS during this run; use official GRO Research Room if a certificate search is required.",
+  "recommendedNextSteps": [
+    "Ask family for approximate death year, burial place, or funeral home; even a 5-year window will narrow GRO/Irish Times searches.",
+    "Search cemetery records for Deansgrange / Glasnevin Trust / Newlands Cross / Mount Jerome if family recalls burial or cremation.",
+    "If no family detail emerges, request a GRO death index/certificate search for John Donnelly, spouse Ita/Eithne, Dublin, likely post-1975."
+  ]
+}

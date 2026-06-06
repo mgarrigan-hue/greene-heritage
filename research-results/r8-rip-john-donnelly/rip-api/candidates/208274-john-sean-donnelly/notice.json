@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-sean-donnelly-kildare-newbridge-208274",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-sean-donnelly-kildare-newbridge-208274"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 208274,
+        "surname": "DONNELLY",
+        "firstname": "John (Sean)",
+        "nee": "",
+        "createdAt": "2014-02-28T12:31:30.000+00:00",
+        "description": "<p>DONNELLY (Tankards Garden, Newbridge) - 28th February 2014 (peacefully) at Naas Hospital. John (Sean); deeply regretted by his brother Brendan, sister Maura, sister-in-law Norah, nephews and nieces, grand-nephew, grand-nieces, relatives and friends.&nbsp;</p>\r\n\r\n<p style=\"text-align:center\"><strong>May he Rest in Peace.</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Reposing at Anderson & Leahy&#39;s Funeral Home, Newbridge from 6pm on Monday evening with Rosary at 8pm.&nbsp;Removal on Tuesday&nbsp;evening at 6pm to arrive at the Dominican College Church at 6.30pm. Funeral after 12.15pm Mass on Wednesday to Barrettstown Cemetery.</p>",
+        "address": "Tankards Garden,",
+        "dateOfDeath": "2014-02-28T00:00:00.000+00:00",
+        "dateOfBirth": null,
+        "oldId": 218944,
+        "county": {
+          "id": 14,
+          "name": "Kildare"
+        },
+        "town": {
+          "id": 544,
+          "name": "Newbridge"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 14,
+              "name": "Kildare"
+            },
+            "town": {
+              "id": 544,
+              "name": "Newbridge",
+              "slug": "Newbridge"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

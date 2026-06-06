@@ -1,0 +1,45 @@
+{
+  "operationName": "searchDeathNoticesForListTableWithoutPhoto",
+  "variables": {
+    "list": {
+      "page": 1,
+      "records": 80,
+      "search": "Ita",
+      "searchFields": [
+        {
+          "field": "a.escapedSurname",
+          "search": "Donnelly"
+        }
+      ],
+      "filters": [
+        {
+          "field": "county.name",
+          "operator": "eq",
+          "value": "dublin"
+        },
+        {
+          "field": "a.createdAt",
+          "operator": "gte",
+          "value": "1998-01-01 00:00:00"
+        },
+        {
+          "field": "a.createdAt",
+          "operator": "lte",
+          "value": "2025-12-31 23:59:59"
+        }
+      ],
+      "orders": [
+        {
+          "field": "a.createdAtCastToDate",
+          "type": "DESC"
+        },
+        {
+          "field": "a.escapedSurname",
+          "type": "ASC"
+        }
+      ]
+    },
+    "isTiledView": false
+  },
+  "query": "query searchDeathNoticesForListTableWithoutPhoto($list: ListInput!, $isTiledView: Boolean!) {\n  searchDeathNoticesForList(query: $list, isTiledView: $isTiledView) {\n    count\n    perPage\n    page\n    nextPage\n    records {\n      id\n      firstname\n      surname\n      nee\n      createdAt\n      funeralArrangementsLater\n      arrangementsChange\n      county { id name }\n      town { id name }\n    }\n  }\n}"
+}

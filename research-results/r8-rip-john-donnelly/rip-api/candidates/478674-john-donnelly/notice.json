@@ -1,0 +1,62 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-donnelly-dublin-dundrum-478674",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-donnelly-dublin-dundrum-478674",
+    "https://rip.ie/death-notice/john-donnelly-dublin-sandymount-478674"
+  ],
+  "searchIds": [
+    "dublin-john-donnelly-1998-2025",
+    "dublin-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 478674,
+        "surname": "DONNELLY",
+        "firstname": "John",
+        "nee": "",
+        "createdAt": "2022-04-21T20:08:14.000+01:00",
+        "description": "<div>John passed away on 21st April 2022, peacefully in his home, surrounded by his family. Beloved husband of Ben (Bernadette) and dearest father of Shane, Mike and Paul. Sadly missed by his family, daughters-in-law Laoise and Rossana, grandchildren Layla, Isa and Jonah, sister Miriam, brothers Desmond, Brian, Paul and Noel, sisters-in-law, brothers-in-law, nieces, nephews, extended family and many friends. Pre-deceased by his brother Peter.</div>\r\n<div><br /><br /></div>\r\n<div>&nbsp;</div>\r\n<div style=\"text-align: center;\"><strong>May He Rest in Peace</strong></div>\r\n<div>&nbsp;</div>\r\n<div>&nbsp;</div>\r\n<div>&nbsp;</div>\r\n<div>John will repose at his residence on Friday, 22nd April, from 4pm until 7pm. All visitors welcome. Funeral on Saturday, 23rd April in the Church of the Ascension of the Lord, Balally arriving for 2pm Requiem Mass (<a href=\"https://www.balallyparish.ie/live/\" target=\"_blank\" rel=\"noopener\">watch live</a>). Cremation Service at 4pm in the Victorian Chapel, Mount Jerome Crematorium (<a href=\"https://www.mountjerome.ie/victorian-chapel-service/\" target=\"_blank\" rel=\"noopener\">watch live</a>).</div>\r\n<div>&nbsp;</div>\r\n<div>Family flowers only please, donations in lieu, if desired to <a href=\"https://www.cancer.ie/ways-to-help/donate\" target=\"_blank\" rel=\"noopener\">Irish Cancer Society</a>.</div>\r\n<div>&nbsp;</div>\r\n<div>You may leave your personal message for John's family in the condolence section open below.</div>",
+        "address": "",
+        "dateOfDeath": "2022-04-21T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": 493532,
+        "county": {
+          "id": 10,
+          "name": "Dublin"
+        },
+        "town": {
+          "id": 361,
+          "name": "Dundrum"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 361,
+              "name": "Dundrum",
+              "slug": "Dundrum"
+            }
+          },
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 405,
+              "name": "Sandymount",
+              "slug": "Sandymount"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

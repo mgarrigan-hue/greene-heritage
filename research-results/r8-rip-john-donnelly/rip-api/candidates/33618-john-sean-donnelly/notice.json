@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-sean-donnelly-westmeath-moate-33618",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-sean-donnelly-westmeath-moate-33618"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 33618,
+        "surname": "DONNELLY",
+        "firstname": "John (Seán)",
+        "nee": "",
+        "createdAt": "2008-01-14T00:00:00.000+00:00",
+        "description": "Formerly of Ballyglass and Gardenfort, Dysart, Ballinasloe, Co. Roscommon.&nbsp;Reposing at his niece's residence, Mary and David Geoghegan, Curragh, Rosemount. Removal this Monday evening at 8pm to St. Patrick's Church, Dysart, Ballinasloe, Co. Roscommon, arriving at 9pm. Funeral Mass tomorrow, Tuesday, at 11am. Burial afterwards in Dysart Cemetery.",
+        "address": "Curragh, Rosemount,",
+        "dateOfDeath": "2008-01-13T00:00:00.000+00:00",
+        "dateOfBirth": null,
+        "oldId": 34825,
+        "county": {
+          "id": 30,
+          "name": "Westmeath"
+        },
+        "town": {
+          "id": 886,
+          "name": "Moate"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 30,
+              "name": "Westmeath"
+            },
+            "town": {
+              "id": 886,
+              "name": "Moate",
+              "slug": "Moate"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-donnelly-kildare-athy-374845",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-donnelly-kildare-athy-374845"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 374845,
+        "surname": "Donnelly",
+        "firstname": "John",
+        "nee": "",
+        "createdAt": "2019-06-11T13:35:12.000+01:00",
+        "description": "<div>\r\n<div class=\"nH\">\r\n<div class=\"nH\">\r\n<div class=\"nH bkL\">\r\n<div>\r\n<div>\r\n<div role=\"navigation\" aria-label=\"Toggle side panel\">\r\n<div tabindex=\"0\" role=\"button\" aria-pressed=\"false\" aria-label=\"Hide side panel\">\r\n<div>\r\n<p>Husband of the Late Sadie. Deeply regretted by his loving sons John, Paul and Terry, daughters-in-law, grandchildren, nieces, nephews, relatives and friends.</p>\r\n<p>&nbsp;</p>\r\n<p style=\"text-align: center;\"><strong>Rest in Peace</strong></p>\r\n<p>&nbsp;</p>\r\n<p>Reposing at his residence (Eir Code R14 AD93)&nbsp; with Rosary at 8pm on Wednesday evening. Removal by Rigney's Funeral Director's at 10.30am on Thursday morning to arrive at St. Michael's Parish Church, Athy for Requiem Mass at 11am. Burial afterwards in St. Michael's Old Cemetery, Athy.</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>",
+        "address": "32 Avondale",
+        "dateOfDeath": "2019-06-11T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": 390495,
+        "county": {
+          "id": 14,
+          "name": "Kildare"
+        },
+        "town": {
+          "id": 525,
+          "name": "Athy"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 14,
+              "name": "Kildare"
+            },
+            "town": {
+              "id": 525,
+              "name": "Athy",
+              "slug": "Athy"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

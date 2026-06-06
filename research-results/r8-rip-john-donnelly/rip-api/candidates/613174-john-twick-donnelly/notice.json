@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-twick-donnelly-louth-drogheda-613174",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-twick-donnelly-louth-drogheda-613174"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 613174,
+        "surname": "Donnelly",
+        "firstname": "John (Twick)",
+        "nee": "",
+        "createdAt": "2025-12-03T10:45:11.073+00:00",
+        "description": "<p><em>John (Twick) Donnelly, Brookville Park, Drogheda, Co. Louth and formerly of</em><em> 8</em><em> Peter Street. 1st December 2025. Peacefully, surrounded by his loving family.  Predeceased by his parents Peter and Annie, brothers Jim and Ken. Loving dad to Lorraine, Ashley and John-Paul. John will be sadly missed by his daughters, son, Lorraine’s partner Rob, son-in-law Stuart, daughter-in-law Samantha, grandchildren Dillon, Holly, Danny, Louisa, Amelia and John, sisters Marian and Pauline, sisters-in-law Joan and Mary, wife Nancy, extended family and friends.</em></p>\n\n<p> </p>\n\n<p><em>May John Rest in Peace.</em></p>\n\n<p> </p>\n\n<p><em>Reposing at Townley’s Funeral Home, Crosslanes (A92 XN75) on Monday 8th December from 3pm until 7pm.</em></p>\n\n<p><em>Removal from home on Tuesday 9th December at 11 o’clock walking to Our Lady of Lourdes Church arriving for funeral Mass at 11.30am which can be viewed live on </em> <a href=\"http://www.saintpetersdrogheda.ie\" style=\"color:blue;text-decoration:underline\">www.saintpetersdrogheda.ie</a></p>\n\n<p><em>Burial afterwards in St. Peter’s Cemetery.</em></p>\n\n<p> </p>\n\n<p><em>House strictly private at all times please.</em></p>\n\n<p> </p>\n\n<p><em>Family would like to thank the staff in Oldbridge House, Moorehall Lodge, Drogheda, for their exceptional care and attention in looking after John’s needs.</em></p>\n\n<p> </p>\n\n<p><em>Please leave a personal message of sympathy for the family in the Condolences section below.</em></p>\n\n<p> </p>\n\n<p>When parking around the Funeral Home please have consideration for residents in nearby houses.</p>\n\n<p style=\"text-align:justify\"> </p>\n\n<p style=\"text-align:justify\"><strong>Please Note: </strong>Live links are provided by an independent streaming company. The Funeral Directors accepts no responsibility for its functionality or interruption to a live transmission</p>\n\n<p> </p>\n\n<p> </p>\n\n<p> </p>\n\n<p> </p>\n\n<p> </p>\n\n<p> </p>\n\n<p> </p>\n",
+        "address": "",
+        "dateOfDeath": "2025-12-01T00:00:00.000+00:00",
+        "dateOfBirth": null,
+        "oldId": null,
+        "county": {
+          "id": 20,
+          "name": "Louth"
+        },
+        "town": {
+          "id": 672,
+          "name": "Drogheda"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 20,
+              "name": "Louth"
+            },
+            "town": {
+              "id": 672,
+              "name": "Drogheda",
+              "slug": "Drogheda"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

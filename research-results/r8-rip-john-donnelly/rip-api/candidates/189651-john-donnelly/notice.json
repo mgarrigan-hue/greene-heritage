@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-donnelly-tipperary-templemore-189651",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-donnelly-tipperary-templemore-189651"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 189651,
+        "surname": "Donnelly",
+        "firstname": "John",
+        "nee": "",
+        "createdAt": "2013-07-07T14:47:55.000+01:00",
+        "description": "<div style=\"font-family: Arial; font-size: 10pt;\">\r\n\t<br />\r\n\t<div align=\"center\">\r\n\t\t&nbsp;</div>\r\n\t<div>\r\n\t\tReposing at His Residence this Tuesday Evening from 5pm to 8pm. Removal on Wednesday Morning to St. James Church Killea for Requiem Mass at 11am. Interment in the adjoining Cemetery afterwards.</div>\r\n</div>\r\n<p>\r\n\t&nbsp;</p>",
+        "address": "Ashpark Killea",
+        "dateOfDeath": "2013-07-06T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": 199708,
+        "county": {
+          "id": 27,
+          "name": "Tipperary"
+        },
+        "town": {
+          "id": 835,
+          "name": "Templemore"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 27,
+              "name": "Tipperary"
+            },
+            "town": {
+              "id": 835,
+              "name": "Templemore",
+              "slug": "Templemore"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

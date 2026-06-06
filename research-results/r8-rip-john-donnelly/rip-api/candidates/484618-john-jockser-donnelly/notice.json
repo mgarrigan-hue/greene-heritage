@@ -1,0 +1,48 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-jockser-donnelly-dublin-swords-484618",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-jockser-donnelly-dublin-swords-484618"
+  ],
+  "searchIds": [
+    "dublin-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 484618,
+        "surname": "Donnelly",
+        "firstname": "John (Jockser)",
+        "nee": "",
+        "createdAt": "2022-06-21T16:47:08.000+01:00",
+        "description": "<p>DONNELLY, John (Jockser) (Swords) - June 19th, 2022, (peacefully) at Beaumont Hospital. Beloved husband of the late Theresa. Sadly missed by his loving sons Thomas, Sean and Philip, daughters Frances, Tina, Mary and Marice, sons-in-law, daughters-in-law, grandchildren, great-grandchildren, brothers-in-law Jim and Tom. relatives and friends.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p style=\"text-align: center;\"><em>May he Rest In Peace.&nbsp;</em></p>\r\n<p>&nbsp;</p>\r\n<p>Reposing at Rock's Funeral Home, Swords on Wednesday (22nd June) evening from 4 - 6 p.m. Removal on Thursday (June 23rd) morning to St. Cronan&rsquo;s Church, Brackenstown arriving for 10 a.m. Mass followed by funeral to Swords Cemetery. You can view the funeral mass live on the church webcam through the following link.</p>\r\n<p>&nbsp;</p>\r\n<p style=\"text-align: center;\">Webcam link: <a href=\"https://www.mcnmedia.tv/Camera/st-cronans-church-brackenstown-swords\" target=\"_blank\" rel=\"noopener\">https://www.mcnmedia.tv/Camera/st-cronans-church-brackenstown-swords</a></p>\r\n<p>&nbsp;</p>\r\n<p style=\"text-align: center;\"><em>Messages of sympathy for John's family can be left in the condolences section below.</em></p>",
+        "address": "",
+        "dateOfDeath": "2022-06-19T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": 499596,
+        "county": {
+          "id": 10,
+          "name": "Dublin"
+        },
+        "town": {
+          "id": 413,
+          "name": "Swords"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 413,
+              "name": "Swords",
+              "slug": "Swords"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

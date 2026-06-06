@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-arthur-donnelly-armagh-mullaghbawn-214838",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-arthur-donnelly-armagh-mullaghbawn-214838"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 214838,
+        "surname": "Donnelly",
+        "firstname": "John Arthur",
+        "nee": "",
+        "createdAt": "2014-05-20T18:08:01.000+01:00",
+        "description": "<p>Passed away peacefully in Craigavon Hospital, surrounded by loving family and friends. Dearly beloved husband of Eleanor, father of Sharon and much loved grandfather of Rhiannon, Blaithin and Amelia Grace. Sadly missed brother of Mary, Alice and the late Frank and Paddy.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>John Arthur&#39;s remains will leave his late residence on Thursday the 22nd of May at 12:15 for 1:00pm Requiem Mass at St Mary&#39;s Church, Mullaghbawn. Burial afterwards in adjoining cemetery. Very deeply regretted by his sorrowing wife, daughter, granddaughters, sisters, son-in-law Padraig and a wide circle of family and friends.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>",
+        "address": "49 Tullymacrieve Rd.,",
+        "dateOfDeath": "2014-05-19T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": 225701,
+        "county": {
+          "id": 2,
+          "name": "Armagh"
+        },
+        "town": {
+          "id": 2290,
+          "name": "Mullaghbawn"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 2,
+              "name": "Armagh"
+            },
+            "town": {
+              "id": 2290,
+              "name": "Mullaghbawn",
+              "slug": "Mullaghbawn"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

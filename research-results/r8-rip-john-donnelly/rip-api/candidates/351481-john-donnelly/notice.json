@@ -1,0 +1,61 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-donnelly-dublin-clonsilla-351481",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-donnelly-dublin-clonsilla-351481",
+    "https://rip.ie/death-notice/john-donnelly-waterford-waterford-city-351481"
+  ],
+  "searchIds": [
+    "dublin-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 351481,
+        "surname": "DONNELLY",
+        "firstname": "John",
+        "nee": "",
+        "createdAt": "2018-09-28T19:10:16.000+01:00",
+        "description": "<p><strong>DONNELLY </strong>(Clonsilla, Dublin and formerly of Donnelly&rsquo;s Bar, The Quays, Waterford City and Tramore, Co, Waterford) September 27th 2018 (suddenly) John, beloved partner of Angela, dear father of Martina, Brian and Aidan, devoted grandfather of Fiona, Conor, Jamie and Ciara and great-grandfather to Robyn. Sadly missed by his loving family, Josie, son-in-law Thomas, daughter-in-law Claire, Angela&rsquo;s children, brother-in-law, sisters-in-law, relatives and friends.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Reposing at his home on (<strong>Monday</strong>) evening from <strong>6.00</strong> o&rsquo;c to <strong>8.00</strong> o&rsquo;c. Removal to St. Mochta&rsquo;s Church, Porterstown on (<strong>Tuesday</strong>) morning arriving for Requiem Mass at <strong>10.00 </strong>o&rsquo;c followed by Cremation in Glasnevin Crematorium. Family flowers only, please. Donations if desired to <u><em><strong><a href=\"http://www.sfh.ie\" onclick=\"window.open(this.href, '', 'resizable=yes,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no'); return false;\">St. Francis Hospice, Blanchardstown</a></strong></em></u>.</p>",
+        "address": "",
+        "dateOfDeath": "2018-09-27T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": 366490,
+        "county": {
+          "id": 10,
+          "name": "Dublin"
+        },
+        "town": {
+          "id": 345,
+          "name": "Clonsilla"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 29,
+              "name": "Waterford"
+            },
+            "town": {
+              "id": 876,
+              "name": "Waterford City",
+              "slug": "Waterford-City"
+            }
+          },
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 345,
+              "name": "Clonsilla",
+              "slug": "Clonsilla"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

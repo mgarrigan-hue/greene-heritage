@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/sean-donnelly-dublin-marino-26548",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/sean-donnelly-dublin-marino-26548"
+  ],
+  "searchIds": [
+    "dublin-sean-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 26548,
+        "surname": "DONNELLY",
+        "firstname": "Seán",
+        "nee": "",
+        "createdAt": "2007-09-20T00:00:00.000+01:00",
+        "description": "Late Castleblaney, Co. Monaghan.&nbsp;Reposing at Rom Massey &amp; Sons Funeral Home, the Civic Centre, Ballymun Road. Funeral tomorrow morning, Friday, to arrive at the Church of St. Vincent de Paul, Griffith Avenue, Marino, for 11am Mass, followed by cremation at Glasnevin Crematorium. Family flowers only, please. Donations, if desired, to the ICCU, Mater Hospital, Dublin 7 or the Irish Heart Foundation, 4 Clyde Road, Dublin 4.",
+        "address": "",
+        "dateOfDeath": "2007-09-18T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": 27573,
+        "county": {
+          "id": 10,
+          "name": "Dublin"
+        },
+        "town": {
+          "id": 1117,
+          "name": "Marino"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 1117,
+              "name": "Marino",
+              "slug": "Marino"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

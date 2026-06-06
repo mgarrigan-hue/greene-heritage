@@ -1,0 +1,48 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-donnelly-dublin-donnycarney-277657",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-donnelly-dublin-donnycarney-277657"
+  ],
+  "searchIds": [
+    "dublin-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 277657,
+        "surname": "DONNELLY",
+        "firstname": "John",
+        "nee": "",
+        "createdAt": "2016-06-10T16:07:09.000+01:00",
+        "description": "<p>DONNELLY, John (Donnycarney, Dublin 9 and late of the Department of Agriculture) 3rd June 2016, tragically in Turkey. Loving son of the late John. John will be very sadly missed by his loving mother Peg,&nbsp; partner Gavin, sisters Geraldine, Valerie, Claire, Helen and Margaret, brother Brian, sister-in-law, brothers-in-law, aunts, nieces and nephews and many relatives.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Reposing at Staffords Funeral Home, Portmarnock on Monday, 13th June, from 5.30pm to 7.30pm. Funeral Service will be held on Tuesday 14th in&nbsp;Naomh Mearnog, GAA Club, Blackwood Ln, Portmarnock, Co. Dublin at 10.30am (sharp) followed by burial in Fingal Cemetery.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p style=\"text-align:center\"><strong>Rest in Peace </strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p style=\"text-align:center\"><em>\"The Show Must Go On\"</em></p>",
+        "address": "",
+        "dateOfDeath": "2016-06-03T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": 290436,
+        "county": {
+          "id": 10,
+          "name": "Dublin"
+        },
+        "town": {
+          "id": 356,
+          "name": "Donnycarney"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 356,
+              "name": "Donnycarney",
+              "slug": "Donnycarney"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

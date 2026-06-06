@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-patrick-donnelly-leitrim-cloone-416883",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-patrick-donnelly-leitrim-cloone-416883"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 416883,
+        "surname": "Donnelly",
+        "firstname": "John Patrick",
+        "nee": "",
+        "createdAt": "2020-09-14T11:38:39.000+01:00",
+        "description": "<p>The death has occurred of&nbsp;<strong>John Patrick Donnelly,&nbsp;</strong>Drumharkin Glebe, Cloone, Co Leitrim, Saturday, September 12th 2020, peacefully, at Ballinamore Nursing Unit.</p>\r\n<p>&nbsp;</p>\r\n<p>Predeceased by his sisters; Rose and Mary.</p>\r\n<p>&nbsp;</p>\r\n<p>Sadly missed by his brother in law Martin Farrell (UK), his nephews; Se&aacute;n and Martin Farrell, (UK), relatives, neighbours and friends.</p>\r\n<p style=\"text-align: center;\"><strong>May John Patrick Rest In Peace</strong></p>\r\n<p style=\"text-align: left;\">John Patrick&rsquo;s Funeral mass will take place on Wednesday September 16th 2020 at 12 noon in St Mary&rsquo;s Church, Cloone, to family, neighbours and close friends, in accordance with COVID guidelines, followed by burial in the local cemetery.&nbsp;</p>\r\n<p style=\"text-align: left;\">&nbsp;</p>\r\n<p style=\"text-align: left;\">&nbsp;</p>\r\n<p style=\"text-align: left;\">In compliance with the current guidelines on public public gatherings ,those who would have liked to attend the funeral but are unable to do so due to COVID restrictions, can leave a message of sympathy in the &ldquo;Condolence&rdquo; section below. &nbsp;The family appreciates your sympathy, support and understanding at this time.</p>\r\n<p style=\"text-align: left;\">&nbsp;</p>\r\n<p style=\"text-align: left;\"><strong>John Patrick&rsquo;s Funeral Mass will be streamed live on:</strong></p>\r\n<p style=\"text-align: left;\"><strong><a href=\"https://churchtv.ie/cloone.html\">https://churchtv.ie/cloone.html</a></strong></p>",
+        "address": "Drumharkin Glebe",
+        "dateOfDeath": "2020-09-12T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": 433430,
+        "county": {
+          "id": 17,
+          "name": "Leitrim"
+        },
+        "town": {
+          "id": 591,
+          "name": "Cloone"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 17,
+              "name": "Leitrim"
+            },
+            "town": {
+              "id": 591,
+              "name": "Cloone",
+              "slug": "Cloone"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

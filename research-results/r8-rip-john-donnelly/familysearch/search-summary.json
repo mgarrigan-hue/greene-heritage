@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-06-06T17:31:34+01:00",
+  "source": "FamilySearch public web search / collection triage",
+  "queries": [
+    "site:familysearch.org \"John Donnelly\" \"Ita\" Dublin",
+    "site:familysearch.org \"John Donnelly\" \"Dublin\" \"Donnelly\" \"Ita\""
+  ],
+  "result": "No direct FamilySearch-indexed public result was found linking John Donnelly, Ita/Eithne Greene/Donnelly, and Dublin. FamilySearch collections are mostly pre-1958 civil indexes / pre-1921 records for this use case and do not resolve a post-1990 death.",
+  "followUp": "If a civil certificate is needed, use GRO Research Room with the RIP.ie negative search context and family names."
+}

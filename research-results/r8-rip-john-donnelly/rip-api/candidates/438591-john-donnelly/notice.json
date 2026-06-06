@@ -1,0 +1,71 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-donnelly-dublin-portmarnock-438591",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-donnelly-dublin-portmarnock-438591",
+    "https://rip.ie/death-notice/john-donnelly-dublin-glasnevin-438591",
+    "https://rip.ie/death-notice/john-donnelly-limerick-unknown-438591"
+  ],
+  "searchIds": [
+    "dublin-john-donnelly-1998-2025",
+    "dublin-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 438591,
+        "surname": "Donnelly",
+        "firstname": "John",
+        "nee": "",
+        "createdAt": "2021-03-11T16:49:21.000+00:00",
+        "description": "<p>Donnelly John, Portmarnock and formerly of Glasnevin and Limerick and late of Burmah Castrol.&nbsp; 11th March 2021.&nbsp; Peacefully, in the care of Beaumont Hospital.&nbsp; Beloved husband of Evelyn.&nbsp; Very sadly missed by his loving wife, sons Aubrey and Shane, daughter Una, daughter-in-law Edel, son-in-law Ronan, his adored grandchildren Faye, Zach and Rose, brothers Martin and Bernard, sisters Mary, Katherine and Anne, nieces, nephews, extended family and his many friends.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p style=\"text-align: center;\"><em><strong>May He Rest in Peace.</strong></em></p>\r\n<p>&nbsp;</p>\r\n<p>Due to Government advice regarding public gatherings, a private family Funeral Service will take place. To those who would have liked to attend the funeral, but due to current restrictions cannot, please leave your condolences&nbsp;at the bottom of this page or send on condolences by traditional&nbsp;manner. Family flowers only please.&nbsp; Donations, if desired, to Brother Kevin's Capuchin Day Centre.</p>\r\n<p>&nbsp;</p>\r\n<p>A live stream of John's Funeral Mass can be viewed on Monday, 15th March, at 10am on the following link:&nbsp;</p>\r\n<p style=\"text-align: center;\"><a href=\"http://portmarnockparish.ie/\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl=\"https://www.google.com/url?q=http://portmarnockparish.ie/&source=gmail&ust=1615562385716000&usg=AFQjCNH6cUgeftsw6-XdKsFdcJKofY2GLQ\">http://portmarnockparish.ie/</a>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p style=\"text-align: center;\"><em><strong>The above link is provided and managed by an independent streaming company.&nbsp; &nbsp;The Funeral Home accepts no responsibility for its functionality or any interruption to a live transmission.</strong></em></p>",
+        "address": "",
+        "dateOfDeath": "2021-03-11T00:00:00.000+00:00",
+        "dateOfBirth": null,
+        "oldId": 452587,
+        "county": {
+          "id": 10,
+          "name": "Dublin"
+        },
+        "town": {
+          "id": 393,
+          "name": "Portmarnock"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 393,
+              "name": "Portmarnock",
+              "slug": "Portmarnock"
+            }
+          },
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 367,
+              "name": "Glasnevin",
+              "slug": "Glasnevin"
+            }
+          },
+          {
+            "county": {
+              "id": 18,
+              "name": "Limerick"
+            },
+            "town": null
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

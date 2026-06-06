@@ -1,0 +1,48 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-donnelly-dublin-glenageary-508898",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-donnelly-dublin-glenageary-508898"
+  ],
+  "searchIds": [
+    "dublin-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 508898,
+        "surname": "Donnelly",
+        "firstname": "John",
+        "nee": "",
+        "createdAt": "2023-02-22T14:14:12.000+00:00",
+        "description": "<p>Donnelly (Glenageary, Co. Dublin and member of Blainroe&nbsp;Golf Club) 22nd February 2023, peacefully in the kind care of the staff in St. Vincent&rsquo;s Hospital.&nbsp; John Nugent, beloved husband of the late Eileen (Cecilia) loving father of Olwyn and Richard. Sadly missed by his children and their partners Stephen and Jill, adored grandchildren Meg, Patrick and Jamie, his brother James, sisters Anne and Geraldine, brothers-in-law, sisters-in-law, extended family, neighbours and friends.</p>\r\n<p>&nbsp;</p>\r\n<p>Removal Monday (27th February) from Quinn&rsquo;s of Glasthule to St. Joseph&rsquo;s Church, Glasthule arriving for 10am Funeral Mass which can be viewed online at <a href=\"http://www.churchservices.tv/glasthule\">www.churchservices.tv/glasthule</a>&nbsp; followed by burial in Kilternan Cemetery Park.</p>\r\n<p>&nbsp;</p>\r\n<p style=\"text-align: center;\"><strong>May he rest in peace.</strong></p>",
+        "address": "",
+        "dateOfDeath": "2023-02-22T00:00:00.000+00:00",
+        "dateOfBirth": null,
+        "oldId": 527082,
+        "county": {
+          "id": 10,
+          "name": "Dublin"
+        },
+        "town": {
+          "id": 368,
+          "name": "Glenageary"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 368,
+              "name": "Glenageary",
+              "slug": "Glenageary"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

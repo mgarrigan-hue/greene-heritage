@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-donnelly-galway-ballinamore-bridge-449002",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-donnelly-galway-ballinamore-bridge-449002"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 449002,
+        "surname": "Donnelly",
+        "firstname": "John",
+        "nee": "",
+        "createdAt": "2021-07-06T15:04:56.000+01:00",
+        "description": "<p class=\"p1\" style=\"text-align: center;\"><em><span class=\"s1\">The death has occurred (peacefully) of John Donnelly, Ballinlass, Ballinamore Bridge, Ballinasloe, Co. Galway on July 5th, in the care of the respiratory ward Portiuncla Hospital Ballinasloe. Predeceased by his son Patrick & daughter Ciara Mary. Deeply regretted by his wife, Mary, sons, daughters-in-law, grandchildren, brothers, sisters-in-law, nephews, nieces, relatives & friends.</span></em></p>\r\n<p class=\"p2\" style=\"text-align: center;\">&nbsp;</p>\r\n<p class=\"p1\" style=\"text-align: center;\"><em><span class=\"s2\">Ar dheis D&eacute; go raibh a anam</span></em></p>\r\n<p class=\"p1\" style=\"text-align: center;\"><em><span class=\"s1\">May he rest in peace</span></em></p>\r\n<p class=\"p2\" style=\"text-align: center;\">&nbsp;</p>\r\n<p class=\"p1\" style=\"text-align: center;\"><em><span class=\"s1\">John&rsquo;s funeral cort&eacute;ge will be leaving Moran's funeral home, Ballygar on Thursday, July 8th to pass by his residence before 11:30am funeral mass in St. Brendan's Church, Toghergar. Burial afterwards in Killyan Cemetery.</span></em></p>",
+        "address": "Ballinlass",
+        "dateOfDeath": "2021-07-05T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": 463198,
+        "county": {
+          "id": 12,
+          "name": "Galway"
+        },
+        "town": {
+          "id": 1230,
+          "name": "Ballinamore Bridge"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 12,
+              "name": "Galway"
+            },
+            "town": {
+              "id": 1230,
+              "name": "Ballinamore Bridge",
+              "slug": "Ballinamore-Bridge"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

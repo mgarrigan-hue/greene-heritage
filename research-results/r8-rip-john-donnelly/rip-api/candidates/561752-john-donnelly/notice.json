@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-donnelly-waterford-passage-east-561752",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-donnelly-waterford-passage-east-561752"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 561752,
+        "surname": "DONNELLY",
+        "firstname": "John",
+        "nee": "",
+        "createdAt": "2024-07-10T10:37:27.063+01:00",
+        "description": "<p style=\"text-align:center\"><strong><u>John Donnelly,</u></strong></p>\n\n<p style=\"text-align:center\"><strong>L</strong><strong>ate of Barrack Street, Passage East, Co. Waterford.</strong></p>\n\n<p style=\"text-align:center\"><strong>Ex. Waterford Harbour Commissioners and The Port Lairge.</strong></p>\n\n<p style=\"text-align:center\"><strong> Died July 7th 2024</strong></p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\">Predeceased by his parents Jack and Mary Ann, sisters Finola, Maeve, Pauline and Veronica.</p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\">John will be sadly missed by his sister Maisie and his brother Dick, nieces, nephews extended family neighbours and friends.</p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\"><strong>May He Rest In Peace.</strong></p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\">Reposing in Tom Hennessy’s Funeral Home, Johnstown, X91 FW4A on Friday July 12th from 5.30pm to 7pm.</p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\">The Funeral Cortége will stop at John’s house in Barrack Street, Passage East, on Saturday July 13th en route to St. John The Baptist Church, Crooke, for Requiem Mass on arrival at 10am. Burial afterwards in Crooke Cemetery.</p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\">House Private Please</p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\">Family flowers only please donations in lieu to to Dunmore East R.N.L.I. by following the link below</p>\n\n<p style=\"text-align:center\"><a href=\"https://rnli.org/support-us/give-money/donate\">Donation Link</a></p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\">The Donnelly family would like to sincerely thank all the staff of University Hospital Waterford for the care given to John during his stay in hospital.</p>\n\n<p> </p>\n\n<p style=\"text-align:center\">Book of Condolence: A message of support and sympathy can be left for John’s family in the condolence section below.</p>\n\n<p style=\"text-align:center\"><em>Thank you for your consideration and cooperation at this difficult time.</em></p>\n",
+        "address": "Barrack Street",
+        "dateOfDeath": "2024-07-07T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": null,
+        "county": {
+          "id": 29,
+          "name": "Waterford"
+        },
+        "town": {
+          "id": 870,
+          "name": "Passage East"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 29,
+              "name": "Waterford"
+            },
+            "town": {
+              "id": 870,
+              "name": "Passage East",
+              "slug": "Passage-East"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

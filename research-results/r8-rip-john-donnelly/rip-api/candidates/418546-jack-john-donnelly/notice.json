@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/jack-john-donnelly-clare-newmarket-on-fergus-418546",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/jack-john-donnelly-clare-newmarket-on-fergus-418546"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 418546,
+        "surname": "Donnelly",
+        "firstname": "Jack (John)",
+        "nee": "",
+        "createdAt": "2020-10-02T13:28:15.000+01:00",
+        "description": "<p style=\"text-align: center;\">Peacefully at his niece Lena's residence.</p>\r\n<p style=\"text-align: center;\">Deeply missed by his loving family nieces Catherine, Lena, Mellissa and Mary, nephew Philip, grandnieces, grandnephews, great-grandnieces, great-grandnephew, Noel and Deirdre Mc Carthy, his friends in&nbsp;Obair, relatives, neighbours.</p>\r\n<p>&nbsp;</p>\r\n<p style=\"text-align: center;\"><strong>May he Rest In Peace.</strong></p>\r\n<p>&nbsp;</p>\r\n<p style=\"text-align: center;\">In accordance with current government guidelines a private Funeral Mass for family and friends will be celebrated in Our Lady of The Rosary Church, Newmarke-on-Fergus this Monday (5th October) at 12 noon followed by burial afterwards in Lemenagh Cemetery Newmarket-on-Fergus.</p>\r\n<p style=\"text-align: center;\">Family flowers only, donations, if desired, to Milford Care Centre.</p>\r\n<p style=\"text-align: center;\">Mass cards and letters of sympathy can be sent to Mc Mahon&nbsp;Funeral Directors.</p>\r\n<p style=\"text-align: center;\">If you would like to write a condolence please do so on the link below.</p>",
+        "address": "Killnasoolagh Pk.",
+        "dateOfDeath": "2020-10-01T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": 435124,
+        "county": {
+          "id": 5,
+          "name": "Clare"
+        },
+        "town": {
+          "id": 103,
+          "name": "Newmarket-on-Fergus"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 5,
+              "name": "Clare"
+            },
+            "town": {
+              "id": 103,
+              "name": "Newmarket-on-Fergus",
+              "slug": "Newmarket-on-Fergus"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

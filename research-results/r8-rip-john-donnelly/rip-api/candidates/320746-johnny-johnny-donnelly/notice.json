@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/johnny-johnny-donnelly-armagh-silverbridge-320746",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/johnny-johnny-donnelly-armagh-silverbridge-320746"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 320746,
+        "surname": "DONNELLY",
+        "firstname": "Johnny (Johnny)",
+        "nee": "",
+        "createdAt": "2017-10-26T13:08:27.000+01:00",
+        "description": "<p>Johnny RIP passed away peacefully in the loving care of family and staff of Mother of Mercy Residential Care Home, Newry. Loving brother of Margaret, Alice and the late James, Ned, Bridget, Maud and Elizabeth, dear brother-in-law of Peggy, uncle of Pat and Deirdre.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Reposing at McConville&#39;s Chapel of Rest, Crosmmaglen between 2pm to 6.30pm today, Thursday. Removal this evening at 7pm (via Carnally) to St. Brigid&#39;s Church, Glassdrummond arriving for 7.30pm. Funeral Mass on Friday, October 27th, at 11am. Burial afterwards in the adjoining cemetery.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p style=\"text-align: center;\"><strong>\" Sacred Heart of Jesus Have Mercy on His Soul \"</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Deeply regretted by his sorrowing sisters, sister-in-law,&nbsp; nephews, nieces and wider family circle. Enquiries to Mc Conville Funeral Directors, Crossmaglen 02830861212.</p>",
+        "address": "46 Carnally Rd",
+        "dateOfDeath": "2017-10-25T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": 334716,
+        "county": {
+          "id": 2,
+          "name": "Armagh"
+        },
+        "town": {
+          "id": 1958,
+          "name": "Silverbridge"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 2,
+              "name": "Armagh"
+            },
+            "town": {
+              "id": 1958,
+              "name": "Silverbridge",
+              "slug": "Silverbridge"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

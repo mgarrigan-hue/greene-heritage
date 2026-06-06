@@ -1,0 +1,60 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-joe-donnelly-tyrone-coalisland-504547",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-joe-donnelly-tyrone-coalisland-504547",
+    "https://rip.ie/death-notice/john-joe-donnelly-cavan-mountnugent-504547"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 504547,
+        "surname": "Donnelly",
+        "firstname": "John Joe",
+        "nee": "",
+        "createdAt": "2023-01-15T19:57:31.000+00:00",
+        "description": "<p>John Joe Donnelly, Pollareagh, Mountnugent, Co Cavan and formerly Aughamullan, Coalisland, Co Tyrone. &nbsp;Sunday, January 15th, peacefully, in the wonderful care of the staff at St Christopher&rsquo;s Hospice, Cavan, surrounded by his loving family and friends. Pre-deceased by his parents John and Molly Donnelly, Aughamullan, Coalisland, Co Tyrone. Sadly missed by his loving family Caiti, (George Hanna), Brian (Isobel), Thomas (Noreen), Carol (Declan Hughes) and Kieran, nephews, nieces, and wider family circle.</p>\r\n<p>&nbsp;</p>\r\n<p>Reposing at Lakelands Funeral Home, Dublin Road, Cavan, on Monday evening from 5.00pm until 7.00pm. Reposing at the home of his brother Brian from Tuesday afternoon Removal on Thursday morning at 11.15am to St Brigid&rsquo;s Church Brocagh, to arrive for Requiem Mass at 12.00 noon, interment afterwards in the adjoining cemetery.</p>\r\n<p>Sacred heart of Jesus have mercy on his soul</p>\r\n<p>Ar dheis D&eacute; go raibh a anam d&iacute;lis.</p>",
+        "address": "Pollareagh",
+        "dateOfDeath": "2023-01-15T00:00:00.000+00:00",
+        "dateOfBirth": null,
+        "oldId": 522731,
+        "county": {
+          "id": 4,
+          "name": "Cavan"
+        },
+        "town": {
+          "id": 64,
+          "name": "Mountnugent"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 28,
+              "name": "Tyrone"
+            },
+            "town": {
+              "id": 2138,
+              "name": "Coalisland",
+              "slug": "Coalisland"
+            }
+          },
+          {
+            "county": {
+              "id": 4,
+              "name": "Cavan"
+            },
+            "town": {
+              "id": 64,
+              "name": "Mountnugent",
+              "slug": "Mountnugent"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

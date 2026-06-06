@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-ronald-ronnie-donnelly-wicklow-bray-217216",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-ronald-ronnie-donnelly-wicklow-bray-217216"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 217216,
+        "surname": "DONNELLY",
+        "firstname": "John Ronald (Ronnie)",
+        "nee": "",
+        "createdAt": "2014-06-21T19:34:48.000+01:00",
+        "description": "<p>John Ronald (Ronnie) Donnelly of&nbsp;Bray, Co. Wicklow and formerly of Barnacullia, Sandyford, Co. Dublin, died on&nbsp;June 21, 2014, peacefully, in the loving care of his family and the wonderful staff at St. Vincent&rsquo;s University Hospital, Dublin, much loved by his wife Mary, sons John and Alan, daughter Aisling, grandchildren Laoise, Ciara and Se&aacute;n and daughter-in-law Jillian; he will be sadly missed by his brothers Tony and Matty, sisters Wendy and Sadie, father-in-law Patrick, brothers-in-law, sisters-in-law, nieces, nephews, relatives and friends.&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>There will be a gathering for family and friends on Monday, June 23 from 5pm to 7pm at Colliers Funeral Home, Old Connaught Avenue, Bray. Requiem Mass on Tuesday, June24 at 11.00am in St. Fergal&rsquo;s Church, Ballywaltrim, Bray followed by burial in Springfield Cemetery, Killarney Road, Bray. Family flowers only please. Donations, if desired to St. Vincent&rsquo;s Foundation, Elm Park, Dublin 4 can be made at the church.</p>\r\n\r\n<p style=\"text-align: center;\">&nbsp;</p>\r\n\r\n<p style=\"text-align: center;\"><strong>May he rest in peace</strong></p>",
+        "address": "",
+        "dateOfDeath": "2014-06-21T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": 228148,
+        "county": {
+          "id": 32,
+          "name": "Wicklow"
+        },
+        "town": {
+          "id": 956,
+          "name": "Bray"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 32,
+              "name": "Wicklow"
+            },
+            "town": {
+              "id": 956,
+              "name": "Bray",
+              "slug": "Bray"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/sean-donnelly-dublin-sutton-386983",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/sean-donnelly-dublin-sutton-386983"
+  ],
+  "searchIds": [
+    "dublin-sean-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 386983,
+        "surname": "Donnelly",
+        "firstname": "Seán",
+        "nee": "",
+        "createdAt": "2019-11-01T17:44:02.000+00:00",
+        "description": "<p>Donnelly, Se&aacute;n,&nbsp; Sutton and formerly of Omagh, Co. Tyrone.&nbsp; Late of the Irish Press News Paper.&nbsp; 31st October 2019.&nbsp; Peacefully in the care of St. Patrick's Nursing Home, Baldoyle.&nbsp; Beloved husband of the late Patricia.&nbsp; Very sadly missed by his loving sons Gary and Damian, daughters-in-law Ruth and Sharon, his adored grandchildren Conor, Claire, Sorcha, Cian, Bronagh, Daniel, Jessica and Niall, brothers Patsy, Hugh and Noel, sisters Moire and Pearl, nieces, nephews, relatives and friends.</p>\r\n<p>&nbsp;</p>\r\n<p style=\"text-align: center;\"><strong>May He Rest in Peace.</strong></p>\r\n<p>&nbsp;</p>\r\n<p>Reposing in Staffords Funeral Home, Golf Links Road, Portmarnock on Monday, 4th November, from 4pm to 6pm.&nbsp; Removal to the Church of the Resurrection, Bayside on Tuesday morning for 11am Funeral Mass, followed by burial in Fingal Cemetery.</p>",
+        "address": "",
+        "dateOfDeath": null,
+        "dateOfBirth": null,
+        "oldId": 402912,
+        "county": {
+          "id": 10,
+          "name": "Dublin"
+        },
+        "town": {
+          "id": 412,
+          "name": "Sutton"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 28,
+              "name": "Tyrone"
+            },
+            "town": {
+              "id": 847,
+              "name": "Omagh",
+              "slug": "Omagh"
+            }
+          },
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 412,
+              "name": "Sutton",
+              "slug": "Sutton"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

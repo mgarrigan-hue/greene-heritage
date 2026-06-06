@@ -1,0 +1,48 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-donnelly-dublin-blackrock-374303",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-donnelly-dublin-blackrock-374303"
+  ],
+  "searchIds": [
+    "dublin-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 374303,
+        "surname": "DONNELLY",
+        "firstname": "John",
+        "nee": "",
+        "createdAt": "2019-06-04T17:00:24.000+01:00",
+        "description": "<p>(1929 &ndash; 2019), former Senior Partner of Deloitte in Dublin, peacefully on the morning of June 2nd 2019; beloved husband of Aoibheann (nee MacEllin) for 57 years and loving father to Grace, Caoimhe, Deirdre and JP.&nbsp; Sadly missed by his sons-in-law Fintan O&rsquo;Gorman, Andrew Lowe and Aillil O&rsquo;Reilly, his brother Gerard and brother-in-law Peter Dunn.&nbsp; Predeceased by his sisters Ethel and Phil, and brothers Daniel and Michael.&nbsp; Cherished by his fourteen grandchildren Jack, Katie and Harry Donnelly; Christopher, Eleanor, and Louisa O&rsquo;Gorman; Jonathan, Alec, Cormac and Jake Lowe; Ailbhe, Honor, Lauren and James O&rsquo;Reilly.</p>\r\n<p>&nbsp;</p>\r\n<p>Reposing at home on Thursday (6th June) from 5:30pm to 7:30pm. Funeral Mass on Friday (7th June) at 10:00 am in Church of the Assumption, Booterstown Avenue, followed by burial in Shanganagh Cemetery. Family flowers only please.&nbsp;&nbsp;</p>",
+        "address": "",
+        "dateOfDeath": "2019-06-02T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": 389942,
+        "county": {
+          "id": 10,
+          "name": "Dublin"
+        },
+        "town": {
+          "id": 331,
+          "name": "Blackrock"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 331,
+              "name": "Blackrock",
+              "slug": "Blackrock"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

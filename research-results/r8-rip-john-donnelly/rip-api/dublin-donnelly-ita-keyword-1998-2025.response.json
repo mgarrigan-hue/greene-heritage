@@ -1,0 +1,43 @@
+{
+  "data": {
+    "searchDeathNoticesForList": {
+      "count": 0,
+      "perPage": 80,
+      "page": 1,
+      "nextPage": false,
+      "records": [
+        {
+          "id": 613742,
+          "firstname": "Ita",
+          "surname": "Donnelly",
+          "nee": "Greene",
+          "createdAt": "2025-12-08T13:41:52.494+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": {
+            "id": 373,
+            "name": "Inchicore"
+          }
+        },
+        {
+          "id": 62115,
+          "firstname": "Rita",
+          "surname": "DONNELLY",
+          "nee": "O'Brien",
+          "createdAt": "2009-01-09T00:00:00.000+00:00",
+          "funeralArrangementsLater": false,
+          "arrangementsChange": "NONE",
+          "county": {
+            "id": 10,
+            "name": "Dublin"
+          },
+          "town": null
+        }
+      ]
+    }
+  }
+}

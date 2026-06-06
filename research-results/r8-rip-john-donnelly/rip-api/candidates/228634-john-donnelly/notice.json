@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-donnelly-laois-portarlington-228634",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-donnelly-laois-portarlington-228634"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 228634,
+        "surname": "Donnelly",
+        "firstname": "John",
+        "nee": "",
+        "createdAt": "2014-11-18T20:40:36.000+00:00",
+        "description": "<p>Died peacefully on&nbsp;November 18th, 2014 at the Midland&nbsp;Regional Hospital, Portlaoise. Beloved husband of the late Elizabeth; deeply regretted by his loving daughters Elizabeth and Margaret, sons-in-law Pat and Andy, grandchildren Kevan and his wife Sylwia, Brendan, Conor, Matthew, Christopher, Dominic and Tom, nieces, nephews, relatives and friends. RIP. Reposing at Maher&rsquo;s Chapel of Rest, Portarlington tomorrow, Wednesday&nbsp;evening, from 6 o&rsquo;clock with Rosary at 7.30 o&rsquo;clock. Removal on Thursday&nbsp;morning at 11:15 o&rsquo;clock arriving at St. John&rsquo;s Church, Killenard for Requiem Mass at 12 o&rsquo;clock. Interment afterwards in the adjoining cemetery. Family flowers only please. Donations if desired to the local St Vincent de Paul Society.</p>",
+        "address": "Killenard",
+        "dateOfDeath": "2014-11-18T00:00:00.000+00:00",
+        "dateOfBirth": null,
+        "oldId": 239907,
+        "county": {
+          "id": 16,
+          "name": "Laois"
+        },
+        "town": {
+          "id": 583,
+          "name": "Portarlington"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 16,
+              "name": "Laois"
+            },
+            "town": {
+              "id": 583,
+              "name": "Portarlington",
+              "slug": "Portarlington"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

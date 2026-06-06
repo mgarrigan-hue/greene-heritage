@@ -1,0 +1,1793 @@
+{
+  "props": {
+    "pageProps": {
+      "randomEcommerceCategories": [
+        {
+          "id": 27,
+          "description": null,
+          "imageUrl": "https://rip.ie/shop/app/uploads/2026/02/New-Acknowledgement-card_Giant.png",
+          "name": "Acknowledgement Cards",
+          "url": "https://rip.ie/shop/product-category/cards/acknowledgement-cards/"
+        },
+        {
+          "id": 42,
+          "description": null,
+          "imageUrl": "https://rip.ie/shop/app/uploads/2026/04/Thinking-of-you-box_Robin-Mug2_Giant.png",
+          "name": "Care Packages",
+          "url": "https://rip.ie/shop/product-category/care-packages/"
+        },
+        {
+          "id": 39,
+          "description": null,
+          "imageUrl": "https://rip.ie/shop/app/uploads/2026/02/Angel-of-Freedom_Giant-1.jpg",
+          "name": "Angel Ornaments & Keepsake boxes",
+          "url": "https://rip.ie/shop/product-category/memorial-keepsakes/angel-ornaments-keepsake-boxes/"
+        }
+      ],
+      "serviceDirectoryTypes": [
+        {
+          "id": 9,
+          "oldId": 25,
+          "name": "Solicitors",
+          "slug": "solicitors",
+          "servicesCount": 5,
+          "icon": "ic_repatriation"
+        },
+        {
+          "id": 107,
+          "oldId": 125,
+          "name": "Funeral Video & Streaming",
+          "slug": "funeral-video-and-streaming",
+          "servicesCount": 3,
+          "icon": "ic_funeral_video_streaming"
+        },
+        {
+          "id": 99,
+          "oldId": 117,
+          "name": "Funeral Plans",
+          "slug": "funeral-plans",
+          "servicesCount": 2,
+          "icon": "ic_funeral_plans"
+        },
+        {
+          "id": 13,
+          "oldId": 29,
+          "name": "Singers and Musicians",
+          "slug": "singers-and-musicians",
+          "servicesCount": 12,
+          "icon": "ic_singers_and_musicians"
+        },
+        {
+          "id": 54,
+          "oldId": 72,
+          "name": "Urns & Keepsakes",
+          "slug": "urns-and-keepsakes",
+          "servicesCount": 7,
+          "icon": "ic_urns"
+        }
+      ],
+      "deathNoticesFeaturedList": [
+        {
+          "id": 632812,
+          "firstname": "Denis",
+          "nee": "",
+          "surname": "Coughlan",
+          "address": "",
+          "town": {
+            "name": "Montenotte"
+          },
+          "county": {
+            "name": "Cork"
+          },
+          "photoAttachment": {
+            "file": "Denis_Coughlan_00e0beb963e5985ceddfe70064d52705f01671b134333cf5.jpg"
+          }
+        },
+        {
+          "id": 632782,
+          "firstname": "Denis",
+          "nee": "",
+          "surname": "Molloy",
+          "address": "Riverside",
+          "town": {
+            "name": "Castleisland"
+          },
+          "county": {
+            "name": "Kerry"
+          },
+          "photoAttachment": {
+            "file": "denis_molloy_0277cf06bd0e88c76d30ea3757174403636f75fa2f0434f6.jpg"
+          }
+        },
+        {
+          "id": 632814,
+          "firstname": "Ruairí Noel",
+          "nee": "",
+          "surname": "Frawley",
+          "address": "Mountain View, Rathnure",
+          "town": {
+            "name": "Enniscorthy"
+          },
+          "county": {
+            "name": "Wexford"
+          },
+          "photoAttachment": {
+            "file": "Screenshot_20260606-104121_Gmail_a2cbad435d5c80f4e6af5caed67f7b92ff14af3d1f1ea9a4.jpg"
+          }
+        },
+        {
+          "id": 632773,
+          "firstname": "Jenny",
+          "nee": "",
+          "surname": "Bulbulia",
+          "address": "",
+          "town": {
+            "name": "Woodstown"
+          },
+          "county": {
+            "name": "Waterford"
+          },
+          "photoAttachment": {
+            "file": "Jenny_Bulbulia_90fbb640adb7e5c6d2a674e1e4395f74726a3cf329425f23.jpg"
+          }
+        },
+        {
+          "id": 632764,
+          "firstname": "Owen",
+          "nee": "",
+          "surname": "O'Driscoll",
+          "address": "Harbour View Road,",
+          "town": {
+            "name": "Knocknaheeny"
+          },
+          "county": {
+            "name": "Cork"
+          },
+          "photoAttachment": {
+            "file": "Late_Owen_O'Driscoll_18b24b8e8d17d71abefdf3fcf478be0cd830878af3177f25.jpg"
+          }
+        },
+        {
+          "id": 632785,
+          "firstname": "Bernard",
+          "nee": "",
+          "surname": "Quinn",
+          "address": "",
+          "town": {
+            "name": "Cooley"
+          },
+          "county": {
+            "name": "Louth"
+          },
+          "photoAttachment": {
+            "file": "IMG_7231_82dffce4768a67755dc8f88ba35ed41dd50a7df8436a0708.PNG"
+          }
+        },
+        {
+          "id": 632813,
+          "firstname": "Margaret (Mags)",
+          "nee": "O'Connor",
+          "surname": "Giltenane",
+          "address": "Ballycannon",
+          "town": {
+            "name": "Croagh"
+          },
+          "county": {
+            "name": "Limerick"
+          },
+          "photoAttachment": {
+            "file": "IMG_2618_eb1125077a743177645e5b5cf335ed93b28bc4af6637e3e9.jpeg"
+          }
+        },
+        {
+          "id": 632796,
+          "firstname": "Lorna",
+          "nee": "McCarthy",
+          "surname": "Burke",
+          "address": "5 Averard East, Taylor’s Hill",
+          "town": {
+            "name": "Galway City"
+          },
+          "county": {
+            "name": "Galway"
+          },
+          "photoAttachment": {
+            "file": "c2170a24-1195-44d1-80be-3eefc6bbd721_7f6d5890d8c19a4b5149842fb25c33bd7860324cf1d3e320.jpeg"
+          }
+        },
+        {
+          "id": 632811,
+          "firstname": "Matthew (Matt)",
+          "nee": "",
+          "surname": "O'Connor",
+          "address": "Glenheights Park",
+          "town": {
+            "name": "Ballyvolane"
+          },
+          "county": {
+            "name": "Cork"
+          },
+          "photoAttachment": {
+            "file": "Matthew_O'Connor_c0ea135a0ea2260744841785179899786e54b74fe3eafbad.png"
+          }
+        },
+        {
+          "id": 632775,
+          "firstname": "Colette",
+          "nee": "O’Brien",
+          "surname": "Gallagher",
+          "address": "Shippool",
+          "town": {
+            "name": "Innishannon"
+          },
+          "county": {
+            "name": "Cork"
+          },
+          "photoAttachment": {
+            "file": "b76a114b-2105-4e02-a8a6-810bb8fd66cb_18256637a630f590cdda66ca12f26b50ec081a12fb120c67.jpeg"
+          }
+        },
+        {
+          "id": 632790,
+          "firstname": "James",
+          "nee": "",
+          "surname": "Brennan",
+          "address": "Dean Cavanagh Place",
+          "town": {
+            "name": "Kilkenny City"
+          },
+          "county": {
+            "name": "Kilkenny"
+          },
+          "photoAttachment": {
+            "file": "Pic_James_Brennan_05062026_878415fabc052c22016d1c73c5130a159a63a7fe2cee9ab6.png"
+          }
+        },
+        {
+          "id": 632737,
+          "firstname": "Bernie",
+          "nee": "Lawless",
+          "surname": "O'Reilly",
+          "address": "",
+          "town": {
+            "name": "Carney"
+          },
+          "county": {
+            "name": "Sligo"
+          },
+          "photoAttachment": {
+            "file": "Bernie_O'Reilly_0df2d40226dce126907ccfb38d6946a78ca012f5761745f0.JPG"
+          }
+        },
+        {
+          "id": 632789,
+          "firstname": "Colm",
+          "nee": "",
+          "surname": "O'Gorman",
+          "address": "",
+          "town": {
+            "name": "Athy"
+          },
+          "county": {
+            "name": "Kildare"
+          },
+          "photoAttachment": {
+            "file": "rip_photo_950024c71eb18c53c1a3394eff399cf2dda9682abe948bdb.png"
+          }
+        },
+        {
+          "id": 632804,
+          "firstname": "Laura Ethel",
+          "nee": "",
+          "surname": "Fannin",
+          "address": "Newgrove House, formerly Rathkenny, Tullyvin, Cootehill",
+          "town": {
+            "name": "Cavan Town"
+          },
+          "county": {
+            "name": "Cavan"
+          },
+          "photoAttachment": null
+        },
+        {
+          "id": 632807,
+          "firstname": "Paul",
+          "nee": "",
+          "surname": "Forde",
+          "address": "Fiddane",
+          "town": {
+            "name": "Kilkerrin"
+          },
+          "county": {
+            "name": "Galway"
+          },
+          "photoAttachment": {
+            "file": "IMG_9757_012a0424abaa28b3e96dc9a0fbbc42875d7fe0a68f9a4b10.jpeg"
+          }
+        }
+      ],
+      "recentArticles": [
+        {
+          "id": 264,
+          "title": "Making a Will as a Single Parent: Key Legal and Practical Considerations",
+          "content": "<p style=\"text-align:justify\"><span style=\"font-family:&quot;Arial&quot;,sans-serif\"><i>Becoming a parent is a wonderful and life-changing event, and for single parents, the responsibility can feel even greater. </i></span></p><p style=\"text-align:justify\"><span style=\"font-family:&quot;Arial&quot;,sans-serif\">One of the most important steps you can take to protect your child’s future is to make a will. A well-drafted will ensures that your wishes are respected and that your child is cared for, both emotionally and financially, should anything happen to you. Here are the key considerations for single parents when making a will.</span></p><h3 style=\"text-align:justify\"><span style=\"font-family:&quot;Arial&quot;,sans-serif\">Appointing a Guardian</span></h3><p style=\"text-align:justify\"><span style=\"font-family:&quot;Arial&quot;,sans-serif\">Perhaps the most crucial decision for a single parent is appointing a guardian for your child. This is the person who will take on parental responsibility if you pass away before your child turns 18.</span></p><ul><li style=\"text-align:justify\"><span style=\"font-family:&quot;Arial&quot;,sans-serif\">Choose Carefully: Consider who shares your values, has a good relationship with your child, and is willing and able to take on the role.</span></li><li style=\"text-align:justify\"><span style=\"font-family:&quot;Arial&quot;,sans-serif\">Discuss Your Choice: Speak to your chosen guardian beforehand to ensure they are comfortable with the responsibility.</span></li><li style=\"text-align:justify\"><span style=\"font-family:&quot;Arial&quot;,sans-serif\">Name a Substitute: It is helpful to name an alternative guardian in case your first choice is unable or unwilling to act when the time comes.</span></li></ul><p style=\"text-align:justify\"><span style=\"font-family:&quot;Arial&quot;,sans-serif\">The legislation in this area is the Guardianship of Infants Act 1964. Section 6 of the Act provides that, on the death of the parent of an infant, any surviving parent shall be the guardian either alone or jointly with any guardian appointed under a Will. Section 7 of this Act specifies that the guardian named under the Will (testamentary guardian) shall act alongside any surviving parent as joint guardians. Either the testamentary guardian or a surviving parent can apply to court for orders pertaining to the custody of the infant.</span></p><h3 style=\"text-align:justify\"><span style=\"font-family:&quot;Arial&quot;,sans-serif\">Financial Provision for your Child</span></h3><p style=\"text-align:justify\"><span style=\"font-family:&quot;Arial&quot;,sans-serif\">You will want to ensure that your child is financially secure. This involves deciding how your assets will be managed and distributed.</span></p><ul><li style=\"text-align:justify\"><span style=\"font-family:&quot;Arial&quot;,sans-serif\">Trusts for Minors: Children under 18 cannot inherit directly. You can set up a trust in your will, specifying how and when your child should receive their inheritance.</span></li><li style=\"text-align:justify\"><span style=\"font-family:&quot;Arial&quot;,sans-serif\">Appointing Trustees: Trustees manage the assets on behalf of your child until they reach the age you specify (often 18 or 21). Choose people you trust to act in your child’s best interests.</span></li><li style=\"text-align:justify\"><span style=\"font-family:&quot;Arial&quot;,sans-serif\">Specific Gifts: You may wish to leave particular items or sums of money to your child or others.</span></li></ul><p style=\"text-align:justify\"><span style=\"font-family:&quot;Arial&quot;,sans-serif\">You will also need to appoint an executor(s). This is the person(s) who carry out your wishes. They can be the same people as the trustees.</span></p><h3 style=\"text-align:justify\"><span style=\"font-family:&quot;Arial&quot;,sans-serif\">Letter of Wishes</span></h3><p style=\"text-align:justify\"><span style=\"font-family:&quot;Arial&quot;,sans-serif\">While not legally binding, a letter of wishes can accompany your will. This document can provide guidance to guardians and trustees about how you would like your child to be raised, educated, or supported. </span></p><h3 style=\"text-align:justify\"><span style=\"font-family:&quot;Arial&quot;,sans-serif\">Reviewing your Will</span></h3><p style=\"text-align:justify\"><span style=\"font-family:&quot;Arial&quot;,sans-serif\">Circumstances change over time. Review your will regularly, especially if there are changes in your family situation, finances, or if your chosen guardian’s circumstances change. </span></p><p style=\"text-align:justify\"><span style=\"font-family:&quot;Arial&quot;,sans-serif\">It is also important to let your executor, trustees, guardian know where your original Will is stored - and perhaps retain a copy at home.</span></p><h3 style=\"text-align:justify\"><span style=\"font-family:&quot;Arial&quot;,sans-serif\">Conclusion</span></h3><p style=\"text-align:justify\"><span style=\"font-family:&quot;Arial&quot;,sans-serif\">Making a will as a single parent can be complex, particularly when trusts and guardianship are involved. It’s advisable to speak to your solicitor to ensure your will is valid and reflects your wishes accurately.</span></p><p style=\"text-align:justify\"><span style=\"font-family:&quot;Arial&quot;,sans-serif\"><i>Elaine Byrne is a solicitor with Elaine Byrne Solicitors in Athboy, County Meath</i></span></p><p><span style=\"color:black;font-family:&quot;Arial&quot;,sans-serif\"><strong>Disclaimer: </strong>Please note that this article is for general information purposes only and does not purport to be legal advice. While every care has been taken in its production, no legal responsibility or liability is accepted warranted or implied by the author, publishers or the Law Society of Ireland in respect of any errors, omissions or misstatement. Readers are advised to seek independent professional legal advice before acting on anything in this article.   </span><span style=\"font-family:&quot;Arial&quot;,sans-serif\"> </span></p>",
+          "author": {
+            "id": 15,
+            "name": "Elaine Byrne"
+          },
+          "publishedAt": "2025-11-10T21:59:59.000Z",
+          "coverImage": {
+            "id": 694315,
+            "file": "Making_a_Will_as_a_Single_Parent_Key_Legal_and_Practical_Considerations_099383baaf6744f29e4b12f1879535909319cde02e66a58c.png",
+            "name": "Making_a_Will_as_a_Single_Parent_Key_Legal_and_Practical_Considerations_099383baaf6744f29e4b12f1879535909319cde02e66a58c.png"
+          },
+          "category": {
+            "type": "LEGAL_AND_FINANCIAL"
+          }
+        },
+        {
+          "id": 280,
+          "title": "What Happens to Nursing Home Debts After a Person Passes Away",
+          "content": "<p>When a person dies after spending the final months or years in a nursing home, there may be a debt to the nursing home which will be due for payment.</p><p>These outstanding debts may cause stress for spouses, children and family members of the deceased. The following is a short guide to the way nursing home debts are treated in Ireland.<br />If in doubt, get independent legal and financial advice.</p><h3>Responsibility for Nursing Home Debt</h3><p>In Ireland, nursing home debt is the responsibility of the deceased's estate and is paid after their death by their personal representative (executor or administrator).</p><p>If the deceased was in the <a href=\"https://www2.hse.ie/services/schemes-allowances/fair-deal-scheme/about/\">Fair Deal Scheme</a>, any outstanding loan facility from the HSE must be repaid from the estate (funded by the sale of the deceased’s property), usually:</p><ul><li>Within 12 months of death, or</li><li>Within 6 months if the home was sold (prior to passing away) or transferred.</li></ul><p>Nursing homes and the HSE can claim unpaid fees from the estate. If the estate is insolvent (has insufficient assets), these debts may go unpaid.</p><h4>The Deceased's Estate is Responsible for Outstanding Debts</h4><ul><li>Personal Representative: The executor (if there was a will) or administrator (if there was no will – known as dying intestate) will gather all the assets of the deceased.</li><li>Insolvent Estate: If the estate's assets aren't enough to cover the funeral expenses, administration costs, and debts, it is considered insolvent.</li><li>No Obligation for Children: Children of the deceased are not typically obligated to pay nursing home debts unless they were a guarantor for the debt or the debt was in their name as well. If the estate is insufficient to cover debts, the beneficiaries typically do not have to pay them personally.</li></ul><h4>Fair Deal Scheme and Loan Repayment</h4><ul><li>Loan Postponement: Under the Fair Deal Scheme, the HSE pays nursing home fees, and a loan can be taken out based on assets like property, with repayment postponed until after the person's death.</li><li>Repayment Timeline: This loan must be repaid within 12 months of the person's death, or within 6 months if their property is sold or transferred at any point.</li><li>Interest: If the loan is not repaid by the due date, interest will be charged from the date of death.</li></ul><h4>Process of Paying Debts</h4><ol><li>Funeral and Administration Expenses: The first priority is to pay for the funeral and the expenses of managing the estate.</li><li>Preferential Debts: Next are preferential debts like taxes.</li><li>Ordinary Debts: Finally, other ordinary debts, such as nursing home fees and other unsecured debts (like credit cards and loans), are paid from any remaining assets.</li></ol><h4>If There Are No Assets</h4><ul><li>If the deceased has no assets, the debts cannot be paid, and the creditors will likely have to write off the debt.</li><li>The HSE and other creditors cannot claim the debt from the family of the deceased unless they are legally responsible for it.</li></ul><h3>What You Should Do</h3><ul><li>Contact the Executor/Administrator: If you are a family member, you should contact the personal representative to understand the estate's financial status.</li><li>Contact the Nursing Home: They will have details of any outstanding debts owing or that may not have been covered by the Fair Deal if the deceased was in the scheme.</li><li>Contact the HSE: If you are unsure about the Fair Deal loan or the outstanding fees, contact the Health Service Executive (HSE) for clarity.</li><li>Contact <a href=\"https://www.mabs.ie/\">MABS</a>: For further information, MABS – The Money Advice and Budgeting Service.</li><li>Fair Deal: <a href=\"https://www2.hse.ie/services/schemes-allowances/fair-deal-scheme/about/\">About the Fair Deal scheme.</a></li></ul><p> </p>",
+          "author": {
+            "id": 18,
+            "name": "MABS"
+          },
+          "publishedAt": "2025-11-10T21:59:59.000Z",
+          "coverImage": {
+            "id": 694318,
+            "file": "What_Happens_to_Nursing_Home_Debts_After_a_Person_Passes_Away_9c1fd2f811983931bad894e4a891eb5ab87321f8b001ab77.png",
+            "name": "What_Happens_to_Nursing_Home_Debts_After_a_Person_Passes_Away_9c1fd2f811983931bad894e4a891eb5ab87321f8b001ab77.png"
+          },
+          "category": {
+            "type": "LEGAL_AND_FINANCIAL"
+          }
+        },
+        {
+          "id": 343,
+          "title": "Creating a Space to Remember: Introducing the Anniversary Wall on RIP.ie",
+          "content": "<p>For many families, anniversaries are moments of quiet reflection. A time to pause, remember, and honour the people who have shaped our lives. Over recent months, more and more families have chosen to mark these occasions by creating an <a href=\"https://rip.ie/family-notices\"><strong>Anniversary Wall</strong></a> on RIP.ie, a dedicated space where photographs, memories and messages can be shared with loved ones near and far.</p><p>The Anniversary Wall offers a simple, meaningful way to keep someone’s memory alive throughout the year. Whether it’s a first anniversary or a special date that holds personal significance, this space allows families and friends to come together in remembrance, no matter where they are.</p><figure class=\"image image_resized\" style=\"width:75%\"><img src=\"https://img-dedicated.rip.ie/Anniversary_Wall_Static_2_634c87f7d6f602a21ce55e5cddd9cac2a39d7b9aed9abffc.png\" /></figure><h2>A place to gather memories</h2><p>Each <a href=\"https://rip.ie/family-notices\">Anniversary Wall </a>includes:</p><p><strong>A photo gallery</strong> — up to five cherished images that capture moments, milestones and memories.</p><p><strong>A message wall</strong> — a space where others can share their thoughts, stories and tributes.</p><p><strong>Automatic sharing</strong> — your loved one’s Anniversary Wall is shared to your county’s RIP.ie Facebook page, helping friends and neighbours join in remembrance.</p><p><strong>A full year of visibility</strong> — allowing people to visit and revisit whenever they wish.</p><p>These features come together to create a lasting tribute.</p><h2>Simple to create, meaningful to share</h2><p>Setting up an Anniversary Wall takes only a few moments. Families can log in to their RIP.ie account, select <strong>Family Notices</strong>, and choose <a href=\"https://rip.ie/family-notices\"><strong>Anniversary Wall</strong></a> to begin.</p><p>For many, it becomes a comforting place to return to — a digital space that holds photographs, words, and the presence of those who continue to be loved and remembered.</p><h2>Keeping memories alive</h2><p>Grief doesn’t follow a calendar, and remembrance doesn’t begin or end on a single day. The Anniversary Wall offers families a gentle way to honour their loved one, share memories with others, and keep their story present in the lives of those who cared for them.</p><p>If you feel this might be helpful for you or your family, you can learn more or begin creating an <a href=\"https://rip.ie/family-notices\">Anniversary Wall </a>whenever the time feels right.</p>",
+          "author": {
+            "id": 19,
+            "name": "RIP.ie"
+          },
+          "publishedAt": "2026-06-03T14:58:36.000Z",
+          "coverImage": {
+            "id": 732999,
+            "file": "Creating_a_Space_to_Remember_Introducing_the_Anniversary_Wall_on_RIP_ie_5668d66a1e6d5292ca9e0d624fa7db86695b407362110445.png",
+            "name": "Creating_a_Space_to_Remember_Introducing_the_Anniversary_Wall_on_RIP_ie_5668d66a1e6d5292ca9e0d624fa7db86695b407362110445.png"
+          },
+          "category": {
+            "type": "GRIEF_AND_BEREAVEMENT"
+          }
+        },
+        {
+          "id": 344,
+          "title": "Keeping Watch: An Irish Reflection on the Vigil and the Transition Into Death",
+          "content": "<h2><strong>Brendan Gleeson on Presence and the Gift of Being There</strong></h2><p>In an interview with Newstalk in 2024, Brendan Gleeson spoke of a friend's motivation for learning Irish; \"[I]t's a dying language or whatever, but if your mother was dying, you wouldn't want her to die alone […] I feel the gift of it. And while it's there, I want to be in its presence.\"</p><p>I think Ireland's attitude towards the <a href=\"https://rip.ie/grief-and-bereavement-support/creating-a-sacred-space-at-the-end-of-life-272\">dying</a>, our reason for keeping watch over them as they are passing, is very much the same. We understand the gift of our loved ones, and while they are there, even if they are going from us, we want to be in their presence. We want to watch over them and remind them that they are not alone.</p><h2><strong>Witnessing Death for the First Time</strong></h2><p>I was sixteen when I first watched someone <a href=\"https://rip.ie/grief-and-bereavement-support/preparing-for-a-peaceful-death-conversations-that-matter-270\">transition into death</a>.</p><p>That's what hospice sites refer to it as: a transition. Dying, as living, is not always an instance, but a process. I have witnessed the transition into death twice. It was not graceful, or beautiful. But the vigil, the watching — maybe only in retrospect — was made beautiful by its constituent parts: love, care, compassion, kindness, and respect, to name a few.</p><h2><strong>Family, Music and the Final Hours</strong></h2><p>As my grandmother lay dying, my family gathered around her bed and sang Christmas songs and hymns. She no longer remembered who we were, but she mouthed the words along with us, even when her mouth grew dry and cracked, the effort even to close her lips too much.</p><p>When my grandfather, her husband, was dying a few years later, we gathered in the care home with our Christmas dinners, and took turns keeping him company. We'd usually spend Christmas Day at my grandparents' house, anyway, so we took on a familiar routine in a strange place. We exchanged stories and told jokes and had to fight to keep our voices and laughter down, in between fits of tears.</p><h2><strong>The Strange Experience of Time During a Vigil</strong></h2><p>Time became strange. The days and nights I spent in care homes watching my grandparents transition into death felt endless. When they crossed over, and we began to make funeral arrangements, it was like I was jolted from a stupor. Time had paused and then rushed to catch up with itself, a tape that had caught, frozen, then stuttered ahead to the end of the song.</p><h2><strong>Irish Traditions of Keeping Watch</strong></h2><p>I had not considered the vigil, the watching, the witnessing, as something unusual or different to other cultures around the world. I don't remember the moment I learned that we keep a person company while they transition into death; it feels like something I have always known, always taken as a given.</p><h2><strong>A Different Cultural Lens on Death</strong></h2><p>In her podcast, \"All Miracles Are Strange\", American artist Lizz Hamilton recounted her family keeping vigil over her dying grandmother (episode 6, \"To Witness\", 2023). Listening to her reflections, I understood, for the first time, that not everyone confronted and processed the dead and dying like I did. I was hit with a new appreciation, even gratitude, for <a href=\"https://rip.ie/grief-and-bereavement-support/customs-and-traditions-of-an-irish-wake-283\">Irish traditions around death</a>.</p><p>When I reached out to Hamilton — to offer condolences, and share a little about how commonplace it is in Ireland to watch over the dying — she described the sharp difference in the American experience:</p><p>\"I don't know what the news is like in Ireland, but it is often the only place Americans ever see a dead body, and only then in moments of excruciating violence […] All the slow deaths seem relegated to hospitals and care homes, tended only by professionals. The hospice nurses who cared for my grandmother felt like shamans, coming to us with otherworldly knowledge about a process that is held in total secrecy.\"</p><h2><strong>The Pain and the Gift of Being Present</strong></h2><p><a href=\"https://rip.ie/grief-and-bereavement-support/what-ive-learned-about-life-from-sitting-with-death-271\">Watching my grandparents leave me</a>, slowly, over the course of months and then days, was one of the most painful experiences of my life. I cannot pretend like it was all beautiful, and transcendant, and spiritual. But it would be equally untrue to say I was not grateful for those experiences.</p><p>If I could turn back the clock, I would not shy away from the vigil. I would not avert my gaze, or crawl into my bed and pretend that nothing was happening. I would not trade that last bit of time with my grandparents for anything.</p><h2><strong>The Transition for the Living</strong></h2><p>I wanted to be with them while they transitioned, changed. And I, the witness, underwent a change of my own. I began my own transition from a life with them, to a life without them.</p><p>Even with all of the pain, the sleepless nights, the strange liminality, even though my being there could not have stopped or changed the outcome, my presence still mattered. My love still mattered.</p><h2><strong>The Miracle of Looking</strong></h2><p>Hamilton called \"the looking\" a miracle, and I couldn't help but agree. It is a miracle, to be here with you, the dying, now. I feel the gift of it, and while you are here, I want to be in your presence.</p>",
+          "author": {
+            "id": 29,
+            "name": "Kel Menton"
+          },
+          "publishedAt": "2026-06-04T21:59:59.000Z",
+          "coverImage": {
+            "id": 733145,
+            "file": "Keeping_Watch_An_Irish_Reflection_on_the_Vigil_and_the_Transition_Into_Death_533c11da5c6c429443430b8ffff149fa38e92bb16ff42e9b.png",
+            "name": "Keeping_Watch_An_Irish_Reflection_on_the_Vigil_and_the_Transition_Into_Death_533c11da5c6c429443430b8ffff149fa38e92bb16ff42e9b.png"
+          },
+          "category": {
+            "type": "GRIEF_AND_BEREAVEMENT"
+          }
+        },
+        {
+          "id": 341,
+          "title": "A Mother’s Grief, A Community’s Strength: Eileen Loughlin Shares Annabel’s Story on Parting Words",
+          "content": "<figure class=\"media\"><div data-oembed-url=\"https://share.transistor.fm/e/a5426e79\"><div style=\"position:relative;padding-bottom:390px;height:0\"><iframe src=\"https://share.transistor.fm/e/a5426e79\" style=\"position:absolute;width:100%;height:100%;top:0;left:0\" frameborder=\"0\"></iframe></div></div></figure><p>In the latest episode of <a href=\"https://partingwordspodcast.transistor.fm/\"><i>Parting Words</i></a>, primary school teacher and content creator<a href=\"https://www.instagram.com/everything.eileen/\"><strong> </strong>Eileen Loughlin</a><strong> </strong>speaks with remarkable honesty about the loss of her three‑and‑a‑half‑year‑old daughter, Annabel, who died in 2018 following a tragic accident in the family home. It is a conversation filled with courage, tenderness and the quiet strength that so often defines Irish families in the face of unthinkable loss.</p><figure class=\"image image_resized\" style=\"width:50%\"><img src=\"https://img-dedicated.rip.ie/Annabel_pic_1_fcf51a070820346edc5de0cad97a13daae3d64859cf7de35.jpg\" /></figure><p>Eileen describes the morning of the accident as completely ordinary: mid‑term break, children playing, plans to go to the cinema. Within hours, Annabel had been airlifted to Temple Street, where a team of doctors fought to save her. Eileen recalls lying beside her daughter, singing to her and holding her until she died. </p><blockquote><p>“I really felt like her spirit left her body… Annabel is gone. But her spirit is still here with us.</p></blockquote><p>What followed were days that no parent imagines navigating. Eileen and her husband Enda brought Annabel home and laid her in her own bed. Family, neighbours and friends kept vigil around the clock. Food arrived at the door. People travelled from England, Australia and Taiwan to stand with them. “It was the real Irish wake,” Eileen says. “The community rallied. Things happened that we will never even know about.”</p><p>Throughout the episode, Eileen speaks openly about parenting through grief — supporting her sons, welcoming her youngest daughter Isla, and keeping Annabel present in their home in small, everyday ways. Her room remains open. Her lamp is switched on each morning. Isla, who never met her sister, still says “Bye Annabel” as she leaves the room.</p><figure class=\"image image_resized\" style=\"width:50%\"><img src=\"https://img-dedicated.rip.ie/Annabel_pic_2_052ce252b2aae77407f85f8821458ecc579c7f59478c43bb.jpg\" /></figure><p>Eileen also reflects on the support that helped her family survive those early months: the bereavement team at Temple Street, the grounding routine of school and sport.</p><p>This episode of <i>Parting Words</i> is a testament to the power of community, the rituals that hold us, and the enduring bond between a mother and her child. It is tender, brave and full of heart — a reminder that even in the darkest moments, love does not end.</p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/g4eLD8dWykE?si=9uFtcIRLoRkK-nw0\"><div style=\"position:relative;padding-bottom:100%;height:0;padding-bottom:56.2493%\"><iframe src=\"https://www.youtube.com/embed/g4eLD8dWykE\" style=\"position:absolute;width:100%;height:100%;top:0;left:0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe></div></div></figure><h3 style=\"margin-left:0px\"><strong>About the Sponsor: An Post Insurance</strong></h3><p style=\"margin-left:0px\"><i>Parting Words </i>is proudly sponsored by<a href=\"https://www.anpostinsurance.ie/life-insurance/funeral-insurance\"><u> An Post Insurance</u></a>. The partnership reflects the company’s commitment to supporting people as they prepare thoughtfully and compassionately for life’s most difficult moments. The podcast aligns naturally with An Post Insurance’s funeral insurance product, which helps individuals plan ahead and ease the financial burden on loved ones during times of loss.</p><p style=\"margin-left:0px\"><i>One Direct (Ireland) Limited, trading as An Post Insurance, is regulated by the Central Bank of Ireland. It is a wholly owned subsidiary of An Post and is a tied agent of New Ireland Assurance Company plc for life assurance business. Funeral Insurance policies are underwritten and provided by New Ireland Assurance Company plc.</i></p><p style=\"margin-left:0px\"><strong>Listen to </strong><i><strong>Parting Words</strong></i><strong> on all major </strong><a href=\"https://partingwordspodcast.transistor.fm/\"><strong><u>podcast platforms</u></strong></a><strong> and watch full episodes on </strong><a href=\"https://youtu.be/g4eLD8dWykE?si=9uFtcIRLoRkK-nw0\"><strong><u>YouTube</u></strong></a><strong>.</strong></p>",
+          "author": {
+            "id": 25,
+            "name": "Mairéad Neary"
+          },
+          "publishedAt": "2026-05-14T08:21:09.000Z",
+          "coverImage": {
+            "id": 727500,
+            "file": "𝐄𝐈𝐋𝐄𝐄𝐍_𝐋𝐎𝐔𝐆𝐇𝐋𝐈𝐍_Parting_Words_(1)_4a321903ee2734fd434b2e3457c1eea2c4f77a76bf20a930.png",
+            "name": "𝐄𝐈𝐋𝐄𝐄𝐍_𝐋𝐎𝐔𝐆𝐇𝐋𝐈𝐍_Parting_Words_(1)_4a321903ee2734fd434b2e3457c1eea2c4f77a76bf20a930.png"
+          },
+          "category": {
+            "type": "PODCAST"
+          }
+        },
+        {
+          "id": 340,
+          "title": "When a Friend Dies Suddenly: Daragh Fleming on the Reality of Suicide Grief",
+          "content": "<figure class=\"media\"><div data-oembed-url=\"https://share.transistor.fm/e/f540b871\"><div style=\"position:relative;padding-bottom:390px;height:0\"><iframe src=\"https://share.transistor.fm/e/f540b871\" style=\"position:absolute;width:100%;height:100%;top:0;left:0\" frameborder=\"0\"></iframe></div></div></figure><p><br /><strong>Suicide grief is unlike any other form of loss. </strong></p><p>It arrives without warning, without preparation, and without the gentle anticipations that sometimes accompany illness or old age. It is a grief filled with shock, confusion, guilt, unanswered questions and a silence that can swallow families whole.</p><p>In Episode Four of <a href=\"https://partingwordspodcast.transistor.fm/\"><i>Parting Words</i></a>, writer and poet <a href=\"https://www.instagram.com/daraghfleming/\">Daragh Fleming</a> sits with <a href=\"https://www.instagram.com/muireann.o/\">Muireann O’Connell</a> to speak openly about this kind of grief, the kind that reshapes a life in an instant.</p><p>Daragh was 17 when his best friend, Erbie Underwood, died after attempting to take his own life. The two had grown up together through basketball, forming the kind of friendship that becomes a defining part of who you are. When Erbie died, Daragh’s world did not just change; it collapsed.</p><figure class=\"image\"><img src=\"https://img-dedicated.rip.ie/Erbie_7f40f8947e32f64de2f621e5d3aa3bf62b0947ae4abce1cc.jpg\" /></figure><p><strong>The Shock That Never Leaves</strong></p><p>Daragh describes the moment he learned the truth. He arrived at the hospital with friends, expecting to visit Erbie as he recovered, and was instead led into a quiet room where Erbie’s mother told them he was gone. It is a moment that many families affected by <a href=\"https://rip.ie/grief-and-bereavement-support/breaking-the-silence-after-suicide-loss-clives-journey-245\">suicide</a> will recognise: the suddenness, the disbelief, the sense that the world has tilted off its axis.</p><p>Suicide grief often begins with shock, but it rarely ends there.</p><p><strong>The Questions That Have No Answers</strong></p><p>One of the most painful aspects of suicide loss is the search for meaning in something that cannot be explained. Daragh speaks about the guilt he carried for years, including the small, ordinary moment when he turned down a lunch invitation from Erbie on the day of the attempt he would not survive.</p><p>It is a detail that will resonate deeply with anyone who has lost someone to suicide. The mind clings to tiny moments, replaying them endlessly, as if the right combination of memories might unlock an answer. But suicide grief rarely offers answers. It offers only love, longing and the slow work of acceptance.</p><p><strong>The Silence Around Suicide, Especially for Young Men</strong></p><p>Daragh also speaks about how invisible Erbie’s struggle was. “He was really good at acting,” he says. “I had no idea he was struggling.”</p><p>This silence is something many families know too well. Young men, in particular, are often taught to hide their pain, to stay composed, to keep going. That silence can be dangerous. And for those left behind, it can deepen the grief, adding layers of confusion and self-blame.</p><p>By speaking openly about this silence, Daragh helps dismantle the stigma that still surrounds <a href=\"https://rip.ie/grief-and-bereavement-support/understanding-mens-grief-after-suicide-246\">suicide loss</a>.</p><figure class=\"image\"><img src=\"https://img-dedicated.rip.ie/Erbie_&amp;_Daragh_ff8fa31cc772e6ec3e11f4d95ce9e8965ad5b262cceee546.jpg\" /></figure><p><strong>When Grief Becomes Numbness</strong></p><p>For Daragh, grief did not look like tears or sadness. It became four years of emotional numbness, a complete absence of feeling that he did not yet understand as depression.</p><p>“I was not sad. I was not happy. I was not anything,” he says.</p><p>This, too, is part of suicide grief. It can flatten a person, hollow them out, leave them moving through life without connection or colour. It is a grief that affects the body as much as the mind.</p><p><strong>Finding a Way Back Through Words</strong></p><p>Daragh eventually found his way back to emotion through writing. Journaling became a lifeline, and poetry became the tool that helped him relearn how to feel. Today, his poems often go viral for their honesty and vulnerability, resonating with people who recognise their own unspoken feelings in his words.</p><p>His voice matters because he names what so many people experience but struggle to articulate.</p><figure class=\"image image_resized\" style=\"width:50%\"><img src=\"https://img-dedicated.rip.ie/Daragh_&amp;_Muireann_4f5747c9c210a8db40eb6466038bd84e742abf734cf19a4f.jpg\" /></figure><figure class=\"image image_resized\" style=\"width:50%\"><img /></figure><figure class=\"image image_resized\" style=\"width:50%\"><img /></figure><p><strong>Why This Episode Matters</strong></p><p>Suicide grief is often carried quietly. Families may feel isolated, unsure how to talk about what happened, or afraid of saying the wrong thing. But silence does not protect us. It only deepens the pain.</p><p>This episode of<i> </i><a href=\"https://partingwordspodcast.transistor.fm/\"><i>Parting Words</i></a> is an invitation to break that silence.</p><p>It reminds us that talking about suicide does not cause harm. Not talking about it does.</p><p>It reminds us that guilt is common, but it is not a burden anyone should carry alone. It reminds us that numbness is not failure; it is a response to trauma. And it reminds us that love does not end when a life ends.</p><p>Daragh’s story is not just about loss. It is about the courage it takes to speak, to feel again, and to honour someone’s memory by telling the truth.</p><p><strong>You can watch Episode Four on YouTube or </strong><a href=\"https://partingwordspodcast.transistor.fm/\"><strong>listen on all major podcast platforms</strong></a><strong>.</strong></p><p><i>If you or someone you love has been affected by suicide, support is available. You can reach out to the </i><a href=\"https://www.samaritans.org/samaritans-ireland/\"><i>Samaritans</i></a><i> for confidential emotional support at any time, or connect with </i><a href=\"https://hugg.ie/\"><i>HUGG</i></a><i>, a peer support organisation for people bereaved by suicide. You do not have to carry this alone, and speaking to someone who understands can make a real difference.</i></p>",
+          "author": {
+            "id": 25,
+            "name": "Mairéad Neary"
+          },
+          "publishedAt": "2026-04-09T08:19:39.000Z",
+          "coverImage": {
+            "id": 723958,
+            "file": "Daragh_Fleming_Parting_Words_0f074932ea1f451cc5afc85ad948564a046b01c2f23a4cfa.png",
+            "name": "Daragh_Fleming_Parting_Words_0f074932ea1f451cc5afc85ad948564a046b01c2f23a4cfa.png"
+          },
+          "category": {
+            "type": "PODCAST"
+          }
+        }
+      ],
+      "mapStatisticsForCounties": [
+        {
+          "name": "Antrim",
+          "mapColor": "d9d4ba"
+        },
+        {
+          "name": "Armagh",
+          "mapColor": "bcb7a2"
+        },
+        {
+          "name": "Carlow",
+          "mapColor": "cac5af"
+        },
+        {
+          "name": "Cavan",
+          "mapColor": "e9e7c9"
+        },
+        {
+          "name": "Clare",
+          "mapColor": "c4bfae"
+        },
+        {
+          "name": "Cork",
+          "mapColor": "d3ceb6"
+        },
+        {
+          "name": "Derry",
+          "mapColor": "bab5a0"
+        },
+        {
+          "name": "Donegal",
+          "mapColor": "aba694"
+        },
+        {
+          "name": "Down",
+          "mapColor": "e7e5c7"
+        },
+        {
+          "name": "Dublin",
+          "mapColor": "d0cbb4"
+        },
+        {
+          "name": "Fermanagh",
+          "mapColor": "b1a98f"
+        },
+        {
+          "name": "Galway",
+          "mapColor": "bfba9e"
+        },
+        {
+          "name": "Kerry",
+          "mapColor": "e2decc"
+        },
+        {
+          "name": "Kildare",
+          "mapColor": "e6e4c8"
+        },
+        {
+          "name": "Kilkenny",
+          "mapColor": "dcd6bc"
+        },
+        {
+          "name": "Laois",
+          "mapColor": "bfbba5"
+        },
+        {
+          "name": "Leitrim",
+          "mapColor": "c1bda8"
+        },
+        {
+          "name": "Limerick",
+          "mapColor": "d6d0ba"
+        },
+        {
+          "name": "Longford",
+          "mapColor": "dbd7bd"
+        },
+        {
+          "name": "Louth",
+          "mapColor": "a6a290"
+        },
+        {
+          "name": "Mayo",
+          "mapColor": "b8b39e"
+        },
+        {
+          "name": "Meath",
+          "mapColor": "ddd7bc"
+        },
+        {
+          "name": "Monaghan",
+          "mapColor": "cec8b1"
+        },
+        {
+          "name": "Offaly",
+          "mapColor": "c6c1ab"
+        },
+        {
+          "name": "Roscommon",
+          "mapColor": "e8e6c7"
+        },
+        {
+          "name": "Sligo",
+          "mapColor": "e0dabe"
+        },
+        {
+          "name": "Tipperary",
+          "mapColor": "e2dfc2"
+        },
+        {
+          "name": "Tyrone",
+          "mapColor": "d7d2b9"
+        },
+        {
+          "name": "Waterford",
+          "mapColor": "bab6a8"
+        },
+        {
+          "name": "Westmeath",
+          "mapColor": "bdb8a4"
+        },
+        {
+          "name": "Wexford",
+          "mapColor": "e4e1c5"
+        },
+        {
+          "name": "Wicklow",
+          "mapColor": "dbd5ba"
+        }
+      ],
+      "ecommerceCategories": [
+        {
+          "id": 27,
+          "name": "Acknowledgement Cards",
+          "url": "https://rip.ie/shop/product-category/cards/acknowledgement-cards/"
+        },
+        {
+          "id": 39,
+          "name": "Angel Ornaments & Keepsake boxes",
+          "url": "https://rip.ie/shop/product-category/memorial-keepsakes/angel-ornaments-keepsake-boxes/"
+        },
+        {
+          "id": 28,
+          "name": "Books",
+          "url": "https://rip.ie/shop/product-category/books/"
+        },
+        {
+          "id": 24,
+          "name": "Cards",
+          "url": "https://rip.ie/shop/product-category/cards/"
+        },
+        {
+          "id": 42,
+          "name": "Care Packages",
+          "url": "https://rip.ie/shop/product-category/care-packages/"
+        },
+        {
+          "id": 30,
+          "name": "Condolence Books",
+          "url": "https://rip.ie/shop/product-category/books/condolence-books/"
+        },
+        {
+          "id": 31,
+          "name": "Condolence Books for Home Printing",
+          "url": "https://rip.ie/shop/product-category/books/condolence-books-for-home-printing/"
+        },
+        {
+          "id": 41,
+          "name": "Flowers",
+          "url": "https://rip.ie/shop/product-category/flowers/"
+        },
+        {
+          "id": 36,
+          "name": "Hand-carved Celtic Wall Hangings",
+          "url": "https://rip.ie/shop/product-category/memorial-keepsakes/hand-carved-celtic-wall-hangings/"
+        },
+        {
+          "id": 34,
+          "name": "Memorial Candles",
+          "url": "https://rip.ie/shop/product-category/memorial-candles/"
+        }
+      ],
+      "counties": [
+        {
+          "name": "Antrim",
+          "id": 1
+        },
+        {
+          "name": "Armagh",
+          "id": 2
+        },
+        {
+          "name": "Carlow",
+          "id": 3
+        },
+        {
+          "name": "Cavan",
+          "id": 4
+        },
+        {
+          "name": "Clare",
+          "id": 5
+        },
+        {
+          "name": "Cork",
+          "id": 6
+        },
+        {
+          "name": "Derry",
+          "id": 7
+        },
+        {
+          "name": "Donegal",
+          "id": 8
+        },
+        {
+          "name": "Down",
+          "id": 9
+        },
+        {
+          "name": "Dublin",
+          "id": 10
+        },
+        {
+          "name": "Fermanagh",
+          "id": 11
+        },
+        {
+          "name": "Galway",
+          "id": 12
+        },
+        {
+          "name": "Kerry",
+          "id": 13
+        },
+        {
+          "name": "Kildare",
+          "id": 14
+        },
+        {
+          "name": "Kilkenny",
+          "id": 15
+        },
+        {
+          "name": "Laois",
+          "id": 16
+        },
+        {
+          "name": "Leitrim",
+          "id": 17
+        },
+        {
+          "name": "Limerick",
+          "id": 18
+        },
+        {
+          "name": "Longford",
+          "id": 19
+        },
+        {
+          "name": "Louth",
+          "id": 20
+        },
+        {
+          "name": "Mayo",
+          "id": 21
+        },
+        {
+          "name": "Meath",
+          "id": 22
+        },
+        {
+          "name": "Monaghan",
+          "id": 23
+        },
+        {
+          "name": "Offaly",
+          "id": 24
+        },
+        {
+          "name": "Roscommon",
+          "id": 25
+        },
+        {
+          "name": "Sligo",
+          "id": 26
+        },
+        {
+          "name": "Tipperary",
+          "id": 27
+        },
+        {
+          "name": "Tyrone",
+          "id": 28
+        },
+        {
+          "name": "Waterford",
+          "id": 29
+        },
+        {
+          "name": "Westmeath",
+          "id": 30
+        },
+        {
+          "name": "Wexford",
+          "id": 31
+        },
+        {
+          "name": "Wicklow",
+          "id": 32
+        }
+      ],
+      "__lang": "en",
+      "__namespaces": {
+        "common": {
+          "ManyRequests": "You have made too many requests in a short period of time. To ensure fair usage for all users, please wait a few minutes before trying again.",
+          "Files": {
+            "noFileChosen": "No File Chosen",
+            "browse": "Browse"
+          },
+          "Header": {
+            "myAccount": "My Account",
+            "homePage": "Home",
+            "deathNotices": "Death Notices",
+            "familyNotices": "Family Notices",
+            "servicesDirectory": "Services Directory",
+            "preacticalInformation": "Practical Information",
+            "memorialGifts": "Memorial Gifts",
+            "faq": "FAQ",
+            "griefAndBereavementSupport": "Grief & Bereavement Support",
+            "understandingGrief": "Understanding Grief",
+            "copingWithLoss": "Coping with Loss",
+            "typesOfLoss": "Types of Loss",
+            "supportServices": "Support Services",
+            "funeralPlanning": "Funeral Planning",
+            "legalAndFinancialAdvice": "Legal & Financial Advice",
+            "podcasts": "Podcasts",
+            "signIn": "Log In",
+            "logout": "Log Out",
+            "signOut": "Log Out",
+            "register": "Register",
+            "changePassword": "Change Password",
+            "addNotice": "Add Family Notice",
+            "colorFont": "Color & Font:",
+            "funeralLogin": "Funeral Director Log In",
+            "menu": "Menu",
+            "close": "Close",
+            "fontSize": "Font Size",
+            "contrast": "Contrast",
+            "prevDesign": "Previous design",
+            "help": "Help",
+            "donate": "Donate",
+            "contact": "Contact"
+          },
+          "DeathNotice": {
+            "makeDonationBtn": "Donate now",
+            "makeDonationTitle": "Donations to {{charity}} in Memory of {{fullName}}",
+            "makeDonationDescription": "If you would like to make a donation to the chosen charity please click on the button below.",
+            "cancel": "Cancel",
+            "confirm": "Confirm",
+            "ratherDelete": "Rather than delete this notice, please click the “Edit“ button to add the funeral arrangements.",
+            "contactRIPDelete": "Please contact info@rip.ie to continue this action",
+            "contactRIPEdit": "One month after publication, edits are handled by our team.<br> Please contact info@rip.ie to update the notice.",
+            "sureDeletingDeathNotice": "Are you sure you want to delete Death Notice? <br> Any linked condolence book will also be deleted.",
+            "successFullyDeleted": "Death Notice successfully deleted!",
+            "errorDeleting": "An error occured deleting Death Notice!",
+            "edit": "Edit",
+            "preview": "Preview",
+            "select": "Select",
+            "recentTitle": "Recent Death Notices",
+            "searchResults": "Death Notice search results",
+            "searchResultsFilters": "Death Notices for {{personData}}",
+            "all": "All",
+            "fnArrangments": "Funeral arrangements  later",
+            "postPoned": "Postponed until further notice",
+            "serviceDirectory": "Service Directory",
+            "for": "Death Notices for ",
+            "of": "Death Notice of ",
+            "searchLastSevenDays": "Search Last 7 Days Death Notices",
+            "search": "Search",
+            "goToAdvancedSearch": "Go to Advanced Search",
+            "surname": "Surname",
+            "print": "Print",
+            "share": "Share",
+            "save": "Save",
+            "acknowledgement": "Acknowledgement",
+            "monthsMind": "Months Mind",
+            "webstream": "Webstream",
+            "funeralService": "Funeral Service",
+            "cremationBurial": "Cremation / Burial",
+            "datePublished": "Date Published",
+            "dateOfDeath": "Date of Death",
+            "birthDate": "Date of Birth",
+            "deathOccurred": "The death has occurred of",
+            "markBirthdayMemorial": "Would you like to mark a birthday, memorial mass or anniversary for a Loved One?",
+            "youCanCreateFamilyNotice": "You can now create a family notice on RIP.ie to remember your loved one.",
+            "createFamilyNotice": "Create A Family Notice",
+            "nee": "née",
+            "funeralHomeMap": "Funeral Home Map",
+            "IAFDMember": "IAFD Member",
+            "maps": "Maps",
+            "expressYourSympathy": "Express your sympathy",
+            "condolences": "Condolences",
+            "messages": "Messages",
+            "sendSympathyCardButton": "Send Sympathy Card",
+            "sendFlowersButton": "Send Flowers",
+            "donateToCharity": "Donate to Charity",
+            "sendSympathyCard": "Send a Sympathy Card",
+            "memorialGifts": "Memorial Gifts",
+            "services": "Services",
+            "in": "in",
+            "viewMore": "View More",
+            "viewAll": "View All",
+            "website": "Website",
+            "familyNotices": "Family notices for ",
+            "saveToHomeScreen": "Save to Homescreen",
+            "createAlert": "Create alert",
+            "loginToCreateAlert": "Log In to create alert",
+            "loginToAddFN": "You need to log in to add a Family Notice",
+            "funeralArrangementsLater": "Funeral Arrangements Later",
+            "arrangementHaveChanged": "Arrangements have changed.",
+            "List": {
+              "title": "Most Recent Death Notices",
+              "names": "Name",
+              "town": "Town",
+              "county": "County",
+              "created": "Published",
+              "map": "Map",
+              "name": "Name",
+              "familyBrNotices": "Family <br /> Notices"
+            },
+            "searchBar": {
+              "title": "Search Death Notices",
+              "shortTitle": "Search",
+              "searchSurname": "Search by Surname",
+              "searchAll": "Search by surname, name, née",
+              "firstName": "First Name",
+              "surname": "Surname",
+              "nee": "Née",
+              "counties": "County",
+              "towns": "Town",
+              "advancedSearch": "Advanced Search >",
+              "defaultSearch": "Default Search >",
+              "showResults": "Show Results",
+              "search": "Search",
+              "arrangementLater": "Funeral Arrangements Later",
+              "clearFilters": "Clear Filters"
+            },
+            "added": "Added to the saved list.",
+            "removed": "Removed from the saved list.",
+            "errorOccurred": "Error occurred during the update.",
+            "hide": "Hide",
+            "view": "View",
+            "add": "Add"
+          },
+          "NoData": {
+            "title": "No Results Found",
+            "description": "Please increase date range, check spelling or county/town selected and search again",
+            "descriptionFN": "Please check spelling or county/town selected and search again",
+            "descriptionSavedDN": "Please select and save the death notice from the death notices list",
+            "descriptionFdStatistics": "Please check spelling and search again",
+            "descriptionCondolenceComplaint": "You haven't submitted any complaints yet."
+          },
+          "Datepicker": {
+            "title": "Date Range",
+            "custom": "Custom",
+            "lastSevenDays": "Last 7 Days",
+            "lastThirtyDays": "Last 30 Days",
+            "from": "From",
+            "to": "To"
+          },
+          "Validation": {
+            "imageExtension": "Only {{extensions}} are allowed!",
+            "imageUploadError": "There was an error uploading file!",
+            "maxImageSize": "Allowed max. 5mb image size!",
+            "maxImageSize10mb": "Allowed max. 10mb image size!",
+            "maxResolution": "Allowed max. 6k resolution image!",
+            "email": "Invalid e-mail",
+            "password": "Invalid password",
+            "paswordMustContain": "Password must contain: min {{ length }} length, with {{ uppercase }} uppercase, {{ digit }} digit, {{ special }} special.",
+            "required": "Field is required",
+            "maxLength": "Max. {{count}} characters",
+            "minLength": "Min. {{count}} characters",
+            "maxEmails": "Max. {{count}} recipients",
+            "invalidDate": "Fill date in format: DD/MM/YYYY",
+            "dateLarger": "Date is out of allowed range!"
+          },
+          "List": {
+            "viewBox": "View list as:"
+          },
+          "maps": {
+            "getDirections": "Get Directions"
+          },
+          "Social": {
+            "email": "E-mail",
+            "twitter": "Twitter",
+            "facebook": "Facebook",
+            "whatsapp": "WhatsApp",
+            "copyLink": "Copy link",
+            "emailTitle": "Click to send  by Email",
+            "twitterTitle": "Click to send on Twitter",
+            "facebookTitle": "Click to send on Facebook",
+            "whatsappTitle": "Click to send on WhatsApp",
+            "copyLinkTitle": "Click to copy",
+            "shareDeathNotice": "Share this notice by",
+            "close": "Close",
+            "emailFriend": "Email a friend",
+            "send": "Send",
+            "recepients": "Recipients email",
+            "rememberRecepients": "Remember form data",
+            "yourName": "Your name",
+            "yourEmail": "Your email",
+            "message": "Message",
+            "subject": "Subject",
+            "deathNoticeFor": "Death Notice for {{text}}",
+            "visitLink": "I am sorry to tell you that {{text}} has passed away. If you would like to view the Death Notice, visit ",
+            "visitLinkFamilyNotice": "A family notice has been published for {{text}} on RIP.ie. If you would like to view this notice please visit ",
+            "shareError": "There was an error with sharing, please try again!",
+            "successShare": "Success!",
+            "deathNoticeShared": "You have successfully shared the Death Notice",
+            "familyNoticeShared": "You shared a Family Notice successfully",
+            "familyNoticeFor": "Family Notice for {{text}}"
+          },
+          "Condolences": {
+            "complaintAlert": "This form is for reporting issues or concerns about condolence messages, not for requesting edits to your own condolence messages.",
+            "christmasCards": "RIP.ie Christmas Sympathy Card",
+            "orderHere": "Order Here",
+            "condolenceBookFor": "Condolence Book for",
+            "addYourCondolence": "Add Your Condolence",
+            "afterDatePublication": "After {{date}}, this book becomes 'read only' which means that no new condolences may be added.",
+            "condolenceMayBeViewed": "However, the condolence book may be viewed, saved and / or printed at any time.",
+            "nee": "née",
+            "print": "Print",
+            "share": "Share",
+            "viewAllCovers": "View All Covers",
+            "newestFirst": "Newest first",
+            "oldestFirst": "Oldest first",
+            "condolenceBook": "Condolence Book",
+            "condolencesBookIsNowReadOnly": "This Condolence Book is now read-only",
+            "condelencesBookClosedInfo": "{{daysNumber}} {{daysWord}} after publication, this book becomes ‘read only’ which means that no new condolences may be added; however, the condolence book may be viewed, saved and / or printed at any time.",
+            "condelencesBookClosedInfoByAdmin": "This means that no new condolences may be added; however, the condolence book may be viewed, saved and / or printed at any time.",
+            "day": "day",
+            "days": "days",
+            "noCondolences": "No condolences",
+            "noCondolencesAdded": "No condolences have been added for this person yet",
+            "addFirstCondolence": "Add Your First Condolence",
+            "condolenceBookCovers": "Condolence Books",
+            "forHomePrinting": "Printed and Bound",
+            "plaquesDiscount": "20% discount with code:",
+            "notSupportPrinting": "Your browser does not support printing, to be able to print please go to browser settings.",
+            "Add": {
+              "donate": "Donate to Charity",
+              "donateTo": "Donate to {{charity}} in Memory of {{personData}}",
+              "back": "Back to Notice",
+              "successTitle": "Thank you",
+              "successDescription": "Your message has been submitted and will be published once approved. Given the volume of condolences, this can take a few hours.",
+              "addError": "There was an error adding condolence, please try again!",
+              "add": "Add Condolence for {{personData}}",
+              "cancel": "Cancel",
+              "preview": "Preview Your Condolence",
+              "name": "Your name",
+              "condolenceContent": "Your Condolence",
+              "note": "Note: Changes may not be made to condolences once published.<br/> Each user may post <b>one condolence message per notice</b>.<br/> Please ensure your message is <b>respectful and offers comfort</b> to the bereaved family. <br/>Thank you for keeping RIP.ie a place of genuine sympathy and support.  ",
+              "yourCondolence": "Your Condolence",
+              "backToEdit": "Back To Edit",
+              "publishCondolence": "Publish Condolence",
+              "messageWillBeposted": "<div>Your message will be reviewed by RIP.ie <br /> before being published.</div><br /><div> Given the volume of condolences, this <br /> can take a few hours.</div>",
+              "tips": "Tips",
+              "publishedTip": "Your message will be reviewed before being published.",
+              "afterPublishTip": "Once published, it can be viewed by other visitors to RIP.ie.",
+              "externalTip": "Links to external sites are not allowed.",
+              "avoidTip": "Please avoid using emojis, as these may not display in all browsers as you intended, even if they look fine in preview mode.",
+              "donateBtn": "DONATE",
+              "errorTitle": "There was an error during posting Condolence",
+              "defaultError": "Please try again later.",
+              "close": "Close"
+            },
+            "viewAll": "View All",
+            "miniCondolenceBookTitle": "Mini Condolence Books"
+          },
+          "SEO": {
+            "homepage": {
+              "title": "RIP.ie - most recent death notices",
+              "description": "Discover the most recent death notices from Ireland. A reliable source to be informed of the passing of those close to you."
+            },
+            "servicesDirectory": {
+              "title": "Services Directory",
+              "description": "A list of services directory for Ireland. Click on any entry to view the full service directory.",
+              "allCounties": {
+                "title": "Services Directory search results"
+              },
+              "filters": {
+                "title": "Services Directory{{categoryCounty}}",
+                "description": "Services Directory{{categoryCounty}}, Ireland. Click on any entry to view the full service directory."
+              },
+              "preview": {
+                "title": "Service Directory of {{service}}",
+                "description": "Service Directory of {{serviceCounty}}Ireland."
+              }
+            },
+            "deathNotices": {
+              "recent": {
+                "title": "Recent Death Notices",
+                "description": "A list of recent death notices for Ireland. Click on any entry to view the full death notice and add your condolences."
+              },
+              "allCounties": {
+                "title": "Death Notice search results",
+                "description": "A list of recent death notices for {{townCounty}}Ireland. Click on any entry to view the full death notice and add your condolences."
+              },
+              "filters": {
+                "title": "Death Notices for {{personData}}",
+                "description": "Death notice for {{personData}} of {{townCounty}}Ireland. Click on the name to view the full death notice and add your condolences."
+              },
+              "countyTownRecent": {
+                "title": "Death Notices for {{personData}}",
+                "description": "A list of recent death notices for {{townCounty}}Ireland. Click on any entry to view the full death notice and add your condolences."
+              },
+              "preview": {
+                "title": "Death Notice of {{personData}}",
+                "description": "The death has occurred of {{personData}} of {{townCounty}} Ireland{{createdAt}}. You can view the full death notice and add your condolences here."
+              },
+              "condolencePreview": {
+                "title": "Condolence Book for {{personData}}",
+                "description": "Condolence Book for {{personData}} of {{townCounty}} Ireland. Add your condolences here."
+              },
+              "condolenceAdd": {
+                "title": "Add condolence for {{personData}}",
+                "description": "Add your condolences for {{personData}} of {{townCounty}} Ireland."
+              }
+            },
+            "familyNotices": {
+              "creator": {
+                "title": "Family Notices Creation",
+                "description": "Family Notices Creation"
+              },
+              "payments": {
+                "title": "Family Notices Payments",
+                "description": "Family Notices Payments"
+              },
+              "list": {
+                "title": "Family Notices",
+                "description": "Family Notices description"
+              },
+              "allCounties": {
+                "title": "Family Notice search results"
+              },
+              "filters": {
+                "title": "Family Notices for {{personData}}",
+                "description": "Family notice for {{personData}} of {{townCounty}}Ireland. Click on the name to view the full family notice."
+              },
+              "countyTown": {
+                "title": "Family Notices for {{personData}}",
+                "description": "A list of family notices for {{townCounty}}Ireland. Click on any entry to view the full family notice."
+              },
+              "preview": {
+                "title": "Family Notice of {{personData}}",
+                "description": "Family notice for {{personData}} of {{townCounty}}Ireland. Click on the name to view the full family notice."
+              },
+              "condolencePreview": {
+                "title": "Condolence Book for {{personData}}",
+                "description": "Condolence Book for {{personData}} of {{townCounty}} Ireland. Add your condolences here."
+              },
+              "condolenceAdd": {
+                "title": "Add condolence for {{personData}}",
+                "description": "Add your condolences for {{personData}} of {{townCounty}} Ireland."
+              }
+            },
+            "practicalInformation": {
+              "title": "Practical Infromation",
+              "description": "Practical Information, relevant to funerals and end of life matters, for Ireland",
+              "preview": "{{text}}, relevant to funerals and end of life matters, Ireland"
+            },
+            "faq": {
+              "title": "Frequently Asked Questions (FAQ)",
+              "description": "Contact details, help and FAQs relating to using RIP.ie, Ireland"
+            },
+            "podcasts": {
+              "title": "Podcasts",
+              "description": "TODO",
+              "preview": "{{text}}, podcast article, Ireland"
+            },
+            "griefAndBereavementSupport": {
+              "title": "Grief & Bereavement Support",
+              "description": "Find support and resources for grief and bereavement, including guidance on coping with loss and understanding the grieving process in Ireland",
+              "preview": "{{text}}, grief and bereavement support article, Ireland"
+            },
+            "legalAndFinancialAdvice": {
+              "title": "Legal & Financial Advice",
+              "description": "Get expert legal and financial advice for matters related to death, wills, probate, inheritance, and estate planning in Ireland",
+              "preview": "{{text}}, legal and financial advice article, Ireland"
+            },
+            "fourOhFour": {
+              "title": "404 - Page not found",
+              "description": "Sorry, we couldn't find that page"
+            },
+            "underConstruction": {
+              "title": "Page is under construction",
+              "description": "Sorry, this page is under construction"
+            },
+            "login": {
+              "title": "Login",
+              "description": "Login description"
+            },
+            "register": {
+              "title": "Register",
+              "description": "Register description"
+            },
+            "newPassword": {
+              "title": "New password",
+              "description": "New password description"
+            },
+            "donate": {
+              "title": "Donate to charity",
+              "description": "Donate now to help make a difference in the lives of those in need. Your generosity can change the world."
+            },
+            "contact": {
+              "title": "Contact us for help",
+              "description": "If you require any assistance or have an inquiry, please do not hesitate to get in touch with us. Our staff is at your disposal."
+            }
+          },
+          "FourOhFour": {
+            "title": "404",
+            "pageNotFound": "Page not found",
+            "couldntFindPage": "Sorry, we couldn't find that page",
+            "backToHomepage": "Back To Homepage"
+          },
+          "FamilyNotices": {
+            "nee": "née",
+            "searchResultsFilters": "{{type}} for {{personData}}",
+            "maps": "Maps",
+            "share": "Share",
+            "print": "Print",
+            "back": "Back",
+            "edit": "Edit",
+            "delete": "Delete",
+            "notice": "Notice",
+            "pause": "Pause",
+            "start": "Start",
+            "messageWall": "Message Wall",
+            "MessageWall": {},
+            "Messages": {
+              "add": "Add Message For {{personData}}",
+              "messageBookFor": "Message Wall for",
+              "addYourMessage": "Add Your Message",
+              "afterDatePublication": "After {{date}}, this wall becomes 'read only' which means that no new messages may be added.",
+              "messageMayBeViewed": "However, the message wall may be viewed, saved and / or printed at any time.",
+              "messageBookIsNowReadOnly": "This Message Wall is now read-only",
+              "messageBookClosedInfo": "1 year after publication, this wall becomes 'read only' which means that no new messages may be added; however, the message wall may be viewed, saved and / or printed at any time.",
+              "nee": "née",
+              "print": "Print",
+              "share": "Share",
+              "days": "days",
+              "notSupportPrinting": "Your browser does not support printing, to be able to print please go to browser settings.",
+              "noMessages": "No messages",
+              "noMessagesAdded": "No messages have been added for this person yet",
+              "addFirstMessage": "Add Your First Message",
+              "Add": {
+                "add": "Add Message for {{personData}}",
+                "cancel": "Cancel",
+                "preview": "Preview Your Message",
+                "name": "Your name",
+                "condolenceContent": "Your Message",
+                "note": "Note: Changes may not be made to messages once published.<br/> Each user may post <b>one message per notice</b>.<br/> Please ensure your message is <b>respectful and offers comfort</b> to the family. <br/>Thank you for keeping RIP.ie a place of genuine sympathy and support.  ",
+                "yourCondolence": "Your Message",
+                "backToEdit": "Back To Edit",
+                "publishCondolence": "Publish Message",
+                "messageWillBePosted": "<div>Your message will be reviewed by RIP.ie <br /> before being published.</div><br /><div> Given the volume of messages, this <br /> can take a few hours.</div>",
+                "errorTitle": "There was an error during posting your message",
+                "defaultError": "Please try again later.",
+                "close": "Close"
+              }
+            },
+            "creator": {
+              "saveContinue": "Save & Continue",
+              "savePreview": "Save & Preview",
+              "iAccept": "I accept",
+              "termsCondition": "Terms and Conditions",
+              "specifiedDate": "Publish Notice From The Date Specified",
+              "requiredDiscount": "This field is required",
+              "fdChargeAccount": "Please apply Funeral Director discount and charge to my account",
+              "fdCharge": "This family notice will be charged to the Funeral <br /> Director, at the discounted rate.",
+              "saved": "Family Notice successfully saved!",
+              "someone": "Someone",
+              "carefulTitle": "Be careful!",
+              "carefulDescription": "is editing this Family <br /> Notice",
+              "publishInfo": "<b>Important:</b> this page is for publishing family notices only, not death notices",
+              "publishInfo2": "Introducing The new <b>Anniversary Wall</b> on Rip.ie. It offers a gentle online space to remember loved ones, share photos and messages, and bring family, friends, and community together to reflect on meaningful anniversaries.",
+              "firstStepTitle": "Publish your Family Notice",
+              "firstStepTitleFD": "Add a new Family Notice for",
+              "typeSelection": "Select Type of Notice",
+              "createNotice": "Create Family Notice",
+              "editNotice": "Edit Family Notice",
+              "fnFeatures": "Family Notice Features",
+              "prev": "Back",
+              "next": "Next",
+              "publish": "Pay & Publish",
+              "secondStepTitle": "Add details of the deceased",
+              "secondStepDetails": "Has the deceased's death notice been listed on RIP.ie",
+              "secondStepAcknowledgement": "Use the search box below to find the death notice you want to link this Acknowledgement to:",
+              "secondStepGlobal": "Use the search box below to find the death notice you want to use information from",
+              "yes": "Yes",
+              "no": "No",
+              "secondStepListTitle": "Click 'Select' button opposite the death notice you wish to take information from:",
+              "secondStepListText": "(If the notice you want appears more than once in the list, select any one of the notices)",
+              "prevStep": "Previous Step",
+              "nextStep": "Next Step",
+              "attachedDN": "Information used from this Death Notice:",
+              "published": "Published",
+              "remove": "Remove",
+              "preview": "Preview",
+              "addAnotherTown": "Add Another Town",
+              "anotherTown": "Another town",
+              "stayHere": "No, Stay Here",
+              "startAgain": "Yes, Start Again",
+              "startDescription": "Do you want to unlink this family notice from the selected death notice and start again?",
+              "deceasedInfoEdit": "Edit information about the deceased:",
+              "deceasedInfoAdd": "Add information about the deceased:",
+              "streetLabel": "Street",
+              "noDataInfo": "Please increase date range, check spelling or </br> county/town selected and search again.",
+              "noDataInfoFN": "Please check spelling or </br> county/town selected and search again.",
+              "county": "County",
+              "churchMap": "Church Map",
+              "addChurch": "Add Church Map",
+              "addChurchBtn": "Add Church",
+              "previewNotice": "Preview Notice",
+              "stepOne": "Select Type of </br> Notice",
+              "stepTwo": "Add details of</br> the deceased",
+              "stepThree": "Add Content",
+              "stepFour": "Pay & Publish",
+              "stepFourSave": "Publish",
+              "description": "Description",
+              "title": "Title:",
+              "textTemplates": "Text Templates",
+              "sampleVerses": "Sample Verses",
+              "hideCheckList": "Hide Checklist",
+              "showCheckList": "Show Checklist",
+              "staticCheckListTitle": "A sincere thank you to (include those that apply from each list) and simply write this as a <br /> continuous paragraph, separating each group with a semi colon (;)",
+              "printList": "Print list",
+              "pleaseSelect": "Use the search box below to find the death notice!",
+              "selectCategory": "Select Map Category",
+              "selectCounty": "County",
+              "selectChurch": "Church",
+              "addMapService": "Add map for Mass/Service",
+              "cancel": "Cancel",
+              "save": "Save",
+              "addPhotos": "Add photos",
+              "photoCount": "Photo",
+              "displayAnotherCounty": "Would you like this notice to display in another county?",
+              "addAnotherCounty": "Add Another County",
+              "insertVerses": "Insert selected verses",
+              "textTemplateModalTitle": "Text Template",
+              "selectTemplate": "Select template",
+              "template": "Template",
+              "addContent": "Add Content",
+              "payPublish": "Pay & Publish",
+              "onlyPublishTitle": "Publish",
+              "onlyPublish": "Save",
+              "loginContinue": "Log in to your account to continue",
+              "createAccount": "Create your account",
+              "registerNow": "Register Now",
+              "back": "Back",
+              "publishNotice": "Publish Notice",
+              "summary": "Summary",
+              "total": "TOTAL",
+              "paymentSucceed": "Payment succeeded",
+              "paymentPending": "Payment Pending",
+              "redirectNotice": "Click the button below to go to your family notices",
+              "myFamilyNotices": "My Family Notices",
+              "unsavedChanges": "You have unsaved changes - are you sure you wish to leave this page?",
+              "publishTips": {
+                "first": "Notices are published for up to 5 weeks (for Anniversary Wall for up to 1 year) in the Family Notice Section",
+                "second": "Where a Month's Mind notice has been added, a link to it also shows on the death notice for up to 5 weeks",
+                "third": "Acknowledgements are linked permanently to the death notice",
+                "fourth": "You can edit your Family Notices in the Member’s Area",
+                "fourthAdmin": "You can edit your Family Notices in the FD Area"
+              }
+            },
+            "searchBar": {
+              "title": "Search Family Notices",
+              "searchSurname": "Search by Surname",
+              "firstName": "First Name",
+              "surname": "Surname",
+              "nee": "Née",
+              "counties": "County",
+              "towns": "Town",
+              "advancedSearch": "Advanced Search >",
+              "defaultSearch": "Default Search >",
+              "showResults": "Show Results",
+              "clearFilters": "Clear Filters"
+            },
+            "Banner": {
+              "title": "Family Notices on RIP.ie",
+              "description": "Remember a loved one in a special way...",
+              "createNotice": "Create A Family Notice"
+            },
+            "List": {
+              "header": "All Family Notices",
+              "names": "Name",
+              "town": "Town",
+              "county": "County",
+              "typeOfNotice": "Type Of Notice",
+              "published": "Published",
+              "for": "for",
+              "noticesPublishedFrom": "Notices published from"
+            },
+            "Member": {
+              "removeDescription": "Do you really want to delete this Family Notice?",
+              "removeInfo": "All progress will be lost",
+              "removeDismiss": "No, keep  it",
+              "removeAccept": "Yes, delete"
+            }
+          },
+          "Feedback": {
+            "title": "Leave your thoughts about the new design.",
+            "btn": "Leave feedback"
+          },
+          "ServicesDirectory": {
+            "title": "Services Directory",
+            "description": "Find useful funeral-related services",
+            "inCounty": "in your county",
+            "offer": "Offer",
+            "offers": "Offers",
+            "viewAll": "View All",
+            "forCounty": "for County {{ county }}",
+            "serving": "serving",
+            "searchResults": "Services Directory search results",
+            "iafdMember": "IAFD Member",
+            "moreInfo": "More Info",
+            "counties": "counties",
+            "noDataDescription": "Please check county/type of service selected and search again",
+            "for": "for",
+            "of": "of",
+            "serviceOffered": "Service offered",
+            "contactDetails": "Contact Details",
+            "professionalMembershipsAssociations": "Professional Memberships & Associations",
+            "map": "Map",
+            "locations": "Locations",
+            "browseAllCategories": "Browse All Categories",
+            "searchBar": {
+              "title": "Search for Service",
+              "counties": "County",
+              "categories": "Type of service",
+              "search": "Search",
+              "clearFilters": "Clear Filters"
+            }
+          },
+          "MembershipRights": {
+            "title": "Membership is FREE <br /> and allows you to...",
+            "setEmailAlerts": {
+              "title": "Set Email Alerts",
+              "subtitle": "Set email alerts for Surname / Town / County <br /> / Church",
+              "description": "Here you can set up custom email <br> alerts to be notified by email of new <br /> death notices."
+            },
+            "publishFamilyNotices": {
+              "title": "Publish Family Notices",
+              "subtitle": "Acknowledgement, Month's Mind, <br /> Anniversary, Birthday Memorials",
+              "description": "*Notices listed for up to 5 weeks <br /> *Link Acknowledgement permanently <br /> to death notice <br /> *Add photos & verse"
+            },
+            "saveDeathNotices": {
+              "title": "Save Death Notices",
+              "subtitle": "Members can save death notices that are <br /> important to them.",
+              "description": "Members can save death notices by clicking on the <img src=\"/save.svg\" alt=\"saved\"/> icon, shown on all death notices."
+            }
+          },
+          "Login": {
+            "title": "Log In",
+            "fdSubtitle": "Please enter a valid username and password to gain access to the Funeral Directors console.",
+            "subtitle": "Log in to your account",
+            "question": "Don't have an account yet?",
+            "rememberMe": "Remember me",
+            "forgotPassword": "Forgot password",
+            "error": "There was a login error!",
+            "passwordChange": "Password change is required!",
+            "email": "Email",
+            "userName": "User Name (how we address you)",
+            "funeralDirectorName": "Username",
+            "nameHelper": "We do not want to ask for actual names, only user names",
+            "password": "Password",
+            "show": "Show",
+            "hide": "Hide",
+            "orLogInWith": "Or log in with",
+            "logInWithFacebook": "Log In With Facebook",
+            "logInWithGoogle": "Log In With Google",
+            "registerNow": "Register Now",
+            "success": "You have been correctly logged in"
+          },
+          "PasswoedContain": {
+            "mustContain": "Your password should be unique to this website and must contain:",
+            "leastChars": "At least {{ number }} characters",
+            "oneSpecial": "1 special character (eg. -.,*&^%$#)",
+            "oneCapital": "1 CAPITAL letter",
+            "oneNumber": "1 number"
+          },
+          "Register": {
+            "title": "Register Now",
+            "subtitle": "Create your account",
+            "question": "Already have an account?",
+            "setPassword": "Set Password",
+            "agree": "I agree to the ",
+            "termsOfService": "Terms of Service",
+            "and": " and ",
+            "privacyPolicy": "Privacy Policy",
+            "nameHelper": "We do not want to ask for actual names, only user names",
+            "close": "Close",
+            "verifyYourEmail": "Verify your e-mail",
+            "description": "An email has been sent to the email address you provided. Click on the link contained in this email to activate your account and enter the Members’ Area",
+            "note": "Note, if you haven't received this email within a few minutes, please check your junk mail folder",
+            "userName": "User Name (how we address you)",
+            "email": "Email",
+            "password": "Password",
+            "show": "Show",
+            "hide": "Hide",
+            "orLogInWith": "Or log in with",
+            "logInWithFacebook": "Log In With Facebook",
+            "logInWithGoogle": "Log In With Google",
+            "logIn": "Log In",
+            "createAccount": "Create Account",
+            "termsReguired": "You must agree to the Terms of Service and Privacy Policy",
+            "error": "There is error during registration",
+            "success": "You have been correctly registered"
+          },
+          "NewPassword": {
+            "title": "New Password",
+            "subtitle": "Set your new password",
+            "setupPassword": "Set a password for your account",
+            "description": "Please choose a new password for your log in to the RIP.ie members’ area.",
+            "descriptionShort": "Please choose a new password for your log in.",
+            "descriptionShortSetup": "Please choose a password for your new account on the platform.",
+            "passwordsNotMatch": "The passwords do not match",
+            "show": "Show",
+            "hide": "Hide",
+            "repeatPassword": "Repeat Password",
+            "savePassword": "Save Password",
+            "close": "Close",
+            "changeSuccess": "Password has been changed successfully",
+            "changeDescription": "Use this password to Log In next time.",
+            "loginMembersArea": "Login to Members' Area",
+            "loginFdArea": "Login to Funeral Director Area",
+            "continueUsing": "Back to system"
+          },
+          "ForgotPassword": {
+            "title": "Forgot Password",
+            "description": "Please enter a valid email and we will send you an email with your new password.",
+            "cancel": "Cancel",
+            "restorePassword": "Restore Password",
+            "thankYou": "Thank you",
+            "success": "The e-mail was sent if the address provided is correct.",
+            "close": "Close",
+            "error": "Email address send error",
+            "email": "Email",
+            "emailSent": "The e-mail has been sent"
+          },
+          "SocialRegister": {
+            "title": "Confirm registration",
+            "cancel": "Cancel",
+            "description": "To register you must agree to the terms of service and privacy policy",
+            "agree": "I agree to the ",
+            "termsOfService": "Terms of Service",
+            "and": " and ",
+            "privacyPolicy": "Privacy Policy",
+            "termsReguired": "You must agree to the Terms of Service and Privacy Policy"
+          },
+          "SuccessRegister": {
+            "title": "Thank you!",
+            "description": "You've just confirmed your account. Go to the login form, and log in to your member space.",
+            "login": "Login"
+          },
+          "CtaFamilyNotices": {
+            "title": "Family Notices for {{ countyName }}",
+            "viewAll": "View All Family Notices",
+            "loading": "Loading...",
+            "noResultsFound": "No family notices for the selected county."
+          },
+          "CtaFamilyNoticeItem": {
+            "view": "View"
+          },
+          "CtaDeathNotices": {
+            "title": "Death Notices for {{ countyName }}",
+            "viewAll": "View All Recent Death Notices",
+            "loading": "Loading...",
+            "featuredDeathNotices": "Featured Death Notices"
+          },
+          "CtaDeathNoticeItem": {
+            "view": "View"
+          },
+          "CKEdtior": {
+            "loading": "Loading editor...",
+            "placeholder": "Write your acknowledgement here. \n Click the \"Template\" & \"Checklist\" buttons above for guidance."
+          },
+          "Arrangement": {
+            "none": "None",
+            "timeChange": "Time change",
+            "dateChange": "Date change",
+            "timeDateChange": "Time & date change",
+            "churchCementaryChange": "Church / cemetery change",
+            "postponedUntilFurtherNotice": "Postponed until further notice"
+          },
+          "MemorialGiftShop": {
+            "title": "Memorial Gift Shop",
+            "viewAll": "View All",
+            "browseAll": "Browse All"
+          },
+          "PracticalInfo": {
+            "title": "Practical Information",
+            "help": "Need help?",
+            "search": "Search the Practical Information Section",
+            "searchBtn": "Search",
+            "mainSectionTitle": "Practical Information",
+            "mainSectionDescription": "Here you will find practical information about End of Life Matters",
+            "resources": "Resources",
+            "resourcesDescription": "Resources to help you get the most from RIP.ie, plus ... Healing Space, <br /> Bereavement Help, Charities & Voluntary Organisations, Readings, Music, Poems, Quotes, Books, etc ...",
+            "articlesTitle": "Articles on this topic",
+            "exploreTitle": "Explore other topics",
+            "othertopics": "Other articles on RIP.ie",
+            "simpleOtherTopics": "Other articles",
+            "thisArticle": "In this article",
+            "searchAgain": "Please check spelling and search again",
+            "readMore": "Read More",
+            "results": "results",
+            "for": "for"
+          },
+          "MostImportant": {
+            "title": "Useful Information"
+          },
+          "ContactBox": {
+            "contactTitle": "Can't find what you're looking for?",
+            "contactDescription": "Our team of experts is here to help",
+            "contactBtn": "Contact us"
+          },
+          "Map": {
+            "title": "Death Notices by County",
+            "noticesThisWeek": "Notices This Week",
+            "serviceDirectory": "Service Directory"
+          },
+          "FAQ": {
+            "title": "Frequently Asked Questions",
+            "subtitle": "Here you will find information about using RIP.ie",
+            "topics": "Topics",
+            "resources": "Helpful resources",
+            "resourcesDescription": "Resources to help you get the most from RIP.ie, plus ... Healing Space, <br /> Bereavement Help, Charities & Voluntary Organisations, Readings, Music, Poems, Quotes, Books, etc ...",
+            "visitShop": "Visit Shop",
+            "readPracticalInformation": "Read Practical Information"
+          },
+          "ContactBanner": {
+            "title": "Become a partner",
+            "subtitle": "Charities not listed on this page can contact us for details",
+            "contactUs": "Contact Us"
+          },
+          "ListOrganization": {
+            "title": "Donate to charity",
+            "subtitle": "Click on the charity logo below to donate directly to that charity",
+            "visitWebsite": "Visit Website"
+          },
+          "LogInInfoModal": {
+            "title": "Log in to save this death notice to your account",
+            "logIn": "Log In",
+            "close": "Close"
+          },
+          "TopSearchForm": {
+            "searchLastSevenDays": "Search Last 7 Days Death Notices",
+            "surname": "Surname",
+            "search": "Search",
+            "goToAdvancedSearch": "Go to Advanced Search"
+          },
+          "Contact": {
+            "title": "Contact",
+            "description": "If you would like to make an enquiry, please fill out the form below. All information will be treated confidentially.",
+            "name": "Your name",
+            "email": "Your email address",
+            "message": "Message",
+            "agree": "You agree to the",
+            "termsOfService": "Terms of Service",
+            "and": "and",
+            "privacyPolicy": "Privacy Policy",
+            "submit": "Submit",
+            "errorOcurred": "Error ocurred!",
+            "sendingFormError": "Sending form error!",
+            "formSent": "Thank you for your message which has been sent to RIP.ie. We will be in touch shortly."
+          },
+          "TutorialMessage": {
+            "titleTop": "Welcome to the RIP.ie new design",
+            "descriptionTop": "Here you can return to the old platform!",
+            "gotIt": "Got It",
+            "titleBottom": "Leave feedback about <br /> the new design",
+            "descriptionBottom": "It's important to hear that."
+          },
+          "CondolenceComplaint": {
+            "modal": {
+              "title": "Submit Condolence Complaint"
+            },
+            "form": {
+              "reason": "Reason",
+              "additionalInfo": "Additional information (optional)",
+              "reporterEmail": "Your email"
+            },
+            "List": {
+              "created": "Created At",
+              "reason": "Reason",
+              "status": "Status",
+              "reviewed": "Reviewed",
+              "notes": "Notes"
+            },
+            "Status": {
+              "PENDING": "Pending",
+              "REJECTED": "Rejected",
+              "RESOLVED": "Resolved"
+            },
+            "Errors": {
+              "alreadySubmitted": "You have already submitted a complaint for this condolence"
+            },
+            "Reason": {
+              "SPAM": "Spam",
+              "FALSE_INFORMATION": "False Information",
+              "IMPERSONATION": "Impersonation",
+              "HARASSMENT": "Harassment",
+              "INAPPROPRIATE_LANGUAGE": "Inappropriate Language",
+              "OFFENSIVE_CONTENT": "Offensive Content",
+              "OTHER": "Other"
+            }
+          }
+        },
+        "pwa": {
+          "Pwa": {
+            "shortcut": "Add app shortcut to your<br />mobile device",
+            "readMore": "Read More",
+            "homeScreenApp": "Add to Homescreen",
+            "addShortcutBeAble": "Add shortcut to your Homescreen to allow quick access to this page.",
+            "close": "Close",
+            "installNow": "Install Now",
+            "benefit1": "Use app without internet connection",
+            "benefit2": "Quick access to app directly from your phone",
+            "iosPwa": "Go to the browser settings and select the “Add to Homescreen” option.",
+            "androidPwa": "Go to the browser settings and select the “Add to Homescreen” option.",
+            "otherPwa": "Go to the browser settings and select the “Add to Homescreen” option."
+          }
+        },
+        "footer": {
+          "Footer": {
+            "logout": "Log out",
+            "funeralLogin": "Funeral Director Log In",
+            "backToTop": "Back to top",
+            "ripIe": "RIP.ie",
+            "homePage": "Home",
+            "services": "Services",
+            "logInRegistration": "Log in / Registration",
+            "faq": "FAQ",
+            "practicalInformation": "Practical Information",
+            "donate": "Donate",
+            "fdTerms": "FD Terms & Conditions",
+            "familyNotice": "Family Notices",
+            "ourPartners": "Our Partners",
+            "viewAll": "View All",
+            "acknowledgement": "Acknowledgement",
+            "anniversary": "Anniversary",
+            "monthsMind": "Month's Mind",
+            "birthdayMemorial": "Birthday Memorial",
+            "memorialMass": "Memorial Mass",
+            "memorialServices": "Memorial Services",
+            "deathNotices": "Death Notices",
+            "memorialGifts": "Memorial Gifts",
+            "terms": "Terms",
+            "dsa": "DSA",
+            "privacy": "Privacy",
+            "cookiePolicy": "Cookie Policy",
+            "cookieSettings": "Cookie Settings",
+            "contact": "Contact",
+            "copyright": "Copyright RIP.ie. All Rights Reserved.",
+            "gradamCommunications": "Rip.ie, The Irish Times Building, 24-28 Tara Street, Dublin 2, Ireland",
+            "funeralDirector": "Funeral Director",
+            "fdArea": "FD Area",
+            "fdMaps": "Maps",
+            "fdStatistics": "Statistics",
+            "fdProfile": "Profile",
+            "fdHelp": "Help",
+            "fdWidget": "Widget",
+            "fdShop": "Shop",
+            "griefAndBereavementSupport": "Grief & Bereavement Support",
+            "legalAndFinancialAdvice": "Legal & Financial Advice",
+            "podcasts": "Podcasts"
+          }
+        },
+        "dashboard-links": {
+          "Dashboard": {
+            "menu": {
+              "homepage": "Member’s Homepage",
+              "personal": "Personal data",
+              "saved": "Saved Notices",
+              "alerts": "My Email Alerts",
+              "fn": "My Family Notices",
+              "complaints": "My Complaints",
+              "logout": "Log out"
+            },
+            "fd": {
+              "menu": {
+                "profile": "Profile",
+                "password": "Change password"
+              }
+            }
+          }
+        },
+        "dashboard-alerts": {
+          "Alerts": {
+            "title": "My Email Alerts",
+            "create": "Create new alert",
+            "surname": "Surname",
+            "createAlertTitle": "Create alert",
+            "updateAlertTitle": "Edit alert",
+            "createAlertDescription": "Get an email each time a new death notice is published which matches your selected “surname” “town” “county” or “church”.",
+            "byCounty": "By Surname / Town / County",
+            "byChurch": "By Church",
+            "tips": "Tips for alerts by Surname / County / Town",
+            "tipsChurch": "Tips for alerts by Church",
+            "close": "Close",
+            "saveAlert": "Create alert",
+            "updateAlert": "Update alert",
+            "county": "County",
+            "surnameIcon": "Surname/<br>Location",
+            "denomination": "Select Denomination",
+            "church": "Church",
+            "town": "Town",
+            "alertsDescription": "To receive alerts for funerals at specific churches:",
+            "selectChurch": "Select church county from the dropdown list",
+            "selectDenomination": "Select church denomination from the dropdown list",
+            "selectActualChurch": "Select actual church for from the dropdown list",
+            "countyTipOne": "Get alerts for all deaths in a county - select that county",
+            "countyTipTwo": "A specific town(s) - set each town as a separate alert. If a town straddles two counties, set an alert for that town in each county",
+            "countyTipThree": "A specific person - set \"surname\" & \"county\" of the person. Where a surname may be spelled a number of ways, set an alert for each variation",
+            "countyTipFour": " Sometimes \"town\" is not included in the notice, so you may prefer to keep your search at the \"county\" level.",
+            "repeatChurch": "Repeat for each church you want alerts for",
+            "tooMuchAlerts": "Too much email alerts created (max: 30)",
+            "minOneField": "Min. one field should be filled!",
+            "allFieldRequired": "All fields are required!",
+            "wrongData": "Wrong data filled!",
+            "newCreated": "New alert created!",
+            "updated": "Alert updated!",
+            "listEmptyTitle": "The list is empty",
+            "addFirstAlert": "Add your first alert",
+            "loadingList": "Loading alert list...",
+            "alertPaused": "Alert successfully paused!",
+            "alertStarted": "Alert successfully started!",
+            "sureSuspendAlert": "Are you sure you want to temporarily suspend this alert?",
+            "sureRestartAlert": "Are you sure you want to restart this alert?",
+            "alertyDeleteAsk": "Are you sure you want to delete this alert?",
+            "alertDelete": "Alert successfully deleted!",
+            "pause": "Pause",
+            "start": "Start",
+            "error": "There was an error! Please try again!",
+            "cancel": "Cancel",
+            "confirm": "Confirm"
+          }
+        }
+      }
+    },
+    "__N_SSG": true
+  },
+  "page": "/",
+  "query": {},
+  "buildId": "6EnDrfunespAQZo9S4W0z",
+  "isFallback": false,
+  "dynamicIds": [
+    30648,
+    54774,
+    98258,
+    56677,
+    65511,
+    39634
+  ],
+  "gsp": true,
+  "locale": "en",
+  "locales": [
+    "en"
+  ],
+  "defaultLocale": "en",
+  "scriptLoader": []
+}

@@ -1,0 +1,48 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-donnelly-dublin-ballygall-585485",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-donnelly-dublin-ballygall-585485"
+  ],
+  "searchIds": [
+    "dublin-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 585485,
+        "surname": "Donnelly",
+        "firstname": "John",
+        "nee": "",
+        "createdAt": "2025-02-15T14:23:58.361+00:00",
+        "description": "<p> </p>\n\n<p><strong>DONNELLY</strong>, John (Late of Ballygall and formerly of the Carlton and Savoy Cinema’s Dublin) February 14, 2025 (peacefully), in the tender care of the staff of Beaumont Hospital, surrounded by his loving family. Beloved son of the late Hanora and John, dear brother of Helen and Daniel. He will be sadly missed and lovingly remembered by his sister and brother, sister-in-law Ann, nieces Grace, Avril and Joyce, nephew Daniel, extended family, friends and neighbours.</p>\n\n<p style=\"text-align:center\">May he Rest in Peace</p>\n\n<p>Reposing at the Fanagan Kirwan Funeral Home, Ballygall Road West, (D11 W7VX) on Tuesday (18th February) from 3pm to 5.30 pm., with family in attendance.</p>\n\n<p>Requiem Mass on Wednesday (19th February) at 10 am in St Canice’s Church, Finglas Village. Funeral thereafter to Dardistown Cemetery.</p>\n\n<p>Family flowers only please. Donations, if desired, in lieu to The Irish Heart Foundation.</p>\n\n<p> </p>\n\n<p>John’s Funeral Mass can be viewed live on the link below.</p>\n\n<p> </p>\n\n<p>Messages of sympathy may be left for John’s family in the “Condolences” section below.</p>\n",
+        "address": "",
+        "dateOfDeath": "2025-02-14T00:00:00.000+00:00",
+        "dateOfBirth": null,
+        "oldId": null,
+        "county": {
+          "id": 10,
+          "name": "Dublin"
+        },
+        "town": {
+          "id": 329,
+          "name": "Ballygall"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 329,
+              "name": "Ballygall",
+              "slug": "Ballygall"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

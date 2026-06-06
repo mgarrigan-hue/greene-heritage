@@ -1,0 +1,64 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-sean-donnelly-dublin-lucan-227551",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-sean-donnelly-dublin-lucan-227551",
+    "https://rip.ie/death-notice/john-sean-donnelly-dublin-ringsend-227551"
+  ],
+  "searchIds": [
+    "dublin-john-donnelly-1998-2025",
+    "dublin-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025",
+    "dublin-sean-donnelly-1998-2025",
+    "dublin-sean-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 227551,
+        "surname": "DONNELLY",
+        "firstname": "John (Sean)",
+        "nee": "",
+        "createdAt": "2014-11-05T17:12:29.000+00:00",
+        "description": "<p><strong>DONNELLY, </strong>(Lucan, Co. Dublin and formerly of Ringsend and the Revenue Commissioners) November 5th, 2014 (peacefully) in the loving care of the staff at Our Lady&rsquo;s Hospice, Harold&rsquo;s Cross. John (Sean), beloved husband of Eithne and dear father of John, Sheila, Niamh and Barry; Sadly missed by his loving wife, sons, daughters, grandchildren Jessica, James, Harry, Charlie, Freddie and Tilly, sons-in-law Dean and Gerry, daughter-in-law Jacqui, brother, sister, brothers-in-law, sisters-in-law, relatives and friends.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Reposing at Cunningham&rsquo;s Funeral Home, Chapel Hill, Lucan on Thursday evening between 6pm and 8pm. Removal to St. Mary&rsquo;s Church, Lucan on Friday morning arriving for Requiem Mass at 10am followed by burial in Esker Cemetery. Family flowers only please. Donations, if desired, to Our Lady&rsquo;s Hospice, Harold&rsquo;s Cross.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p style=\"text-align:center\"><strong>Rest in Peace</strong></p>",
+        "address": "",
+        "dateOfDeath": "2014-11-05T00:00:00.000+00:00",
+        "dateOfBirth": null,
+        "oldId": 238800,
+        "county": {
+          "id": 10,
+          "name": "Dublin"
+        },
+        "town": {
+          "id": 383,
+          "name": "Lucan"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 383,
+              "name": "Lucan",
+              "slug": "Lucan"
+            }
+          },
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 400,
+              "name": "Ringsend",
+              "slug": "Ringsend"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

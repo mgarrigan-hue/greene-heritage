@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/sean-donnelly-dublin-malahide-526859",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/sean-donnelly-dublin-malahide-526859"
+  ],
+  "searchIds": [
+    "dublin-sean-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 526859,
+        "surname": "Donnelly",
+        "firstname": "Sean",
+        "nee": "",
+        "createdAt": "2023-08-17T16:41:38.422+01:00",
+        "description": "<p style=\"text-align:start\">Donnelly Sean, Malahide, Co. Dublin and late of McInerney’s, Malahide Golf Club and Malahide United AFC.  16th August 2023.  Peacefully, in the wonderful care of the staff in Talbot Lodge Nursing Home, Kinsealy.  Beloved husband of the late Doreen.  Very sadly missed by his loving son Eamon, daughter-in-law Maria, grandsons Paul and Stephen, great-granddaughter Fiadh, nieces, nephews, extended family, friends and neighbours.</p>\n\n<p style=\"text-align:start\"> </p>\n\n<p style=\"text-align:center\"><strong><em>May He Rest in Peace.</em></strong></p>\n\n<p style=\"text-align:start\"> </p>\n\n<p style=\"text-align:start\">Reposing in Staffords Funeral Home, Golf Links Road, Portmarnock on Saturday, 19th August, from 3pm to 5pm.  Removal to St. Sylvester’s Church, Malahide on Monday morning for 10.30am Funeral Mass followed by burial in Yellow Walls Cemetery, Malahide.  Family flowers only please.  Donations, if desired, to a charity of your choice.</p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\"><strong>The family will walk from Sean’s home to the Church on Monday morning.</strong></p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\">A live stream of Sean’s Funeral mass can be viewed on the following link:</p>\n\n<p style=\"text-align:center\"><u><a href=\"https://www.churchservices.tv/malahide\" style=\"color:blue\" target=\"_blank\">https://www.churchservices.tv/malahide</a></u></p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\"><strong><em>The above link is provided and managed by an independent streaming company.</em></strong></p>\n\n<p style=\"text-align:center\"><strong><em>The Funeral Home accepts no responsibility for its functionality or any</em></strong></p>\n\n<p style=\"text-align:center\"><strong><em>interruption to a live transmission.</em></strong></p>\n",
+        "address": "",
+        "dateOfDeath": "2023-08-16T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": null,
+        "county": {
+          "id": 10,
+          "name": "Dublin"
+        },
+        "town": {
+          "id": 385,
+          "name": "Malahide"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 385,
+              "name": "Malahide",
+              "slug": "Malahide"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

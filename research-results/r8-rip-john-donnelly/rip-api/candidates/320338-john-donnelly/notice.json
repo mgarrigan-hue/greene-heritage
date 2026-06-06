@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-donnelly-wicklow-kilmacanogue-320338",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-donnelly-wicklow-kilmacanogue-320338"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 320338,
+        "surname": "Donnelly",
+        "firstname": "John",
+        "nee": "",
+        "createdAt": "2017-10-23T12:10:49.000+01:00",
+        "description": "<p>DONNELLY, John (Kilmurray, Kilmacanogue, Co. Wicklow, late of Irish Lights and County Secretary of the Wicklow Ploughing Association) - Oct. 21, 2017 (unexpectedly), at his home, predeceased by his sister Mary Melrose; remembered with love by his devoted family, wife Mary (n&eacute;e Joyce), daughters Orla McHugh and Fiona Power, sisters Anne Woodcock and Eilish Donnelly, sons-in-law Larry and Brendan, grandchildren Eamon, Aoife, Ciara, Aisling and Lisa, brothers-in-law, sisters-in-law, nieces, nephews, extended family, relatives, neighbours and a wide circle of friends.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Reposing at his home&nbsp; (Tuesday, Oct. 24) from 8 o&#39;c. Evening prayer will take place at his home on Wednesday at 7 o&#39;c. Funeral Mass on Thursday afternoon at 1 o&#39;c. in St. Mochonog&rsquo;s Church, Kilmacanogue followed by interment in the adjoining cemetery. Family flowers only, donations, if desired, to the Irish Heart Foundation, donation boxes at the church.</p>\r\n\r\n<p style=\"text-align:center\"><strong>May He Rest In Peace</strong></p>",
+        "address": "Kilmurray",
+        "dateOfDeath": "2017-10-21T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": 334301,
+        "county": {
+          "id": 32,
+          "name": "Wicklow"
+        },
+        "town": {
+          "id": 1247,
+          "name": "Kilmacanogue"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 32,
+              "name": "Wicklow"
+            },
+            "town": {
+              "id": 1247,
+              "name": "Kilmacanogue",
+              "slug": "Kilmacanogue"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/johnny-donnelly-mayo-westport-131940",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/johnny-donnelly-mayo-westport-131940"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 131940,
+        "surname": "DONNELLY",
+        "firstname": "Johnny",
+        "nee": "",
+        "createdAt": "2011-06-15T00:00:00.000+01:00",
+        "description": "Reposing at his home today, Wednesday, from 2pm with removal at 7.45pm to St. Patrick's Church, Lecanvey, arriving at 8pm. Mass on Thursday at 12 noon, with burial afterwards in Murrisk Abbey Cemetery.",
+        "address": "Lecanvey,",
+        "dateOfDeath": null,
+        "dateOfBirth": null,
+        "oldId": 137368,
+        "county": {
+          "id": 21,
+          "name": "Mayo"
+        },
+        "town": {
+          "id": 712,
+          "name": "Westport"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 21,
+              "name": "Mayo"
+            },
+            "town": {
+              "id": 712,
+              "name": "Westport",
+              "slug": "Westport"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

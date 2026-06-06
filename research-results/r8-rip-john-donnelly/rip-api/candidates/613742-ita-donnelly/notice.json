@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/ita-donnelly-dublin-inchicore-613742",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/ita-donnelly-dublin-inchicore-613742"
+  ],
+  "searchIds": [
+    "dublin-donnelly-ita-keyword-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 613742,
+        "surname": "Donnelly",
+        "firstname": "Ita",
+        "nee": "Greene",
+        "createdAt": "2025-12-08T13:41:52.494+00:00",
+        "description": "<p style=\"text-align:center\">Donnelly (née Greene), (Dublin), December 6th, 2025, peacefully, surrounded by her loving family, in the wonderful care of all the staff of Kiltipper Woods Care Centre, Ita, late of Goldenbridge Avenue, Inchicore.</p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\">Beloved wife of the late John and much-loved mother of Ann, John, Sheila, and Ger. Sadly missed and always remembered by her loving family, sons-in-law Paul and Robbie, daughters-in-law Josette and Emily, her cherished grandchildren Claire, Eoin, Laura, Emma, JJ, Christopher, Nicole, Lauren and Jack, her great-grandchildren, sister-in-law, nephews, nieces, relatives, and friends.</p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\"><strong><em>May Ita Rest in Peace.</em></strong></p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\">Reposing at her daughter Sheila’s home tomorrow, Tuesday (December 9th) from 6pm to 8pm. Funeral Mass on Wednesday (December 10th) at 10am in St. Michael’s Church, Inchicore followed by burial to Deansgrange Cemetery.</p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\">To view the Funeral Mass live, please click <a href=\"https://www.churchservices.tv/bulfinroad\" style=\"color:#467886;text-decoration:underline\">here</a>.</p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\">Family flowers only please, donations if desired to the Alzheimer Society of Ireland (donate below).</p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\">To leave a private message of condolence, please click <a href=\"https://www.masseybrosfuneralhomes.com/funeral-notices/yw5xmm8gxe2zznk-bjdyp-aze53-mfb4d-hnh85-axwme-wadse-5e5hy-6shhs-kxb38-hrm2x-jhp79-5cbhe-r97l7-sg784-6p3m8-yeac6-8825x-6c7r4-68ydg-2jgf9-xg5en-p6lp2-79gfx-bnwrk-wxhmy-kttda-3bj7t-meg8b-jrenz\">here</a> or alternatively on the condolence section below.</p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\">All enquiries to Massey Bros., Inchicore on (01) 453 3333.</p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\"><em>Please Note: The link provided to live-stream the Funeral Mass/Cremation service is managed by an independent streaming company. The Funeral Home accepts NO responsibility for its functionality or interruption to a live transmission.</em></p>\n",
+        "address": "",
+        "dateOfDeath": "2025-12-06T00:00:00.000+00:00",
+        "dateOfBirth": null,
+        "oldId": null,
+        "county": {
+          "id": 10,
+          "name": "Dublin"
+        },
+        "town": {
+          "id": 373,
+          "name": "Inchicore"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 373,
+              "name": "Inchicore",
+              "slug": "Inchicore"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

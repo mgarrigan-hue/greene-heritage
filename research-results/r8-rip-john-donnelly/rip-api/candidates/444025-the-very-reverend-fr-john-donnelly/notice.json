@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/the-very-reverend-fr-john-donnelly-tipperary-roscrea-444025",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/the-very-reverend-fr-john-donnelly-tipperary-roscrea-444025"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 444025,
+        "surname": "Donnelly",
+        "firstname": "The Very Reverend Fr John",
+        "nee": "",
+        "createdAt": "2021-05-10T16:54:42.000+01:00",
+        "description": "<p>Predeceased by his sisters and brothers, Kathleen,Mai, Nora, Teresa, Jos, Jim and Paddy. Deeply regretted by his nieces, nephews, grandnieces, grandnephews, wonderful carers and Milford Care centre. Bishop Fintan Monahan, priests and religious in Killaloe Diocese, relatives, friends and parishioners of the various parishes that he administered.</p>\r\n<p>&nbsp;</p>\r\n<p style=\"text-align: center;\"><strong>Rest In Peace &nbsp;</strong></p>\r\n<p>&nbsp;</p>\r\n<p>Fr Donnelly&rsquo;s cort&egrave;ge will depart from his residence this Tuesday afternoon&nbsp; to Rathcabbin School arriving at 1pm, to Lorrha School arriving at 1:30pm Via Welshpark & Abbeyville, to Redwood School arriving at 2pm Via Ballyquirke, The Ferry, Portland & Moatfield, returning back to Rathcabbin. Concelebrate Mass on Wednesday afternoon at 3pm in Our Lady Queen of Ireland Church Rathcabbin followed by interment in the church grounds. Mass can be viewed on&nbsp;<a dir=\"ltr\" href=\"http://www.premieravproductions.com/\" target=\"_blank\" rel=\"noopener\">www.premieravproductions.com.</a></p>\r\n<p>&nbsp;</p>\r\n<p>In an effort to follow best practice in regard to gatherings for funerals people are asked to adhere to guidelines, thank you for cooperation.</p>",
+        "address": "Rathcabbin",
+        "dateOfDeath": "2021-05-09T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": 458128,
+        "county": {
+          "id": 27,
+          "name": "Tipperary"
+        },
+        "town": {
+          "id": 833,
+          "name": "Roscrea"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 27,
+              "name": "Tipperary"
+            },
+            "town": {
+              "id": 833,
+              "name": "Roscrea",
+              "slug": "Roscrea"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

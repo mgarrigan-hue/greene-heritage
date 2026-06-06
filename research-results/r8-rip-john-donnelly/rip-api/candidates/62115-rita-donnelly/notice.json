@@ -1,0 +1,40 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/rita-donnelly-dublin-unknown-62115",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/rita-donnelly-dublin-unknown-62115"
+  ],
+  "searchIds": [
+    "dublin-donnelly-ita-keyword-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 62115,
+        "surname": "DONNELLY",
+        "firstname": "Rita",
+        "nee": "O'Brien",
+        "createdAt": "2009-01-09T00:00:00.000+00:00",
+        "description": "Reposing at the Brian McElroy Funeral Home Crumlin Village. Removal tomorrow, Saturday evening, to The Church of the Holy Spirit, Greenhills, arriving at 5pm. Funeral on Monday, after 10am Mass, to Newlands Cross Cemetery.",
+        "address": "Greentrees Park,",
+        "dateOfDeath": "2009-01-08T00:00:00.000+00:00",
+        "dateOfBirth": null,
+        "oldId": 64040,
+        "county": {
+          "id": 10,
+          "name": "Dublin"
+        },
+        "town": null,
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": null
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

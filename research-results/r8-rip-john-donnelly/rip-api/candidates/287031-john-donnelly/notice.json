@@ -1,0 +1,62 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-donnelly-dublin-beaumont-287031",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-donnelly-dublin-beaumont-287031",
+    "https://rip.ie/death-notice/john-donnelly-dublin-irishtown-287031"
+  ],
+  "searchIds": [
+    "dublin-john-donnelly-1998-2025",
+    "dublin-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 287031,
+        "surname": "Donnelly",
+        "firstname": "John",
+        "nee": "",
+        "createdAt": "2016-10-05T13:16:43.000+01:00",
+        "description": "<p>Donnelly John (Beaumont, Dublin, late of Irishtown and ex C.I.E.&nbsp; Broadstone) October 4th 2016 (peacefully) surrounded by his family; beloved husband of Helen and loving father of Gillian, Helena, R&oacute;is&iacute;n and Andrew. Sadly missed by his family, sons-in-law, daughter-in-law, his 13 grandchildren, brother, brothers-in-law, sisters-in-law, nieces, nephews, relatives and friends.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p style=\"text-align:center\"><strong>Rest in Peace</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Reposing on Thursday evening&nbsp; in Lanigan&rsquo;s Funeral Home, 21 Beaumont Road, from 4.30 pm to 6.30 pm. Removal on Friday morning to the Church of the Nativity, Beaumont, arriving at 9.50 am for Mass at 10 am. Funeral afterwards to Glasnevin Cemetery.</p>",
+        "address": "",
+        "dateOfDeath": "2016-10-04T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": 300067,
+        "county": {
+          "id": 10,
+          "name": "Dublin"
+        },
+        "town": {
+          "id": 1037,
+          "name": "Beaumont"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 1037,
+              "name": "Beaumont",
+              "slug": "Beaumont"
+            }
+          },
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 374,
+              "name": "Irishtown",
+              "slug": "Irishtown"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

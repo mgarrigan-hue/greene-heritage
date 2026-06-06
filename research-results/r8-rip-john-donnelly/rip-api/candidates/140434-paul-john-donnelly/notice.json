@@ -1,0 +1,48 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/paul-john-donnelly-dublin-rathgar-140434",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/paul-john-donnelly-dublin-rathgar-140434"
+  ],
+  "searchIds": [
+    "dublin-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 140434,
+        "surname": "DONNELLY",
+        "firstname": "Paul John",
+        "nee": "",
+        "createdAt": "2011-10-18T00:00:00.000+01:00",
+        "description": "Suddenly, to the insurmountable and inexpressible grief of his family and friends. Adored son of Mary Murphy, adored brother of Jeffrey and Gregory and adored grandson of Sheila and John. Wonderful nephew and godson. Never forgotten and always loved. <br /><br/><br/><br />Funeral service on Thursday afternoon, Oct. 20th, at 2pm in Mount Jerome Victorian Chapel. <br /><br/><br/><strong><center><br />May his gentle spirit Rest in Peace.</center></strong><br/><br /><em><center><br />\"Forever young\"<br /></center></em>",
+        "address": "",
+        "dateOfDeath": "2011-10-15T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": 146439,
+        "county": {
+          "id": 10,
+          "name": "Dublin"
+        },
+        "town": {
+          "id": 398,
+          "name": "Rathgar"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 398,
+              "name": "Rathgar",
+              "slug": "Rathgar"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

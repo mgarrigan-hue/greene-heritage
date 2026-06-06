@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-donnelly-kildare-newbridge-442751",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-donnelly-kildare-newbridge-442751"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 442751,
+        "surname": "DONNELLY",
+        "firstname": "John",
+        "nee": "",
+        "createdAt": "2021-04-28T11:14:07.000+01:00",
+        "description": "<p><strong>DONNELLY </strong>John (Moorefield Park, Newbridge, Co. Kildare) - 24 April 2021.&nbsp; John, son of the late Ellen and Jim; sadly missed by his family and friends.</p>\r\n<p>&nbsp;</p>\r\n<p style=\"text-align: center;\"><strong>May John Rest in Peace&nbsp;</strong></p>\r\n<p style=\"text-align: center;\">&nbsp;</p>\r\n<p style=\"text-align: left;\">Due to current restrictions on public gatherings, a private family funeral will take place. Removal from Anderson and Leahy's Funeral Home on Saturday to arrive at St Conleth's Parish Church for Mass at 11 o'clock. John's Funeral Mass will be live streamed on <a href=\"https://www.newbridgeparish.ie/\" target=\"_blank\" rel=\"noopener\">newbridgeparish.ie.</a>&nbsp;Funeral afterwards to St. Conleth's Cemetery, Newbridge.</p>\r\n<p style=\"text-align: left;\">&nbsp;</p>\r\n<p style=\"text-align: center;\"><em>Those who would have liked to have attended but due to current restrictions cannot, can leave their condolences on the RIP condolence section below.</em></p>",
+        "address": "Moorefield Park",
+        "dateOfDeath": "2021-04-24T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": 456823,
+        "county": {
+          "id": 14,
+          "name": "Kildare"
+        },
+        "town": {
+          "id": 544,
+          "name": "Newbridge"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 14,
+              "name": "Kildare"
+            },
+            "town": {
+              "id": 544,
+              "name": "Newbridge",
+              "slug": "Newbridge"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

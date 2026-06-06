@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-donnelly-longford-aughnacliffe-575702",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-donnelly-longford-aughnacliffe-575702"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 575702,
+        "surname": "Donnelly",
+        "firstname": "John",
+        "nee": "",
+        "createdAt": "2024-11-24T12:45:45.015+00:00",
+        "description": "<p>John, Glenmore, Aughnacliffe, Co. Longford, peacefully on 23rd November 2024. Pre-deceased by his parents Felix and Rose, brothers Bill and Brian and by his sister Anne (Cissie).</p>\n\n<p>John will be sadly missed and remembered with love by his family, nieces, nephews, grand-nieces, grand-nephews, Rosie, partner Mary, relatives, neighbours and friends.</p>\n\n<p> </p>\n\n<p style=\"text-align:center\">May he rest in peace.</p>\n\n<p> </p>\n\n<p>Reposing at Glennon’s Funeral Home, Ballinalee Road (N39 EC81) on Monday 25th November from 6.00pm concluding with prayers at 8.00pm. Mass of the Resurrection on Tuesday 26th  November in St. Colmcille’s Church, Aughnacliffe at 12 noon, interment afterwards in the adjoining cemetery.</p>\n\n<p> </p>\n\n<p style=\"text-align:center\">The Funeral Mass will be streamed live please <a href=\"https://youtube.com/live/5uv6-nRHeOo?feature=share\">view here</a></p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\">Family flowers only please</p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\">House private please</p>\n",
+        "address": "Glenmore,",
+        "dateOfDeath": "2024-11-23T00:00:00.000+00:00",
+        "dateOfBirth": null,
+        "oldId": null,
+        "county": {
+          "id": 19,
+          "name": "Longford"
+        },
+        "town": {
+          "id": 653,
+          "name": "Aughnacliffe"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 19,
+              "name": "Longford"
+            },
+            "town": {
+              "id": 653,
+              "name": "Aughnacliffe",
+              "slug": "Aughnacliffe"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-donnelly-cavan-arva-532826",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-donnelly-cavan-arva-532826",
+    "https://rip.ie/death-notice/john-donnelly-longford-unknown-532826"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 532826,
+        "surname": "Donnelly",
+        "firstname": "John",
+        "nee": "",
+        "createdAt": "2023-10-15T15:42:47.051+01:00",
+        "description": "<p>John, passed away peacefully on 14th October 2023, surrounded by his loving family. Pre-deceased by his parents Michael and Bridget, his infant brother Michael, his sister Mary, brothers in law Danny, Tony and Paddy.</p>\n\n<p> </p>\n\n<p>John will be sadly missed and remembered with love by his family, wife Alice, daughters Rosemarie, Oona, Eimear and son Sean, sister Angela, his much-adored grandchildren Lauren, Alan, Barry, Ronan and Evanne, daughter in law Claire, sons in law Seamus and Gerry, sisters in law Maura and Nora, brothers in law Chris and Dave, cousins, nieces and nephews, and his extended family and a large circle of neighbours and friends.</p>\n\n<p> </p>\n\n<p style=\"text-align:center\"><em><strong> May his gentle soul rest in peace. </strong></em></p>\n\n<p> </p>\n\n<p>Reposing at Glennon’s Funeral home , Ballinalee Road ,Longford (N39 EC81) on Tuesday from 5.00pm concluding with prayers at 8.00pm. Removal from his home on Wednesday  to arrive at The Sacred Heart Church, Arva, for Requiem Mass at 11.00am, followed by cremation in Lakelands Crematorium, Dublin Road, Cavan, at 2.00pm.</p>\n\n<p> </p>\n\n<p style=\"text-align:center\"><em><strong>House private, please.</strong></em></p>\n\n<p style=\"text-align:center\"> </p>\n\n<p style=\"text-align:center\"><em><strong>Family flowers only, please.</strong></em></p>\n",
+        "address": "",
+        "dateOfDeath": "2023-10-14T00:00:00.000+01:00",
+        "dateOfBirth": null,
+        "oldId": null,
+        "county": {
+          "id": 4,
+          "name": "Cavan"
+        },
+        "town": {
+          "id": 48,
+          "name": "Arva"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 4,
+              "name": "Cavan"
+            },
+            "town": {
+              "id": 48,
+              "name": "Arva",
+              "slug": "Arva"
+            }
+          },
+          {
+            "county": {
+              "id": 19,
+              "name": "Longford"
+            },
+            "town": null
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-donnelly-dublin-harold-s-cross-470250",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-donnelly-dublin-harold-s-cross-470250"
+  ],
+  "searchIds": [
+    "dublin-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 470250,
+        "surname": "Donnelly",
+        "firstname": "John",
+        "nee": "",
+        "createdAt": "2022-02-01T17:54:40.000+00:00",
+        "description": "<p>John Donnelly, Harold&rsquo;s Cross, Dublin (late of the ESB, Rathmines). Peacefully, in the tender care of the staff at Elm Green Nursing Home, Castleknock. Beloved husband of Maureen for more than 62 years and cherished father of Paul, Dermot, Julie (Varma) and Mary (Lisson). John will be sadly missed by his broken-hearted wife and children, his daughters-in-law Helen and Brenda, sons-in-law Rajiv and John, adored grandchildren Sin&eacute;ad, Aisling, R&oacute;is&iacute;n, Claire, Catherine, Anne, Sarah, David, Emma and Robert, great-grandchildren Tom and Matthew, brothers-in law, sisters-in-law, nieces, nephews, his wonderful carer Maura, neighbours and friends.</p>\r\n<p>&nbsp;</p>\r\n<p style=\"text-align: center;\"><strong>Rest in Peace</strong></p>\r\n<p>&nbsp;</p>\r\n<p>A personal message may be placed in Condolences below. Family flowers only please. Donations may be made in lieu to: <a href=\"https://rnli.org/support-us/give-money/donate\" target=\"_blank\" rel=\"noopener\">https://rnli.org/support-us/give-money/donate</a></p>\r\n<p><br />Reposing in the Elm Green Nursing Home on Friday (4th February) from 5pm to 7pm. Removal on Saturday morning (5th February) to St Mary&rsquo;s, Star of the Sea Church, Sandymount arriving for Requiem Mass at 11oc which may be viewed through the parish web camera at: <a href=\"https://mcnmedia.tv/Camera/st-marys-star-of-the-sea-sandymount\" target=\"_blank\" rel=\"noopener\">https://mcnmedia.tv/Camera/st-marys-star-of-the-sea-sandymount</a> followed by committal in Mount Jerome Crematorium from 1pm which can be viewed at: <a href=\"https://www.mountjerome.ie/victorian-chapel-service/\" target=\"_blank\" rel=\"noopener\">https://www.mountjerome.ie/victorian-chapel-service/</a></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Enquiries to Fanagans Funeral Home, Lower Kimmage Road-014925959. <br /></strong></p>",
+        "address": "",
+        "dateOfDeath": "2022-02-01T00:00:00.000+00:00",
+        "dateOfBirth": null,
+        "oldId": 484955,
+        "county": {
+          "id": 10,
+          "name": "Dublin"
+        },
+        "town": {
+          "id": 962,
+          "name": "Harold's Cross"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 10,
+              "name": "Dublin"
+            },
+            "town": {
+              "id": 962,
+              "name": "Harold's Cross",
+              "slug": "Harold's-Cross"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

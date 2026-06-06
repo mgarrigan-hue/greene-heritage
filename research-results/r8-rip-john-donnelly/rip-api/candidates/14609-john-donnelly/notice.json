@@ -1,0 +1,48 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-donnelly-mayo-unknown-14609",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-donnelly-mayo-unknown-14609"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025",
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 14609,
+        "surname": "DONNELLY",
+        "firstname": "John",
+        "nee": "",
+        "createdAt": "2007-03-01T00:00:00.000+00:00",
+        "description": "Remains Reposing in O'Hora's Funeral Home, Kiltimagh, this Thursday evening from 6pm with removal to the Church of The Holy Family, Kiltimagh, arriving at 8pm. Burial after 12&nbsp;noon Mass tomorrow, Friday, in Kilkimure Cemetery.",
+        "address": "Polronaghane, Kiltimagh",
+        "dateOfDeath": "2007-02-28T00:00:00.000+00:00",
+        "dateOfBirth": null,
+        "oldId": 15257,
+        "county": {
+          "id": 21,
+          "name": "Mayo"
+        },
+        "town": null,
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 21,
+              "name": "Mayo"
+            },
+            "town": null
+          },
+          {
+            "county": {
+              "id": 21,
+              "name": "Mayo"
+            },
+            "town": null
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}

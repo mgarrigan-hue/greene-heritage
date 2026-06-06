@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://rip.ie/death-notice/john-donnelly-mayo-claremorris-335976",
+  "alternateUrls": [
+    "https://rip.ie/death-notice/john-donnelly-mayo-claremorris-335976"
+  ],
+  "searchIds": [
+    "all-ireland-john-donnelly-1998-2025"
+  ],
+  "graphQL": {
+    "data": {
+      "previewDeathNotice": {
+        "id": 335976,
+        "surname": "DONNELLY",
+        "firstname": "John",
+        "nee": "",
+        "createdAt": "2018-03-25T15:56:55.000+01:00",
+        "description": "<p>John passed away peacefully after a short illness at Mayo University Hospital. Husband of the late Kathleen (nee Morris). Deeply regretted by his&nbsp;son Sean, daughters Brid and Mary (Woolley), son-in-law Raymond, grandsons James, Luke and David, sister, Evelyn Lyons, brother-in-law, sisters-in-law, nephews, nieces, relatives and many friends.</p>\r\n\r\n<p style=\"text-align:center\"><strong>R.I.P.</strong></p>\r\n\r\n<p>Reposing at Gilligan&rsquo;s Funeral Home, Market Square, Claremorris from 6&nbsp;o.c this Tuesday evening (27th March) until 8 o.c. Remains will arrive to St Colman&rsquo;s Church, Claremorris on Wednesday for funeral Mass at 12 o.c with burial afterwards in St Colman&rsquo;s Cemetery.&nbsp;</p>\r\n\r\n<p>House private on Wednesday morning please. Family flowers only.&nbsp;Donations if desired to The Irish Kidney Association c/o Gilligan Funeral Directors, Claremorris.</p>",
+        "address": "Ballynagran",
+        "dateOfDeath": "2018-03-25T00:00:00.000+00:00",
+        "dateOfBirth": null,
+        "oldId": 350498,
+        "county": {
+          "id": 21,
+          "name": "Mayo"
+        },
+        "town": {
+          "id": 695,
+          "name": "Claremorris"
+        },
+        "deathNoticeCounty": [
+          {
+            "county": {
+              "id": 21,
+              "name": "Mayo"
+            },
+            "town": {
+              "id": 695,
+              "name": "Claremorris",
+              "slug": "Claremorris"
+            }
+          }
+        ],
+        "familyNotices": []
+      }
+    }
+  }
+}
