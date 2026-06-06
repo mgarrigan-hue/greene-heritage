@@ -44,6 +44,17 @@ a:hover {
   background-size: 100% 1px;
 }
 
+img[width][height] {
+  aspect-ratio: attr(width type(integer)) / attr(height type(integer));
+}
+picture {
+  display: block;
+}
+picture > img {
+  display: block;
+  max-width: 100%;
+}
+
 /* Navigation */
 nav {
   background: var(--color-surface);
@@ -1284,6 +1295,16 @@ body.reading-mode .site-title {
   width: 100%; height: 100%;
   object-fit: cover; display: block;
   transition: opacity 0.2s ease;
+}
+.evidence-strip picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.evidence-strip picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .evidence-strip a:hover img { opacity: 0.85; }
 .evidence-strip figcaption,
