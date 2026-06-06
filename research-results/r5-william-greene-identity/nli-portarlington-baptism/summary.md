@@ -39,3 +39,16 @@ The Phase 13 working assumption (Thomas Greene baptised ~July 1870 at Portarling
 - `crops/` — page-143 close-ups for the July 1870 baptisms
 - `index-pages/` — additional pages including the parish index and other date contexts
 - `william-green-indexed-children/` — placeholder folder (empty)
+
+## Phase 19 re-inspection — negative evidence (6 Jun 2026)
+
+Re-opened the high-resolution Portarlington baptism captures for pages 142-145:
+
+| Page | Date span | Phase 19 visual result |
+|---|---|---|
+| 142 | Apr. 1870 to June 1870 | No child named Thomas with Green/Greene parents; no clear Green/Greene parent-surname entry found. |
+| 143 | July 1870 to Aug. 1870 | Highest-priority page for the expected July 1870 baptism. Several July/August entries were legible, but no Thomas Green/Greene and no William Green/Greene + Eliza/Elizabeth Woods parent pair. |
+| 144 | Aug. 1870 to Oct. 1870 | No Green/Greene parent entry found. |
+| 145 | Oct. 1870 to Jan. 1871 | No Green/Greene parent entry found. |
+
+Conclusion: the existing Portarlington captures do not visually confirm Thomas Christopher Greene's baptism. This is negative evidence only, because the handwriting and contrast are difficult; the page images remain the preserved audit trail.
