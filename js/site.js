@@ -5,11 +5,7 @@
  * Contracts exposed for HTML / app.js agents:
  *   <body class="use-drawer-nav" [data-long-page]>
  *   <a class="skip-link" href="#main">Skip to content</a>
- *   <button class="nav-toggle" aria-label="Open menu">…</button>
- *   <aside class="nav-drawer" id="nav-drawer" aria-hidden="true">
- *     <button class="nav-drawer-close" aria-label="Close menu">×</button>
- *     …links / dropdowns…
- *   </aside>
+ *   <nav id="site-nav" data-active="home">…noscript fallback…</nav>
  *   <div class="nav-drawer-backdrop"></div>            (auto-injected if missing)
  *   <button data-theme-toggle aria-label="Toggle theme">
  *     <span data-theme-icon>🌙</span>
@@ -56,6 +52,88 @@
 
   window.escapeHtml = Site.escapeHtml;
   window.isSafeHttpUrl = Site.isSafeHttpUrl;
+
+  const NAV_ITEMS = [
+    { type: 'link', id: 'home', label: 'Home', href: 'index.html' },
+    { type: 'link', id: 'people', label: 'People', href: 'people.html' },
+    { type: 'link', id: 'timeline', label: 'Timeline', href: 'timeline.html' },
+    { type: 'link', id: 'tree', label: 'Family Tree', href: 'tree.html' },
+    {
+      type: 'dropdown',
+      id: 'places',
+      label: 'Places',
+      items: [
+        { id: 'portarlington', label: 'Portarlington', href: 'portarlington.html' },
+        { id: 'dublin', label: 'Dublin', href: 'dublin.html' }
+      ]
+    },
+    {
+      type: 'dropdown',
+      id: 'stories',
+      label: 'Stories',
+      items: [
+        { id: 'elizabeth', label: "Elizabeth's Story", href: 'elizabeth.html' },
+        { id: 'catherine', label: "Catherine's Story", href: 'catherine.html' },
+        { id: 'military', label: 'Military Service', href: 'military.html' }
+      ]
+    },
+    { type: 'link', id: 'gallery', label: 'Gallery', href: 'gallery.html' },
+    { type: 'link', id: 'sources', label: 'Sources', href: 'sources.html' },
+    { type: 'link', id: 'about', label: 'About', href: 'about.html' },
+    { type: 'link', id: 'contribute', label: 'Contribute', href: 'contribute.html' }
+  ];
+  Site.navItems = NAV_ITEMS;
+
+  function inferActivePage() {
+    const file = (window.location.pathname.split('/').pop() || 'index.html').toLowerCase();
+    for (const item of NAV_ITEMS) {
+      if (item.type === 'link' && item.href.toLowerCase() === file) return item.id;
+      if (item.type === 'dropdown') {
+        const child = item.items.find(i => i.href.toLowerCase() === file);
+        if (child) return child.id;
+      }
+    }
+    return '';
+  }
+
+  function renderNavLink(item, activeId) {
+    const active = item.id === activeId;
+    return `<a href="${Site.escapeHtml(item.href)}"${active ? ' class="active" aria-current="page"' : ''}>${Site.escapeHtml(item.label)}</a>`;
+  }
+
+  function renderNavDropdown(item, activeId) {
+    const active = item.items.some(i => i.id === activeId);
+    return `
+        <div class="nav-dropdown" data-nav-dropdown>
+          <button class="nav-dropdown-trigger${active ? ' active' : ''}" type="button" aria-expanded="false">${Site.escapeHtml(item.label)} ▾</button>
+          <div class="nav-dropdown-menu">
+            ${item.items.map(i => renderNavLink(i, activeId)).join('\n            ')}
+          </div>
+        </div>`;
+  }
+
+  Site.renderNav = function (activePageId) {
+    const nav = $('#site-nav') || $('body > nav');
+    if (!nav) return;
+    const activeId = activePageId || nav.dataset.active || inferActivePage();
+    nav.id = nav.id || 'site-nav';
+    nav.dataset.active = activeId;
+    nav.innerHTML = `
+      <div class="nav-inner">
+        <a href="index.html" class="site-title">☘ Greene Heritage</a>
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-nav-toggle>☰</button>
+        <div class="nav-links" data-nav-links>
+          ${NAV_ITEMS.map(item => item.type === 'dropdown'
+            ? renderNavDropdown(item, activeId)
+            : renderNavLink(item, activeId)).join('\n          ')}
+          <div class="search-wrap">
+            <input type="search" class="search-input" placeholder="Search…" aria-label="Search the site" data-global-search>
+            <div class="search-results" data-search-results role="listbox"></div>
+          </div>
+          <button class="theme-toggle" type="button" aria-label="Toggle light/dark theme" data-theme-toggle title="Toggle theme"><span data-theme-icon>🌙</span></button>
+        </div>
+      </div>`;
+  };
 
   /* ---------------------------------------------------------------- *
    * 1. Mobile nav drawer
@@ -529,6 +607,7 @@
    * Boot
    * ---------------------------------------------------------------- */
   function boot() {
+    try { Site.renderNav();       } catch (e) { console.error('nav', e); }
     try { Site.initTheme();      } catch (e) { console.error('theme', e); }
     try { Site.initDrawer();     } catch (e) { console.error('drawer', e); }
     try { Site.initSearch();     } catch (e) { console.error('search', e); }
