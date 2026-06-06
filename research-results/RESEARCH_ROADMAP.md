@@ -1,6 +1,6 @@
 # Greene Heritage — Research Roadmap
 
-**Last updated:** 6 Jun 2026 (Phase 12 in flight)
+**Last updated:** 6 Jun 2026 (Phase 16 complete — John Donnelly death-notice sweep negative)
 **Maintained by:** automated audit + manual curation
 **Driving data:** `data/family.json`
 
@@ -82,7 +82,12 @@ Threads are graded **P0 → P3**:
 **Status:** In flight via Phase 12 research agent (`greene-ita-research`)
 
 ### 8. John Donnelly Snr (m. Ita) — birth, parents, profession, death
-**Status:** In flight via Phase 12 research agent
+**Status:** Still open after Phase 16. RIP.ie + Irish Times death-notice sweep found Ita Donnelly’s 2025 notice confirming she was wife of the late John, but no John/Sean Donnelly notice matched the full family signature (wife Ita/Eithne + children Ann, John, Sheila, Ger; or Goldenbridge/Inchicore/Drimnagh). Tempting 2014 Lucan/Ringsend John (Sean) Donnelly notice was rejected: wife Eithne but children John, Sheila, Niamh, Barry.
+**Next searches:**
+- Ask family for approximate death year / funeral home / burial or cremation place.
+- GRO Research Room death search for John Donnelly, Dublin, spouse Ita/Eithne, likely post-1975.
+- Cemetery searches: Deansgrange, Glasnevin Trust, Newlands Cross, Mount Jerome if family can narrow burial/cremation.
+**Citation:** `data/family.json:408-423`, `research-results/r8-rip-john-donnelly/phase-16-summary.json`
 
 ### 9. Patrick Greene (stepson, 1926 Census York Street age 23)
 **Why it matters:** Direct evidence of him in 1926. Trace to first marriage (Elizabeth), his own marriage/children/death.
@@ -148,6 +153,7 @@ Threads are graded **P0 → P3**:
 | 11 | Site gallery — illustrations | 6 self-hosted + 7 alt-archive sources | Apr 2026 |
 | 12 | Ita Greene × John Donnelly marriage | NEGATIVE on IG.ie — 18-query sweep null (IG.ie 75-year wall for marriages); needs grosearch.ie / parish | Jun 2026 |
 | 13 | William Greene candidates (PARTIAL) | Agent terminated mid-flight. Captured: 2 Mountmellick 1868 marriages (× Catherine Costigan + × Eliza Woods, one day apart), candidate 1909 Mountmellick death age 66 (b.~1843), NLI Portarlington baptism pages 142-145 browsed but Thomas baptism not yet extracted. Synthesis pending — see `research-results/r5-william-greene-identity/` | Jun 2026 |
+| 16 | John Donnelly Snr death notice | NEGATIVE — RIP.ie (55 captured Donnelly/John/Sean candidates + Ita notice), Irish Times notices, FamilySearch public search, and GRO access triage did not identify Ita Greene’s husband; death date remains open pending family/GRO/cemetery follow-up. | Jun 2026 |
 
 ---
 
