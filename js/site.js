@@ -72,6 +72,7 @@
       id: 'stories',
       label: 'Stories',
       items: [
+        { id: 'stories-index', label: 'All Stories', href: 'stories.html' },
         { id: 'elizabeth', label: "Elizabeth's Story", href: 'elizabeth.html' },
         { id: 'catherine', label: "Catherine's Story", href: 'catherine.html' },
         { id: 'military', label: 'Military Service', href: 'military.html' }
