@@ -1303,6 +1303,48 @@
       ]
     },
     {
+      "year": "c.1958",
+      "title": "Ita Greene marries John Donnelly",
+      "description": "Ita Greene (Eithne), youngest daughter of Thomas Greene and Bridget Clarke, marries John Donnelly around 1958 in the Dublin area according to Mark Garrigan's family contribution. Phase 12 IrishGenealogy.ie online civil-register searches did not locate a matching record for Ita/Eithne/Eita Greene × John Donnelly in 1955-1962, so the exact date, civil district, parish/church, witnesses, John's residence, occupation, and father remain open for GRO/parish follow-up.",
+      "people": [
+        "eita-greene",
+        "john-donnelly"
+      ],
+      "confidence": "family-tradition",
+      "sources": [
+        "Mark Garrigan family contribution, 6 June 2026 (Phase 12 oral history: Ita and John married c.1958, moved to Drimnagh/\"Drimna\" after marriage, and returned to 38 Goldenbridge Avenue in the 1960s to care for Bridget Greene)",
+        "Phase 12 IrishGenealogy.ie search artefacts, research-results/r4-ita-greene-marriage-1958/research-summary.json"
+      ]
+    },
+    {
+      "year": "c.1958-1960",
+      "title": "Ita and John move to Drimnagh, Dublin 12",
+      "description": "After their marriage, Ita and John Donnelly moved into their own home in the place Mark remembered as \"Drimna\" / \"Dremna\". The likely intended place is Drimnagh, Dublin 12, immediately beside Inchicore and Goldenbridge. This move corrects the earlier site claim that Ita lived at Goldenbridge Avenue for her entire life.",
+      "people": [
+        "eita-greene",
+        "john-donnelly"
+      ],
+      "confidence": "family-tradition",
+      "sources": [
+        "Mark Garrigan family contribution, 6 June 2026 (Phase 12 oral history: Ita and John married c.1958, moved to Drimnagh/\"Drimna\" after marriage, and returned to 38 Goldenbridge Avenue in the 1960s to care for Bridget Greene)"
+      ]
+    },
+    {
+      "year": "c.1960s",
+      "title": "Ita and family return to Goldenbridge Avenue to care for Bridget",
+      "description": "In the 1960s Ita and John Donnelly moved their young family back from Drimnagh to 38 Goldenbridge Avenue, Inchicore to care for Ita's mother Bridget Greene (née Clarke) as Bridget became unwell. Bridget remained associated with 38 Goldenbridge Avenue until her death on 9 August 1970.",
+      "people": [
+        "eita-greene",
+        "john-donnelly",
+        "bridget-wife2"
+      ],
+      "confidence": "family-tradition",
+      "sources": [
+        "Mark Garrigan family contribution, 6 June 2026 (Phase 12 oral history: Ita and John married c.1958, moved to Drimnagh/\"Drimna\" after marriage, and returned to 38 Goldenbridge Avenue in the 1960s to care for Bridget Greene)",
+        "Phase 12 IrishGenealogy.ie death-register re-check for Bridget Greene, record cide-459812, research-results/r4-ita-greene-marriage-1958/s5-death-bridget-greene-1970-register/"
+      ]
+    },
+    {
       "year": "2000",
       "title": "Thomas Patrick Greene Dies in New Zealand",
       "description": "Thomas Patrick Greene (II), born 21 July 1925 in Dublin, dies in New Zealand at age 75. He had emigrated to New Zealand, married Margaret (a Samoan woman), and raised a family whose descendants now live across New Zealand and Australia. NZ BDM registration: 2000/1764.",
@@ -1331,13 +1373,14 @@
       "year": "2025",
       "date": "6 December 2025",
       "title": "Ita Donnelly Dies — End of an Era",
-      "description": "Ita Donnelly (née Greene, Eithne) dies peacefully on 6 December 2025 at Kiltipper Woods Care Centre, aged 91. She was the last of Thomas and Bridget's children. Remarkably, she had lived at 38 Goldenbridge Avenue, Inchicore — the family home — her entire life. Survived by children Ann, John, Sheila, and Ger, nine grandchildren including Claire (née Donnelly, wife of researcher Mark Garrigan), and great-grandchildren. Funeral at St. Michael's Church, Inchicore; buried Deansgrange Cemetery. Donations to the Alzheimer Society of Ireland.",
+      "description": "Ita Donnelly (née Greene, Eithne) dies peacefully on 6 December 2025 at Kiltipper Woods Care Centre, aged 91. She was the last of Thomas and Bridget's children. Her life path ran from childhood at 38 Goldenbridge Avenue, to married life with John Donnelly in Drimnagh (Mark's remembered \"Drimna\" / \"Dremna\"), then back to 38 Goldenbridge Avenue in the 1960s when Ita and John returned to care for Bridget Greene. She remained rooted in Goldenbridge/Inchicore until her late-life move to Kiltipper Woods. Survived by children Ann, John, Sheila, and Ger, nine grandchildren including Claire (née Donnelly, wife of researcher Mark Garrigan), and great-grandchildren. Funeral at St. Michael's Church, Inchicore; buried Deansgrange Cemetery. Donations to the Alzheimer Society of Ireland.",
       "people": [
         "eita-greene"
       ],
       "confidence": "high",
       "sources": [
-        "RIP.ie death notice, December 2025"
+        "RIP.ie death notice, December 2025",
+        "Mark Garrigan family contribution, 6 June 2026 (Phase 12 oral history: Ita and John married c.1958, moved to Drimnagh/\"Drimna\" after marriage, and returned to 38 Goldenbridge Avenue in the 1960s to care for Bridget Greene)"
       ]
     },
     {
