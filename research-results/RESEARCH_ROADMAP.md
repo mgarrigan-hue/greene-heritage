@@ -1,6 +1,6 @@
 # Greene Heritage — Research Roadmap
 
-**Last updated:** 6 Jun 2026 (Phase 16 complete — John Donnelly death-notice sweep negative)
+**Last updated:** 6 Jun 2026 (Phase 18 complete — IG.ie register-image extraction for the 5 Phase 17 candidates; William Green × Eliza Woods marriage confirmed; 4 IG.ie image-link mismatches documented)
 **Maintained by:** automated audit + manual curation
 **Driving data:** `data/family.json`
 
@@ -16,24 +16,28 @@ Threads are graded **P0 → P3**:
 
 ## 🔥 P0 — Direct-line gaps
 
-### 1. William Greene — Imacrannagh vs. Shanderry
-**Why it matters:** Confirmed (April 2026) as Thomas Christopher Greene's father from the 1922 marriage register. Two candidate identities still unresolved.
+### 1. William Greene — Imacrannagh vs. Shanderry vs. **Lower Forest / Mountmellick (new Phase 18 candidate)**
+**Why it matters:** Confirmed (April 2026) as Thomas Christopher Greene's father from the 1922 marriage register. Three candidate identities now in play:
 - **(A) William Greene of Imacrannagh** — farmer, "large family", geographically + generationally a strong fit
 - **(B) William Greene of Shanderry** — labourer, census note "husband working in Dublin" (intriguing given Thomas's Dublin life)
-**Next searches (IrishGenealogy.ie + parish registers):**
-- Portarlington Catholic parish baptismal register for Thomas Christopher Greene (~July 1870) — names father at baptism
-- William Greene marriages in Queen's Co. (now Co. Laois) c.1860-1875
-- William Greene deaths in Queen's Co. / Co. Laois 1875-1920
-- William Greene's own birth/baptism c.1820-1850 to identify HIS parents
-**Citation:** `data/family.json:78-95`, `portarlington.html`
+- **(C) William Green of Lower Forest, Mountmellick** *(Phase 18, strongest documentary fit)* — Bachelor Labourer in 1868 (full age, born by ~1847), son of **Thomas Green, Farmer**. Married Eliza Woods 25 Feb 1868 at Mountmellick RC Chapel (cima-2999201). Was a widower at his 1909 death age 66 (cide-5027279), born ~1843 — age fits 1868 marriage. Lower Forest is ~12 miles north of Portarlington where Thomas Greene Jnr was baptised c.1870. If (C), the family tree gains a new ancestor: **Thomas Green Snr, farmer of Lower Forest**.
+**Next searches (to confirm (C) and disambiguate from (A)/(B)):**
+- NLI Catholic parish baptism register for Thomas Christopher Greene (~July 1870) — Portarlington pages 142-145 captured in Phase 18 but Thomas's entry not yet visually identified; ALSO check **Mountmellick parish** given Lower Forest residence
+- IG.ie civil birth register for Thomas Greene 1870 Mountmellick / Portarlington / Maryborough — names parents directly (William + Eliza Woods if (C))
+- IG.ie death register for Eliza Greene née Woods, Queens/Laois 1870-1909
+- 1901 / 1911 Census for William Green(e) household at Lower Forest / Mountmellick
+- Re-search IG.ie register images for cide-5096314, cide-6994069 (image mismatches in Phase 18) to find the correct register pages
+**Citation:** `data/family.json:99-120`, `portarlington.html`, `research-results/r5-william-greene-identity/register-marriage-william-green-eliza-woods-1868/summary.md`
 
 ### 2. Patrick Clarke Snr — death between 1895/96 and 1901
 **Why it matters:** Bridget Clarke (m. Thomas Greene)'s father. Death range already tightened (after 1895/96 per Agnes's birth, before 1901 Census per Catherine's widow status) but exact date unknown. Cause/burial unrecorded.
+**Phase 18 update:** Only IG.ie candidate (cide-4468003, Patrick Clarke age 68 Drogheda 1901) has an **IMAGE MISMATCH** — IG.ie's linked register PDFs show John McCallen + John McCormack, not Patrick Clarke. The transcription evidence is still attested (a Patrick Clarke age 68 did die in Drogheda 1901 per the civil index) but the register image must be located another way to read address / informant / cause.
 **Next searches:**
-- IG.ie civil death register for Patrick Clarke, Co. Meath, 1896-1901
-- Catholic parish burial register for Duleek/Mullaghfin parish, same window
-- 1901 Census for Catherine Clarke (widow) — already used; sibling household composition gives Patrick's death = before April 1901
-**Citation:** `data/family.json:601-660`
+- Re-search IG.ie register PDFs adjacent to image file 4619587 (linked file path is `/files/civil/deaths_returns/deaths_1901/05737/4619587.pdf` — actual Patrick Clarke entry is likely ±5-10 rows or ±1-2 image files)
+- Order GRO certified copy of Patrick Clarke 1901 Drogheda death using Group Registration ID 4468003
+- IG.ie civil death register for Patrick Clarke, Co. Meath, 1896-1900 (the 1895-1900 sweep already done found no other matching adult Patrick Clarke)
+- Catholic parish burial register for Duleek / Mullaghfin parish, same window
+**Citation:** `data/family.json:631-660`, `research-results/r6-patrick-clarke-death/register-death-patrick-clarke-1901-drogheda-age68/IMAGE-MISMATCH.md`
 
 ### 3. Bridget Clarke's father Patrick Snr's parents / origins
 **Why it matters:** Pushes the Clarke line back another generation.
@@ -157,13 +161,15 @@ Threads are graded **P0 → P3**:
 | 15 | Elizabeth (first wife of Thomas Greene) maiden name | ✅ CONFIRMED: **Elizabeth Farrell**, daughter of Patrick Farrell, of Mayfield, Clonliffe. Married Thomas Greene 30 July 1899 at the Roman Catholic Chapel of Fairview, Dublin North RD entry 72 (record cima-2399599). Thomas was a Bachelor Labourer of Henry Street, Clonliffe. Witnesses: Maurice F. Murphy + Agnes Murphy. Officiant: Bernard Reynolds. This CORRECTS the prior "Dublin South Vol 2 Page 593" index reference — actual marriage is Dublin North. Also captured: 1903 Patrick Green birth Dublin mother Farrell (cima/civbi-4784909) confirming maternity; 1916 Elizabeth Green death Dublin South age 43 (cide-5487276) as likely her death. | Jun 2026 |
 | 16 | RIP.ie / Irish Times John Donnelly death notice | NEGATIVE — exhaustive 1998-2025 sweep across name variants (John/Sean Donnelly, Dublin filter, keyword filters for Inchicore/Goldenbridge/Drimnagh/Ita). No matching notice. Ita's 2025 RIP.ie notice confirms "wife of the late John" + children Ann, John, Sheila, Ger. Conclusion: John Donnelly Snr died BEFORE 1998 (RIP.ie coverage start) or under an unusual name format. Next: GRO grosearch.ie civil death index 1990-1998. | Jun 2026 |
 | 17 | Synthesis pass — Phase 13/14 raw captures folded into family.json | Done. william-greene-thomas-father and patrick-clarke-snr records now reference all Phase 13/14 candidate IDs with explicit "register image not yet parsed" flags. Changelog updated. | Jun 2026 |
-| 16 | John Donnelly Snr death notice | NEGATIVE — RIP.ie (55 captured Donnelly/John/Sean candidates + Ita notice), Irish Times notices, FamilySearch public search, and GRO access triage did not identify Ita Greene’s husband; death date remains open pending family/GRO/cemetery follow-up. | Jun 2026 |
+| 16 | John Donnelly Snr death notice | NEGATIVE — RIP.ie (55 captured Donnelly/John/Sean candidates + Ita notice), Irish Times notices, FamilySearch public search, and GRO access triage did not identify Ita Greene's husband; death date remains open pending family/GRO/cemetery follow-up. | Jun 2026 |
+| 18 | IG.ie register-image extraction (5 Phase 17 candidates) | **KEY WIN** — cima-2999201 register parsed: William Green × Eliza Woods, 25 Feb 1868, Mountmellick RC Chapel. William was Bachelor Labourer of Lower Forest; **father Thomas Green, Farmer** (previously unknown ancestor candidate). Eliza's father John Woods, Farmer. Age "full" fits 1843-44 birth implied by cide-5027279. NLI Portarlington baptism (pages 142-145) captured but Thomas Greene Jnr's entry not yet visually located. cide-5027279 partially parsed: William Green WIDOWER at 1909 death (implies Eliza predeceased). **4 IG.ie image-link MISMATCHES** documented (transcription panel correct, linked register image is wrong file): cima-3052584 (shows Whelan × Dowling), cide-5096314 (shows Catherine Breen), cide-4468003 (shows John McCallen + John McCormack, NOT Patrick Clarke), cide-6994069 (shows Clonygowan King's Co. entries). The IG.ie transcriptions remain valid for the mismatched records; their register images need re-search or GRO certified copies. Pattern: IG.ie "View record images" link sometimes points to the wrong file (off by a few entries or wrong page entirely). | Jun 2026 |
 
 ---
 
 ## 🚧 Known research-tooling constraints
 
 - **IG.ie moving wall (2026)**: births searchable to ~1925, marriages to ~1950, deaths to ~1975. Post-wall → grosearch.ie (paid scans ~€4) or Catholic parish registers (NLI / diocesan archives / parish email).
+- **IG.ie image-link bug** (documented Phase 18, June 2026): the "View record images" link on an IG.ie record-detail page sometimes points to the wrong register PDF (off by a few entries within the same page, or to a different register page entirely). Pattern verified across 4 distinct records (cima-3052584, cide-5096314, cide-4468003, cide-6994069) in a single batch. The IG.ie transcription panel itself is reliable (the indexed civil record is correct); only the image URL is unreliable. Workaround: when the linked image doesn't match the transcription, page-flip ±1-3 image files in the same folder, or order a GRO certified copy using the Group Registration ID (~€4).
 - **NLI registers** (parish records) are image-only, no name search. Browse the relevant parish + year manually.
 - **Arolsen Archives**: tried multiple name variants for Elizabeth Bessie Greene/Harris — no online hits. Needs an ITS records request (postal).
 - **GitHub Pages SSL with Cloudflare custom domain**: must keep proxy OFF (DNS only / grey cloud) — GitHub handles TLS via Let's Encrypt; orange-cloud proxying breaks the handshake.
