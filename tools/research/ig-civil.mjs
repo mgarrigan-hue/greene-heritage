@@ -6,12 +6,14 @@
 // Usage:
 //   node tools/research/ig-civil.mjs --slug a2-bridget-birth \
 //        --type birth --firstname Bridget --lastname Clarke \
-//        --year-from 1888 --year-to 1893 --location Meath
+//        --year-from 1888 --year-to 1893 --location Meath \
+//        --your-firstname=YOUR_FIRST_NAME --your-surname=YOUR_SURNAME
 //
 //   node tools/research/ig-civil.mjs --slug a1-tg-bc-marriage \
 //        --type marriage --firstname Thomas --lastname Greene \
 //        --year-from 1915 --year-to 1925 --location Dublin \
-//        --rel-type spouse --rel-first Bridget --rel-last Clarke
+//        --rel-type spouse --rel-first Bridget --rel-last Clarke \
+//        --your-firstname=YOUR_FIRST_NAME --your-surname=YOUR_SURNAME
 //
 // Type values: birth | marriage | death | baptism | burial
 // First run is headed so the user can solve any cookie banner / CAPTCHA.
@@ -26,12 +28,32 @@ function parseArgs(argv) {
   for (let i = 2; i < argv.length; i++) {
     const a = argv[i];
     if (a.startsWith('--')) {
-      const key = a.slice(2);
-      const val = argv[i + 1] && !argv[i + 1].startsWith('--') ? argv[++i] : 'true';
+      const raw = a.slice(2);
+      const eq = raw.indexOf('=');
+      const key = eq >= 0 ? raw.slice(0, eq) : raw;
+      const val = eq >= 0
+        ? raw.slice(eq + 1)
+        : (argv[i + 1] && !argv[i + 1].startsWith('--') ? argv[++i] : 'true');
       out[key] = val;
     }
   }
   return out;
+}
+
+const SECTION61_ERROR = [
+  'ERROR: IrishGenealogy.ie civil searches are gated by a Section 61 legal declaration.',
+  'Supply your own declarant identity explicitly with --your-firstname=... and --your-surname=...',
+  'The tool will not default these fields because the declaration is a legal attestation by the person running the search.',
+].join('\n');
+
+function requireSection61Declarant(args) {
+  const firstname = String(args['your-firstname'] || '').trim();
+  const surname = String(args['your-surname'] || '').trim();
+  if (!firstname || !surname) {
+    console.error(SECTION61_ERROR);
+    process.exit(2);
+  }
+  return { firstname, surname };
 }
 
 async function dismissCookies(page) {
@@ -54,7 +76,7 @@ async function dismissCookies(page) {
   }
 }
 
-async function fillSearchForm(page, args) {
+async function fillSearchForm(page, args, declarant) {
   await page.locator('#radio-civil').check().catch(() => {});
 
   if (args.firstname) await page.locator('#firstname').fill(args.firstname);
@@ -134,8 +156,8 @@ async function fillSearchForm(page, args) {
 
   // Section 61 consent — required by the form's validateSearch() before it
   // will submit any civil birth/marriage/death query.
-  const yourFirst = args['your-firstname'] || 'Mark';
-  const yourLast = args['your-surname'] || 'Garrigan';
+  const yourFirst = declarant.firstname;
+  const yourLast = declarant.surname;
   await page.locator('#your-firstname').fill(yourFirst).catch(() => {});
   await page.locator('#your-surname').fill(yourLast).catch(() => {});
   await page.locator('#section-61-checkbox').check().catch(() => {});
@@ -179,6 +201,7 @@ async function extractResults(page) {
 
 async function main() {
   const args = parseArgs(process.argv);
+  const declarant = requireSection61Declarant(args);
   const slug = args.slug || `ig-${args.type || 'birth'}-${args.lastname || 'unknown'}-${Date.now()}`.toLowerCase();
   const headed = args.headed !== 'false';
   const holdSeconds = parseInt(args.hold || '45', 10);
@@ -202,7 +225,7 @@ async function main() {
     await saveResultPage(page, slug, '01-search-form');
 
     logStep('Filling form');
-    await fillSearchForm(page, args);
+    await fillSearchForm(page, args, declarant);
     await saveResultPage(page, slug, '02-filled-form');
 
     logStep('Submitting');

@@ -1,7 +1,8 @@
 // IrishGenealogy.ie register-page detail + image capture.
 //
 // Usage:
-//   node tools/research/ig-register.mjs --record-id cima-1271568 --slug r1-tg-bc-marriage-1922
+//   node tools/research/ig-register.mjs --record-id cima-1271568 --slug r1-tg-bc-marriage-1922 \
+//        --your-firstname=YOUR_FIRST_NAME --your-surname=YOUR_SURNAME
 //
 // Captures:
 //   01-detail.png/.html   metadata view at /view?record_id=<id>
@@ -10,8 +11,8 @@
 //   metadata.json         extracted key/value pairs
 //   summary.md            human-readable summary
 //
-// The IG site gates register scans behind a Section 61 declaration. We fill
-// those fields (and any consent checkbox) automatically as Mark Garrigan.
+// The IG site gates register scans behind a Section 61 declaration. The
+// declarant must be supplied explicitly on every run; do not default it.
 
 import { launchEdge, ensureSlugDir, saveResultPage, saveText, logStep } from './lib.mjs';
 import { writeFile } from 'node:fs/promises';
@@ -22,12 +23,32 @@ function parseArgs(argv) {
   for (let i = 2; i < argv.length; i++) {
     const a = argv[i];
     if (a.startsWith('--')) {
-      const key = a.slice(2);
-      const val = argv[i + 1] && !argv[i + 1].startsWith('--') ? argv[++i] : 'true';
+      const raw = a.slice(2);
+      const eq = raw.indexOf('=');
+      const key = eq >= 0 ? raw.slice(0, eq) : raw;
+      const val = eq >= 0
+        ? raw.slice(eq + 1)
+        : (argv[i + 1] && !argv[i + 1].startsWith('--') ? argv[++i] : 'true');
       out[key] = val;
     }
   }
   return out;
+}
+
+const SECTION61_ERROR = [
+  'ERROR: IrishGenealogy.ie register images are gated by a Section 61 legal declaration.',
+  'Supply your own declarant identity explicitly with --your-firstname=... and --your-surname=...',
+  'The tool will not default these fields because the declaration is a legal attestation by the person running the search.',
+].join('\n');
+
+function requireSection61Declarant(args) {
+  const firstname = String(args['your-firstname'] || '').trim();
+  const surname = String(args['your-surname'] || '').trim();
+  if (!firstname || !surname) {
+    console.error(SECTION61_ERROR);
+    process.exit(2);
+  }
+  return { firstname, surname };
 }
 
 async function dismissCookies(page) {
@@ -50,7 +71,7 @@ async function dismissCookies(page) {
   }
 }
 
-async function fillSection61(page, { firstname = 'Mark', surname = 'Garrigan' } = {}) {
+async function fillSection61(page, { firstname, surname }) {
   let touched = false;
   try {
     const f = page.locator('#your-firstname').first();
@@ -202,9 +223,10 @@ async function main() {
   const recordId = args['record-id'];
   const slug = args.slug;
   if (!recordId || !slug) {
-    console.error('Usage: ig-register.mjs --record-id <id> --slug <slug>');
+    console.error('Usage: ig-register.mjs --record-id <id> --slug <slug> --your-firstname=<name> --your-surname=<name>');
     process.exit(2);
   }
+  const declarant = requireSection61Declarant(args);
   const headed = args.headed !== 'false';
   const holdSeconds = parseInt(args.hold || '5', 10);
 
@@ -251,7 +273,7 @@ async function main() {
     if (!detailLoaded) logStep('WARNING: no candidate yielded a clean detail page; saving whatever loaded');
 
     // The detail page itself may show a Section 61 prompt before metadata.
-    await fillSection61(page);
+    await fillSection61(page, declarant);
     // Some IG forms then need a submit click
     for (const sel of [
       'button:has-text("View Record")',
@@ -293,7 +315,7 @@ async function main() {
     const imagePage = await clickViewImage(page) || page;
     await imagePage.waitForLoadState('domcontentloaded', { timeout: 30_000 }).catch(() => {});
     await imagePage.waitForTimeout(2000);
-    await fillSection61(imagePage);
+    await fillSection61(imagePage, declarant);
     for (const sel of [
       'button:has-text("View Image")',
       'button:has-text("View image")',
