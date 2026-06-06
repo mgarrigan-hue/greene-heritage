@@ -140,7 +140,7 @@
   /* ------------------------------------------------------------ */
   /* Person cards / event cards                                   */
   /* ------------------------------------------------------------ */
-  .person-card, .event-card, .source-card, .contribute-card {
+  .person-card, .event-card, .source-card {
     background: none !important;
     border: 1px solid #888 !important;
     page-break-inside: avoid;

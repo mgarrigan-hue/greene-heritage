@@ -98,7 +98,7 @@
       const stories = Array.isArray(data.stories) ? data.stories : [];
 
       if (stories.length === 0) {
-        container.innerHTML = '<p class="story-empty">No stories yet. Be the first to <a href="contribute.html">contribute one</a>.</p>';
+        container.innerHTML = '<p class="story-empty">No stories yet.</p>';
         return;
       }
 

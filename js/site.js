@@ -80,8 +80,7 @@
     },
     { type: 'link', id: 'gallery', label: 'Gallery', href: 'gallery.html' },
     { type: 'link', id: 'sources', label: 'Sources', href: 'sources.html' },
-    { type: 'link', id: 'about', label: 'About', href: 'about.html' },
-    { type: 'link', id: 'contribute', label: 'Contribute', href: 'contribute.html' }
+    { type: 'link', id: 'about', label: 'About', href: 'about.html' }
   ];
   Site.navItems = NAV_ITEMS;
 
