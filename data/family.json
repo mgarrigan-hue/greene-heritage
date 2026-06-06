@@ -992,6 +992,10 @@
       "description": "Thos Green appears in Tithe Applotment Books, Ballyburly, King's County — approximately 8km north of Portarlington.",
       "people": [
         "thos-green-ballyburly"
+      ],
+      "confidence": "low",
+      "sources": [
+        "Tithe Applotment Books, Ballyburly parish, King's County, 1830-36"
       ]
     },
     {
@@ -1000,6 +1004,12 @@
       "description": "Born c. July 1870 in Portarlington (age 55 years 9 months in the April 1926 Census). Roman Catholic. His birthplace recorded as 'Queens Co./Portarlington' in the 1926 Census.",
       "people": [
         "thomas-greene"
+      ],
+      "confidence": "high",
+      "sources": [
+        "1926 Census: York Street, Dublin — Thomas Greene, Head, age 55y 9m, Shop Porter, Switzers & Co. Drapers",
+        "1901 Census: Ranelagh Avenue, Rathmines & Rathgar East, Dublin (ID 1293881)",
+        "1911 Census: Clonliffe Avenue, Mountjoy, Dublin (ID 15408)"
       ]
     },
     {
@@ -1008,6 +1018,10 @@
       "description": "Born in Portarlington, Laois. Daughter of Joseph Greene and Elizabeth Foran.",
       "people": [
         "mary-bridget-greene"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Ancestry.com record: Mary Bridget Greene, b.1874, d.1966, Queens NY"
       ]
     },
     {
@@ -1016,7 +1030,9 @@
       "description": "Thomas lied about his age and enlisted in the British Army at around age 14 — a practice that was remarkably common in the late Victorian army, especially among boys from poor rural backgrounds with few prospects. He likely joined the Prince of Wales's Leinster Regiment (Royal Canadians) at Birr Barracks, just 25 miles from Portarlington.",
       "people": [
         "thomas-greene"
-      ]
+      ],
+      "confidence": "needs-research",
+      "sources": []
     },
     {
       "year": "c.1899",
@@ -1025,6 +1041,11 @@
       "people": [
         "thomas-greene",
         "elizabeth-wife1"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "1911 Census Form A (Form B No. 1842): Clonliffe Avenue, Mountjoy, Dublin — Elizabeth Greene, Wife, age 41, RC, born Co. Dublin, 12 years married, 3 born / 3 living. Signed by head Thomas Greene; enumerator John Broderick.",
+        "1901 Census: Ranelagh Avenue, Rathmines, Dublin"
       ]
     },
     {
@@ -1033,7 +1054,9 @@
       "description": "The Leinster Regiment served in South Africa. Thomas may have served before or during this conflict. Both the 1st and 2nd Battalions saw action at Hammonia, Harrismith, Vrede, and Bethlehem.",
       "people": [
         "thomas-greene"
-      ]
+      ],
+      "confidence": "needs-research",
+      "sources": []
     },
     {
       "year": "1901",
@@ -1043,6 +1066,10 @@
       "people": [
         "thomas-greene",
         "elizabeth-wife1"
+      ],
+      "confidence": "high",
+      "sources": [
+        "1901 Census: Ranelagh Avenue, Rathmines & Rathgar East, Dublin (ID 1293881)"
       ]
     },
     {
@@ -1056,6 +1083,10 @@
         "thomas-jr",
         "patrick-greene",
         "elizabeth-harris"
+      ],
+      "confidence": "high",
+      "sources": [
+        "1911 Census Form A (Form B No. 1842): Clonliffe Avenue, Mountjoy, Dublin — Elizabeth Greene, Wife, age 41, RC, born Co. Dublin, 12 years married, 3 born / 3 living. Signed by head Thomas Greene; enumerator John Broderick."
       ]
     },
     {
@@ -1065,6 +1096,10 @@
       "description": "Sunday 2 April 1911. Bridget Clarke (19, Single, Roman Catholic, born Co. Meath, can read and write) is recorded on Form A in the Dublin household of Joseph Dollard, Justice of the Peace and Printer-Master (Form B No. 142, enumerator Robert J. Holmes). Her occupation: COOK (Domestic) — an unusually senior role for a 19-year-old. The household consists of Joseph (40, JP & Printer-Master), his wife Sarah (34, married 15 years), three daughters Mary (14, Scholar), Kathleen (13, Scholar) and baby Sarah (3 months); a Nursery Governess Ellen Clancy (24, also from Co. Meath); Bridget as Cook; and a Housemaid Margaret Brien (20, Co. Wexford). Joseph Dollard is almost certainly connected to the well-known Dollard's Printing House of Wellington Quay, Dublin. This 1911 Form A — discovered April 2026 — confirms the family oral history that Bridget worked as a cook in Dublin before her marriage to Thomas Greene, and supersedes an earlier (wrong) attribution to a different Bridget Clarke serving in Dr Christopher Waters' household.",
       "people": [
         "bridget-wife2"
+      ],
+      "confidence": "high",
+      "sources": [
+        "1911 Census of Ireland (CONFIRMED April 2026, Form A image — Form B No. 142, enumerated 2 April 1911 by Robert J. Holmes): Joseph Dollard household, Dublin — Bridget Clarke, Servant, age 19, Cook (Domestic), Single, Roman Catholic, Read & Write, born Co. Meath. Co-resident: Joseph Dollard (Head, 40, JP & Printer-Master, Co. Dublin), Sarah Dollard (Wife, 34, King's Co.), Mary (14), Kathleen (13), Sarah (3 mo.), Nursery Governess Ellen Clancy (24, Co. Meath), Housemaid Margaret Brien (20, Co. Wexford)"
       ]
     },
     {
@@ -1078,6 +1113,10 @@
         "patrick-greene",
         "john-greene",
         "thomas-greene-ii"
+      ],
+      "confidence": "high",
+      "sources": [
+        "1926 Census: York Street, Dublin — Thomas Greene, Head, age 55y 9m, Shop Porter, Switzers & Co. Drapers"
       ]
     },
     {
@@ -1086,6 +1125,10 @@
       "description": "Elizabeth Bessie Greene leaves Dublin and arrives on the island of Jersey (Channel Islands), where she works as a nurse. The exact year and route is not yet documented.",
       "people": [
         "elizabeth-harris"
+      ],
+      "confidence": "inferred",
+      "sources": [
+        "MARRIAGE CERTIFICATE (PRIMARY SOURCE): Extract from the Register of Marriages, Parish of St. Helier, Island of Jersey, Page 97, 1941. Marriage of Alfred Bower Harris and Elizabeth Bessie Greene, 13 September 1941. Held in family papers."
       ]
     },
     {
@@ -1095,6 +1138,10 @@
       "description": "German forces occupy the Channel Islands on 30 June 1940. Elizabeth Greene is on Jersey at the time and remains there throughout the occupation. Approximately 66,000 civilians stay on the islands; the British government had withdrawn shortly before, leaving the islands undefended.",
       "people": [
         "elizabeth-harris"
+      ],
+      "confidence": "high",
+      "sources": [
+        "MARRIAGE CERTIFICATE (PRIMARY SOURCE): Extract from the Register of Marriages, Parish of St. Helier, Island of Jersey, Page 97, 1941. Marriage of Alfred Bower Harris and Elizabeth Bessie Greene, 13 September 1941. Held in family papers."
       ]
     },
     {
@@ -1106,6 +1153,10 @@
         "elizabeth-harris",
         "alfred-harris",
         "thomas-greene"
+      ],
+      "confidence": "high",
+      "sources": [
+        "MARRIAGE CERTIFICATE (PRIMARY SOURCE): Extract from the Register of Marriages, Parish of St. Helier, Island of Jersey, Page 97, 1941. Marriage of Alfred Bower Harris and Elizabeth Bessie Greene, 13 September 1941. Held in family papers."
       ]
     },
     {
@@ -1115,6 +1166,11 @@
       "people": [
         "elizabeth-harris",
         "alfred-harris"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "Letter of recommendation from Dr. A.W.H. Donaldson, M.B., D.P.H., Biberach Internment Camp, 21 May 1945",
+        "Arolsen Archives online search attempted (collections.arolsen-archives.org) on 2026 for variants 'Elizabeth Harris', 'Elizabeth Greene', 'Bessie Harris', 'Alfred Harris' (with/without Biberach filter, document-type 2 = persons). The site is a JS single-page app whose backing service (collections-server.arolsen-archives.org/ITS-WS.asmx) only responds to authenticated SPA calls; results could not be retrieved by direct URL or API probing. NO match confirmed and NO match disproved — search remains OPEN. Recommended next step: submit a free inquiry form to Arolsen Archives staff (https://arolsen-archives.org/en/search-explore/search-online-archive/) with full details (Elizabeth Bessie Harris née Greene, b. Dublin c.1907, m. Alfred Bower Harris 13 Sept 1941 Jersey, interned Biberach Ilag V-B), and cross-check 'Islanders Deported' by Roger E. Harris which contains the complete Biberach internee list."
       ]
     },
     {
@@ -1123,6 +1179,10 @@
       "description": "Elizabeth works as a nurse at the Men's Hospital of Biberach Internment Camp under Dr. A.W.H. Donaldson, M.B., D.P.H. Despite harsh conditions and rationed food, she is described as 'keen, energetic and efficient, and always cheerful.'",
       "people": [
         "elizabeth-harris"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Letter of recommendation from Dr. A.W.H. Donaldson, M.B., D.P.H., Biberach Internment Camp, 21 May 1945"
       ]
     },
     {
@@ -1132,6 +1192,10 @@
       "description": "Biberach is liberated by the French First Army on 23 April 1945. On 21 May, Dr. Donaldson writes a glowing letter of recommendation for Nurse Harris, praising her nursing abilities, kindness, and even her cooking — 'her cakes and other dainties have been a god-send where the rationed food has been served up with so little of variety.'",
       "people": [
         "elizabeth-harris"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Letter of recommendation from Dr. A.W.H. Donaldson, M.B., D.P.H., Biberach Internment Camp, 21 May 1945"
       ]
     },
     {
@@ -1142,6 +1206,10 @@
       "people": [
         "thomas-greene",
         "john-greene"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Death Certificate: Entry 486, 6 December 1951, registered Dublin South, Registrar M. Ryan"
       ]
     },
     {
@@ -1152,6 +1220,10 @@
       "people": [
         "bridget-wife2",
         "brendan-greene"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Death Certificate: Entry 22, 9 August 1970, Adelaide Hospital, Dublin — Bridget Greene, age 78, Widow, late of 38 Goldenbridge Avenue, Inchicore. Registered by son Brendan Greene, 62 Limekiln Drive, Terenure"
       ]
     },
     {
@@ -1163,6 +1235,10 @@
         "bridget-wife2",
         "catherine-clarke",
         "patrick-clarke-snr"
+      ],
+      "confidence": "high",
+      "sources": [
+        "IrishGenealogy.ie civil birth register, Duleek (Drogheda RD, Co. Meath), entry 107 — Bridget Clarke born 2 December 1891 at Mullaghfin. Father: Pat Clark, Mullaghfin, Labourer. Mother: Catherine Clarke formerly CLINTON. Informant: Julia Boylan (her mark), present at birth. Registered 26 December 1891 by James Kelly, Registrar. Record id civbi-9688899. https://www.irishgenealogy.ie/view?record_id=civbi-9688899"
       ]
     },
     {
@@ -1172,6 +1248,12 @@
       "people": [
         "catherine-clarke",
         "patrick-clarke-snr"
+      ],
+      "confidence": "high",
+      "sources": [
+        "IrishGenealogy.ie civil birth register, Duleek (Drogheda RD, Co. Meath), entry 107 — Bridget Clarke born 2 December 1891 at Mullaghfin. Father: Pat Clark, Mullaghfin, Labourer. Mother: Catherine Clarke formerly CLINTON. Informant: Julia Boylan (her mark), present at birth. Registered 26 December 1891 by James Kelly, Registrar. Record id civbi-9688899. https://www.irishgenealogy.ie/view?record_id=civbi-9688899",
+        "1901 Census: Mullaghfin, Duleek DED, County Meath — Catherine Clarke, Head, age 40, Widow, General Labourer, Roman Catholic",
+        "1901 Census of Ireland (PRIMARY SOURCE, retrieved 2026): Mullaghfin, Duleek DED, Co. Meath, House 3 — http://www.census.nationalarchives.ie/pages/1901/Meath/Duleek/Mullaghfin/1609301/ ; original Form A image: http://www.census.nationalarchives.ie/reels/nai001112178/"
       ]
     },
     {
@@ -1182,7 +1264,11 @@
         "thomas-greene",
         "bridget-wife2"
       ],
-      "date": "20 June 1922"
+      "date": "20 June 1922",
+      "confidence": "high",
+      "sources": [
+        "IrishGenealogy.ie civil marriage register, Dundrum (Rathdown RD), 20 June 1922 — Thomas Greene (Widower, Warehouseman, of [Dublin]) × Bridget Clarke (Spinster, Housekeeper, of Drummartin House, Dundrum). Father of Thomas: WILLIAM GREENE (Traveller). Father of Bridget: PATRICK CLARKE (Farmer). Witnesses: Patrick Kennedy & Annie O'Malley. Officiant: Richard Duggan, P.P. Holy Cross, Dundrum. Record id cima-1271568. https://www.irishgenealogy.ie/view?record_id=cima-1271568"
+      ]
     },
     {
       "year": "c.1930s",
@@ -1191,6 +1277,12 @@
       "people": [
         "thomas-greene",
         "bridget-wife2"
+      ],
+      "confidence": "inferred",
+      "sources": [
+        "Death Certificate: Entry 486, 6 December 1951, registered Dublin South, Registrar M. Ryan",
+        "Death Certificate: Entry 22, 9 August 1970, Adelaide Hospital, Dublin — Bridget Greene, age 78, Widow, late of 38 Goldenbridge Avenue, Inchicore. Registered by son Brendan Greene, 62 Limekiln Drive, Terenure",
+        "Family oral history"
       ]
     },
     {
@@ -1199,6 +1291,10 @@
       "description": "Thomas Patrick Greene (II), born 21 July 1925 in Dublin, dies in New Zealand at age 75. He had emigrated to New Zealand, married Margaret (a Samoan woman), and raised a family whose descendants now live across New Zealand and Australia. NZ BDM registration: 2000/1764.",
       "people": [
         "thomas-greene-ii"
+      ],
+      "confidence": "high",
+      "sources": [
+        "NZ BDM Death Registration: 2000/1764 — Thomas Patrick Greene, DOB 21 July 1925"
       ]
     },
     {
@@ -1208,6 +1304,10 @@
       "description": "Brendan Greene dies on 3 March 2023 at Limekiln Road, Terenure, Dublin. Married Roisin (predeceased). Three children: Terry, Geraldine, and Dermot (predeceased). Brendan's move from Inchicore to the middle-class suburb of Terenure represented the upward social mobility of his generation.",
       "people": [
         "brendan-greene"
+      ],
+      "confidence": "high",
+      "sources": [
+        "RIP.ie death notice, March 2023"
       ]
     },
     {
@@ -1217,6 +1317,10 @@
       "description": "Ita Donnelly (née Greene, Eithne) dies peacefully on 6 December 2025 at Kiltipper Woods Care Centre, aged 91. She was the last of Thomas and Bridget's children. Remarkably, she had lived at 38 Goldenbridge Avenue, Inchicore — the family home — her entire life. Survived by children Ann, John, Sheila, and Ger, nine grandchildren including Claire (née Donnelly, wife of researcher Mark Garrigan), and great-grandchildren. Funeral at St. Michael's Church, Inchicore; buried Deansgrange Cemetery. Donations to the Alzheimer Society of Ireland.",
       "people": [
         "eita-greene"
+      ],
+      "confidence": "high",
+      "sources": [
+        "RIP.ie death notice, December 2025"
       ]
     },
     {
@@ -1231,6 +1335,10 @@
         "jane-clarke",
         "bridget-wife2",
         "agnes-clarke"
+      ],
+      "confidence": "high",
+      "sources": [
+        "1901 Census of Ireland (PRIMARY SOURCE, retrieved 2026): Mullaghfin, Duleek DED, Co. Meath, House 3 — http://www.census.nationalarchives.ie/pages/1901/Meath/Duleek/Mullaghfin/1609301/ ; original Form A image: http://www.census.nationalarchives.ie/reels/nai001112178/"
       ]
     }
   ]
