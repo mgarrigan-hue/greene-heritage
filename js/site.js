@@ -35,13 +35,73 @@
   const reducedMotion = () =>
     window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+  Site.escapeHtml = function (str) {
+    return String(str ?? '').replace(/[&<>"']/g, c => ({
+      '&': '&amp;',
+      '<': '&lt;',
+      '>': '&gt;',
+      '"': '&quot;',
+      "'": '&#39;'
+    }[c]));
+  };
+
+  Site.isSafeHttpUrl = function (value) {
+    try {
+      const url = new URL(String(value), window.location.href);
+      return url.protocol === 'http:' || url.protocol === 'https:';
+    } catch (_) {
+      return false;
+    }
+  };
+
+  window.escapeHtml = Site.escapeHtml;
+  window.isSafeHttpUrl = Site.isSafeHttpUrl;
+
   /* ---------------------------------------------------------------- *
    * 1. Mobile nav drawer
    * ---------------------------------------------------------------- */
   Site.initDrawer = function () {
-    const toggle  = $('.nav-toggle');
+    const toggle  = $('[data-nav-toggle]') || $('.nav-toggle');
     const drawer  = $('.nav-drawer');
-    if (!toggle || !drawer) return;
+    if (!toggle) return;
+
+    if (!drawer) {
+      const links = $('[data-nav-links]') || $('.nav-links');
+      if (links) {
+        function closeLinks() {
+          links.classList.remove('open');
+          toggle.setAttribute('aria-expanded', 'false');
+        }
+        toggle.addEventListener('click', e => {
+          e.stopPropagation();
+          const isOpen = links.classList.toggle('open');
+          toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        });
+        document.addEventListener('click', e => {
+          if (!e.target.closest('nav')) closeLinks();
+        });
+        document.addEventListener('keydown', e => {
+          if (e.key === 'Escape') closeLinks();
+        });
+      }
+
+      $$('.nav-dropdown').forEach(dd => {
+        const trigger = $('.nav-dropdown-trigger', dd) || $('a, button', dd);
+        if (!trigger) return;
+        trigger.addEventListener('click', e => {
+          e.preventDefault();
+          const isOpen = dd.classList.contains('open');
+          $$('.nav-dropdown.open').forEach(o => o.classList.remove('open'));
+          if (!isOpen) dd.classList.add('open');
+        });
+      });
+      document.addEventListener('click', e => {
+        if (!e.target.closest('.nav-dropdown')) {
+          $$('.nav-dropdown.open').forEach(o => o.classList.remove('open'));
+        }
+      });
+      return;
+    }
 
     let backdrop = $('.nav-drawer-backdrop');
     if (!backdrop) {
@@ -204,11 +264,7 @@
       return null;
     }
 
-    function escapeHtml(s) {
-      return String(s).replace(/[&<>"']/g, c => ({
-        '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
-      }[c]));
-    }
+    const escapeHtml = Site.escapeHtml;
 
     function renderResults(items) {
       currentResults = items;
