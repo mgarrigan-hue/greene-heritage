@@ -8,7 +8,7 @@
   <meta property="og:title" content="About This Research — Greene Family Heritage">
   <meta property="og:description" content="How we traced seven generations from 1830s Offaly to the present day.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://greene.garrigan.me/about.html">
+  <meta property="og:url" content="https://mgarrigan-hue.github.io/greene-heritage/about.html">
   <meta name="description" content="About the Greene Family Heritage research project — sources, methods, discoveries, and technology.">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
@@ -52,7 +52,9 @@
     </div>
   </nav>
 
-  <div id="main" class="hero-cinematic" style="min-height:40vh;background-image:url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1920');">
+
+  <main id="main">
+<div class="hero-cinematic" style="min-height:40vh;background-image:url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1920');">
     <h1>About This Research</h1>
     <p class="subtitle">How we traced seven generations from 1830s Offaly to the present day</p>
   </div>
@@ -74,20 +76,21 @@
     </ul>
 
     <h2 style="margin-top:2.5rem;">What We Found</h2>
-    <p>Summary stats: 36 people across 7 generations, from Thos Green of Ballyburly (1830s) to Mark &amp; Claire Garrigan. 26 timeline events spanning 1830s to 2026. Key discoveries include Thomas at Switzers, the full Mullaghfin Clarke household (Catherine + her six children Rose, Patrick, Mary, Jane, Bridget, Agnes), the 1911 Form A placing Bridget Clarke as Cook in the Dublin household of Joseph Dollard JP &amp; Printer-Master at age 19, Thomas Patrick Greene's NZ death record, Elizabeth Harris's 1941 Jersey marriage to Alfred Bower Harris (during the German Occupation), and her internment at Biberach.</p>
+    <p>Summary stats: <span class="stat-people">…</span> people across 7 generations, <span class="stat-couples">…</span> couples, and <span class="stat-events">…</span> timeline events spanning the 1830s to 2026. Key discoveries include Thomas at Switzers, the full Mullaghfin Clarke household (Catherine + her six children Rose, Patrick, Mary, Jane, Bridget, Agnes), the 1911 Form A placing Bridget Clarke as Cook in the Dublin household of Joseph Dollard JP &amp; Printer-Master at age 19, Thomas Patrick Greene's NZ death record, Elizabeth Harris's 1941 Jersey marriage to Alfred Bower Harris (during the German Occupation), and her internment at Biberach.</p>
 
     <h2 style="margin-top:2.5rem;">What We're Still Looking For</h2>
     <ul style="margin:1rem 0 1rem 1.5rem; line-height:2;">
       <li>Thomas's 1899 marriage certificate on IrishGenealogy.ie — would name Elizabeth's maiden name and Thomas's father</li>
-      <li>Thomas &amp; Bridget marriage certificate (c.1920–1923) — would name Bridget's father</li>
       <li>Elizabeth Harris's Arolsen Archives internment records</li>
       <li>Military service records for Thomas's Leinster Regiment service</li>
-      <li>Catherine Clarke's husband's name</li>
+      <li>Patrick Clarke's death record and Catherine Clinton's parents</li>
     </ul>
 
     <h2 style="margin-top:2.5rem;">Technology</h2>
     <p>Built with HTML, CSS, JavaScript. D3.js for the family tree. Leaflet.js for the interactive map. GSAP for scroll animations. Hosted on GitHub Pages. Data stored in a single family.json file. All source code available at <a href="https://github.com/mgarrigan-hue/greene-heritage">github.com/mgarrigan-hue/greene-heritage</a>.</p>
   </div>
+
+  </main>
 
   <footer>
     <p>Greene Family Heritage Research &copy; 2026 | A project by Claire Garrigan</p>
@@ -95,5 +98,14 @@
   </footer>
 
   <script src="js/app.js"></script>
+  <script>
+    loadFamilyData().then(data => {
+      document.querySelectorAll('.stat-people').forEach(el => { el.textContent = data.people.length; });
+      document.querySelectorAll('.stat-couples').forEach(el => { el.textContent = data.couples.length; });
+      document.querySelectorAll('.stat-events').forEach(el => { el.textContent = data.events.length; });
+    }).catch(() => {
+      document.querySelectorAll('.stat-people, .stat-couples, .stat-events').forEach(el => { el.textContent = 'current'; });
+    });
+  </script>
 </body>
 </html>
