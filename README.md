@@ -1,29 +1,55 @@
 # Greene Family Heritage
 
-A family heritage research site tracing the Greene lineage from Portarlington, Ireland to Dublin and beyond.
+Personal family heritage site for the Greene line: Portarlington → Dublin → Channel Islands → New Zealand and beyond.
 
-## 🌐 Live Site
-Visit: https://mgarrigan-hue.github.io/greene-heritage/
+## 🌐 Live site
+- **URL:** https://mgarrigan-hue.github.io/greene-heritage/
+- Hosted with **GitHub Pages** from this repository.
 
-## Features
-- **People** — Searchable directory of all family members with detailed profiles
-- **Timeline** — Interactive chronological view of key family events (1830s–1945)
-- **Family Tree** — D3.js interactive visualization of relationships
-- **Elizabeth's Story** — The remarkable story of Elizabeth Harris (née Greene), interned at Biberach Camp during WWII
+## 📊 Current data snapshot
+- **People:** 38
+- **Couples:** 12
+- **Parent-child links:** 40
+- **Timeline events:** 26
+- **Last data update:** 2026-04-19
 
-## Data-Driven
-All family data lives in `data/family.json` — a structured format with people, relationships, confidence levels, and source citations. The site renders everything from this single data file.
+## 🧱 Architecture
+- Static HTML/CSS/JavaScript — no build step required.
+- Single source of truth: `data/family.json`.
+- Pages render people, relationships, timeline entries, sources, and search from that data file.
 
-## Tech
-- Plain HTML/CSS/JavaScript — no build tools needed
-- D3.js for the family tree visualization
-- Hosted on GitHub Pages
+## 🧪 Local workflow
+- Preview locally: `npm run serve`
+- Validate data: `npm run validate:data`
+- Check external links: `npm run check:links`
+- Smoke-test pages: `npm run check:pages`
 
-## Research Sources
-- National Archives of Ireland (1901 & 1911 Census)
-- Tithe Applotment Books (1820s–1830s)
-- Ancestry.com genealogical records
-- Primary source: Letter from Dr. A.W.H. Donaldson, Biberach Internment Camp, 21 May 1945
+## 🔎 Research workflow
+- Maintained research automation lives under `tools/research/`.
+- Workflow notes: `tools/research/README.md`.
+- Keep raw/transient captures out of the main site unless they support a cited source.
 
-## License
-This is a personal family history project. Content is shared for educational purposes.
+## 🗓️ Phase changelog
+- **Phase 1:** Site foundation, family-history framing, GitHub Pages setup.
+- **Phase 2:** Core people directory, timeline, and tree views.
+- **Phase 3:** Portarlington and Dublin place narratives.
+- **Phase 4:** Elizabeth Harris / Biberach internment story.
+- **Phase 5:** Sources, gallery, and research evidence pages.
+- **Phase 6:** Data-driven rendering from `data/family.json`.
+- **Phase 7:** Visual polish, theme/search/nav improvements.
+- **Phase 8:** Playwright-assisted research tooling.
+- **Phase 9:** 1926 Census and Dublin homes refresh.
+- **Phase 10:** April 2026 record integrations: Thomas × Bridget, Bridget Clarke birth, Dollard household, Clarke siblings.
+- **Phase 11:** Hardening pass: SEO files, 404 page, validation scripts, repo hygiene, and audit follow-ups.
+
+## 🚀 Deployment
+- GitHub Pages serves the site at `https://mgarrigan-hue.github.io/greene-heritage/`.
+- The repository should not need a build workflow; Pages can publish the static files directly.
+- To re-add a custom domain later:
+  1. Add a root `CNAME` file containing the domain.
+  2. Configure the same domain in GitHub Pages settings.
+  3. Add/verify DNS records with the domain provider.
+  4. Update canonical/OG/sitemap URLs from the GitHub Pages URL to the custom domain.
+
+## 📄 License
+Personal family history project. Content is shared for family research and educational use.
