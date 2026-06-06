@@ -146,4 +146,14 @@ Threads are graded **P0 → P3**:
 | 10 | Elizabeth Bessie Greene marriage to Alfred Harris | 13 Sep 1941, St Mary & St Peter (Vauxhall), Jersey | Apr 2026 |
 | 10 | Bridget Clarke 1911 employer | Joseph Dollard JP household, Dublin | Apr 2026 |
 | 11 | Site gallery — illustrations | 6 self-hosted + 7 alt-archive sources | Apr 2026 |
-| 12 | Ita Greene × John Donnelly marriage | In flight (greene-ita-research agent) | Jun 2026 |
+| 12 | Ita Greene × John Donnelly marriage | NEGATIVE on IG.ie — 18-query sweep null (IG.ie 75-year wall for marriages); needs grosearch.ie / parish | Jun 2026 |
+| 13 | William Greene candidates (PARTIAL) | Agent terminated mid-flight. Captured: 2 Mountmellick 1868 marriages (× Catherine Costigan + × Eliza Woods, one day apart), candidate 1909 Mountmellick death age 66 (b.~1843), NLI Portarlington baptism pages 142-145 browsed but Thomas baptism not yet extracted. Synthesis pending — see `research-results/r5-william-greene-identity/` | Jun 2026 |
+
+---
+
+## 🚧 Known research-tooling constraints
+
+- **IG.ie moving wall (2026)**: births searchable to ~1925, marriages to ~1950, deaths to ~1975. Post-wall → grosearch.ie (paid scans ~€4) or Catholic parish registers (NLI / diocesan archives / parish email).
+- **NLI registers** (parish records) are image-only, no name search. Browse the relevant parish + year manually.
+- **Arolsen Archives**: tried multiple name variants for Elizabeth Bessie Greene/Harris — no online hits. Needs an ITS records request (postal).
+- **GitHub Pages SSL with Cloudflare custom domain**: must keep proxy OFF (DNS only / grey cloud) — GitHub handles TLS via Let's Encrypt; orange-cloud proxying breaks the handshake.

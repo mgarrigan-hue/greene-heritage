@@ -1,0 +1,19 @@
+{
+  "pages": [
+    142,
+    143,
+    144,
+    145
+  ],
+  "parishUrl": "https://registers.nli.ie/parishes/0724",
+  "pageMetadata": {
+    "145": "Oct. 1870 to Jan. 1871",
+    "143": "July 1870 to Aug. 1870",
+    "144": "Aug. 1870 to Oct. 1917 (NLI metadata likely typo for 1870)",
+    "142": "Apr. 1870 to June 1870"
+  },
+  "register": "Microfilm 04205 / 03, vtls000634552",
+  "source": "National Library of Ireland Catholic Parish Registers",
+  "registerUrl": "https://registers.nli.ie/registers/vtls000634552",
+  "parish": "Portarlington"
+}
