@@ -156,6 +156,7 @@ try {
   const failures = rows.filter(row => row.status !== 200);
   if (failures.length) {
     console.error(`❌ ${failures.length} page(s) returned non-200 status codes.`);
+    shutdown();
     process.exit(1);
   }
 
@@ -165,9 +166,10 @@ try {
   }
 
   console.log(`✅ ${rows.length} top-level HTML page(s) returned 200${consoleCheck.available ? '' : ' (console check skipped)'}.`);
+  shutdown();
+  process.exit(0);
 } catch (error) {
   console.error(`❌ ${error.message}`);
-  process.exit(1);
-} finally {
   shutdown();
+  process.exit(1);
 }
