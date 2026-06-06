@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mgarrigan-hue.github.io/greene-heritage/sitemap.xml
