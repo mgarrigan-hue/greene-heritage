@@ -2,8 +2,14 @@
   "meta": {
     "title": "Greene Family Heritage",
     "subtitle": "Tracing the Greene lineage from Portarlington to Dublin and beyond",
-    "lastUpdated": "2026-04-19",
-    "researcher": "Mark Garrigan"
+    "lastUpdated": "2026-06-06",
+    "researcher": "Mark Garrigan",
+    "changelog": [
+      {
+        "date": "2026-06-06",
+        "summary": "Data integrity corrections, event provenance fields, privacy review worksheet, and JSON Schema added."
+      }
+    ]
   },
   "people": [
     {

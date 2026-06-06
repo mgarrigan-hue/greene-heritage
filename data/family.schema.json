@@ -1,0 +1,391 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://greene.garrigan.me/data/family.schema.json",
+  "title": "Greene Family Heritage dataset",
+  "description": "Schema for data/family.json. The people-id enum enforces current relationship references; update it when adding new person IDs.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "meta",
+    "people",
+    "couples",
+    "parentChild",
+    "events"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "subtitle",
+        "lastUpdated",
+        "researcher"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subtitle": {
+          "type": "string",
+          "minLength": 1
+        },
+        "lastUpdated": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "ISO calendar date for the latest dataset update."
+        },
+        "researcher": {
+          "type": "string",
+          "minLength": 1
+        },
+        "version": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "number"
+            }
+          ],
+          "description": "Optional dataset version if explicit versioning is introduced."
+        },
+        "changelog": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "date",
+              "summary"
+            ],
+            "properties": {
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "summary": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "people": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/person"
+      }
+    },
+    "couples": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/couple"
+      }
+    },
+    "parentChild": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/parentChild"
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/event"
+      }
+    }
+  },
+  "definitions": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "Kebab-case identifier using lowercase letters, numbers, and hyphens."
+    },
+    "personId": {
+      "type": "string",
+      "enum": [
+        "agnes-clarke",
+        "alfred-harris",
+        "ann-donnelly",
+        "brendan-greene",
+        "bridget-wife2",
+        "catherine-clarke",
+        "charles-edward-harris",
+        "claire-garrigan",
+        "eita-greene",
+        "elizabeth-foran",
+        "elizabeth-harris",
+        "elizabeth-wife1",
+        "emily-donnelly",
+        "ger-donnelly",
+        "jane-clarke",
+        "john-donnelly",
+        "john-donnelly-jr",
+        "john-greene",
+        "joseph-greene",
+        "josette-donnelly",
+        "lucy-greene",
+        "margaret-greene-nz",
+        "mark-garrigan",
+        "mary-bridget-greene",
+        "mary-clarke",
+        "patrick-clarke",
+        "patrick-clarke-snr",
+        "patrick-greene",
+        "paul-donnelly-inlaw",
+        "robbie-donnelly-inlaw",
+        "rose-clarke",
+        "sheila-donnelly",
+        "thomas-greene",
+        "thomas-greene-ii",
+        "thomas-jr",
+        "thos-green-ballyburly",
+        "william-greene-shanderry",
+        "william-greene-thomas-father"
+      ],
+      "description": "Must reference an id present in people[]. This enum is generated from the current family.json person IDs and should be updated when people are added or renamed."
+    },
+    "dateish": {
+      "type": "string",
+      "pattern": "^.*\\d{3,4}.*$",
+      "description": "Lenient date-ish string. Expected examples include 1875, c.1875, c.1870s, 1875-03-12, 12 March 1875, before 1941, after c.1895/1896, or between 1891 and 1901."
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "high",
+        "medium",
+        "low",
+        "inferred",
+        "family-tradition",
+        "needs-research"
+      ],
+      "description": "Evidence confidence: high/medium/low for documented evidence, inferred for reasoned deductions, family-tradition for oral history, needs-research where provenance is not yet identified."
+    },
+    "sourceArray": {
+      "type": "array",
+      "description": "Source citation strings or source IDs. Use an empty array only when confidence is needs-research.",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "datePlaceObject": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "year": {
+          "type": "string",
+          "pattern": "^.*\\d{3,4}.*$",
+          "description": "Lenient date-ish string. Expected examples include 1875, c.1875, c.1870s, 1875-03-12, 12 March 1875, before 1941, after c.1895/1896, or between 1891 and 1901."
+        },
+        "date": {
+          "type": "string",
+          "pattern": "^.*\\d{3,4}.*$",
+          "description": "Lenient date-ish string. Expected examples include 1875, c.1875, c.1870s, 1875-03-12, 12 March 1875, before 1941, after c.1895/1896, or between 1891 and 1901."
+        },
+        "place": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "description": "Nullable date/place block. year and date are intentionally lenient because genealogy data often uses approximate or range dates."
+    },
+    "person": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "born",
+        "died",
+        "occupation",
+        "religion",
+        "notes",
+        "confidence",
+        "sources"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/definitions/id"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "displayDisambiguation": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Optional UI label when multiple people share the same display name."
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/id"
+          },
+          "uniqueItems": true,
+          "description": "Alternate IDs used by legacy content or gallery inventory."
+        },
+        "born": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/datePlaceObject"
+            }
+          ]
+        },
+        "died": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/datePlaceObject"
+            }
+          ]
+        },
+        "occupation": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "religion": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "notes": {
+          "type": "string"
+        },
+        "confidence": {
+          "$ref": "#/definitions/confidence"
+        },
+        "sources": {
+          "$ref": "#/definitions/sourceArray"
+        }
+      }
+    },
+    "couple": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "partner1",
+        "partner2",
+        "married",
+        "confidence"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/definitions/id"
+        },
+        "partner1": {
+          "$ref": "#/definitions/personId"
+        },
+        "partner2": {
+          "$ref": "#/definitions/personId"
+        },
+        "married": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/datePlaceObject"
+            }
+          ]
+        },
+        "confidence": {
+          "$ref": "#/definitions/confidence"
+        },
+        "marriageDate": {
+          "$ref": "#/definitions/dateish"
+        },
+        "marriagePlace": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "parentChild": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "parent",
+        "child",
+        "confidence"
+      ],
+      "properties": {
+        "parent": {
+          "$ref": "#/definitions/personId"
+        },
+        "child": {
+          "$ref": "#/definitions/personId"
+        },
+        "confidence": {
+          "$ref": "#/definitions/confidence"
+        }
+      }
+    },
+    "event": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "year",
+        "title",
+        "description",
+        "people",
+        "confidence",
+        "sources"
+      ],
+      "properties": {
+        "year": {
+          "$ref": "#/definitions/dateish"
+        },
+        "date": {
+          "$ref": "#/definitions/dateish"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "people": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/personId"
+          },
+          "uniqueItems": true
+        },
+        "confidence": {
+          "$ref": "#/definitions/confidence"
+        },
+        "sources": {
+          "$ref": "#/definitions/sourceArray"
+        }
+      }
+    }
+  }
+}
