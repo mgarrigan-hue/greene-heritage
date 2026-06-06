@@ -10,7 +10,7 @@ const queries = [
   { slug: 'a4-channel-islands',   args: ['--keyword', 'Channel Islands', '--year-from', '1942', '--year-to', '1945'] },
 ];
 
-const SCRIPT = join('tools', 'research', 'arolsen.mjs');
+const SCRIPT = join('tools', 'research', 'maintained', 'arolsen.mjs');
 const GAP_MS = 35_000;
 
 function run(q) {

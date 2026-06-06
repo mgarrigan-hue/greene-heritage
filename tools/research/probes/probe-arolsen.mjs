@@ -1,5 +1,5 @@
 // Probe the Arolsen Archives search SPA to discover the form / API.
-import { launchEdge, saveResultPage, saveText, logStep } from './lib.mjs';
+import { launchEdge, saveResultPage, saveText, logStep } from '../maintained/lib.mjs';
 
 const URL = 'https://collections.arolsen-archives.org/en/search/';
 

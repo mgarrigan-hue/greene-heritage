@@ -1,6 +1,6 @@
 // Quick interactive probe: see what API call is made when we use the
 // per-column LastName filter.
-import { launchEdge, saveText, logStep } from './lib.mjs';
+import { launchEdge, saveText, logStep } from '../maintained/lib.mjs';
 
 const { browser, page } = await launchEdge({ headed: false });
 const apiCalls = [];
@@ -98,4 +98,3 @@ try {
 } finally {
   await browser.close();
 }
-

@@ -1,4 +1,4 @@
-import { launchEdge, logStep } from './lib.mjs';
+import { launchEdge, logStep } from '../maintained/lib.mjs';
 
 const { browser, page } = await launchEdge({ headed: true });
 const calls = [];

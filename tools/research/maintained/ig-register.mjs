@@ -1,7 +1,7 @@
 // IrishGenealogy.ie register-page detail + image capture.
 //
 // Usage:
-//   node tools/research/ig-register.mjs --record-id cima-1271568 --slug r1-tg-bc-marriage-1922 \
+//   node tools/research/maintained/ig-register.mjs --record-id cima-1271568 --slug r1-tg-bc-marriage-1922 \
 //        --your-firstname=YOUR_FIRST_NAME --your-surname=YOUR_SURNAME
 //
 // Captures:

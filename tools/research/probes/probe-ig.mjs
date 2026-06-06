@@ -1,4 +1,4 @@
-import { launchEdge, saveResultPage, logStep } from './lib.mjs';
+import { launchEdge, saveResultPage, logStep } from '../maintained/lib.mjs';
 
 const { browser, page } = await launchEdge({ headed: true });
 try {
