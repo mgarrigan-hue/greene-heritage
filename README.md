@@ -3,7 +3,7 @@
 Personal family heritage site for the Greene line: Portarlington → Dublin → Channel Islands → New Zealand and beyond.
 
 ## 🌐 Live site
-- **URL:** https://mgarrigan-hue.github.io/greene-heritage/
+- **URL:** https://greene.garrigan.me/
 - Hosted with **GitHub Pages** from this repository.
 
 ## 📊 Current data snapshot
@@ -43,7 +43,7 @@ Personal family heritage site for the Greene line: Portarlington → Dublin → 
 - **Phase 11:** Hardening pass: SEO files, 404 page, validation scripts, repo hygiene, and audit follow-ups.
 
 ## 🚀 Deployment
-- GitHub Pages serves the site at `https://mgarrigan-hue.github.io/greene-heritage/`.
+- GitHub Pages serves the site at `https://greene.garrigan.me/`.
 - The repository should not need a build workflow; Pages can publish the static files directly.
 - To re-add a custom domain later:
   1. Add a root `CNAME` file containing the domain.
