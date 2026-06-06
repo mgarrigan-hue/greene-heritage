@@ -92,6 +92,12 @@
     <h2>Key Figures</h2>
     <div class="card-grid" id="key-people"></div>
 
+    <h2 style="margin-top:2.5rem;">From the Stories</h2>
+    <div id="featured-story" class="featured-story" style="margin-top:1rem;">
+      <p style="color:var(--color-text-muted);font-style:italic;">Loading…</p>
+    </div>
+    <p style="margin-top:1rem;"><a href="stories.html">Browse all stories →</a></p>
+
     <h2>Recent Discoveries</h2>
     <div class="recent-discovery">
       <div class="discovery-date">19 April 2026</div>
@@ -148,6 +154,32 @@
         return p ? renderPersonCard(p) : '';
       }).join('');
     });
+
+    function escapeIndexHtml(s) {
+      return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    }
+
+    fetch('data/stories.json', { cache: 'no-store' })
+      .then(r => r.ok ? r.json() : Promise.reject('http ' + r.status))
+      .then(data => {
+        const featured = (data.stories || [])[0];
+        if (!featured) return;
+        const container = document.getElementById('featured-story');
+        container.innerHTML = `
+          <article style="background:var(--color-card);border-left:4px solid var(--color-gold);border-radius:14px;padding:1.5rem 1.75rem;">
+            <p style="font-size:0.85rem;color:var(--color-gold);font-weight:600;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.5rem;">Latest story · ${escapeIndexHtml(featured.era || '')}</p>
+            <h3 style="font-family:var(--font-heading);font-size:1.5rem;margin-bottom:0.75rem;">
+              <a href="stories.html#story-${escapeIndexHtml(featured.id)}" style="color:var(--color-text);background-image:none;">${escapeIndexHtml(featured.title)}</a>
+            </h3>
+            <p style="color:var(--color-text-muted);font-style:italic;margin-bottom:1rem;">${escapeIndexHtml(featured.summary || '')}</p>
+            <p><a href="stories.html#story-${escapeIndexHtml(featured.id)}" style="color:var(--color-gold);">Read the full story →</a></p>
+          </article>`;
+      })
+      .catch(err => {
+        const container = document.getElementById('featured-story');
+        if (container) container.innerHTML = '<p style="color:var(--color-text-muted);font-style:italic;">Stories will appear here as they are added.</p>';
+        console.warn('[featured-story]', err);
+      });
 
       window.addEventListener('load', () => {
         if (window.L && document.getElementById('map-container')) {
