@@ -39,3 +39,7 @@ research-results/r*-*.log
 
 # Local backups
 *.bak
+
+# Generated originals / backups
+_originals/
+data/family.backup-*.json
