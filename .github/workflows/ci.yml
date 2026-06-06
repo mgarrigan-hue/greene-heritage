@@ -16,7 +16,7 @@ jobs:
   validate-and-check:
     name: Validate data + check pages + check links
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 18
 
     steps:
       - name: Checkout
@@ -31,8 +31,20 @@ jobs:
       - name: Install npm dependencies
         run: npm ci
 
-      - name: Install Playwright Chromium
+      - name: Cache Playwright browsers
+        id: playwright-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+
+      - name: Install Playwright Chromium (cold cache)
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
         run: npx playwright install --with-deps chromium
+
+      - name: Install Playwright system deps (warm cache)
+        if: steps.playwright-cache.outputs.cache-hit == 'true'
+        run: npx playwright install-deps chromium
 
       - name: Validate data/family.json against schema
         run: npm run validate:data
@@ -42,6 +54,8 @@ jobs:
 
       - name: Check all HTML pages return 200 + no JS errors
         run: npm run check:pages
+        timeout-minutes: 6
 
       - name: Check external links resolve
         run: npm run check:links
+        timeout-minutes: 4
