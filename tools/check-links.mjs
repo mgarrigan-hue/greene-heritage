@@ -10,11 +10,14 @@ const USER_AGENT = 'greene-heritage-link-check/1.0';
 
 // Domains that legitimately exist for human visitors but block automated
 // HEAD/GET requests from generic user agents (anti-bot protection). A 4xx
-// from these is expected — surface it as a warning but do not fail CI.
+// or TIMEOUT from these is expected — surface it as a warning but do not
+// fail CI. Most aggressive in CI from US-data-center IPs.
 const EXPECTED_4XX_DOMAINS = new Set([
   'catalogue.nli.ie',
   'maps.nls.uk',
-  'museumandarchives.redcross.org.uk'
+  'museumandarchives.redcross.org.uk',
+  'www.iwm.org.uk',
+  'www.nationalarchives.gov.uk'
 ]);
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
@@ -94,7 +97,12 @@ async function checkUrl(item) {
 
   if (result.error) {
     const dnsFailure = ['ENOTFOUND', 'EAI_AGAIN', 'ECONNREFUSED'].includes(result.error);
-    return { ...item, status: 'ERR', issue: result.error, fail: dnsFailure };
+    let isExpectedAntiBot = false;
+    try {
+      const host = new URL(item.url).hostname;
+      isExpectedAntiBot = EXPECTED_4XX_DOMAINS.has(host) && result.error === 'TIMEOUT';
+    } catch { /* invalid URL → still treat normally */ }
+    return { ...item, status: 'ERR', issue: result.error, fail: dnsFailure && !isExpectedAntiBot };
   }
 
   if (result.status >= 400) {
