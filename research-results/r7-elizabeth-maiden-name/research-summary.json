@@ -1,0 +1,32 @@
+{
+  "phase": "Phase 15",
+  "thread": "P1 #4 — Elizabeth first wife of Thomas Greene",
+  "status": "marriage_cert_found",
+  "recordId": "cima-2399599",
+  "recordUrl": "https://www.irishgenealogy.ie/view?record_id=cima-2399599",
+  "registerPdf": "register-marriage-thomas-elizabeth-1899-dublin-north-2399599/register.pdf",
+  "marriage": {
+    "date": "30 July 1899",
+    "place": "Roman Catholic Chapel of Fairview, North Dublin, County Dublin",
+    "district": "Dublin North",
+    "entryNumber": "72"
+  },
+  "groom": {
+    "name": "Thomas Greene",
+    "age": "Full",
+    "condition": "Bachelor",
+    "occupation": "Labourer",
+    "residence": "Henry Street, Clonliffe",
+    "father": "William Greene"
+  },
+  "bride": {
+    "name": "Elizabeth Farrell",
+    "age": "Full",
+    "condition": "Spinster",
+    "residence": "Mayfield, Clonliffe",
+    "father": "Patrick Farrell"
+  },
+  "witnesses": ["Maurice F. Murphy", "Agnes Murphy"],
+  "officiant": "Bernard Reynolds",
+  "notes": "Father occupations appear blank/not stated on the visible row."
+}
