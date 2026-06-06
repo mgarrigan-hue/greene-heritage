@@ -1,6 +1,6 @@
 # Greene Heritage — Research Roadmap
 
-**Last updated:** 6 Jun 2026 (Phase 18 complete — IG.ie register-image extraction for the 5 Phase 17 candidates; William Green × Eliza Woods marriage confirmed; 4 IG.ie image-link mismatches documented)
+**Last updated:** 6 Jun 2026 (Phase 19 complete — NLI baptism re-inspection negative for Thomas Green(e) + Woods; Joseph Greene disambiguation still holds)
 **Maintained by:** automated audit + manual curation
 **Driving data:** `data/family.json`
 
@@ -22,12 +22,12 @@ Threads are graded **P0 → P3**:
 - **(B) William Greene of Shanderry** — labourer, census note "husband working in Dublin" (intriguing given Thomas's Dublin life)
 - **(C) William Green of Lower Forest, Mountmellick** *(Phase 18, strongest documentary fit)* — Bachelor Labourer in 1868 (full age, born by ~1847), son of **Thomas Green, Farmer**. Married Eliza Woods 25 Feb 1868 at Mountmellick RC Chapel (cima-2999201). Was a widower at his 1909 death age 66 (cide-5027279), born ~1843 — age fits 1868 marriage. Lower Forest is ~12 miles north of Portarlington where Thomas Greene Jnr was baptised c.1870. If (C), the family tree gains a new ancestor: **Thomas Green Snr, farmer of Lower Forest**.
 **Next searches (to confirm (C) and disambiguate from (A)/(B)):**
-- NLI Catholic parish baptism register for Thomas Christopher Greene (~July 1870) — Portarlington pages 142-145 captured in Phase 18 but Thomas's entry not yet visually identified; ALSO check **Mountmellick parish** given Lower Forest residence
+- Phase 19 NLI check completed: Portarlington pages 142-145 and Mountmellick pages 37-40 were visually re-inspected with no Thomas Green(e) baptism naming parents William Green(e) + Eliza/Elizabeth Woods. NEXT: civil birth register image for Thomas Green/Greene c. July 1870, then neighbouring parishes (Killeigh, Maryborough/Portlaoise, Emo, Killeshin)
 - IG.ie civil birth register for Thomas Greene 1870 Mountmellick / Portarlington / Maryborough — names parents directly (William + Eliza Woods if (C))
 - IG.ie death register for Eliza Greene née Woods, Queens/Laois 1870-1909
 - 1901 / 1911 Census for William Green(e) household at Lower Forest / Mountmellick
 - Re-search IG.ie register images for cide-5096314, cide-6994069 (image mismatches in Phase 18) to find the correct register pages
-**Citation:** `data/family.json:99-120`, `portarlington.html`, `research-results/r5-william-greene-identity/register-marriage-william-green-eliza-woods-1868/summary.md`
+**Citation:** `data/family.json:99-120`, `portarlington.html`, `research-results/r5-william-greene-identity/register-marriage-william-green-eliza-woods-1868/summary.md`, `research-results/r5-william-greene-identity/nli-mountmellick-baptism/summary.md`, `research-results/r5-william-greene-identity/nli-portarlington-baptism/summary.md`
 
 ### 2. Patrick Clarke Snr — death between 1895/96 and 1901
 **Why it matters:** Bridget Clarke (m. Thomas Greene)'s father. Death range already tightened (after 1895/96 per Agnes's birth, before 1901 Census per Catherine's widow status) but exact date unknown. Cause/burial unrecorded.
@@ -163,6 +163,9 @@ Threads are graded **P0 → P3**:
 | 17 | Synthesis pass — Phase 13/14 raw captures folded into family.json | Done. william-greene-thomas-father and patrick-clarke-snr records now reference all Phase 13/14 candidate IDs with explicit "register image not yet parsed" flags. Changelog updated. | Jun 2026 |
 | 16 | John Donnelly Snr death notice | NEGATIVE — RIP.ie (55 captured Donnelly/John/Sean candidates + Ita notice), Irish Times notices, FamilySearch public search, and GRO access triage did not identify Ita Greene's husband; death date remains open pending family/GRO/cemetery follow-up. | Jun 2026 |
 | 18 | IG.ie register-image extraction (5 Phase 17 candidates) | **KEY WIN** — cima-2999201 register parsed: William Green × Eliza Woods, 25 Feb 1868, Mountmellick RC Chapel. William was Bachelor Labourer of Lower Forest; **father Thomas Green, Farmer** (previously unknown ancestor candidate). Eliza's father John Woods, Farmer. Age "full" fits 1843-44 birth implied by cide-5027279. NLI Portarlington baptism (pages 142-145) captured but Thomas Greene Jnr's entry not yet visually located. cide-5027279 partially parsed: William Green WIDOWER at 1909 death (implies Eliza predeceased). **4 IG.ie image-link MISMATCHES** documented (transcription panel correct, linked register image is wrong file): cima-3052584 (shows Whelan × Dowling), cide-5096314 (shows Catherine Breen), cide-4468003 (shows John McCallen + John McCormack, NOT Patrick Clarke), cide-6994069 (shows Clonygowan King's Co. entries). The IG.ie transcriptions remain valid for the mismatched records; their register images need re-search or GRO certified copies. Pattern: IG.ie "View record images" link sometimes points to the wrong file (off by a few entries or wrong page entirely). | Jun 2026 |
+| 19A | Mountmellick baptism register for Thomas Green(e) | NEGATIVE — NLI Mountmellick vtls000634517 pages 37-40 (Feb. 1870-Feb. 1871) captured and inspected; no Thomas Green(e) child of William Green(e) + Eliza/Elizabeth Woods found. The 1868 Lower Forest marriage remains strongest candidate but not confirmed. | Jun 2026 |
+| 19B | Portarlington baptism re-inspection | NEGATIVE — existing NLI Portarlington vtls000634552 pages 142-145 (Apr. 1870-Jan. 1871) re-opened at high resolution; no Green/Greene parent-surname entry matching Thomas Christopher Greene found. | Jun 2026 |
+| 19C | Joseph Greene context | NO LINK FOUND — direct Joseph Green(e) × Elizabeth Foran civil marriage searches returned no results; Laois/Offaly Joseph Green(e) marriage/death searches found no local match; no evidence connects Joseph to William Green(e) of Lower Forest. Joseph remains father of Mary Bridget only, not Thomas's father. | Jun 2026 |
 
 ---
 
@@ -173,3 +176,4 @@ Threads are graded **P0 → P3**:
 - **NLI registers** (parish records) are image-only, no name search. Browse the relevant parish + year manually.
 - **Arolsen Archives**: tried multiple name variants for Elizabeth Bessie Greene/Harris — no online hits. Needs an ITS records request (postal).
 - **GitHub Pages SSL with Cloudflare custom domain**: must keep proxy OFF (DNS only / grey cloud) — GitHub handles TLS via Let's Encrypt; orange-cloud proxying breaks the handshake.
+
