@@ -130,7 +130,8 @@
             <input type="search" class="search-input" placeholder="Search…" aria-label="Search the site" data-global-search>
             <div class="search-results" data-search-results role="listbox"></div>
           </div>
-          <button class="theme-toggle" type="button" aria-label="Toggle light/dark theme" data-theme-toggle title="Toggle theme"><span data-theme-icon>🌙</span></button>
+          <button class="nav-control reading-mode-toggle" type="button" aria-pressed="false" data-reading-mode-toggle>Reading mode</button>
+          <button class="nav-control theme-toggle" type="button" aria-label="Toggle light/dark theme" data-theme-toggle title="Toggle theme"><span data-theme-icon>🌙</span></button>
         </div>
       </div>`;
   };
@@ -301,7 +302,35 @@
   };
 
   /* ---------------------------------------------------------------- *
-   * 3. Global search
+   * 3. Dyslexia / ADHD reading mode
+   * ---------------------------------------------------------------- */
+  Site.initReadingMode = function () {
+    const STORAGE_KEY = 'gh-reading-mode';
+    const toggles = $$('[data-reading-mode-toggle]');
+
+    function apply(enabled) {
+      document.body.classList.toggle('reading-mode', enabled);
+      toggles.forEach(btn => {
+        btn.setAttribute('aria-pressed', enabled ? 'true' : 'false');
+        btn.classList.toggle('active', enabled);
+      });
+    }
+
+    let stored = false;
+    try { stored = localStorage.getItem(STORAGE_KEY) === 'true'; } catch (_) { /* ignore */ }
+    apply(stored);
+
+    toggles.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const next = !document.body.classList.contains('reading-mode');
+        apply(next);
+        try { localStorage.setItem(STORAGE_KEY, String(next)); } catch (_) { /* ignore */ }
+      });
+    });
+  };
+
+  /* ---------------------------------------------------------------- *
+   * 4. Global search
    * ---------------------------------------------------------------- */
   Site.initSearch = function () {
     const input   = $('[data-global-search]');
@@ -472,7 +501,7 @@
   };
 
   /* ---------------------------------------------------------------- *
-   * 4. Reading-progress bar
+   * 5. Reading-progress bar
    * ---------------------------------------------------------------- */
   Site.initProgress = function () {
     if (!document.body.hasAttribute('data-long-page')) return;
@@ -496,7 +525,7 @@
   };
 
   /* ---------------------------------------------------------------- *
-   * 5. Floating Table of Contents
+   * 6. Floating Table of Contents
    * ---------------------------------------------------------------- */
   Site.initToc = function () {
     if (!document.body.hasAttribute('data-long-page')) return;
@@ -577,7 +606,7 @@
   };
 
   /* ---------------------------------------------------------------- *
-   * 6. Back-to-top button
+   * 7. Back-to-top button
    * ---------------------------------------------------------------- */
   Site.initBackToTop = function () {
     if (!document.body.hasAttribute('data-long-page')) return;
@@ -609,6 +638,7 @@
   function boot() {
     try { Site.renderNav();       } catch (e) { console.error('nav', e); }
     try { Site.initTheme();      } catch (e) { console.error('theme', e); }
+    try { Site.initReadingMode(); } catch (e) { console.error('reading', e); }
     try { Site.initDrawer();     } catch (e) { console.error('drawer', e); }
     try { Site.initSearch();     } catch (e) { console.error('search', e); }
     try { Site.initProgress();   } catch (e) { console.error('progress', e); }

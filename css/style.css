@@ -1,4 +1,6 @@
 /* Greene Family Heritage — Stylesheet */
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+
 html { scroll-behavior: smooth; }
 
 :root {
@@ -65,13 +67,31 @@ nav .site-title {
   font-size: 1.4rem;
   color: var(--color-gold);
 }
-nav .nav-links { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+nav .nav-links { display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap; }
 nav .nav-links a {
   color: var(--color-text-muted);
   font-size: 0.95rem;
   transition: color 0.2s;
 }
 nav .nav-links a:hover, nav .nav-links a.active { color: var(--color-gold); text-decoration: none; background-size: 0% 1px; }
+
+nav .nav-control {
+  border: 1px solid rgba(201, 169, 89, 0.45);
+  background: transparent;
+  color: var(--color-text-muted);
+  border-radius: 999px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.9rem;
+  line-height: 1;
+  padding: 0.45rem 0.7rem;
+}
+nav .nav-control:hover,
+nav .nav-control.active,
+nav .nav-control[aria-pressed="true"] {
+  background: rgba(201, 169, 89, 0.12);
+  color: var(--color-gold);
+}
 
 /* Hamburger menu toggle */
 .nav-toggle {
@@ -951,6 +971,35 @@ body, nav, .card, footer,
   line-height: 1.75;
 }
 .prose h2, .prose h3 { scroll-margin-top: 80px; }
+
+/* --- Dyslexia / ADHD reading mode ----------------------------- */
+body.reading-mode {
+  font-family: 'Atkinson Hyperlegible', 'Inter', system-ui, sans-serif;
+  font-size: 1.05em;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+body.reading-mode .prose {
+  max-width: 60ch;
+}
+body.reading-mode .prose p,
+body.reading-mode .prose li,
+body.reading-mode .prose blockquote,
+body.reading-mode .card-detail,
+body.reading-mode .timeline-event,
+body.reading-mode .source-cite {
+  font-family: 'Atkinson Hyperlegible', 'Inter', system-ui, sans-serif;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+body.reading-mode h1,
+body.reading-mode h2,
+body.reading-mode h3,
+body.reading-mode h4,
+body.reading-mode .site-title {
+  font-family: var(--font-heading);
+  letter-spacing: normal;
+}
 
 /* --- Breadcrumbs -------------------------------------------- */
 .breadcrumbs {
